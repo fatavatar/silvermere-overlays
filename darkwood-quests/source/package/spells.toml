@@ -1,0 +1,382 @@
+# New spells. Most are plumbing: a monster's death spell ("temp") ends by casting a
+# "text" spell that runs the quest step script.
+
+[[spell]]
+number = 2268
+name = "demonic angel temp"
+msgnum = 0
+desc = """
+(quest spell)
+"""
+abilities = [["EndCast", 2269]]
+data = { Diff = 200, Targets = 12, Dur = 1, AttType = 4 }
+
+[[spell]]
+number = 2269
+name = "demonic angel text"
+msgnum = 0
+desc = """
+(quest spell)
+"""
+abilities = [["TextBlock", 10010]]
+data = { Diff = 200, Targets = 1, AttType = 4 }
+
+[[spell]]
+number = 2270
+name = "athos temp"
+msgnum = 0
+desc = """
+(quest spell)
+"""
+abilities = [["EndCast", 2271]]
+data = { Diff = 200, Targets = 12, Dur = 1, AttType = 4 }
+
+[[spell]]
+number = 2271
+name = "athos text"
+msgnum = 0
+desc = """
+(quest spell)
+"""
+abilities = [["TextBlock", 10015]]
+data = { Diff = 200, Targets = 1, AttType = 4 }
+
+[[spell]]
+number = 2272
+name = "ancient dragon temp"
+msgnum = 0
+desc = """
+(quest spell)
+"""
+abilities = [["EndCast", 2273]]
+data = { Diff = 200, Targets = 12, Dur = 1, AttType = 4 }
+
+[[spell]]
+number = 2273
+name = "ancient dragon text"
+msgnum = 0
+desc = """
+(quest spell)
+"""
+abilities = [["TextBlock", 10029]]
+data = { Diff = 200, Targets = 1, AttType = 4 }
+
+[[spell]]
+number = 2274
+name = "atlas temp"
+msgnum = 0
+desc = """
+(quest spell)
+"""
+abilities = [["EndCast", 2275]]
+data = { Diff = 200, Targets = 12, Dur = 1, AttType = 4 }
+
+[[spell]]
+number = 2275
+name = "atlas text"
+msgnum = 0
+desc = """
+(quest spell)
+"""
+abilities = [["TextBlock", 10034]]
+data = { Diff = 200, Targets = 1, AttType = 4 }
+
+[[spell]]
+number = 2276
+name = "angelic demon temp"
+msgnum = 0
+desc = """
+(quest spell)
+"""
+abilities = [["EndCast", 2277]]
+data = { Diff = 200, Targets = 12, Dur = 1, AttType = 4 }
+
+[[spell]]
+number = 2277
+name = "angelic demon text"
+msgnum = 0
+desc = """
+(quest spell)
+"""
+abilities = [["TextBlock", 10048]]
+data = { Diff = 200, Targets = 1, AttType = 4 }
+
+[[spell]]
+number = 2278
+name = "sgk temp"
+msgnum = 0
+desc = """
+(quest spell)
+"""
+abilities = [["EndCast", 2279]]
+data = { Diff = 200, Targets = 12, Dur = 1, AttType = 4 }
+
+[[spell]]
+number = 2279
+name = "sgk text"
+msgnum = 0
+desc = """
+(quest spell)
+"""
+abilities = [["TextBlock", 10053]]
+data = { Diff = 200, Targets = 1, AttType = 4 }
+
+[[spell]]
+number = 2280
+name = "acid beast temp"
+msgnum = 0
+desc = """
+(quest spell)
+"""
+abilities = [["EndCast", 2281]]
+data = { Diff = 200, Targets = 12, Dur = 1, AttType = 4 }
+
+[[spell]]
+number = 2281
+name = "acid beast text"
+msgnum = 0
+desc = """
+(quest spell)
+"""
+abilities = [["TextBlock", 10062]]
+data = { Diff = 200, Targets = 1, AttType = 4 }
+
+[[spell]]
+number = 2282
+name = "ancient phantasm temp"
+msgnum = 0
+desc = """
+(quest spell)
+"""
+abilities = [["EndCast", 2283]]
+data = { Diff = 200, Targets = 12, Dur = 1, AttType = 4 }
+
+[[spell]]
+number = 2283
+name = "ancient phantasm text"
+msgnum = 0
+desc = """
+(quest spell)
+"""
+abilities = [["TextBlock", 10067]]
+data = { Diff = 200, Targets = 1, AttType = 4 }
+
+[[spell]]
+number = 2284
+name = "onyx juggernaut temp"
+msgnum = 0
+desc = """
+(quest spell)
+"""
+abilities = [["EndCast", 2285]]
+data = { Diff = 200, Targets = 12, Dur = 1, AttType = 4 }
+
+[[spell]]
+number = 2285
+name = "onyx juggernaut text"
+msgnum = 0
+desc = """
+(quest spell)
+"""
+abilities = [["TextBlock", 9708]]
+data = { Diff = 200, Targets = 1, AttType = 4 }
+
+[[spell]]
+number = 2286
+name = "lord magnus temp"
+msgnum = 0
+desc = """
+(quest spell)
+"""
+abilities = [["EndCast", 2287]]
+data = { Diff = 200, Targets = 12, Dur = 1, AttType = 4 }
+
+[[spell]]
+number = 2287
+name = "lord magnus text"
+msgnum = 0
+desc = """
+(quest spell)
+"""
+abilities = [["TextBlock", 9710]]
+data = { Diff = 200, Targets = 1, AttType = 4 }
+
+[[spell]]
+number = 2288
+name = "demonic enchantress temp"
+msgnum = 0
+desc = """
+(quest spell)
+"""
+abilities = [["EndCast", 2289]]
+data = { Diff = 200, Targets = 12, Dur = 1, AttType = 4 }
+
+[[spell]]
+number = 2289
+name = "demonic enchantress text"
+msgnum = 0
+desc = """
+(quest spell)
+"""
+abilities = [["TextBlock", 10076]]
+data = { Diff = 200, Targets = 1, AttType = 4 }
+
+[[spell]]
+number = 2290
+name = "demon lord temp"
+msgnum = 0
+desc = """
+(quest spell)
+"""
+abilities = [["EndCast", 2291]]
+data = { Diff = 200, Targets = 12, Dur = 1, AttType = 4 }
+
+[[spell]]
+number = 2291
+name = "demon lord text"
+msgnum = 0
+desc = """
+(quest spell)
+"""
+abilities = [["TextBlock", 10081]]
+data = { Diff = 200, Targets = 1, AttType = 4 }
+
+[[spell]]
+number = 2292
+name = "king of naz temp"
+msgnum = 0
+desc = """
+(quest spell)
+"""
+abilities = [["EndCast", 2293]]
+data = { Diff = 200, Targets = 12, Dur = 1, AttType = 4 }
+
+[[spell]]
+number = 2293
+name = "king of naz text"
+msgnum = 0
+desc = """
+(quest spell)
+"""
+abilities = [["TextBlock", 10090]]
+data = { Diff = 200, Targets = 1, AttType = 4 }
+
+[[spell]]
+number = 2294
+name = "kryon dragon temp"
+msgnum = 0
+desc = """
+(quest spell)
+"""
+abilities = [["EndCast", 2295]]
+data = { Diff = 200, Targets = 12, Dur = 1, AttType = 4 }
+
+[[spell]]
+number = 2295
+name = "kryon dragon text"
+msgnum = 0
+desc = """
+(quest spell)
+"""
+abilities = [["TextBlock", 10095]]
+data = { Diff = 200, Targets = 1, AttType = 4 }
+
+[[spell]]
+number = 2296
+name = "acid globe text"
+msgnum = 10279
+desc = """
+Hurls the acid-filled globe at Lord Magnus.
+"""
+abilities = [["TextBlock", 9715]]
+data = { Diff = 200, Targets = 1, AttType = 4 }
+
+[[spell]]
+number = 2297
+name = "acid globe acid"
+msgnum = 0
+desc = """
+Burning acid that eats through armour.
+"""
+abilities = [["DamageArmour", 0], ["StartMsg", 10278]]
+data = { ReqLevel = 125, MinBase = 1500, MaxBase = 1500, Diff = 200, Targets = 12, AttType = 5, Cap = 125 }
+
+[[spell]]
+number = 2298
+name = "demon glyph text"
+msgnum = 10281
+desc = """
+Raises the demon-headed glyph before Lord Magnus.
+"""
+abilities = [["TextBlock", 9716]]
+data = { Diff = 200, Targets = 1, AttType = 4 }
+
+[[spell]]
+number = 2299
+name = "demon glyph power"
+msgnum = 0
+desc = """
+Fills the caster with the Demon Lord's fury.
+"""
+abilities = [["SpellDamage", 25], ["DescMsg", 10280], ["Damage", 25], ["Critical", 5], ["AvBless", 25]]
+data = { Diff = 200, Targets = 13, Dur = 10, AttType = 4 }
+
+[[spell]]
+number = 2300
+name = "rainbow rune text"
+msgnum = 10282
+desc = """
+Raises the rainbow rune before Lord Magnus.
+"""
+abilities = [["TextBlock", 9717]]
+data = { Diff = 200, Targets = 1, AttType = 4 }
+
+[[spell]]
+number = 2301
+name = "rainbow healing"
+msgnum = 109
+desc = """
+Rainbow light that heals the caster's party.
+"""
+abilities = [["Heal", 0]]
+data = { MinBase = 500, MaxBase = 500, Diff = 200, Targets = 13, AttType = 4 }
+
+[[spell]]
+number = 2302
+name = "good quest filter"
+msgnum = 0
+desc = """
+(quest spell)
+"""
+abilities = [["TextBlock", 9718], ["NonMagical", 0], ["DescMsg", 66]]
+data = { TypeOfResists = 1, Targets = 1, AttType = 4, Magery = 1 }
+
+[[spell]]
+number = 2303
+name = "aura of light"
+msgnum = 10283
+desc = """
+Burns away darkness laid upon the wearer.
+"""
+abilities = [["DispelMagic", 107], ["RemoveSpell", 440], ["RemoveSpell", 443], ["RemoveSpell", 933], ["RemoveSpell", 1024], ["RemoveSpell", 1066], ["RemoveSpell", 1102], ["RemoveSpell", 1113], ["RemoveSpell", 1190], ["RemoveSpell", 1310]]
+data = { Diff = 100, Targets = 2, AttType = 4, Cap = 100 }
+
+[[spell]]
+number = 2304
+name = "scales of balance"
+msgnum = 10284
+desc = """
+Clears a mind clouded by chaos.
+"""
+abilities = [["RemoveSpell", 53], ["RemoveSpell", 63], ["RemoveSpell", 191], ["RemoveSpell", 260], ["RemoveSpell", 264], ["RemoveSpell", 286], ["RemoveSpell", 300], ["RemoveSpell", 328], ["RemoveSpell", 2069], ["RemoveSpell", 2130]]
+data = { Diff = 100, Targets = 1, AttType = 4, Cap = 100 }
+
+[[spell]]
+number = 2305
+name = "icon of evil"
+msgnum = 10285
+desc = """
+Breaks any bond that holds the wearer.
+"""
+abilities = [["Freedom", 0]]
+data = { Diff = 100, Targets = 1, AttType = 4, Cap = 100 }

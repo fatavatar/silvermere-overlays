@@ -1,0 +1,189 @@
+# Ashfall Valley's monsters. The dinosaurs, the giant locust and the scarab swarm exist in the
+# realm but no room ever spawned them; they are raised to the valley's band (levels 55-80) and
+# put in monster group 18 (Group13), which holds only Ashfall's monsters. The generation index
+# picks the tier each room spawns: 1 grazers, 2 raptors, 3 pteranodon, 4 giant locust,
+# 5 deinodon, 6 scarab swarm, 7 viper cultist, 8 cult priest.
+#
+# Attack chances are cumulative: a slot's pct is the roll at or under which it is picked.
+
+# ---------------------------------------------------------------- grazers (tier 1)
+
+[[monster_change]]
+number = 520
+set = { montype = "Group13", genindex = 1, maxhp = 2400, ac = 120, dr = 30, magicres = 60, exp = 260000, hpregen = 240, attacks = [
+    { kind = "Normal", accuracy = 250, pct = 75, min = 39, max = 91, energy = 500, defmsg = 10306, hitmsg = 673, missmsg = 675 },
+    { kind = "Normal", accuracy = 350, pct = 100, min = 39, max = 91, energy = 500, hitspell = 318, defmsg = 10306, hitmsg = 673, missmsg = 675 },
+] }
+was = { name = "ankylosaur", maxhp = 1300, genindex = 0 }
+
+[[monster_change]]
+number = 521
+set = { montype = "Group13", genindex = 1, maxhp = 2300, ac = 90, dr = 28, magicres = 60, exp = 250000, hpregen = 230 }
+was = { name = "stegosaur", maxhp = 1400, genindex = 0 }
+
+[[monster_change]]
+number = 944
+set = { montype = "Group13", genindex = 1, maxhp = 2400, ac = 100, dr = 25, magicres = 60, exp = 260000, hpregen = 240, attacks = [
+    { kind = "Normal", accuracy = 400, pct = 40, min = 90, max = 180, energy = 1000, hitmsg = 501, defmsg = 10308, missmsg = 1201 },
+    { kind = "Normal", accuracy = 300, pct = 65, min = 45, max = 100, energy = 1000, hitmsg = 2028, defmsg = 10308, missmsg = 1201 },
+    { kind = "Normal", accuracy = 300, pct = 100, min = 150, max = 300, energy = 1000, hitmsg = 1202, defmsg = 10308, missmsg = 1201 },
+] }
+was = { name = "triceratops", maxhp = 1500, genindex = 0 }
+
+# ---------------------------------------------------------------- raptors (tier 2)
+
+[[monster_change]]
+number = 524
+why = "the pack leader"
+set = { montype = "Group13", genindex = 2, maxhp = 1300, ac = 70, dr = 12, magicres = 60, exp = 140000, hpregen = 130, grouprole = "Leader", maxfollow = 3, attacks = [
+    { kind = "Normal", accuracy = 250, pct = 70, min = 20, max = 46, energy = 250, defmsg = 8307, hitmsg = 187, missmsg = 8294 },
+    { kind = "Normal", accuracy = 300, pct = 100, min = 26, max = 58, energy = 250, defmsg = 8307, hitmsg = 313, missmsg = 8294 },
+] }
+was = { name = "tetraraptor", maxhp = 400, genindex = 0 }
+
+[[monster_change]]
+number = 509
+set = { montype = "Group13", genindex = 2, maxhp = 1300, ac = 70, dr = 12, magicres = 60, exp = 140000, hpregen = 130, attacks = [
+    { kind = "Normal", accuracy = 250, pct = 70, min = 20, max = 46, energy = 250, defmsg = 8307, hitmsg = 187, missmsg = 8294 },
+    { kind = "Normal", accuracy = 300, pct = 100, min = 26, max = 58, energy = 250, defmsg = 8307, hitmsg = 313, missmsg = 8294 },
+] }
+was = { name = "tetraraptor", maxhp = 400, genindex = 0 }
+
+[[monster_change]]
+number = 523
+set = { montype = "Group13", genindex = 2, maxhp = 1500, ac = 75, dr = 12, magicres = 60, exp = 160000, hpregen = 150, attacks = [
+    { kind = "Normal", accuracy = 250, pct = 75, min = 23, max = 49, energy = 250, defmsg = 8307, hitmsg = 495, missmsg = 8294 },
+    { kind = "Normal", accuracy = 350, pct = 100, min = 29, max = 62, energy = 250, hitspell = 201, defmsg = 8307, hitmsg = 495, missmsg = 8294 },
+], items = [] }
+was = { name = "deinonychus", maxhp = 450, genindex = 0 }
+
+# ---------------------------------------------------------------- the open air (tiers 3-6)
+
+[[monster_change]]
+number = 512
+set = { montype = "Group13", genindex = 3, maxhp = 1600, ac = 85, dr = 10, magicres = 60, exp = 150000, hpregen = 160, attacks = [
+    { kind = "Normal", accuracy = 300, pct = 100, min = 32, max = 84, energy = 333, defmsg = 10307, hitmsg = 978, missmsg = 683 },
+] }
+was = { name = "pteranodon", maxhp = 800, genindex = 0 }
+
+[[monster_change]]
+number = 892
+set = { montype = "Group13", genindex = 4, maxhp = 1200, ac = 80, dr = 10, magicres = 62, exp = 110000, hpregen = 120, attacks = [
+    { kind = "Normal", accuracy = 115, pct = 30, min = 5, max = 19, energy = 400, hitmsg = 1741, defmsg = 8307, missmsg = 8294 },
+    { kind = "Normal", accuracy = 140, pct = 60, min = 25, max = 50, energy = 600, hitspell = 81, hitmsg = 8354, defmsg = 8307, missmsg = 8294 },
+    { kind = "Normal", accuracy = 140, pct = 100, min = 50, max = 100, energy = 1000, hitspell = 318, hitmsg = 2855, defmsg = 10307, missmsg = 683 },
+] }
+was = { name = "giant locust", maxhp = 400, genindex = 0 }
+
+[[monster_change]]
+number = 515
+set = { montype = "Group13", genindex = 5, maxhp = 2400, ac = 90, dr = 22, magicres = 60, exp = 330000, hpregen = 300, attacks = [
+    { kind = "Normal", accuracy = 300, pct = 40, min = 39, max = 91, energy = 333, defmsg = 8307, hitmsg = 431, missmsg = 8294 },
+    { kind = "Normal", accuracy = 400, pct = 80, min = 46, max = 104, energy = 333, hitspell = 318, defmsg = 8307, hitmsg = 520, missmsg = 8294 },
+    { kind = "Normal", accuracy = 500, pct = 100, min = 52, max = 110, energy = 333, defmsg = 8307, hitmsg = 725, missmsg = 8294 },
+] }
+was = { name = "deinodon", maxhp = 3000, genindex = 0 }
+
+[[monster_change]]
+number = 805
+set = { montype = "Group13", genindex = 6, maxhp = 1250, ac = 60, dr = 8, magicres = 50, exp = 120000, hpregen = 125, abilities = [["Dodge", 25]] }
+was = { name = "scarab swarm", maxhp = 466, genindex = 0 }
+
+# ---------------------------------------------------------------- bosses
+
+[[monster_change]]
+number = 508
+why = "the valley's king, alone in the Tar Pit Hollow; its 1,000-3,000 bite is tamed"
+set = { maxhp = 6500, ac = 90, dr = 35, magicres = 75, exp = 300000, level = 20, regenhrs = 2, attacks = [
+    { kind = "Normal", accuracy = 500, pct = 45, min = 150, max = 320, energy = 1000, defmsg = 8306, hitmsg = 665, missmsg = 8293 },
+    { kind = "Normal", accuracy = 300, pct = 85, min = 100, max = 250, energy = 1000, hitspell = 318, defmsg = 8306, hitmsg = 610, missmsg = 8294 },
+    { kind = "Spell", accuracy = 770, pct = 95, min = 100, max = 40, energy = 1000, hitmsg = 1, defmsg = 1, missmsg = 1 },
+    { kind = "Normal", accuracy = 500, pct = 100, min = 350, max = 600, energy = 1000, defmsg = 8306, hitmsg = 665, missmsg = 8293 },
+], items = [{ item = 2752, uses = 0, pct = 20 }] }
+was = { name = "Tyrannosaur", maxhp = 4750 }
+
+# ---------------------------------------------------------------- the Coiled Temple
+
+[[monster]]
+number = 2100
+from = 166
+name = "viper cultist"
+montype = "Group13"
+genindex = 7
+maxhp = 1800
+ac = 90
+dr = 15
+magicres = 80
+exp = 200000
+hpregen = 150
+talktext = 0
+desc = """
+This serpentkin wears robes dyed the green of a viper's back, and its
+scales have been painted with black bands. A curved blade hangs at its
+hip, and a necklace of raptor teeth rattles as it moves.
+"""
+attacks = [
+    { kind = "Normal", accuracy = 300, pct = 70, min = 26, max = 59, energy = 500, hitmsg = 10304, defmsg = 8297, missmsg = 8310 },
+    { kind = "Spell", accuracy = 238, pct = 100, min = 100, max = 30, energy = 1000, hitmsg = 1, defmsg = 1, missmsg = 1 },
+]
+items = [{ item = 2754, uses = 0, pct = 3 }, { item = 2755, uses = 0, pct = 3 }]
+
+[[monster]]
+number = 2101
+from = 169
+name = "cult priest"
+montype = "Group13"
+genindex = 8
+maxalive = 3
+maxhp = 2200
+ac = 100
+dr = 15
+magicres = 150
+exp = 300000
+hpregen = 180
+talktext = 0
+desc = """
+This tall serpentkin wears a hood shaped like a cobra's flared neck. A
+sigil of black stone carved as a coiled snake hangs on a chain at its
+breast, and its eyes never close.
+"""
+items = [{ item = 5101, uses = 0, pct = 35 }, { item = 2753, uses = 0, pct = 8 }]
+
+[[monster]]
+number = 2102
+from = 2036
+name = "Coil Mother"
+maxhp = 9000
+ac = 110
+dr = 25
+magicres = 120
+exp = 8000000
+hpregen = 300
+regenhrs = 4
+talktext = 0
+deathspell = 5100
+deathmsg = 10302
+arrivemsg = 10305
+desc = """
+This serpent is vast beyond reason, its coils as thick as an oak and
+its scales the colour of old bronze. Its head is the size of a cart,
+and its pale eyes hold a patient, ancient hunger.
+"""
+attacks = [
+    { kind = "Normal", accuracy = 400, pct = 40, min = 150, max = 280, energy = 500, hitspell = 318, defmsg = 10309, hitmsg = 10302, missmsg = 10310 },
+    { kind = "Normal", accuracy = 450, pct = 75, min = 120, max = 260, energy = 500, hitspell = 201, defmsg = 8306, hitmsg = 10303, missmsg = 8293 },
+    { kind = "Spell", accuracy = 375, pct = 90, min = 100, max = 20, energy = 500, hitmsg = 1012, defmsg = 8306, missmsg = 8293 },
+    { kind = "Spell", accuracy = 377, pct = 100, min = 100, max = 20, energy = 500, hitmsg = 911, defmsg = 8307, missmsg = 8294 },
+]
+items = [{ item = 2756, uses = 0, pct = 100 }]
+
+[[monster]]
+number = 2103
+from = 1232
+name = "Tamsin"
+talktext = 10200
+desc = """
+A lean woman in hides stained green and black stands watch over the
+camp, a longbow across her back. Her face is burned dark by the vents'
+heat, and she watches the ferns the way other people watch a fire.
+"""

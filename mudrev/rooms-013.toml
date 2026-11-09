@@ -1,0 +1,1619 @@
+[[room]]
+areamax = 35
+ctlroom = 30
+desc = """
+These hallways are made of large stone blocks, and you notice the odd
+bone or skull lying on the ground. Trails of blood, some still wet,
+lead in every direction. Every once in awhile you hear a cry of agony
+and despair echoing from througout the hallways."""
+map = 13
+mapfile = "WCCMAP01.ANS"
+maxlevel = 11
+maxmonsters = 3
+minlevel = 11
+mongroup = 29
+name = "Temple Hallway"
+regendelay = 3
+room = 9100
+room_type = "Lair"
+
+[room.exits]
+west = 25
+
+[[room]]
+areamax = 35
+ctlroom = 30
+desc = """
+These hallways are made of large stone blocks, and you notice the odd
+bone or skull lying on the ground. Trails of blood, some still wet,
+lead in every direction. Every once in awhile you hear a cry of agony
+and despair echoing from througout the hallways."""
+map = 13
+mapfile = "WCCMAP01.ANS"
+maxlevel = 11
+maxmonsters = 3
+minlevel = 11
+mongroup = 35
+name = "Temple Hallway"
+regendelay = 3
+room = 9101
+room_type = "Lair"
+
+[room.exits]
+north = 24
+
+[[room]]
+areamax = 35
+ctlroom = 30
+desc = """
+These hallways are made of large stone blocks, and you notice the odd
+bone or skull lying on the ground. Trails of blood, some still wet,
+lead in every direction. Every once in awhile you hear a cry of agony
+and despair echoing from througout the hallways."""
+map = 13
+mapfile = "WCCMAP01.ANS"
+maxlevel = 15
+maxmonsters = 3
+minlevel = 10
+mongroup = 26
+name = "Temple Hallway"
+regendelay = 5
+room = 9102
+room_type = "Lair"
+
+[room.exits]
+southwest = 38
+
+[[room]]
+areamax = 35
+ctlroom = 2
+desc = """
+A circular marble stairwell leads downwards from this similarly
+shaped room. Aside from this, you notice nothing of interest save for
+a few dusty tapestries hanging from the walls."""
+map = 13
+mapfile = "WCCMAP01.ANS"
+maxmonsters = 3
+name = "Temple, Stairwell"
+room = 9103
+
+[room.exits]
+northeast = 9104
+south = 16
+
+[[room]]
+areamax = 35
+ctlroom = 2
+desc = """
+A circular marble stairwell leads downwards from this similarly
+shaped room. Aside from this, you notice nothing of interest save for
+a few dusty tapestries hanging from the walls."""
+map = 13
+mapfile = "WCCMAP01.ANS"
+maxmonsters = 3
+name = "Temple, Stairwell"
+room = 9104
+
+[room.exits]
+southwest = 9103
+
+[[room]]
+areamax = 70
+ctlroom = 30
+desc = """
+These hallways are made of large stone blocks, and you notice the odd
+bone or skull lying on the ground. Trails of blood, some still wet,
+lead in every direction. Every once in awhile you hear a cry of agony
+and despair echoing from througout the hallways."""
+map = 13
+mapfile = "WCCMAP01.ANS"
+maxlevel = 19
+maxmonsters = 3
+minlevel = 18
+name = "Temple Hallway"
+regendelay = 1
+room = 9105
+
+[room.exits]
+east = 30
+
+[[room]]
+areamax = 35
+ctlroom = 30
+desc = """
+These hallways are made of large stone blocks, and you notice the odd
+bone or skull lying on the ground. Trails of blood, some still wet,
+lead in every direction. Every once in awhile you hear a cry of agony
+and despair echoing from througout the hallways."""
+map = 13
+mapfile = "WCCMAP01.ANS"
+maxlevel = 19
+maxmonsters = 3
+minlevel = 10
+mongroup = 26
+name = "Temple Hallway"
+regendelay = 5
+room = 9106
+room_type = "Lair"
+
+[room.exits]
+south = 38
+
+[[room]]
+areamax = 35
+ctlroom = 30
+desc = """
+These hallways are made of large stone blocks, and you notice the odd
+bone or skull lying on the ground. Trails of blood, some still wet,
+lead in every direction. Every once in awhile you hear a cry of agony
+and despair echoing from througout the hallways."""
+map = 13
+mapfile = "WCCMAP01.ANS"
+maxlevel = 11
+maxmonsters = 3
+minlevel = 11
+mongroup = 29
+name = "Temple Hallway"
+regendelay = 3
+room = 9107
+room_type = "Lair"
+
+[room.exits]
+east = 29
+
+[[room]]
+areamax = 35
+ctlroom = 30
+desc = """
+These hallways are made of large stone blocks, and you notice the odd
+bone or skull lying on the ground. Trails of blood, some still wet,
+lead in every direction. Every once in awhile you hear a cry of agony
+and despair echoing from througout the hallways."""
+map = 13
+mapfile = "WCCMAP01.ANS"
+maxlevel = 19
+maxmonsters = 10
+minlevel = 18
+mongroup = 26
+name = "Temple Hallway, Blood Altar"
+regendelay = 3
+room = 9108
+room_type = "Lair"
+
+[room.exits]
+northeast = 39
+southwest = 9109
+
+[[room]]
+areamax = 35
+ctlroom = 30
+desc = """
+These hallways are made of large stone blocks, and you notice the odd
+bone or skull lying on the ground. Trails of blood, some still wet,
+lead in every direction. Every once in awhile you hear a cry of agony
+and despair echoing from througout the hallways."""
+map = 13
+mapfile = "WCCMAP01.ANS"
+maxlevel = 19
+maxmonsters = 10
+minlevel = 18
+mongroup = 26
+name = "Temple Hallway, Blood Altar"
+regendelay = 1
+room = 9109
+room_type = "Lair"
+
+[room.exits]
+northeast = 9108
+southwest = 9110
+
+[[room]]
+areamax = 35
+ctlroom = 30
+desc = """
+These hallways are made of large stone blocks, and you notice the odd
+bone or skull lying on the ground. Trails of blood, some still wet,
+lead in every direction. Every once in awhile you hear a cry of agony
+and despair echoing from througout the hallways."""
+map = 13
+mapfile = "WCCMAP01.ANS"
+maxlevel = 19
+maxmonsters = 10
+minlevel = 18
+mongroup = 26
+name = "Temple Hallway, Blood Altar"
+regendelay = 1
+room = 9110
+room_type = "Lair"
+
+[room.exits]
+northeast = 9109
+south = 9111
+
+[[room]]
+areamax = 35
+ctlroom = 30
+desc = """
+These hallways are made of large stone blocks, and you notice the odd
+bone or skull lying on the ground. Trails of blood, some still wet,
+lead in every direction. Every once in awhile you hear a cry of agony
+and despair echoing from througout the hallways."""
+map = 13
+mapfile = "WCCMAP01.ANS"
+maxlevel = 19
+maxmonsters = 10
+minlevel = 18
+mongroup = 26
+name = "Temple Hallway, Blood Altar"
+room = 9111
+room_type = "Lair"
+
+[room.exits]
+north = 9110
+south = 9112
+
+[[room]]
+areamax = 35
+ctlroom = 30
+desc = """
+These hallways are made of large stone blocks, and you notice the odd
+bone or skull lying on the ground. Trails of blood, some still wet,
+lead in every direction. Every once in awhile you hear a cry of agony
+and despair echoing from througout the hallways."""
+map = 13
+mapfile = "WCCMAP01.ANS"
+maxlevel = 19
+maxmonsters = 10
+minlevel = 18
+mongroup = 26
+name = "Temple Hallway, Blood Altar"
+room = 9112
+room_type = "Lair"
+
+[room.exits]
+north = 9111
+south = 9113
+
+[[room]]
+areamax = 35
+ctlroom = 30
+desc = """
+These hallways are made of large stone blocks, and you notice the odd
+bone or skull lying on the ground. Trails of blood, some still wet,
+lead in every direction. Every once in awhile you hear a cry of agony
+and despair echoing from througout the hallways."""
+map = 13
+mapfile = "WCCMAP01.ANS"
+maxlevel = 19
+maxmonsters = 10
+minlevel = 18
+mongroup = 26
+name = "Blood Altar, Massive Room"
+room = 9113
+room_type = "Lair"
+
+[room.exits]
+east = 9116
+north = 9112
+south = 9114
+west = 9115
+
+[[room]]
+areamax = 35
+ctlroom = 30
+desc = """
+These hallways are made of large stone blocks, and you notice the odd
+bone or skull lying on the ground. Trails of blood, some still wet,
+lead in every direction. Every once in awhile you hear a cry of agony
+and despair echoing from througout the hallways."""
+map = 13
+mapfile = "WCCMAP01.ANS"
+maxlevel = 111
+maxmonsters = 10
+minlevel = 111
+mongroup = 2
+name = "Blood Altar"
+regendelay = 15
+room = 9114
+room_type = "Lair"
+specmon = 1132
+
+[room.exits]
+north = 9113
+
+[[room]]
+areamax = 35
+ctlroom = 30
+desc = """
+These hallways are made of large stone blocks, and you notice the odd
+bone or skull lying on the ground. Trails of blood, some still wet,
+lead in every direction. Every once in awhile you hear a cry of agony
+and despair echoing from througout the hallways."""
+map = 13
+mapfile = "WCCMAP01.ANS"
+maxlevel = 19
+maxmonsters = 10
+minlevel = 18
+mongroup = 26
+name = "Temple Hallway, Blood Altar"
+room = 9115
+room_type = "Lair"
+
+[room.exits]
+east = 9113
+
+[[room]]
+areamax = 35
+ctlroom = 30
+desc = """
+These hallways are made of large stone blocks, and you notice the odd
+bone or skull lying on the ground. Trails of blood, some still wet,
+lead in every direction. Every once in awhile you hear a cry of agony
+and despair echoing from througout the hallways."""
+map = 13
+mapfile = "WCCMAP01.ANS"
+maxlevel = 19
+maxmonsters = 10
+minlevel = 18
+mongroup = 26
+name = "Temple Hallway, Blood Altar"
+room = 9116
+room_type = "Lair"
+
+[room.exits]
+west = 9113
+
+[[room]]
+areamax = 35
+ctlroom = 30
+desc = """
+These hallways are made of large stone blocks, and you notice the odd
+bone or skull lying on the ground. Trails of blood, some still wet,
+lead in every direction. Every once in awhile you hear a cry of agony
+and despair echoing from througout the hallways."""
+light = -150
+map = 13
+mapfile = "WCCMAP01.ANS"
+maxlevel = 19
+maxmonsters = 5
+minlevel = 18
+mongroup = 26
+name = "Dark Hallway"
+regendelay = 1
+room = 9117
+room_type = "Lair"
+
+[room.exits]
+east = 9118
+southwest = 34
+
+[[room]]
+areamax = 35
+ctlroom = 30
+desc = """
+These hallways are made of large stone blocks, and you notice the odd
+bone or skull lying on the ground. Trails of blood, some still wet,
+lead in every direction. Every once in awhile you hear a cry of agony
+and despair echoing from througout the hallways."""
+light = -150
+map = 13
+mapfile = "WCCMAP01.ANS"
+maxlevel = 19
+maxmonsters = 5
+minlevel = 18
+mongroup = 26
+name = "Dark Hallway"
+regendelay = 1
+room = 9118
+room_type = "Lair"
+
+[room.exits]
+east = 9119
+west = 9117
+
+[[room]]
+areamax = 35
+ctlroom = 30
+desc = """
+These hallways are made of large stone blocks, and you notice the odd
+bone or skull lying on the ground. Trails of blood, some still wet,
+lead in every direction. Every once in awhile you hear a cry of agony
+and despair echoing from througout the hallways."""
+light = -150
+map = 13
+mapfile = "WCCMAP01.ANS"
+maxlevel = 19
+maxmonsters = 5
+minlevel = 18
+mongroup = 26
+name = "Dark Hallway"
+regendelay = 1
+room = 9119
+room_type = "Lair"
+
+[room.exits]
+southeast = 9120
+west = 9118
+
+[[room]]
+areamax = 35
+ctlroom = 30
+desc = """
+These hallways are made of large stone blocks, and you notice the odd
+bone or skull lying on the ground. Trails of blood, some still wet,
+lead in every direction. Every once in awhile you hear a cry of agony
+and despair echoing from througout the hallways."""
+light = -150
+map = 13
+mapfile = "WCCMAP01.ANS"
+maxlevel = 19
+maxmonsters = 5
+minlevel = 18
+mongroup = 26
+name = "Dark Hallway"
+regendelay = 1
+room = 9120
+room_type = "Lair"
+
+[room.exits]
+east = 9121
+northwest = 9119
+
+[[room]]
+areamax = 35
+ctlroom = 30
+desc = """
+These hallways are made of large stone blocks, and you notice the odd
+bone or skull lying on the ground. Trails of blood, some still wet,
+lead in every direction. Every once in awhile you hear a cry of agony
+and despair echoing from througout the hallways."""
+light = -150
+map = 13
+mapfile = "WCCMAP01.ANS"
+maxlevel = 19
+maxmonsters = 5
+minlevel = 18
+mongroup = 26
+name = "Dark Hallway"
+regendelay = 1
+room = 9121
+room_type = "Lair"
+
+[room.exits]
+east = 9122
+west = 9120
+
+[[room]]
+areamax = 35
+ctlroom = 30
+desc = """
+These hallways are made of large stone blocks, and you notice the odd
+bone or skull lying on the ground. Trails of blood, some still wet,
+lead in every direction. Every once in awhile you hear a cry of agony
+and despair echoing from througout the hallways."""
+light = -150
+map = 13
+mapfile = "WCCMAP01.ANS"
+maxlevel = 19
+maxmonsters = 5
+minlevel = 18
+mongroup = 26
+name = "Dark Hallway"
+regendelay = 1
+room = 9122
+room_type = "Lair"
+
+[room.exits]
+north = 9123
+west = 9121
+
+[[room]]
+areamax = 35
+ctlroom = 30
+desc = """
+These hallways are made of large stone blocks, and you notice the odd
+bone or skull lying on the ground. Trails of blood, some still wet,
+lead in every direction. Every once in awhile you hear a cry of agony
+and despair echoing from througout the hallways."""
+light = -150
+map = 13
+mapfile = "WCCMAP01.ANS"
+maxlevel = 19
+maxmonsters = 5
+minlevel = 18
+mongroup = 26
+name = "Dark Hallway"
+regendelay = 1
+room = 9123
+room_type = "Lair"
+
+[room.exits]
+northeast = 9124
+south = 9122
+
+[[room]]
+areamax = 35
+ctlroom = 30
+desc = """
+These hallways are made of large stone blocks, and you notice the odd
+bone or skull lying on the ground. Trails of blood, some still wet,
+lead in every direction. Every once in awhile you hear a cry of agony
+and despair echoing from througout the hallways."""
+light = -150
+map = 13
+mapfile = "WCCMAP01.ANS"
+maxlevel = 19
+maxmonsters = 5
+minlevel = 18
+mongroup = 26
+name = "Dark Hallway"
+regendelay = 1
+room = 9124
+room_type = "Lair"
+
+[room.exits]
+east = 9125
+southwest = 9123
+
+[[room]]
+areamax = 35
+ctlroom = 30
+desc = """
+These hallways are made of large stone blocks, and you notice the odd
+bone or skull lying on the ground. Trails of blood, some still wet,
+lead in every direction. Every once in awhile you hear a cry of agony
+and despair echoing from througout the hallways."""
+light = -150
+map = 13
+mapfile = "WCCMAP01.ANS"
+maxlevel = 19
+maxmonsters = 5
+minlevel = 18
+mongroup = 26
+name = "Dark Hallway"
+regendelay = 1
+room = 9125
+room_type = "Lair"
+
+[room.exits]
+southeast = 9126
+west = 9124
+
+[[room]]
+areamax = 35
+ctlroom = 30
+desc = """
+These hallways are made of large stone blocks, and you notice the odd
+bone or skull lying on the ground. Trails of blood, some still wet,
+lead in every direction. Every once in awhile you hear a cry of agony
+and despair echoing from througout the hallways."""
+light = -150
+map = 13
+mapfile = "WCCMAP01.ANS"
+maxlevel = 19
+maxmonsters = 5
+minlevel = 18
+mongroup = 26
+name = "Dark Hallway"
+regendelay = 1
+room = 9126
+room_type = "Lair"
+
+[room.exits]
+northwest = 9125
+south = 9127
+
+[[room]]
+areamax = 35
+ctlroom = 30
+desc = """
+These hallways are made of large stone blocks, and you notice the odd
+bone or skull lying on the ground. Trails of blood, some still wet,
+lead in every direction. Every once in awhile you hear a cry of agony
+and despair echoing from througout the hallways."""
+light = -150
+map = 13
+mapfile = "WCCMAP01.ANS"
+maxlevel = 19
+maxmonsters = 5
+minlevel = 18
+mongroup = 26
+name = "Dark Hallway"
+regendelay = 1
+room = 9127
+room_type = "Lair"
+
+[room.exits]
+north = 9126
+south = 9128
+
+[[room]]
+areamax = 35
+ctlroom = 30
+desc = """
+These hallways are made of large stone blocks, and you notice the odd
+bone or skull lying on the ground. Trails of blood, some still wet,
+lead in every direction. Every once in awhile you hear a cry of agony
+and despair echoing from througout the hallways."""
+light = -150
+map = 13
+mapfile = "WCCMAP01.ANS"
+maxlevel = 19
+maxmonsters = 5
+minlevel = 18
+mongroup = 26
+name = "Dark Hallway"
+regendelay = 1
+room = 9128
+room_type = "Lair"
+
+[room.exits]
+north = 9127
+south = 9129
+
+[[room]]
+areamax = 35
+ctlroom = 30
+desc = """
+These hallways are made of large stone blocks, and you notice the odd
+bone or skull lying on the ground. Trails of blood, some still wet,
+lead in every direction. Every once in awhile you hear a cry of agony
+and despair echoing from througout the hallways."""
+light = -150
+map = 13
+mapfile = "WCCMAP01.ANS"
+maxlevel = 19
+maxmonsters = 5
+minlevel = 18
+mongroup = 26
+name = "Dark Hallway"
+regendelay = 1
+room = 9129
+room_type = "Lair"
+
+[room.exits]
+north = 9128
+southwest = 9130
+
+[[room]]
+areamax = 35
+ctlroom = 30
+desc = """
+These hallways are made of large stone blocks, and you notice the odd
+bone or skull lying on the ground. Trails of blood, some still wet,
+lead in every direction. Every once in awhile you hear a cry of agony
+and despair echoing from througout the hallways."""
+light = -150
+map = 13
+mapfile = "WCCMAP01.ANS"
+maxlevel = 19
+maxmonsters = 5
+minlevel = 18
+mongroup = 26
+name = "Dark Hallway"
+regendelay = 1
+room = 9130
+room_type = "Lair"
+
+[room.exits]
+northeast = 9129
+southwest = 9131
+
+[[room]]
+areamax = 35
+ctlroom = 30
+desc = """
+These hallways are made of large stone blocks, and you notice the odd
+bone or skull lying on the ground. Trails of blood, some still wet,
+lead in every direction. Every once in awhile you hear a cry of agony
+and despair echoing from througout the hallways."""
+light = -150
+map = 13
+mapfile = "WCCMAP01.ANS"
+maxlevel = 19
+maxmonsters = 5
+minlevel = 18
+mongroup = 26
+name = "Dark Hallway"
+regendelay = 1
+room = 9131
+room_type = "Lair"
+
+[room.exits]
+northeast = 9130
+south = 9132
+
+[[room]]
+areamax = 35
+ctlroom = 30
+desc = """
+These hallways are made of large stone blocks, and you notice the odd
+bone or skull lying on the ground. Trails of blood, some still wet,
+lead in every direction. Every once in awhile you hear a cry of agony
+and despair echoing from througout the hallways."""
+light = -150
+map = 13
+mapfile = "WCCMAP01.ANS"
+maxlevel = 19
+maxmonsters = 5
+minlevel = 18
+mongroup = 26
+name = "Dark Hallway"
+regendelay = 1
+room = 9132
+room_type = "Lair"
+
+[room.exits]
+north = 9131
+south = 9133
+
+[[room]]
+areamax = 35
+ctlroom = 30
+desc = """
+These hallways are made of large stone blocks, and you notice the odd
+bone or skull lying on the ground. Trails of blood, some still wet,
+lead in every direction. Every once in awhile you hear a cry of agony
+and despair echoing from througout the hallways."""
+light = -150
+map = 13
+mapfile = "WCCMAP01.ANS"
+maxlevel = 19
+maxmonsters = 5
+minlevel = 18
+mongroup = 26
+name = "Dark Hallway"
+regendelay = 1
+room = 9133
+room_type = "Lair"
+
+[room.exits]
+north = 9132
+south = 9134
+
+[[room]]
+areamax = 35
+ctlroom = 30
+desc = """
+These hallways are made of large stone blocks, and you notice the odd
+bone or skull lying on the ground. Trails of blood, some still wet,
+lead in every direction. Every once in awhile you hear a cry of agony
+and despair echoing from througout the hallways."""
+light = -150
+map = 13
+mapfile = "WCCMAP01.ANS"
+maxlevel = 19
+maxmonsters = 5
+minlevel = 18
+mongroup = 26
+name = "Dark Hallway"
+regendelay = 1
+room = 9134
+room_type = "Lair"
+
+[room.exits]
+north = 9133
+south = 9135
+
+[[room]]
+areamax = 35
+ctlroom = 30
+desc = """
+These hallways are made of large stone blocks, and you notice the odd
+bone or skull lying on the ground. Trails of blood, some still wet,
+lead in every direction. Every once in awhile you hear a cry of agony
+and despair echoing from througout the hallways."""
+light = -150
+map = 13
+mapfile = "WCCMAP01.ANS"
+maxlevel = 19
+maxmonsters = 5
+minlevel = 18
+mongroup = 26
+name = "Dark Hallway"
+regendelay = 1
+room = 9135
+room_type = "Lair"
+
+[room.exits]
+north = 9134
+south = 9136
+
+[[room]]
+areamax = 35
+ctlroom = 30
+desc = """
+These hallways are made of large stone blocks, and you notice the odd
+bone or skull lying on the ground. Trails of blood, some still wet,
+lead in every direction. Every once in awhile you hear a cry of agony
+and despair echoing from througout the hallways."""
+light = -150
+map = 13
+mapfile = "WCCMAP01.ANS"
+maxlevel = 19
+maxmonsters = 5
+minlevel = 18
+mongroup = 26
+name = "Dark Hallway"
+regendelay = 1
+room = 9136
+room_type = "Lair"
+
+[room.exits]
+north = 9135
+south = 9137
+
+[[room]]
+areamax = 35
+ctlroom = 30
+desc = """
+These hallways are made of large stone blocks, and you notice the odd
+bone or skull lying on the ground. Trails of blood, some still wet,
+lead in every direction. Every once in awhile you hear a cry of agony
+and despair echoing from througout the hallways."""
+light = -150
+map = 13
+mapfile = "WCCMAP01.ANS"
+maxlevel = 19
+maxmonsters = 5
+minlevel = 18
+mongroup = 26
+name = "Dark Hallway"
+regendelay = 1
+room = 9137
+room_type = "Lair"
+
+[room.exits]
+north = 9136
+south = 9138
+
+[[room]]
+areamax = 35
+ctlroom = 30
+desc = """
+These hallways are made of large stone blocks, and you notice the odd
+bone or skull lying on the ground. Trails of blood, some still wet,
+lead in every direction. Every once in awhile you hear a cry of agony
+and despair echoing from througout the hallways."""
+light = -100
+map = 13
+mapfile = "WCCMAP01.ANS"
+maxlevel = 200
+maxmonsters = 5
+minlevel = 200
+mongroup = 2
+name = "Dark Hallway, Massive Room"
+regendelay = 1
+room = 9138
+room_type = "Lair"
+specmon = 1133
+
+[room.exits]
+north = 9137
+
+[[room]]
+areamax = 35
+ctlroom = 30
+desc = """
+What once appeared to be a finely crafted entranceway, now remains
+nothing but a dusty unkept mess. Several old pieces of rotting
+furniture are the only material objects remaining. Aside from the
+sunlight creeping through the giant hole in the ceiling, this room is
+unlit."""
+map = 13
+mapfile = "WCCMAP01.ANS"
+maxlevel = 13
+maxmonsters = 10
+minlevel = 10
+mongroup = 26
+name = "Temple Hallway"
+regendelay = 1
+room = 9507
+room_type = "Lair"
+
+[room.exits]
+east = 9511
+north = 1
+west = 9510
+
+[[room]]
+areamax = 35
+ctlroom = 2
+desc = """
+This hallway is old, but you can tell that it has been mildly taken
+care of by someone, or something. There is no light source in these
+halls, and the further you venture, the eviler this place feels. On
+the walls notice various unrecognizable symbols and runes."""
+map = 13
+mapfile = "WCCMAP01.ANS"
+maxmonsters = 3
+name = "Temple Hallway"
+room = 9508
+
+[room.exits]
+northwest = 3
+southeast = 9509
+
+[[room]]
+areamax = 35
+ctlroom = 2
+desc = """
+This hallway is old, but you can tell that it has been mildly taken
+care of by someone, or something. There is no light source in these
+halls, and the further you venture, the eviler this place feels. On
+the walls notice various unrecognizable symbols and runes."""
+map = 13
+mapfile = "WCCMAP01.ANS"
+maxmonsters = 3
+name = "Temple Hallway"
+room = 9509
+
+[room.exits]
+northwest = 9508
+
+[[room]]
+areamax = 35
+ctlroom = 30
+desc = """
+What once appeared to be a finely crafted entranceway, now remains
+nothing but a dusty unkept mess. Several old pieces of rotting
+furniture are the only material objects remaining. Aside from the
+sunlight creeping through the giant hole in the ceiling, this room is
+unlit."""
+map = 13
+mapfile = "WCCMAP01.ANS"
+maxlevel = 13
+maxmonsters = 10
+minlevel = 10
+mongroup = 26
+name = "Temple Hallway"
+regendelay = 1
+room = 9510
+room_type = "Lair"
+
+[room.exits]
+east = 9507
+
+[[room]]
+areamax = 35
+ctlroom = 30
+desc = """
+What once appeared to be a finely crafted entranceway, now remains
+nothing but a dusty unkept mess. Several old pieces of rotting
+furniture are the only material objects remaining. Aside from the
+sunlight creeping through the giant hole in the ceiling, this room is
+unlit."""
+map = 13
+mapfile = "WCCMAP01.ANS"
+maxlevel = 13
+maxmonsters = 10
+minlevel = 10
+mongroup = 26
+name = "Temple Hallway"
+regendelay = 1
+room = 9511
+room_type = "Lair"
+
+[room.exits]
+west = 9507
+
+[[room]]
+areamax = 105
+ctlroom = 1
+desc = """
+What once appeared to be a finely crafted entranceway, now remains
+nothing but a dusty unkept mess. Several old pieces of rotting
+furniture are the only material objects remaining. Aside from the
+sunlight creeping through the giant hole in the ceiling, this room is
+unlit."""
+map = 13
+mapfile = "WCCMAP01.ANS"
+maxlevel = 18
+maxmonsters = 5
+minlevel = 17
+mongroup = 26
+name = "Temple Entrance"
+regendelay = 3
+room = 9687
+room_type = "Lair"
+
+[room.exits]
+east = 1
+
+[[room]]
+areamax = 105
+ctlroom = 1
+desc = """
+What once appeared to be a finely crafted entranceway, now remains
+nothing but a dusty unkept mess. Several old pieces of rotting
+furniture are the only material objects remaining. Aside from the
+sunlight creeping through the giant hole in the ceiling, this room is
+unlit."""
+map = 13
+mapfile = "WCCMAP01.ANS"
+maxlevel = 18
+maxmonsters = 5
+minlevel = 17
+mongroup = 26
+name = "Temple Entrance"
+regendelay = 3
+room = 9688
+room_type = "Lair"
+
+[room.exits]
+west = 1
+
+[[room]]
+areamax = 105
+ctlroom = 1
+desc = """
+What once appeared to be a finely crafted entranceway, now remains
+nothing but a dusty unkept mess. Several old pieces of rotting
+furniture are the only material objects remaining. Aside from the
+sunlight creeping through the giant hole in the ceiling, this room is
+unlit."""
+map = 13
+mapfile = "WCCMAP01.ANS"
+maxlevel = 18
+maxmonsters = 5
+minlevel = 17
+mongroup = 26
+name = "Temple Hallway"
+regendelay = 3
+room = 9689
+room_type = "Lair"
+
+[room.exits]
+north = 1
+south = 9690
+
+[[room]]
+areamax = 105
+ctlroom = 1
+desc = """
+What once appeared to be a finely crafted entranceway, now remains
+nothing but a dusty unkept mess. Several old pieces of rotting
+furniture are the only material objects remaining. Aside from the
+sunlight creeping through the giant hole in the ceiling, this room is
+unlit."""
+map = 13
+mapfile = "WCCMAP01.ANS"
+maxlevel = 18
+maxmonsters = 5
+minlevel = 17
+mongroup = 26
+name = "Temple Hallway"
+regendelay = 3
+room = 9690
+room_type = "Lair"
+
+[room.exits]
+east = 9692
+north = 9689
+west = 9691
+
+[[room]]
+areamax = 105
+ctlroom = 1
+desc = """
+What once appeared to be a finely crafted entranceway, now remains
+nothing but a dusty unkept mess. Several old pieces of rotting
+furniture are the only material objects remaining. Aside from the
+sunlight creeping through the giant hole in the ceiling, this room is
+unlit."""
+map = 13
+mapfile = "WCCMAP01.ANS"
+maxlevel = 18
+maxmonsters = 5
+minlevel = 17
+mongroup = 26
+name = "Temple Hallway"
+regendelay = 3
+room = 9691
+room_type = "Lair"
+
+[room.exits]
+east = 9690
+
+[[room]]
+areamax = 105
+ctlroom = 1
+desc = """
+What once appeared to be a finely crafted entranceway, now remains
+nothing but a dusty unkept mess. Several old pieces of rotting
+furniture are the only material objects remaining. Aside from the
+sunlight creeping through the giant hole in the ceiling, this room is
+unlit."""
+map = 13
+mapfile = "WCCMAP01.ANS"
+maxlevel = 18
+maxmonsters = 5
+minlevel = 17
+mongroup = 26
+name = "Temple Hallway"
+regendelay = 3
+room = 9692
+room_type = "Lair"
+
+[room.exits]
+west = 9690
+
+[[room_change]]
+map = 13
+room = 1
+
+[room_change.set]
+areamax = 150
+ctlroom = 1
+maxlevel = 18
+maxmonsters = 5
+minlevel = 17
+mongroup = 26
+regendelay = 4
+room_type = "Lair"
+
+[room_change.set.exits]
+east = 9688
+south = 9689
+
+[room_change.set.exits.north]
+kind = "MapChange"
+par1 = 1
+par2 = 0
+par3 = 0
+par4 = 0
+target = 1102
+
+[room_change.set.exits.west]
+kind = "Normal"
+par1 = 1
+par2 = 0
+par3 = 0
+par4 = 0
+target = 9687
+
+[room_change.was]
+areamax = 0
+ctlroom = 0
+maxlevel = 0
+maxmonsters = 3
+minlevel = 0
+mongroup = 0
+regendelay = 0
+room_type = "Normal"
+
+[room_change.was.exits]
+east = 0
+south = 0
+
+[room_change.was.exits.north]
+kind = "MapChange"
+par1 = 1
+par2 = 0
+par3 = 0
+par4 = 0
+target = 100
+
+[room_change.was.exits.west]
+kind = "Normal"
+par1 = 1
+par2 = 0
+par3 = 0
+par4 = 0
+target = 0
+
+[[room_change]]
+map = 13
+room = 2
+
+[room_change.set]
+areamax = 50
+
+[room_change.was]
+areamax = 0
+
+[[room_change]]
+map = 13
+room = 3
+
+[room_change.set]
+areamax = 50
+
+[room_change.was]
+areamax = 0
+
+[[room_change]]
+map = 13
+room = 4
+
+[room_change.set]
+areamax = 50
+
+[room_change.was]
+areamax = 0
+
+[[room_change]]
+map = 13
+room = 5
+
+[room_change.set]
+areamax = 50
+
+[room_change.was]
+areamax = 0
+
+[[room_change]]
+map = 13
+room = 6
+
+[room_change.set]
+areamax = 50
+
+[room_change.was]
+areamax = 0
+
+[[room_change]]
+map = 13
+room = 7
+
+[room_change.set]
+areamax = 50
+maxlevel = 111
+minlevel = 111
+mongroup = 2
+regendelay = 2
+room_type = "Lair"
+specmon = 1132
+
+[room_change.was]
+areamax = 0
+maxlevel = 0
+minlevel = 0
+mongroup = 0
+regendelay = 0
+room_type = "Normal"
+specmon = 0
+
+[[room_change]]
+map = 13
+room = 8
+
+[room_change.set]
+areamax = 50
+
+[room_change.was]
+areamax = 0
+
+[[room_change]]
+map = 13
+room = 9
+
+[room_change.set]
+areamax = 50
+
+[room_change.was]
+areamax = 0
+
+[[room_change]]
+map = 13
+room = 10
+
+[room_change.set]
+areamax = 50
+
+[room_change.was]
+areamax = 0
+
+[[room_change]]
+map = 13
+room = 11
+
+[room_change.set]
+areamax = 50
+
+[room_change.was]
+areamax = 0
+
+[[room_change]]
+map = 13
+room = 12
+
+[room_change.set]
+areamax = 50
+
+[room_change.was]
+areamax = 0
+
+[[room_change]]
+map = 13
+room = 13
+
+[room_change.set]
+areamax = 50
+
+[room_change.was]
+areamax = 0
+
+[[room_change]]
+map = 13
+room = 14
+
+[room_change.set]
+areamax = 50
+
+[room_change.was]
+areamax = 0
+
+[[room_change]]
+map = 13
+room = 15
+
+[room_change.set]
+areamax = 50
+
+[room_change.was]
+areamax = 0
+
+[[room_change]]
+map = 13
+room = 16
+
+[room_change.set]
+areamax = 50
+
+[room_change.was]
+areamax = 0
+
+[[room_change]]
+map = 13
+room = 17
+
+[room_change.set]
+areamax = 50
+
+[room_change.was]
+areamax = 0
+
+[[room_change]]
+map = 13
+room = 18
+
+[room_change.set]
+areamax = 50
+
+[room_change.was]
+areamax = 0
+
+[[room_change]]
+map = 13
+room = 19
+
+[room_change.set]
+areamax = 50
+
+[room_change.was]
+areamax = 0
+
+[[room_change]]
+map = 13
+room = 20
+
+[room_change.set]
+areamax = 50
+
+[room_change.was]
+areamax = 0
+
+[[room_change]]
+map = 13
+room = 21
+
+[room_change.set]
+areamax = 50
+
+[room_change.was]
+areamax = 0
+
+[[room_change]]
+map = 13
+room = 22
+
+[room_change.set]
+areamax = 50
+
+[room_change.was]
+areamax = 0
+
+[[room_change]]
+map = 13
+room = 23
+
+[room_change.set]
+areamax = 50
+
+[room_change.was]
+areamax = 0
+
+[[room_change]]
+map = 13
+room = 24
+
+[room_change.set]
+areamax = 50
+
+[room_change.was]
+areamax = 0
+
+[[room_change]]
+map = 13
+room = 25
+
+[room_change.set]
+areamax = 1
+maxlevel = 200
+minlevel = 200
+mongroup = 2
+regendelay = 4
+room_type = "Lair"
+specmon = 1133
+
+[room_change.was]
+areamax = 0
+maxlevel = 0
+minlevel = 0
+mongroup = 0
+regendelay = 0
+room_type = "Normal"
+specmon = 0
+
+[[room_change]]
+map = 13
+room = 26
+
+[room_change.set]
+areamax = 50
+
+[room_change.was]
+areamax = 0
+
+[[room_change]]
+map = 13
+room = 27
+
+[room_change.set]
+areamax = 50
+
+[room_change.was]
+areamax = 0
+
+[[room_change]]
+map = 13
+room = 28
+
+[room_change.set]
+areamax = 50
+
+[room_change.was]
+areamax = 0
+
+[[room_change]]
+map = 13
+room = 29
+
+[room_change.set]
+areamax = 50
+
+[room_change.was]
+areamax = 0
+
+[[room_change]]
+map = 13
+room = 30
+
+[room_change.set]
+areamax = 50
+
+[room_change.was]
+areamax = 0
+
+[[room_change]]
+map = 13
+room = 31
+
+[room_change.set]
+areamax = 50
+
+[room_change.was]
+areamax = 0
+
+[[room_change]]
+map = 13
+room = 32
+
+[room_change.set]
+areamax = 50
+
+[room_change.was]
+areamax = 0
+
+[[room_change]]
+map = 13
+room = 33
+
+[room_change.set]
+areamax = 50
+
+[room_change.was]
+areamax = 0
+
+[[room_change]]
+map = 13
+room = 34
+
+[room_change.set]
+areamax = 50
+
+[room_change.was]
+areamax = 0
+
+[[room_change]]
+map = 13
+room = 35
+
+[room_change.set]
+areamax = 50
+maxlevel = 258
+minlevel = 258
+mongroup = 2
+regendelay = 4
+room_type = "Lair"
+specmon = 1141
+
+[room_change.was]
+areamax = 0
+maxlevel = 0
+minlevel = 0
+mongroup = 0
+regendelay = 0
+room_type = "Normal"
+specmon = 0
+
+[[room_change]]
+map = 13
+room = 36
+
+[room_change.set]
+areamax = 50
+
+[room_change.was]
+areamax = 0
+
+[[room_change]]
+map = 13
+room = 37
+
+[room_change.set]
+areamax = 50
+
+[room_change.was]
+areamax = 0
+
+[[room_change]]
+map = 13
+room = 38
+
+[room_change.set]
+areamax = 50
+
+[room_change.was]
+areamax = 0
+
+[[room_change]]
+map = 13
+room = 39
+
+[room_change.set]
+areamax = 50
+
+[room_change.was]
+areamax = 0

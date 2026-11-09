@@ -1,0 +1,27 @@
+[[room]]
+areamax = 70
+ctlroom = 8335
+deathroom = 8270
+desc = """
+You are walking into the petrified forest. Gigantic trees loom hundred
+s and hundres of feet above you. You feel as if a monsterous race
+may dwell here."""
+light = -50
+map = 23
+mapfile = "WCCMAP01.ANS"
+maxlevel = 495
+maxmonsters = 1
+minlevel = 493
+mongroup = 1
+name = "Petrified Forest"
+regendelay = 3
+room = 5777
+room_type = "Lair"
+
+[room.exits.north]
+kind = "MapChange"
+par1 = 1
+par2 = 0
+par3 = 0
+par4 = 0
+target = 9367

@@ -1,0 +1,297 @@
+[[room_change]]
+map = 5
+room = 1
+
+[room_change.set]
+areamax = 50
+
+[room_change.was]
+areamax = 0
+
+[[room_change]]
+map = 5
+room = 2
+
+[room_change.set]
+areamax = 50
+regendelay = 8
+
+[room_change.was]
+areamax = 0
+regendelay = 5
+
+[[room_change]]
+map = 5
+room = 3
+
+[room_change.set]
+areamax = 50
+regendelay = 8
+
+[room_change.was]
+areamax = 0
+regendelay = 5
+
+[[room_change]]
+map = 5
+room = 4
+
+[room_change.set]
+areamax = 50
+regendelay = 8
+
+[room_change.was]
+areamax = 0
+regendelay = 5
+
+[[room_change]]
+map = 5
+room = 5
+
+[room_change.set]
+areamax = 50
+regendelay = 8
+
+[room_change.was]
+areamax = 0
+regendelay = 5
+
+[[room_change]]
+map = 5
+room = 6
+
+[room_change.set]
+areamax = 50
+regendelay = 8
+
+[room_change.was]
+areamax = 0
+regendelay = 5
+
+[[room_change]]
+map = 5
+room = 7
+
+[room_change.set]
+areamax = 50
+regendelay = 8
+
+[room_change.was]
+areamax = 0
+regendelay = 5
+
+[[room_change]]
+map = 5
+room = 8
+
+[room_change.set]
+areamax = 50
+regendelay = 8
+
+[room_change.was]
+areamax = 0
+regendelay = 5
+
+[[room_change]]
+map = 5
+room = 9
+
+[room_change.set]
+areamax = 50
+regendelay = 8
+
+[room_change.was]
+areamax = 0
+regendelay = 5
+
+[[room_change]]
+map = 5
+room = 10
+
+[room_change.set]
+areamax = 50
+regendelay = 8
+
+[room_change.was]
+areamax = 0
+regendelay = 5
+
+[[room_change]]
+map = 5
+room = 11
+
+[room_change.set]
+areamax = 50
+regendelay = 8
+
+[room_change.was]
+areamax = 0
+regendelay = 5
+
+[[room_change]]
+map = 5
+room = 12
+
+[room_change.set]
+areamax = 50
+regendelay = 8
+
+[room_change.was]
+areamax = 0
+regendelay = 5
+
+[[room_change]]
+map = 5
+room = 13
+
+[room_change.set]
+areamax = 50
+regendelay = 8
+
+[room_change.was]
+areamax = 0
+regendelay = 5
+
+[[room_change]]
+map = 5
+room = 14
+
+[room_change.set]
+areamax = 50
+regendelay = 8
+
+[room_change.was]
+areamax = 0
+regendelay = 5
+
+[[room_change]]
+map = 5
+room = 15
+
+[room_change.set]
+areamax = 50
+regendelay = 8
+
+[room_change.was]
+areamax = 0
+regendelay = 5
+
+[[room_change]]
+map = 5
+room = 16
+
+[room_change.set]
+areamax = 50
+regendelay = 8
+
+[room_change.was]
+areamax = 0
+regendelay = 5
+
+[[room_change]]
+map = 5
+room = 17
+
+[room_change.set]
+areamax = 50
+regendelay = 8
+
+[room_change.was]
+areamax = 0
+regendelay = 5
+
+[[room_change]]
+map = 5
+room = 18
+
+[room_change.set]
+areamax = 50
+regendelay = 8
+
+[room_change.was]
+areamax = 0
+regendelay = 5
+
+[[room_change]]
+map = 5
+room = 19
+
+[room_change.set]
+areamax = 50
+regendelay = 8
+
+[room_change.was]
+areamax = 0
+regendelay = 5
+
+[[room_change]]
+map = 5
+room = 20
+
+[room_change.set]
+areamax = 50
+regendelay = 8
+
+[room_change.was]
+areamax = 0
+regendelay = 5
+
+[[room_change]]
+map = 5
+room = 21
+
+[room_change.set]
+areamax = 50
+regendelay = 8
+
+[room_change.was]
+areamax = 0
+regendelay = 5
+
+[[room_change]]
+map = 5
+room = 22
+
+[room_change.set]
+areamax = 50
+regendelay = 8
+
+[room_change.was]
+areamax = 0
+regendelay = 5
+
+[[room_change]]
+map = 5
+room = 23
+
+[room_change.set]
+areamax = 50
+regendelay = 8
+
+[room_change.was]
+areamax = 0
+regendelay = 5
+
+[[room_change]]
+map = 5
+room = 24
+
+[room_change.set]
+areamax = 50
+regendelay = 8
+
+[room_change.was]
+areamax = 0
+regendelay = 5
+
+[[room_change]]
+map = 5
+room = 25
+
+[room_change.set]
+areamax = 50
+regendelay = 8
+
+[room_change.was]
+areamax = 0
+regendelay = 5

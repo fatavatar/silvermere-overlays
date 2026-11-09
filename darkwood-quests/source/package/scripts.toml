@@ -1,0 +1,499 @@
+# Scripts, word for word from the MDB. [[script_change]] replaces a realm script with
+# Darkwood's, which is the realm's lines plus the ones in "added".
+
+[[script_change]]
+number = 335
+who = "Chancellor Annora (good)"
+added = ["protection:10020", "magnus:10100"]
+action = """
+messenger:337
+letter:337
+return:352
+Markus:352
+Commander Markus:352
+box:352
+darkwood box:352
+quest:352
+festus:379
+missions:518
+head:519
+success:1252
+foe:2853
+knowledge:9459
+stone:4309
+journey:8021
+ritual:8121
+repent:8232
+protection:10020
+magnus:10100
+"""
+
+[[script_change]]
+number = 366
+who = "The Grey Lord (neutral)"
+added = ["balance:10039", "magnus:10072"]
+action = """
+code:368
+code word:368
+codeword:368
+word:368
+teleport:369
+box:376
+return:382
+missions:505
+eye:509
+reward:1284
+destroyed:2856
+threat:2846
+knowledge:9473
+stone:4311
+journey:8051
+ritual:8141
+balance:10039
+magnus:10072
+"""
+
+[[script_change]]
+number = 428
+who = "Balthazar (evil)"
+added = ["monopoly:10058", "magnus:10086"]
+action = """
+work:430
+accept:433
+reward:436
+return:486
+alliance:1318
+news:2859
+journey:2893
+knowledge:9488
+stone:4313
+deed:8117
+ritual:8146
+monopoly:10058
+magnus:10086
+"""
+
+[[script_change]]
+number = 431
+who = "Balthazar (evil)"
+added = ["testability 128 53:checkability 128 53:evilaligned 120 865:failability 126 866:failability 127 866:minlevel 200 3244:giveability 128 54:text 10075", "testability 128 47:checkability 128 47:evilaligned 120 865:failability 126 866:failability 127 866:minlevel 150 3244:text 10042"]
+action = """
+testability 128 53:checkability 128 53:evilaligned 120 865:failability 126 866:failability 127 866:minlevel 200 3244:giveability 128 54:text 10075
+testability 128 47:checkability 128 47:evilaligned 120 865:failability 126 866:failability 127 866:minlevel 150 3244:text 10042
+testability 128 41:checkability 128 41:evilaligned 120 865:failability 126 866:failability 127 866:minlevel 100 3244:text 8145
+testability 128 31:checkability 128 31:evilaligned 120 865:failability 126 866:failability 127 866:minlevel 75 3244:text 8116:failitem 3132:giveitem 3132
+testability 128 14:checkability 128 14:evilaligned 120 865:failability 126 866:failability 127 866:minlevel 50 3244:text 9487
+testability 128 12:checkability 128 12:evilaligned 60 865:failability 126 866:failability 127 866:minlevel 40 3244:text 2848
+testability 128 4:checkability 128 4:evilaligned 60 865:failability 126 866:failability 127 866:minlevel 30 3244:text 1287
+testability 128 3:checkability 128 3:evilaligned 60 865:failability 126 866:failability 127 866:minlevel 20 3244:text 439
+testability 128 1:checkability 128 1:evilaligned 30 865:failability 126 866:failability 127 866:minlevel 10 3244:text 432
+"""
+
+[[script_change]]
+number = 495
+who = "Chancellor Annora (good)"
+added = ["goodaligned -51 801:failability 127 801:failability 128 801:testability 126 47:checkability 126 47:minlevel 150 3243:text 10004", "goodaligned -51 801:failability 127 801:failability 128 801:testability 126 53:checkability 126 53:minlevel 200 3243:giveability 126 54:text 10089"]
+action = """
+goodaligned -51 801:failability 127 801:failability 128 801:testability 126 6:checkability 126 6:minlevel 20 3243:giveability 126 7:text 496
+goodaligned -51 801:failability 127 801:failability 128 801:testability 126 15:checkability 126 8:minlevel 30 3243:text 1095
+goodaligned -51 801:failability 127 801:failability 128 801:testability 126 17:checkability 126 17:minlevel 40 3243:text 2844
+goodaligned -51 801:failability 127 801:failability 128 801:testability 126 19:checkability 126 19:minlevel 50 3243:text 9472
+goodaligned -51 801:failability 127 801:failability 128 801:testability 126 31:checkability 126 31:minlevel 75 3243:text 8020
+goodaligned -51 801:failability 127 801:failability 128 801:testability 126 41:checkability 126 41:minlevel 100 3243:text 8120
+goodaligned -51 801:failability 127 801:failability 128 801:testability 126 47:checkability 126 47:minlevel 150 3243:text 10004
+goodaligned -51 801:failability 127 801:failability 128 801:testability 126 53:checkability 126 53:minlevel 200 3243:giveability 126 54:text 10089
+"""
+
+[[script_change]]
+number = 506
+who = "The Grey Lord (neutral)"
+added = ["evilaligned -50 839:goodaligned 29 839:failability 126:failability 128:testability 127 47:checkability 127 47:minlevel 150 3245:text 10023", "evilaligned -50 839:goodaligned 29 839:failability 126:failability 128:testability 127 53:checkability 127 53:minlevel 200 3245:giveability 127 54:text 10061"]
+action = """
+evilaligned -50 839:goodaligned 29 839:failability 126:failability 128:testability 127 2:checkability 127 2:minlevel 10 3245:text 507
+evilaligned -50 839:goodaligned 29 839:failability 126:failability 128:testability 127 7:checkability 127 7:minlevel 20 3245:text 508
+evilaligned -50 839:goodaligned 29 839:failability 126:failability 128:testability 127 8:checkability 127 8:minlevel 30 3245:text 1259
+evilaligned -50 839:goodaligned 29 839:failability 126:failability 128:testability 127 11:checkability 127 11:minlevel 40 3245:text 2845
+evilaligned -50 839:goodaligned 29 839:failability 126:failability 128:testability 127 13:checkability 127 13:minlevel 50 3245:text 9486
+evilaligned -50 839:goodaligned 29 839:failability 126:failability 128:testability 127 31:checkability 127 31:minlevel 75 3245:text 8050
+evilaligned -50 839:goodaligned 29 839:failability 126:failability 128:testability 127 41:checkability 127 41:minlevel 100 3245:text 8140
+evilaligned -50 839:goodaligned 29 839:failability 126:failability 128:testability 127 47:checkability 127 47:minlevel 150 3245:text 10023
+evilaligned -50 839:goodaligned 29 839:failability 126:failability 128:testability 127 53:checkability 127 53:minlevel 200 3245:giveability 127 54:text 10061
+"""
+
+[[script]]
+number = 9706
+called_from = "Monster #696"
+leads_to = 9707
+action = """
+balance:10064
+gas:10069
+evil:10078
+demon:10083
+good:10092
+dragon:10097
+magnus:9712
+"""
+
+[[script]]
+number = 9708
+called_from = "Spell #2285"
+leads_to = 0
+action = """
+testability 126 58:checkability 126 58:goodaligned -51:giveability 126 59:text 9709
+testability 127 58:checkability 127 58:evilaligned -50:goodaligned 29:giveability 127 59:text 9709
+testability 128 58:checkability 128 58:evilaligned 60:giveability 128 59:text 9709
+"""
+
+[[script]]
+number = 9710
+called_from = "Spell #2287"
+leads_to = 0
+action = """
+testability 126 59:checkability 126 59:goodaligned -51:giveability 126 60:text 9711
+testability 127 59:checkability 127 59:evilaligned -50:goodaligned 29:giveability 127 60:text 9711
+testability 128 59:checkability 128 59:evilaligned 60:giveability 128 60:text 9711
+"""
+
+[[script]]
+number = 9713
+called_from = "Room 1/6024"
+leads_to = 0
+action = """
+go mirror:message 10276:teleport 789 3:message 10277
+enter mirror:message 10276:teleport 789 3:message 10277
+"""
+
+[[script]]
+number = 9714
+called_from = "Room 3/789, Room 7/789"
+leads_to = 0
+action = """
+go mirror:message 10276:teleport 6024 1:message 10277
+enter mirror:message 10276:teleport 6024 1:message 10277
+"""
+
+[[script]]
+number = 9715
+called_from = "Spell #2296"
+leads_to = 0
+action = """
+needmonster 1319:cast 2297
+"""
+
+[[script]]
+number = 9716
+called_from = "Spell #2298"
+leads_to = 0
+action = """
+needmonster 1319:cast 2299
+"""
+
+[[script]]
+number = 9717
+called_from = "Spell #2300"
+leads_to = 0
+action = """
+needmonster 1319:cast 2301
+"""
+
+[[script]]
+number = 9718
+called_from = "Spell #2302"
+leads_to = 0
+action = """
+checkability 126 54:teleport 6010 1:text 9719
+"""
+
+[[script]]
+number = 10005
+called_from = "Monster #1232"
+leads_to = 10006
+action = """
+protection:10007
+angel:10012
+eradicate:10017
+"""
+
+[[script]]
+number = 10008
+called_from = "Textblock #10007"
+leads_to = 0
+action = """
+goodaligned -51 801:failability 127:failability 128:checkability 126 47:giveability 126 48:text 10009
+"""
+
+[[script]]
+number = 10010
+called_from = "Spell #2269"
+leads_to = 0
+action = """
+goodaligned -51:failability 127:failability 128:testability 126 48:checkability 126 48:giveability 126 49:text 10011
+"""
+
+[[script]]
+number = 10013
+called_from = "Textblock #10012"
+leads_to = 0
+action = """
+goodaligned -51 801:failability 127:failability 128:testability 126 49:checkability 126 49:giveability 126 50:text 10014
+"""
+
+[[script]]
+number = 10015
+called_from = "Spell #2271"
+leads_to = 0
+action = """
+goodaligned -51:failability 127:failability 128:testability 126 50:checkability 126 50:giveability 126 51:text 10016
+"""
+
+[[script]]
+number = 10018
+called_from = "Textblock #10017"
+leads_to = 0
+action = """
+goodaligned -51 801:failability 127:failability 128:testability 126 51:checkability 126 51:giveability 126 52:text 10019
+"""
+
+[[script]]
+number = 10021
+called_from = "Textblock #10020"
+leads_to = 0
+action = """
+goodaligned -51 801:failability 127:failability 128:testability 126 52:checkability 126 52:failitem 5007:giveitem 5007:addexp 500000000:addexp 500000000:addexp 500000000:addexp 500000000:addexp 500000000:addexp 500000000:giveability 126 53:text 10022:clearitem 5007
+"""
+
+[[script]]
+number = 10024
+called_from = "Monster #1321"
+leads_to = 10025
+action = """
+protection:10026
+dragon:10031
+monster:10036
+"""
+
+[[script]]
+number = 10027
+called_from = "Textblock #10026"
+leads_to = 0
+action = """
+evilaligned -50 839:goodaligned 29 839:failability 126:failability 128:checkability 127 47:giveability 127 48:text 10028
+"""
+
+[[script]]
+number = 10029
+called_from = "Spell #2273"
+leads_to = 0
+action = """
+evilaligned -50 839:goodaligned 29 839:failability 126:failability 128:testability 127 48:checkability 127 48:giveability 127 49:text 10030
+"""
+
+[[script]]
+number = 10032
+called_from = "Textblock #10031"
+leads_to = 0
+action = """
+evilaligned -50 839:goodaligned 29 839:failability 126:failability 128:testability 127 49:checkability 127 49:giveability 127 50:text 10033
+"""
+
+[[script]]
+number = 10034
+called_from = "Spell #2275"
+leads_to = 0
+action = """
+evilaligned -50 839:goodaligned 29 839:failability 126:failability 128:testability 127 50:checkability 127 50:giveability 127 51:text 10035
+"""
+
+[[script]]
+number = 10037
+called_from = "Textblock #10036"
+leads_to = 0
+action = """
+evilaligned -50 839:goodaligned 29 839:failability 126:failability 128:testability 127 51:checkability 127 51:giveability 127 52:text 10038
+"""
+
+[[script]]
+number = 10040
+called_from = "Textblock #10039"
+leads_to = 0
+action = """
+evilaligned -50 839:goodaligned 29 839:failability 126:failability 128:testability 127 52:checkability 127 52:failitem 5008:giveitem 5008:addexp 500000000:addexp 500000000:addexp 500000000:addexp 500000000:addexp 500000000:addexp 500000000:giveability 127 53:text 10041:clearitem 5008
+"""
+
+[[script]]
+number = 10043
+called_from = "Monster #1205"
+leads_to = 10044
+action = """
+service:10045
+angel:10050
+starmetal:10055
+"""
+
+[[script]]
+number = 10046
+called_from = "Textblock #10045"
+leads_to = 0
+action = """
+evilaligned 120 2067:failability 126:failability 127:checkability 128 47:giveability 128 48:text 10047
+"""
+
+[[script]]
+number = 10048
+called_from = "Spell #2277"
+leads_to = 0
+action = """
+evilaligned 120 2067:failability 126:failability 127:testability 128 48:checkability 128 48:giveability 128 49:text 10049
+"""
+
+[[script]]
+number = 10051
+called_from = "Textblock #10050"
+leads_to = 0
+action = """
+evilaligned 120 2067:failability 126:failability 127:testability 128 49:checkability 128 49:giveability 128 50:text 10052:givecoins 1000 P
+"""
+
+[[script]]
+number = 10053
+called_from = "Spell #2279"
+leads_to = 0
+action = """
+evilaligned 120 2067:failability 126:failability 127:testability 128 50:checkability 128 50:giveability 128 51:text 10054
+"""
+
+[[script]]
+number = 10056
+called_from = "Textblock #10055"
+leads_to = 0
+action = """
+evilaligned 120 2067:failability 126:failability 127:testability 128 51:checkability 128 51:giveability 128 52:text 10057
+"""
+
+[[script]]
+number = 10059
+called_from = "Textblock #10058"
+leads_to = 0
+action = """
+evilaligned 120 2067:failability 126:failability 127:testability 128 52:checkability 128 52:failitem 5009:giveitem 5009:addexp 500000000:addexp 500000000:addexp 500000000:addexp 500000000:addexp 500000000:addexp 500000000:giveability 128 53:text 10060:clearitem 5009
+"""
+
+[[script]]
+number = 10062
+called_from = "Spell #2281"
+leads_to = 0
+action = """
+evilaligned -50 839:goodaligned 29 839:failability 126:failability 128:testability 127 54:checkability 127 54:giveability 127 55:text 10063
+"""
+
+[[script]]
+number = 10065
+called_from = "Textblock #10064"
+leads_to = 0
+action = """
+evilaligned -50 839:goodaligned 29 839:failability 126:failability 128:checkability 127 55:giveability 127 56:text 10066
+"""
+
+[[script]]
+number = 10067
+called_from = "Spell #2283"
+leads_to = 0
+action = """
+evilaligned -50 839:goodaligned 29 839:failability 126:failability 128:testability 127 56:checkability 127 56:giveability 127 57:text 10068
+"""
+
+[[script]]
+number = 10070
+called_from = "Textblock #10069"
+leads_to = 0
+action = """
+evilaligned -50 839:goodaligned 29 839:failability 126:failability 128:testability 127 57:checkability 127 57:giveability 127 58:giveitem 5014:text 10071
+"""
+
+[[script]]
+number = 10073
+called_from = "Textblock #10072"
+leads_to = 0
+action = """
+evilaligned -50 839:goodaligned 29 839:failability 126:failability 128:testability 127 60:checkability 127 60:takeitem 5008:giveitem 5011:addexp 500000000:addexp 500000000:addexp 500000000:addexp 500000000:addexp 500000000:addexp 500000000:giveability 127 61:text 10074:clearitem 5011
+"""
+
+[[script]]
+number = 10076
+called_from = "Spell #2289"
+leads_to = 0
+action = """
+evilaligned 120 2067:failability 126:failability 127:testability 128 54:checkability 128 54:giveability 128 55:text 10077
+"""
+
+[[script]]
+number = 10079
+called_from = "Textblock #10078"
+leads_to = 0
+action = """
+evilaligned 120 2067:failability 126:failability 127:checkability 128 55:giveability 128 56:text 10080
+"""
+
+[[script]]
+number = 10081
+called_from = "Spell #2291"
+leads_to = 0
+action = """
+evilaligned 120 2067:failability 126:failability 127:testability 128 56:checkability 128 56:giveability 128 57:text 10082
+"""
+
+[[script]]
+number = 10084
+called_from = "Textblock #10083"
+leads_to = 0
+action = """
+evilaligned 120 2067:failability 126:failability 127:testability 128 57:checkability 128 57:giveability 128 58:giveitem 5015:text 10085
+"""
+
+[[script]]
+number = 10087
+called_from = "Textblock #10086"
+leads_to = 0
+action = """
+evilaligned 120 2067:failability 126:failability 127:testability 128 60:checkability 128 60:takeitem 5009:giveitem 5012:addexp 500000000:addexp 500000000:addexp 500000000:addexp 500000000:addexp 500000000:addexp 500000000:giveability 128 61:text 10088:clearitem 5012
+"""
+
+[[script]]
+number = 10090
+called_from = "Spell #2293"
+leads_to = 0
+action = """
+goodaligned -51:failability 127:failability 128:testability 126 54:checkability 126 54:giveability 126 55:text 10091
+"""
+
+[[script]]
+number = 10093
+called_from = "Textblock #10092"
+leads_to = 0
+action = """
+goodaligned -51:failability 127:failability 128:checkability 126 55:giveability 126 56:text 10094
+"""
+
+[[script]]
+number = 10095
+called_from = "Spell #2295"
+leads_to = 0
+action = """
+goodaligned -51:failability 127:failability 128:testability 126 56:checkability 126 56:giveability 126 57:text 10096
+"""
+
+[[script]]
+number = 10098
+called_from = "Textblock #10097"
+leads_to = 0
+action = """
+goodaligned -51:failability 127:failability 128:testability 126 57:checkability 126 57:giveability 126 58:giveitem 5016:text 10099
+"""
+
+[[script]]
+number = 10101
+called_from = "Textblock #10100"
+leads_to = 0
+action = """
+goodaligned -51 801:failability 127:failability 128:testability 126 60:checkability 126 60:takeitem 5007:giveitem 5010:addexp 500000000:addexp 500000000:addexp 500000000:addexp 500000000:addexp 500000000:addexp 500000000:giveability 126 61:text 10102:clearitem 5010
+"""

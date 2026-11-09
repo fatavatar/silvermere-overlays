@@ -1,0 +1,129 @@
+# New items. text_template = the realm item whose hit, miss and read messages it borrows.
+
+[[item]]
+number = 5007
+name = "Aura of Light"
+text_template = 1351
+desc = """
+This faint halo of golden light hovers above your shoulders,
+warm as a summer morning. It pulses gently whenever evil
+draws near, and burns brighter when you stand your ground
+against it.
+"""
+abilities = [["LoyalItem", 1], ["BackstabAv", 30], ["BackstabMin", 15], ["BackstabMax", 15], ["Damage", 3], ["Defence", 2], ["SpellDuration", 5], ["DefVsEvil", 10]]
+data = { UseCount = -1, Price = 500, Currency = 4, "Not Droppable" = 1, "Destroy On Death" = 1 }
+
+[[item]]
+number = 5008
+name = "Scales of Balance"
+text_template = 1351
+desc = """
+This tiny set of silver scales floats beside you, its two
+pans in perfect balance. However you move, it never tips,
+and a calm sense of order settles over you while it is near.
+"""
+abilities = [["LoyalItem", 1], ["BackstabAv", 30], ["BackstabMin", 15], ["BackstabMax", 15], ["Damage", 3], ["Defence", 4], ["SpellDuration", 5]]
+data = { UseCount = -1, Price = 500, Currency = 4, "Not Droppable" = 1, "Destroy On Death" = 1 }
+
+[[item]]
+number = 5009
+name = "Icon of Evil"
+text_template = 1351
+desc = """
+This small black icon floats at your shoulder, carved in the
+shape of a grinning horned skull. A cold red light glimmers
+in its eyes, and a cruel strength stirs within you while it
+is near.
+"""
+abilities = [["LoyalItem", 1], ["BackstabAv", 30], ["BackstabMin", 15], ["BackstabMax", 15], ["Damage", 4], ["Defence", 2], ["SpellDuration", 5], ["DefVsGood", 20]]
+data = { UseCount = -1, Price = 500, Currency = 4, "Not Droppable" = 1, "Destroy On Death" = 1 }
+
+[[item]]
+number = 5010
+name = "Aura of Light"
+text_template = 1351
+desc = """
+This radiant halo of golden light circles above your head,
+so bright that shadows shrink away from you. It hums with
+the blessing of the Light, and you sense you could call upon
+it to burn away any darkness laid upon you.
+"""
+abilities = [["LoyalItem", 1], ["BackstabAv", 60], ["BackstabMin", 30], ["BackstabMax", 30], ["Damage", 6], ["Defence", 4], ["SpellDuration", 10], ["DefVsEvil", 20], ["OneTimeCast", 2303]]
+data = { UseCount = -1, Price = 500, Currency = 4, "Not Droppable" = 1, "Destroy On Death" = 1 }
+
+[[item]]
+number = 5011
+name = "Scales of Balance"
+text_template = 1351
+desc = """
+This small set of scales, wrought of silver and gold, floats
+steadily at your side. Its pans glow with a soft, even
+light, and you sense it could restore clarity to a mind
+clouded by chaos.
+"""
+abilities = [["LoyalItem", 1], ["BackstabAv", 60], ["BackstabMin", 30], ["BackstabMax", 30], ["Damage", 6], ["Defence", 8], ["SpellDuration", 10], ["OneTimeCast", 2304]]
+data = { UseCount = -1, Price = 500, Currency = 4, "Not Droppable" = 1, "Destroy On Death" = 1 }
+
+[[item]]
+number = 5012
+name = "Icon of Evil"
+text_template = 1351
+desc = """
+This black icon of a horned skull hovers at your shoulder,
+wreathed in dark red flame. Chains seem to wither in its
+presence, and you sense that no bond could hold you while it
+watches over you.
+"""
+abilities = [["LoyalItem", 1], ["BackstabAv", 60], ["BackstabMin", 30], ["BackstabMax", 30], ["Damage", 8], ["Defence", 4], ["SpellDuration", 10], ["DefVsGood", 40], ["OneTimeCast", 2305]]
+data = { UseCount = -1, Price = 500, Currency = 4, "Not Droppable" = 1, "Destroy On Death" = 1 }
+
+[[item]]
+number = 5013
+name = "large mirror"
+text_template = 1351
+desc = """
+This huge mirror stands taller than a man, set in an ornate
+frame of gilded oak. Its surface glows with a cold silver
+light, and your reflection lags a moment behind your
+movements. You could almost step right into it.
+"""
+abilities = [["RoomLight", 9999], ["DelCleanup", 0], ["UserLight", 999], ["GenLight", 999], ["VisiblePlaced", 0]]
+data = { Encum = 32767, ItemType = 10, Currency = 2 }
+
+[[item]]
+number = 5014
+name = "acid-filled globe"
+text_template = 119
+desc = """
+This fragile glass globe is filled with a swirling, bubbling
+green liquid. The glass is warm to the touch, and a wisp of
+acrid vapour escapes from a hairline crack near its stopper.
+"""
+abilities = [["OneTimeCast", 2296]]
+data = { Encum = 15, ItemType = 9, UseCount = 1, Price = 15, Currency = 2, Gettable = 1 }
+
+[[item]]
+number = 5015
+name = "demon-headed glyph"
+text_template = 119
+desc = """
+This palm-sized plate of black iron bears a snarling demon's
+head, engraved so deeply that its eyes seem to follow you.
+Red light pulses in its lines, and it is hot enough to sting
+your fingers.
+"""
+abilities = [["OneTimeCast", 2298]]
+data = { Encum = 15, ItemType = 9, UseCount = 1, Price = 15, Currency = 2, Gettable = 1 }
+
+[[item]]
+number = 5016
+name = "rainbow rune"
+text_template = 119
+desc = """
+This smooth, round stone is etched with a single rune that
+shimmers with every colour of the rainbow. Warm light
+ripples across it, and holding it fills you with a quiet
+sense of hope.
+"""
+abilities = [["OneTimeCast", 2300]]
+data = { Encum = 15, ItemType = 9, UseCount = 1, Price = 15, Currency = 2, Gettable = 1 }

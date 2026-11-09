@@ -1,0 +1,1171 @@
+# The Darkwood quest scripts (word for word from the MDB), the six realm scripts they
+# extend (taken over whole with `replace = true`, keeping their links), and the drafted
+# conversations.
+
+[[text]]
+number = 335
+replace = true
+link = 336
+text = """
+messenger:337
+letter:337
+return:352
+Markus:352
+Commander Markus:352
+box:352
+darkwood box:352
+quest:352
+festus:379
+missions:518
+head:519
+success:1252
+foe:2853
+knowledge:9459
+stone:4309
+journey:8021
+ritual:8121
+repent:8232
+protection:10020
+magnus:10100
+"""
+why = "Chancellor Annora (good): the realm's lines plus protection:10020, magnus:10100"
+
+[[text]]
+number = 366
+replace = true
+link = 367
+text = """
+code:368
+code word:368
+codeword:368
+word:368
+teleport:369
+box:376
+return:382
+missions:505
+eye:509
+reward:1284
+destroyed:2856
+threat:2846
+knowledge:9473
+stone:4311
+journey:8051
+ritual:8141
+balance:10039
+magnus:10072
+"""
+why = "The Grey Lord (neutral): the realm's lines plus balance:10039, magnus:10072"
+
+[[text]]
+number = 428
+replace = true
+link = 429
+text = """
+work:430
+accept:433
+reward:436
+return:486
+alliance:1318
+news:2859
+journey:2893
+knowledge:9488
+stone:4313
+deed:8117
+ritual:8146
+monopoly:10058
+magnus:10086
+"""
+why = "Balthazar (evil): the realm's lines plus monopoly:10058, magnus:10086"
+
+[[text]]
+number = 431
+replace = true
+link = 0
+text = """
+testability 128 53:checkability 128 53:evilaligned 120 865:failability 126 866:failability 127 866:minlevel 200 3244:giveability 128 54:text 10075
+testability 128 47:checkability 128 47:evilaligned 120 865:failability 126 866:failability 127 866:minlevel 150 3244:text 10042
+testability 128 41:checkability 128 41:evilaligned 120 865:failability 126 866:failability 127 866:minlevel 100 3244:text 8145
+testability 128 31:checkability 128 31:evilaligned 120 865:failability 126 866:failability 127 866:minlevel 75 3244:text 8116:failitem 3132:giveitem 3132
+testability 128 14:checkability 128 14:evilaligned 120 865:failability 126 866:failability 127 866:minlevel 50 3244:text 9487
+testability 128 12:checkability 128 12:evilaligned 60 865:failability 126 866:failability 127 866:minlevel 40 3244:text 2848
+testability 128 4:checkability 128 4:evilaligned 60 865:failability 126 866:failability 127 866:minlevel 30 3244:text 1287
+testability 128 3:checkability 128 3:evilaligned 60 865:failability 126 866:failability 127 866:minlevel 20 3244:text 439
+testability 128 1:checkability 128 1:evilaligned 30 865:failability 126 866:failability 127 866:minlevel 10 3244:text 432
+"""
+why = "Balthazar (evil): the realm's lines plus testability 128 53:checkability 128 53:evilaligned 120 865:failability 126 866:failability 127 866:minlevel 200 3244:giveability 128 54:text 10075, testability 128 47:checkability 128 47:evilaligned 120 865:failability 126 866:failability 127 866:minlevel 150 3244:text 10042"
+
+[[text]]
+number = 495
+replace = true
+link = 0
+text = """
+goodaligned -51 801:failability 127 801:failability 128 801:testability 126 6:checkability 126 6:minlevel 20 3243:giveability 126 7:text 496
+goodaligned -51 801:failability 127 801:failability 128 801:testability 126 15:checkability 126 8:minlevel 30 3243:text 1095
+goodaligned -51 801:failability 127 801:failability 128 801:testability 126 17:checkability 126 17:minlevel 40 3243:text 2844
+goodaligned -51 801:failability 127 801:failability 128 801:testability 126 19:checkability 126 19:minlevel 50 3243:text 9472
+goodaligned -51 801:failability 127 801:failability 128 801:testability 126 31:checkability 126 31:minlevel 75 3243:text 8020
+goodaligned -51 801:failability 127 801:failability 128 801:testability 126 41:checkability 126 41:minlevel 100 3243:text 8120
+goodaligned -51 801:failability 127 801:failability 128 801:testability 126 47:checkability 126 47:minlevel 150 3243:text 10004
+goodaligned -51 801:failability 127 801:failability 128 801:testability 126 53:checkability 126 53:minlevel 200 3243:giveability 126 54:text 10089
+"""
+why = "Chancellor Annora (good): the realm's lines plus goodaligned -51 801:failability 127 801:failability 128 801:testability 126 47:checkability 126 47:minlevel 150 3243:text 10004, goodaligned -51 801:failability 127 801:failability 128 801:testability 126 53:checkability 126 53:minlevel 200 3243:giveability 126 54:text 10089"
+
+[[text]]
+number = 506
+replace = true
+link = 0
+text = """
+evilaligned -50 839:goodaligned 29 839:failability 126:failability 128:testability 127 2:checkability 127 2:minlevel 10 3245:text 507
+evilaligned -50 839:goodaligned 29 839:failability 126:failability 128:testability 127 7:checkability 127 7:minlevel 20 3245:text 508
+evilaligned -50 839:goodaligned 29 839:failability 126:failability 128:testability 127 8:checkability 127 8:minlevel 30 3245:text 1259
+evilaligned -50 839:goodaligned 29 839:failability 126:failability 128:testability 127 11:checkability 127 11:minlevel 40 3245:text 2845
+evilaligned -50 839:goodaligned 29 839:failability 126:failability 128:testability 127 13:checkability 127 13:minlevel 50 3245:text 9486
+evilaligned -50 839:goodaligned 29 839:failability 126:failability 128:testability 127 31:checkability 127 31:minlevel 75 3245:text 8050
+evilaligned -50 839:goodaligned 29 839:failability 126:failability 128:testability 127 41:checkability 127 41:minlevel 100 3245:text 8140
+evilaligned -50 839:goodaligned 29 839:failability 126:failability 128:testability 127 47:checkability 127 47:minlevel 150 3245:text 10023
+evilaligned -50 839:goodaligned 29 839:failability 126:failability 128:testability 127 53:checkability 127 53:minlevel 200 3245:giveability 127 54:text 10061
+"""
+why = "The Grey Lord (neutral): the realm's lines plus evilaligned -50 839:goodaligned 29 839:failability 126:failability 128:testability 127 47:checkability 127 47:minlevel 150 3245:text 10023, evilaligned -50 839:goodaligned 29 839:failability 126:failability 128:testability 127 53:checkability 127 53:minlevel 200 3245:giveability 127 54:text 10061"
+
+[[text]]
+number = 9706
+link = 9707
+text = """
+balance:10064
+gas:10069
+evil:10078
+demon:10083
+good:10092
+dragon:10097
+magnus:9712
+"""
+
+[[text]]
+number = 9708
+link = 0
+text = """
+testability 126 58:checkability 126 58:goodaligned -51:giveability 126 59:text 9709
+testability 127 58:checkability 127 58:evilaligned -50:goodaligned 29:giveability 127 59:text 9709
+testability 128 58:checkability 128 58:evilaligned 60:giveability 128 59:text 9709
+"""
+
+[[text]]
+number = 9710
+link = 0
+text = """
+testability 126 59:checkability 126 59:goodaligned -51:giveability 126 60:text 9711
+testability 127 59:checkability 127 59:evilaligned -50:goodaligned 29:giveability 127 60:text 9711
+testability 128 59:checkability 128 59:evilaligned 60:giveability 128 60:text 9711
+"""
+
+[[text]]
+number = 9713
+link = 0
+text = """
+go mirror:message 10276:teleport 789 3:message 10277
+enter mirror:message 10276:teleport 789 3:message 10277
+"""
+
+[[text]]
+number = 9714
+link = 0
+text = """
+go mirror:message 10276:teleport 6024 1:message 10277
+enter mirror:message 10276:teleport 6024 1:message 10277
+"""
+
+[[text]]
+number = 9715
+link = 0
+text = """
+needmonster 1319:cast 2297
+"""
+
+[[text]]
+number = 9716
+link = 0
+text = """
+needmonster 1319:cast 2299
+"""
+
+[[text]]
+number = 9717
+link = 0
+text = """
+needmonster 1319:cast 2301
+"""
+
+[[text]]
+number = 9718
+link = 0
+text = """
+checkability 126 54:teleport 6010 1:text 9719
+"""
+
+[[text]]
+number = 10005
+link = 10006
+text = """
+protection:10007
+angel:10012
+eradicate:10017
+"""
+
+[[text]]
+number = 10008
+link = 0
+text = """
+goodaligned -51 801:failability 127:failability 128:checkability 126 47:giveability 126 48:text 10009
+"""
+
+[[text]]
+number = 10010
+link = 0
+text = """
+goodaligned -51:failability 127:failability 128:testability 126 48:checkability 126 48:giveability 126 49:text 10011
+"""
+
+[[text]]
+number = 10013
+link = 0
+text = """
+goodaligned -51 801:failability 127:failability 128:testability 126 49:checkability 126 49:giveability 126 50:text 10014
+"""
+
+[[text]]
+number = 10015
+link = 0
+text = """
+goodaligned -51:failability 127:failability 128:testability 126 50:checkability 126 50:giveability 126 51:text 10016
+"""
+
+[[text]]
+number = 10018
+link = 0
+text = """
+goodaligned -51 801:failability 127:failability 128:testability 126 51:checkability 126 51:giveability 126 52:text 10019
+"""
+
+[[text]]
+number = 10021
+link = 0
+text = """
+goodaligned -51 801:failability 127:failability 128:testability 126 52:checkability 126 52:failitem 5007:giveitem 5007:addexp 500000000:addexp 500000000:addexp 500000000:addexp 500000000:addexp 500000000:addexp 500000000:giveability 126 53:text 10022:clearitem 5007
+"""
+
+[[text]]
+number = 10024
+link = 10025
+text = """
+protection:10026
+dragon:10031
+monster:10036
+"""
+
+[[text]]
+number = 10027
+link = 0
+text = """
+evilaligned -50 839:goodaligned 29 839:failability 126:failability 128:checkability 127 47:giveability 127 48:text 10028
+"""
+
+[[text]]
+number = 10029
+link = 0
+text = """
+evilaligned -50 839:goodaligned 29 839:failability 126:failability 128:testability 127 48:checkability 127 48:giveability 127 49:text 10030
+"""
+
+[[text]]
+number = 10032
+link = 0
+text = """
+evilaligned -50 839:goodaligned 29 839:failability 126:failability 128:testability 127 49:checkability 127 49:giveability 127 50:text 10033
+"""
+
+[[text]]
+number = 10034
+link = 0
+text = """
+evilaligned -50 839:goodaligned 29 839:failability 126:failability 128:testability 127 50:checkability 127 50:giveability 127 51:text 10035
+"""
+
+[[text]]
+number = 10037
+link = 0
+text = """
+evilaligned -50 839:goodaligned 29 839:failability 126:failability 128:testability 127 51:checkability 127 51:giveability 127 52:text 10038
+"""
+
+[[text]]
+number = 10040
+link = 0
+text = """
+evilaligned -50 839:goodaligned 29 839:failability 126:failability 128:testability 127 52:checkability 127 52:failitem 5008:giveitem 5008:addexp 500000000:addexp 500000000:addexp 500000000:addexp 500000000:addexp 500000000:addexp 500000000:giveability 127 53:text 10041:clearitem 5008
+"""
+
+[[text]]
+number = 10043
+link = 10044
+text = """
+service:10045
+angel:10050
+starmetal:10055
+"""
+
+[[text]]
+number = 10046
+link = 0
+text = """
+evilaligned 120 2067:failability 126:failability 127:checkability 128 47:giveability 128 48:text 10047
+"""
+
+[[text]]
+number = 10048
+link = 0
+text = """
+evilaligned 120 2067:failability 126:failability 127:testability 128 48:checkability 128 48:giveability 128 49:text 10049
+"""
+
+[[text]]
+number = 10051
+link = 0
+text = """
+evilaligned 120 2067:failability 126:failability 127:testability 128 49:checkability 128 49:giveability 128 50:text 10052:givecoins 1000 P
+"""
+
+[[text]]
+number = 10053
+link = 0
+text = """
+evilaligned 120 2067:failability 126:failability 127:testability 128 50:checkability 128 50:giveability 128 51:text 10054
+"""
+
+[[text]]
+number = 10056
+link = 0
+text = """
+evilaligned 120 2067:failability 126:failability 127:testability 128 51:checkability 128 51:giveability 128 52:text 10057
+"""
+
+[[text]]
+number = 10059
+link = 0
+text = """
+evilaligned 120 2067:failability 126:failability 127:testability 128 52:checkability 128 52:failitem 5009:giveitem 5009:addexp 500000000:addexp 500000000:addexp 500000000:addexp 500000000:addexp 500000000:addexp 500000000:giveability 128 53:text 10060:clearitem 5009
+"""
+
+[[text]]
+number = 10062
+link = 0
+text = """
+evilaligned -50 839:goodaligned 29 839:failability 126:failability 128:testability 127 54:checkability 127 54:giveability 127 55:text 10063
+"""
+
+[[text]]
+number = 10065
+link = 0
+text = """
+evilaligned -50 839:goodaligned 29 839:failability 126:failability 128:checkability 127 55:giveability 127 56:text 10066
+"""
+
+[[text]]
+number = 10067
+link = 0
+text = """
+evilaligned -50 839:goodaligned 29 839:failability 126:failability 128:testability 127 56:checkability 127 56:giveability 127 57:text 10068
+"""
+
+[[text]]
+number = 10070
+link = 0
+text = """
+evilaligned -50 839:goodaligned 29 839:failability 126:failability 128:testability 127 57:checkability 127 57:giveability 127 58:giveitem 5014:text 10071
+"""
+
+[[text]]
+number = 10073
+link = 0
+text = """
+evilaligned -50 839:goodaligned 29 839:failability 126:failability 128:testability 127 60:checkability 127 60:takeitem 5008:giveitem 5011:addexp 500000000:addexp 500000000:addexp 500000000:addexp 500000000:addexp 500000000:addexp 500000000:giveability 127 61:text 10074:clearitem 5011
+"""
+
+[[text]]
+number = 10076
+link = 0
+text = """
+evilaligned 120 2067:failability 126:failability 127:testability 128 54:checkability 128 54:giveability 128 55:text 10077
+"""
+
+[[text]]
+number = 10079
+link = 0
+text = """
+evilaligned 120 2067:failability 126:failability 127:checkability 128 55:giveability 128 56:text 10080
+"""
+
+[[text]]
+number = 10081
+link = 0
+text = """
+evilaligned 120 2067:failability 126:failability 127:testability 128 56:checkability 128 56:giveability 128 57:text 10082
+"""
+
+[[text]]
+number = 10084
+link = 0
+text = """
+evilaligned 120 2067:failability 126:failability 127:testability 128 57:checkability 128 57:giveability 128 58:giveitem 5015:text 10085
+"""
+
+[[text]]
+number = 10087
+link = 0
+text = """
+evilaligned 120 2067:failability 126:failability 127:testability 128 60:checkability 128 60:takeitem 5009:giveitem 5012:addexp 500000000:addexp 500000000:addexp 500000000:addexp 500000000:addexp 500000000:addexp 500000000:giveability 128 61:text 10088:clearitem 5012
+"""
+
+[[text]]
+number = 10090
+link = 0
+text = """
+goodaligned -51:failability 127:failability 128:testability 126 54:checkability 126 54:giveability 126 55:text 10091
+"""
+
+[[text]]
+number = 10093
+link = 0
+text = """
+goodaligned -51:failability 127:failability 128:checkability 126 55:giveability 126 56:text 10094
+"""
+
+[[text]]
+number = 10095
+link = 0
+text = """
+goodaligned -51:failability 127:failability 128:testability 126 56:checkability 126 56:giveability 126 57:text 10096
+"""
+
+[[text]]
+number = 10098
+link = 0
+text = """
+goodaligned -51:failability 127:failability 128:testability 126 57:checkability 126 57:giveability 126 58:giveitem 5016:text 10099
+"""
+
+[[text]]
+number = 10101
+link = 0
+text = """
+goodaligned -51 801:failability 127:failability 128:testability 126 60:checkability 126 60:takeitem 5007:giveitem 5010:addexp 500000000:addexp 500000000:addexp 500000000:addexp 500000000:addexp 500000000:addexp 500000000:giveability 126 61:text 10102:clearitem 5010
+"""
+
+[[text]]
+number = 9707
+link = 0
+text = """
+{ansi:0;32}The gaunt one weaver sets down the shimmering cloth in his long fingers and
+regards you without expression. "Few travel this deep into the Dreary Forest by
+choice. If you have come about the one who dwells beyond these trees, you have
+come about {ansi:1;32}Magnus{ansi:0;32}. Every power in the realm has begun to stir against him: the
+champions of the {ansi:1;32}good{ansi:0;32}, the keepers of the {ansi:1;32}balance{ansi:0;32}, even the servants of {ansi:1;32}evil{ansi:0;32}.
+Tell me which you serve, and I will tell you what I know."{ansi:0}
+"""
+
+[[text]]
+number = 9709
+link = 0
+text = """
+{ansi:0;32}As the Onyx Juggernaut crashes to the ground, its diamond eyes crack and go
+dark. A thin purple mist seeps from its shattered chest and drifts away into
+the forest, and you feel something vast and distant flinch.
+
+{ansi:1;33}<Seek out Lord Magnus in his hut in the Dreary Forest, and destroy him!>{ansi:0;32}{ansi:0}
+"""
+
+[[text]]
+number = 9711
+link = 0
+text = """
+{ansi:0;32}Lord Magnus shrieks, its tentacles writhing as the symbols on its robes flicker
+and die. A wave of force slams through your skull, then silence. Slowly, the
+forest around you seems to breathe again.
+
+{ansi:1;33}<Return to your quest leader and tell them of {ansi:1;32}Magnus{ansi:0;32}' fall!>{ansi:0;32}{ansi:0}
+"""
+
+[[text]]
+number = 9712
+link = 0
+text = """
+{ansi:0;32}The weaver's long face darkens. "Lord Magnus is lord of no land you know. He
+came through one of Morukai's portals when they woke again; a thing from beyond
+the stars, purple-skinned and tentacled, that feeds upon minds. For years he
+has bound the strongest creatures of the realm to his will. Dragons, demons,
+the Onyx Juggernaut itself... each bears his mark, and each lends its strength
+to the shield that guards him."
+
+He lowers his eyes to the cloth in his hands. "I was once his weaver. I spun
+the robes that drink the light. Destroy his servants, and his shield will
+crumble. I will help you undo what I helped to make."{ansi:0}
+"""
+
+[[text]]
+number = 9719
+link = 0
+text = """
+{ansi:0;32}A pair of royal guards step out of the shadows and seize you by the arms. "By
+order of the King, no agent of Silvermere sets foot in these halls," one of
+them growls. Before you can protest, they march you back to the castle gates
+and shove you out into the courtyard.
+
+{ansi:1;33}<You must reach the King another way. Perhaps through the guard tower...>{ansi:0;32}{ansi:0}
+"""
+
+[[text]]
+number = 10004
+link = 0
+text = """
+{ansi:0;32}Chancellor Annora sets aside a stack of reports and rubs her eyes. "With
+Zanthus weakened, a new shadow has fallen over the realm. Our seers speak of a
+creature called Magnus, gathering the strongest beasts of the land beneath his
+banner, and the temple wards in Southwind Dale have begun to fail one by one.
+Go to the Southwind Dale Temple and speak with High Priest Annora, my namesake
+and the wisest servant of the Light I know. Ask her about the temple's
+{ansi:1;32}protection{ansi:0;32}."{ansi:0}
+"""
+
+[[text]]
+number = 10006
+link = 0
+text = """
+{ansi:0;32}High Priest Annora rises from her prayers and greets you with a tired smile.
+"Welcome, child of the Light. Dark days are upon us. The temple's {ansi:1;32}protection{ansi:0;32} is
+failing, an {ansi:1;32}angel{ansi:0;32} has fallen into darkness, and there is a corruption in this
+land that we must {ansi:1;32}eradicate{ansi:0;32}. If the Chancellor has sent you, you are doubly
+welcome here."{ansi:0}
+"""
+
+[[text]]
+number = 10007
+link = 10008
+text = """
+{ansi:0;32}High Priest Annora's face grows grave. "The wards of this temple were sung into
+being by the angels themselves, long ago. One of those angels has fallen. It
+has taken a demonic shape and lairs in the caves of the Dark Jungle, and every
+day it lives, it drains the strength of our wards. It must be destroyed."{ansi:0}
+"""
+
+[[text]]
+number = 10009
+link = 0
+text = """
+{ansi:0;32}Annora lays a cool hand on your brow and murmurs a blessing. "Go with the
+Light, and do not let its false radiance deceive you."
+
+{ansi:1;33}<Slay the Demonic Angel in the caves of the Dark Jungle!>{ansi:0;32}{ansi:0}
+"""
+
+[[text]]
+number = 10011
+link = 0
+text = """
+{ansi:0;32}As the Demonic Angel falls, its black wings crumble into ash, and for a single
+moment you glimpse the shining being it once was. Its last words are a whisper:
+"Athos... he made me this..." Then it is gone.
+
+{ansi:1;33}<Return to High Priest Annora and tell her of the fallen {ansi:1;32}angel{ansi:0;32}!>{ansi:0;32}{ansi:0}
+"""
+
+[[text]]
+number = 10012
+link = 10013
+text = """
+{ansi:0;32}Annora closes her eyes. "So it is done, and the poor creature is at peace. But
+it spoke of Athos? Athos was a warlord of the old kingdom who sold his soul for
+undying life. He rules still from the throne room of an ancient castle high in
+the mountains, and if he could corrupt an angel, he will not stop there."{ansi:0}
+"""
+
+[[text]]
+number = 10014
+link = 0
+text = """
+{ansi:0;32}"Seek him out and end him, and the corruption with him."
+
+{ansi:1;33}<Slay Athos in the throne room of the Ancient Castle!>{ansi:0;32}{ansi:0}
+"""
+
+[[text]]
+number = 10016
+link = 0
+text = """
+{ansi:0;32}Athos staggers back against his throne, his ancient armour splitting apart.
+"You are... too late," he rasps. "Magnus has what he needs. My part is...
+done." With a final, rattling breath, he collapses into dust.
+
+{ansi:1;33}<Return to High Priest Annora so that she may {ansi:1;32}eradicate{ansi:0;32} what remains of his
+corruption!>{ansi:0;32}{ansi:0}
+"""
+
+[[text]]
+number = 10017
+link = 10018
+text = """
+{ansi:0;32}Annora listens to your tale in silence, then leads you to the high altar.
+"Athos is gone, but his corruption lingers in the stones of this land. Kneel,
+and let us eradicate it together." She begins to chant, and a pure white light
+gathers around the altar.{ansi:0}
+"""
+
+[[text]]
+number = 10019
+link = 0
+text = """
+{ansi:0;32}The light flows outward through the temple, and you feel the old wards hum back
+into life. Annora smiles wearily. "It is done. The temple's protection is
+restored. Return to the Chancellor and tell her so, and tell her the name Athos
+spoke. Magnus."
+
+{ansi:1;33}<Return to Chancellor Annora and report on the temple's {ansi:1;32}protection{ansi:0;32}!>{ansi:0;32}{ansi:0}
+"""
+
+[[text]]
+number = 10020
+link = 10021
+text = """
+{ansi:0;32}Chancellor Annora listens intently as you tell her of the fallen angel, of
+Athos, and of the temple's restored wards. "You have done well, and the people
+of Southwind Dale will sleep safer for it. But Magnus... that name troubles
+me."{ansi:0}
+"""
+
+[[text]]
+number = 10022
+link = 0
+text = """
+{ansi:0;32}Annora takes a crystal phial from her desk and pours its glowing contents over
+your head. Rather than wetting you, the light gathers above your shoulders into
+a soft golden halo. "Wear this Aura of Light with pride. It marks you as a true
+champion of the Light. When you have grown stronger, come to me for further
+{ansi:1;32}missions{ansi:0;32}."
+
+{ansi:0;36}<You gain 3,000,000,000 experience!>{ansi:0;32}{ansi:0}
+"""
+
+[[text]]
+number = 10023
+link = 0
+text = """
+{ansi:0;32}The Grey Lord's eyes fix upon you, and his thoughts echo in your mind:
+
+<A new force disturbs the balance. A creature called Magnus gathers beasts and
+monsters to his will. Seek the starmetal giant king, who rules the pinnacle of
+Gloomy Mountain; the giants have long kept the balance in the high places. Ask
+him of {ansi:1;32}protection{ansi:0;32}.>{ansi:0}
+"""
+
+[[text]]
+number = 10025
+link = 0
+text = """
+{ansi:0;32}The starmetal giant king looks down at you from his great height, his voice
+rumbling like distant thunder. "Small one. You climb far to stand before me. If
+the Grey Lord sent you, speak. My people seek {ansi:1;32}protection{ansi:0;32} from a {ansi:1;32}dragon{ansi:0;32}, and
+from a {ansi:1;32}monster{ansi:0;32} that was once our own."{ansi:0}
+"""
+
+[[text]]
+number = 10026
+link = 10027
+text = """
+{ansi:0;32}The giant king strokes his silver beard. "For a thousand years the giants have
+kept the balance in the high places. Now an Ancient Dragon has woken in the
+caves of the Dark Jungle, and it raids our herds and burns our watchfires. It
+bears a strange mark upon its scales, a purple sigil. Kill it."{ansi:0}
+"""
+
+[[text]]
+number = 10028
+link = 0
+text = """
+{ansi:0;32}The giant king nods gravely.
+
+{ansi:1;33}<Slay the Ancient Dragon in the caves of the Dark Jungle!>{ansi:0;32}{ansi:0}
+"""
+
+[[text]]
+number = 10030
+link = 0
+text = """
+{ansi:0;32}The Ancient Dragon thrashes once more, then lies still. Upon its scales you
+find the sigil the giant king spoke of: a purple mark like a coiled tentacle,
+already fading.
+
+{ansi:1;33}<Return to the starmetal giant king and tell him of the {ansi:1;32}dragon{ansi:0;32}!>{ansi:0;32}{ansi:0}
+"""
+
+[[text]]
+number = 10031
+link = 10032
+text = """
+{ansi:0;32}The giant king's eyes narrow. "The same mark? Then the dragon was no wild
+beast, but a servant. There is another who bears that sign: Atlas, the titan
+who has made his throne in the Ancient Cave beneath our mountain. He was once
+our brother. Now he is a monster."{ansi:0}
+"""
+
+[[text]]
+number = 10033
+link = 0
+text = """
+{ansi:0;32}{ansi:1;33}<Slay Atlas upon his throne in the Ancient Cave!>{ansi:0;32}{ansi:0}
+"""
+
+[[text]]
+number = 10035
+link = 0
+text = """
+{ansi:0;32}Atlas topples from his throne with a crash that shakes the cave. As he dies his
+eyes clear, and for a moment he looks almost grateful. "Tell my brother... the
+purple one... Magnus... he took my mind."
+
+{ansi:1;33}<Return to the starmetal giant king and tell him the {ansi:1;32}monster{ansi:0;32} is slain!>{ansi:0;32}{ansi:0}
+"""
+
+[[text]]
+number = 10036
+link = 10037
+text = """
+{ansi:0;32}The giant king bows his great head. "Atlas was my brother. You have freed him,
+and our mountain is safe once more."{ansi:0}
+"""
+
+[[text]]
+number = 10038
+link = 0
+text = """
+{ansi:0;32}"Return to the Grey Lord and tell him the balance of the high places is
+restored. And tell him the name my brother spoke."
+
+{ansi:1;33}<Return to the Grey Lord and speak of the {ansi:1;32}balance{ansi:0;32}!>{ansi:0;32}{ansi:0}
+"""
+
+[[text]]
+number = 10039
+link = 10040
+text = """
+{ansi:0;32}The Grey Lord's piercing eyes seem to open your soul, and his thoughts echo in
+your mind:
+
+<The giants are at peace, and the balance holds... for now. But Magnus is a
+greater threat than I knew.>{ansi:0}
+"""
+
+[[text]]
+number = 10041
+link = 0
+text = """
+{ansi:0;32}<For your service, accept this.> A tiny set of silver scales shimmers into
+being in the air beside you. <The Scales of Balance. Let them remind you that
+every force must have its counter. When you have grown stronger, return to me
+for further {ansi:1;32}missions{ansi:0;32}.>
+
+{ansi:0;36}<You gain 3,000,000,000 experience!>{ansi:0;32}{ansi:0}
+"""
+
+[[text]]
+number = 10042
+link = 0
+text = """
+{ansi:0;32}Balthazar drums his clawed fingers on the desk. "There is a newcomer who thinks
+he can carve out his own little kingdom in my realm. Magnus, he calls himself.
+I do not tolerate competition. Go to the Ivory Tower and present yourself to
+the Enigma Master; his interests align with mine, for now. Offer him your
+{ansi:1;32}service{ansi:0;32}."{ansi:0}
+"""
+
+[[text]]
+number = 10044
+link = 0
+text = """
+{ansi:0;32}The Enigma Master looks down at you with eyes like coal, his impossibly long
+fingers steepled. "Balthazar's lackey. How quaint. If you are here to offer
+your {ansi:1;32}service{ansi:0;32}, I have uses for you. There is an {ansi:1;32}angel{ansi:0;32} that needs breaking, and a
+king of {ansi:1;32}starmetal{ansi:0;32} whose crown I desire."{ansi:0}
+"""
+
+[[text]]
+number = 10045
+link = 10046
+text = """
+{ansi:0;32}The Enigma Master smiles thinly. "In the Dark Jungle lurks a creature called
+the Angelic Demon: a demon that wears the shape of an angel, and serves Magnus.
+It also guards something I want. Kill it."{ansi:0}
+"""
+
+[[text]]
+number = 10047
+link = 0
+text = """
+{ansi:0;32}{ansi:1;33}<Slay the Angelic Demon in the Dark Jungle!>{ansi:0;32}{ansi:0}
+"""
+
+[[text]]
+number = 10049
+link = 0
+text = """
+{ansi:0;32}The Angelic Demon screams as its stolen radiance is torn away, revealing the
+twisted demon beneath. It collapses into a heap of black feathers and smoking
+ash.
+
+{ansi:1;33}<Return to the Enigma Master and tell him of the {ansi:1;32}angel{ansi:0;32}!>{ansi:0;32}{ansi:0}
+"""
+
+[[text]]
+number = 10050
+link = 10051
+text = """
+{ansi:0;32}The Enigma Master laughs, a dry, rattling sound. "Excellent. You are more
+useful than you look. Here, a token of my appreciation."{ansi:0}
+"""
+
+[[text]]
+number = 10052
+link = 0
+text = """
+{ansi:0;32}He tosses you a heavy pouch of platinum. "Now, the giants of Gloomy Mountain.
+Their king wears a crown of glowing starmetal, and he has foolishly sided
+against Magnus, which means he will soon side against us. Kill him, and bring
+me news."
+
+{ansi:1;33}<Slay the starmetal giant king on the pinnacle of Gloomy Mountain!>{ansi:0;32}{ansi:0}
+"""
+
+[[text]]
+number = 10054
+link = 0
+text = """
+{ansi:0;32}The starmetal giant king crashes to the ground like a falling mountain. His
+crown of glowing metal rolls to a stop at your feet, its light slowly dimming.
+
+{ansi:1;33}<Return to the Enigma Master and speak of the {ansi:1;32}starmetal{ansi:0;32}!>{ansi:0;32}{ansi:0}
+"""
+
+[[text]]
+number = 10055
+link = 10056
+text = """
+{ansi:0;32}The Enigma Master's coal-black eyes gleam. "The giant king is dead? Then the
+mountain is open to us... and to Magnus, for now."{ansi:0}
+"""
+
+[[text]]
+number = 10057
+link = 0
+text = """
+{ansi:0;32}"Our arrangement is complete. Return to Balthazar and tell him his {ansi:1;32}monopoly{ansi:0;32} on
+the high places is secure. He will be pleased, for a change."
+
+{ansi:1;33}<Return to Balthazar and speak of his {ansi:1;32}monopoly{ansi:0;32}!>{ansi:0;32}{ansi:0}
+"""
+
+[[text]]
+number = 10058
+link = 10059
+text = """
+{ansi:0;32}Balthazar leans back in his chair, a slow smile spreading across his face. "So
+the giants are broken, and the Enigma Master owes me a favour. You have done
+well, for once."{ansi:0}
+"""
+
+[[text]]
+number = 10060
+link = 0
+text = """
+{ansi:0;32}He snaps his fingers, and a small black icon shaped like a grinning horned
+skull appears in the air beside you. "The Icon of Evil. Carry it, and let all
+who see it know whom you serve. Come back when you are stronger; I will have
+more {ansi:1;32}work{ansi:0;32} for you."
+
+{ansi:0;36}<You gain 3,000,000,000 experience!>{ansi:0;32}{ansi:0}
+"""
+
+[[text]]
+number = 10061
+link = 0
+text = """
+{ansi:0;32}The Grey Lord's thoughts echo in your mind:
+
+<Magnus' servants spread chaos through the forests. The Acid Beast that prowls
+the clearing in the Darkened Forest is his creature, and its poison spreads
+with every day. Destroy it.>
+
+{ansi:1;33}<Slay the Acid Beast in the clearing of the Darkened Forest!>{ansi:0;32}{ansi:0}
+"""
+
+[[text]]
+number = 10063
+link = 0
+text = """
+{ansi:0;32}The Acid Beast dissolves into a hissing pool of green slime that slowly sinks
+into the earth. The stench lingers long after it is gone.
+
+{ansi:1;33}<Seek out the gaunt one weaver in the Dreary Forest, and ask how to restore the
+{ansi:1;32}balance{ansi:0;32}!>{ansi:0;32}{ansi:0}
+"""
+
+[[text]]
+number = 10064
+link = 10065
+text = """
+{ansi:0;32}The weaver nods slowly. "A keeper of the balance. Then you understand that
+Magnus cannot simply be overpowered; his strength must be turned against him.
+Deep in the Ancestral Cave dwells the Ancient Phantasm, a spirit of mist and
+poison that Magnus has bound to his service."{ansi:0}
+"""
+
+[[text]]
+number = 10066
+link = 0
+text = """
+{ansi:0;32}"Destroy it, and bring me word."
+
+{ansi:1;33}<Slay the Ancient Phantasm in the Ancestral Cave!>{ansi:0;32}{ansi:0}
+"""
+
+[[text]]
+number = 10068
+link = 0
+text = """
+{ansi:0;32}The Ancient Phantasm lets out a long, thin wail and bursts into a cloud of
+acrid green gas. You stagger back, coughing, as the vapour settles into the
+corners of the cave.
+
+{ansi:1;33}<Return to the gaunt one weaver and tell him of the {ansi:1;32}gas{ansi:0;32}!>{ansi:0;32}{ansi:0}
+"""
+
+[[text]]
+number = 10069
+link = 10070
+text = """
+{ansi:0;32}The weaver's eyes light up. "The phantasm's essence! Some of it drifted this
+way on the wind, and I gathered what I could... here."{ansi:0}
+"""
+
+[[text]]
+number = 10071
+link = 0
+text = """
+{ansi:0;32}He hands you a glass globe of bubbling green liquid. "Hurl this at Magnus when
+you face him. It will burn through his defences like nothing else. But first,
+his last guardian must fall: the Onyx Juggernaut, in the Ancestral Cave."
+
+{ansi:1;33}<Slay the Onyx Juggernaut in the Ancestral Cave!>{ansi:0;32}{ansi:0}
+"""
+
+[[text]]
+number = 10072
+link = 10073
+text = """
+{ansi:0;32}The Grey Lord rises, and his thoughts fill your mind:
+
+<Magnus is no more. The balance is restored, and the forces of chaos have lost
+a powerful ally.>{ansi:0}
+"""
+
+[[text]]
+number = 10074
+link = 0
+text = """
+{ansi:0;32}The scales at your side flare gold and silver, and grow heavier and brighter.
+<Your Scales of Balance are made whole. Call upon them, and they will restore
+clarity to a mind clouded by chaos.>
+
+{ansi:0;36}<You gain 3,000,000,000 experience!>{ansi:0;32}{ansi:0}
+"""
+
+[[text]]
+number = 10075
+link = 0
+text = """
+{ansi:0;32}Balthazar's fangs glint as he speaks. "Raeanna has finally overstepped her
+bounds. My spies tell me she has made a pact with Magnus. The Demonic
+Enchantress dies today. Go to the Darkened Forest and see to it personally."
+
+{ansi:1;33}<Slay the Demonic Enchantress in the Darkened Forest!>{ansi:0;32}{ansi:0}
+"""
+
+[[text]]
+number = 10077
+link = 0
+text = """
+{ansi:0;32}The Demonic Enchantress shrieks a curse as she falls, her beautiful face
+twisting into something hideous. "Magnus will... avenge me..." With a final
+crackle of dark energy, her body crumbles into ash.
+
+{ansi:1;33}<Seek out the gaunt one weaver in the Dreary Forest, and tell him you serve
+{ansi:1;32}evil{ansi:0;32}!>{ansi:0;32}{ansi:0}
+"""
+
+[[text]]
+number = 10078
+link = 10079
+text = """
+{ansi:0;32}The weaver studies you with open distaste, but nods. "Even the darkness has
+reason to fear Magnus; he serves no master but himself. The Demon Lord of the
+Ancestral Cave has sworn itself to him, and lends him the fire of the abyss."{ansi:0}
+"""
+
+[[text]]
+number = 10080
+link = 0
+text = """
+{ansi:0;32}"Destroy the Demon Lord, and bring me proof."
+
+{ansi:1;33}<Slay the Demon Lord in the Ancestral Cave!>{ansi:0;32}{ansi:0}
+"""
+
+[[text]]
+number = 10082
+link = 0
+text = """
+{ansi:0;32}The Demon Lord roars as hellfire bursts from its wounds. As it falls, a glowing
+sigil burns itself into the stone where it lay: the mark of its power, torn
+free of its body.
+
+{ansi:1;33}<Return to the gaunt one weaver and tell him of the {ansi:1;32}demon{ansi:0;32}!>{ansi:0;32}{ansi:0}
+"""
+
+[[text]]
+number = 10083
+link = 10084
+text = """
+{ansi:0;32}The weaver listens, then draws a plate of black iron from his pouch. "I took
+the liberty of capturing the demon's sigil."{ansi:0}
+"""
+
+[[text]]
+number = 10085
+link = 0
+text = """
+{ansi:0;32}He hands you a demon-headed glyph, hot to the touch. "Raise this in Magnus'
+presence, and the Demon Lord's fury will flow into you. But first, his last
+guardian must fall: the Onyx Juggernaut, in the Ancestral Cave."
+
+{ansi:1;33}<Slay the Onyx Juggernaut in the Ancestral Cave!>{ansi:0;32}{ansi:0}
+"""
+
+[[text]]
+number = 10086
+link = 10087
+text = """
+{ansi:0;32}Balthazar throws back his head and laughs. "Magnus is dead! No one challenges
+me in my own realm."{ansi:0}
+"""
+
+[[text]]
+number = 10088
+link = 0
+text = """
+{ansi:0;32}He reaches out and touches the black icon at your shoulder, and it bursts into
+dark red flame. "Your Icon of Evil is complete. No chain will hold you while it
+watches over you."
+
+{ansi:0;36}<You gain 3,000,000,000 experience!>{ansi:0;32}{ansi:0}
+"""
+
+[[text]]
+number = 10089
+link = 0
+text = """
+{ansi:0;32}Chancellor Annora's expression is grim. "I have had troubling news from
+Nazareen. The King has closed his gates to us, and our envoys return...
+changed. I no longer believe the man upon Nazareen's throne is a king at all,
+but a puppet of Magnus. The true throne room was sealed long ago behind a great
+mirror in the castle's guard tower. Find a way through, and if the King is
+false, destroy him."
+
+{ansi:1;33}<Find the mirror in the guard tower of Castle Nazareen, and confront the King!>{ansi:0;32}{ansi:0}
+"""
+
+[[text]]
+number = 10091
+link = 0
+text = """
+{ansi:0;32}The King of Nazareen bellows as he falls, and his enormous body begins to melt
+like wax, revealing a writhing mass of purple flesh beneath. With a wet hiss it
+dissolves entirely, leaving only an empty crown. Magnus' puppet is gone.
+
+{ansi:1;33}<Seek out the gaunt one weaver in the Dreary Forest, and tell him you are a
+champion of the {ansi:1;32}good{ansi:0;32}!>{ansi:0;32}{ansi:0}
+"""
+
+[[text]]
+number = 10092
+link = 10093
+text = """
+{ansi:0;32}The weaver regards you for a long moment. "A champion of the Light. Magnus
+fears your kind more than most. His greatest servant among the beasts is the
+Kryon Dragon, which lairs in a glowing cave not far from here. Its frozen
+breath feeds the shield that guards him."{ansi:0}
+"""
+
+[[text]]
+number = 10094
+link = 0
+text = """
+{ansi:0;32}"Slay the dragon, and return to me. I will have something for you."
+
+{ansi:1;33}<Slay the Kryon Dragon in the glowing cave of the Dreary Forest!>{ansi:0;32}{ansi:0}
+"""
+
+[[text]]
+number = 10096
+link = 0
+text = """
+{ansi:0;32}With a final, shuddering roar the Kryon Dragon collapses, and the frost-light
+of its cave fades to a dull glow. A sliver of icy purple light rises from its
+body and streaks away into the forest.
+
+{ansi:1;33}<Return to the gaunt one weaver and tell him of the {ansi:1;32}dragon{ansi:0;32}!>{ansi:0;32}{ansi:0}
+"""
+
+[[text]]
+number = 10097
+link = 10098
+text = """
+{ansi:0;32}The weaver nods. "Good. Magnus has lost much of his shield. Now, take this." He
+presses a smooth, round stone into your hand.{ansi:0}
+"""
+
+[[text]]
+number = 10099
+link = 0
+text = """
+{ansi:0;32}"A rainbow rune. Raise it when you stand before Magnus, and its light will mend
+the wounds of you and your companions. It will work only in his presence. But
+first, his last guardian must fall: the Onyx Juggernaut, in the Ancestral Cave.
+While it stands, Magnus cannot be harmed."
+
+{ansi:1;33}<Slay the Onyx Juggernaut in the Ancestral Cave!>{ansi:0;32}{ansi:0}
+"""
+
+[[text]]
+number = 10100
+link = 10101
+text = """
+{ansi:0;32}Chancellor Annora rises from her desk as you enter. "Magnus is truly destroyed?
+Then the realm owes you a debt it can never repay."{ansi:0}
+"""
+
+[[text]]
+number = 10102
+link = 0
+text = """
+{ansi:0;32}She lays her hands on either side of your halo, and it flares a brilliant gold.
+"Your Aura of Light is made whole. Call upon it, and it will burn away any
+darkness laid upon you."
+
+{ansi:0;36}<You gain 3,000,000,000 experience!>{ansi:0;32}{ansi:0}
+"""

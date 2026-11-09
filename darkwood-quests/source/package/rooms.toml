@@ -1,0 +1,143 @@
+# [[room]] replaces a realm "Buffer Room" placeholder. [[room_change]] sets only the listed
+# fields on a realm room; "was" is the realm value.
+
+[[room]]
+map = 3
+room = 789
+name = "Castle of Nazareen, Royal Throne Room"
+desc = """
+You are in the great castle of Nazareen.  The stone walls loom high
+above you on all sides, for this fort creates a great barricade from
+the evil which dwells around the homestead.  You will find royal
+guards patrolling the area, as well as the royal ladies of nazareen.
+You notice through the north window that there is a hidden tower
+within the trees of the Ashwood Forest.
+"""
+exits = { S = "3/790 (Door [1000 picklocks/strength])" }
+data = { NPC = 2089, CMD = 9714, Placed = "5013" }
+
+[[room]]
+map = 3
+room = 790
+name = "void"
+desc = """
+You are surrounded by a featureless grey emptiness. There is no floor
+beneath your feet and no sky above, only the sound of your own
+heartbeat. Faint ripples of silver light drift past at the edge of
+your vision, like reflections in a pane of glass seen from the wrong
+side. Far to the north, a pinprick of warm daylight beckons.
+"""
+exits = { N = "1/1" }
+data = {  }
+
+[[room_change]]
+map = 1
+room = 6024
+name = "Castle of Nazareen, Guard Tower"
+why = "the mirror to the false King's throne room"
+set = { CMD = 9713, Placed = "5013" }
+was = { CMD = 0, Placed = "" }
+
+[[room_change]]
+map = 1
+room = 6044
+name = "Castle of Nazareen"
+why = "turns good characters on step 54 back to the gates"
+set = { Spell = 2302 }
+was = { Spell = 0 }
+
+[[room_change]]
+map = 1
+room = 6045
+name = "Castle of Nazareen"
+why = "turns good characters on step 54 back to the gates"
+set = { Spell = 2302 }
+was = { Spell = 0 }
+
+[[room_change]]
+map = 1
+room = 6046
+name = "Castle of Nazareen"
+why = "turns good characters on step 54 back to the gates"
+set = { Spell = 2302 }
+was = { Spell = 0 }
+
+[[room_change]]
+map = 1
+room = 6047
+name = "Castle of Nazareen"
+why = "turns good characters on step 54 back to the gates"
+set = { Spell = 2302 }
+was = { Spell = 0 }
+
+[[room_change]]
+map = 1
+room = 6048
+name = "Castle of Nazareen"
+why = "turns good characters on step 54 back to the gates"
+set = { Spell = 2302 }
+was = { Spell = 0 }
+
+[[room_change]]
+map = 1
+room = 6049
+name = "Castle of Nazareen"
+why = "turns good characters on step 54 back to the gates"
+set = { Spell = 2302 }
+was = { Spell = 0 }
+
+[[room_change]]
+map = 1
+room = 6050
+name = "Castle of Nazareen"
+why = "turns good characters on step 54 back to the gates"
+set = { Spell = 2302 }
+was = { Spell = 0 }
+
+[[room_change]]
+map = 1
+room = 6051
+name = "Castle of Nazareen, Royal Tower"
+why = "turns good characters on step 54 back to the gates"
+set = { Spell = 2302 }
+was = { Spell = 0 }
+
+[[room_change]]
+map = 1
+room = 6052
+name = "Castle of Nazareen, Royal Tower"
+why = "turns good characters on step 54 back to the gates"
+set = { Spell = 2302 }
+was = { Spell = 0 }
+
+[[room_change]]
+map = 1
+room = 6053
+name = "Castle of Nazareen, Royal Tower"
+why = "turns good characters on step 54 back to the gates"
+set = { Spell = 2302 }
+was = { Spell = 0 }
+
+[[room_change]]
+map = 1
+room = 6054
+name = "Castle of Nazareen, Royal Tower"
+why = "turns good characters on step 54 back to the gates"
+set = { Spell = 2302 }
+was = { Spell = 0 }
+
+[[room_change]]
+map = 1
+room = 6055
+name = "Castle of Nazareen, Royal Tower"
+why = "turns good characters on step 54 back to the gates"
+set = { Spell = 2302 }
+was = { Spell = 0 }
+
+[[room_change]]
+map = 2
+room = 9808
+name = "Dreary Forest"
+why = "the weaver lives here"
+set = { NPC = 696 }
+was = { NPC = 0 }

@@ -1,0 +1,133 @@
+# Monsters for the 8th and 9th alignment quests.
+# [[monster]] is new. [[monster_change]] sets only the listed fields on a realm monster;
+# "was" is the realm value. Field names are MME's; fields left out are 0.
+
+[[monster]]
+number = 2089
+name = "King of Nazareen"
+text_template = 1173
+desc = """
+This man is dressed all in crimson and royal purple silks,
+ornamented with gold and platinum jewelry. He is enormously fat,
+nearly too big to fit his massive bejewelled throne. He obviously
+enjoys his rule of the city very much.
+"""
+abilities = [["SpellImmune", 30], ["Magical", 3], ["PoisonImmune", 0], ["NonLiving", 0]]
+data = { Weapon = 48, ArmourClass = 25, DamageResist = 90, "Follow%" = 100, MagicRes = 120, EXP = 9501064, ExpMulti = 1, HP = 10449, Energy = 1000, HPRegen = 300, CharmLVL = 9999, Type = 3, Align = 1, RegenTime = 3, P = 10, DeathSpell = 2292, AttType-0 = 1, AttAcc-0 = 200, "Att%-0" = 40, AttMin-0 = 10, AttMax-0 = 60, AttEnergy-0 = 250, AttHitSpell-0 = 128, AttType-1 = 1, AttAcc-1 = 200, "Att%-1" = 80, AttMin-1 = 10, AttMax-1 = 80, AttEnergy-1 = 250, AttHitSpell-1 = 128, AttType-2 = 1, AttAcc-2 = 300, "Att%-2" = 100, AttMin-2 = 10, AttMax-2 = 200, AttEnergy-2 = 250, AttHitSpell-2 = 318, DropItem-0 = 2704, "DropItem%-0" = 100, AttName-0 = "smashes you with his fist", AttName-1 = "smashes you with his fist", AttName-2 = "smashes you with his fist" }
+
+[[monster_change]]
+number = 1232
+name = "healer"
+why = "gives the good 8th quest (was the temple \"healer\")"
+set = { Name = "High Priest Annora", GreetTXT = 10005 }
+was = { Name = "healer", GreetTXT = 58 }
+desc = """
+A tall, silver-haired woman in flowing white robes stands before the
+altar, a simple holy symbol of the Light at her throat. Her eyes are
+kind but tired, and she carries herself with quiet authority.
+"""
+
+[[monster_change]]
+number = 1321
+name = "starmetal giant king"
+why = "gives the neutral 8th quest; killing it is evil step 50"
+set = { GreetTXT = 10024, DeathSpell = 2278 }
+was = { GreetTXT = 0, DeathSpell = 856 }
+
+[[monster_change]]
+number = 1205
+name = "Enigma Master"
+why = "gives the evil 8th quest"
+set = { GreetTXT = 10043 }
+was = { GreetTXT = 0 }
+
+[[monster_change]]
+number = 696
+name = "gaunt one weaver"
+why = "the weaver every 9th-quest character talks to"
+set = { GreetTXT = 9706 }
+was = { GreetTXT = 0 }
+
+[[monster_change]]
+number = 1207
+name = "Demonic Angel"
+why = "good step 48"
+set = { DeathSpell = 2268 }
+was = { DeathSpell = 0 }
+
+[[monster_change]]
+number = 1322
+name = "Athos"
+why = "good step 50"
+set = { DeathSpell = 2270 }
+was = { DeathSpell = 0 }
+
+[[monster_change]]
+number = 1206
+name = "Ancient Dragon"
+why = "neutral step 48"
+set = { DeathSpell = 2272 }
+was = { DeathSpell = 0 }
+
+[[monster_change]]
+number = 1323
+name = "Atlas"
+why = "neutral step 50"
+set = { DeathSpell = 2274 }
+was = { DeathSpell = 0 }
+
+[[monster_change]]
+number = 1308
+name = "Angelic Demon"
+why = "evil step 48"
+set = { DeathSpell = 2276 }
+was = { DeathSpell = 0 }
+
+[[monster_change]]
+number = 1353
+name = "Acid Beast"
+why = "neutral step 54"
+set = { DeathSpell = 2280 }
+was = { DeathSpell = 934 }
+
+[[monster_change]]
+number = 1356
+name = "Ancient Phantasm"
+why = "neutral step 56"
+set = { DeathSpell = 2282 }
+was = { DeathSpell = 0 }
+
+[[monster_change]]
+number = 1355
+name = "Demonic Enchantress"
+why = "evil step 54"
+set = { DeathSpell = 2288 }
+was = { DeathSpell = 0 }
+
+[[monster_change]]
+number = 1351
+name = "Demon Lord"
+why = "evil step 56"
+set = { DeathSpell = 2290 }
+was = { DeathSpell = 0 }
+
+[[monster_change]]
+number = 1318
+name = "Kryon Dragon"
+why = "good step 56"
+set = { DeathSpell = 2294 }
+was = { DeathSpell = 0 }
+
+[[monster_change]]
+number = 1370
+name = "Onyx Juggernaut"
+why = "step 58, all three"
+set = { DeathSpell = 2284 }
+was = { DeathSpell = 0 }
+
+[[monster_change]]
+number = 1319
+name = "Lord Magnus"
+why = "step 59, all three"
+set = { DeathSpell = 2286 }
+was = { DeathSpell = 0 }

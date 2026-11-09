@@ -1,0 +1,206 @@
+# Tamsin the ranger and the quest "The Coiled Temple" (ability 210 holds the step):
+#   0 -> 1  ask about the cult: she asks for a cult priest's serpent sigil
+#   1 -> 2  bring the sigil: she gives the obsidian serpent key to the sanctum
+#   2 -> 3  kill the Coil Mother (her death spell runs text 10212)
+#   3 -> 4  tell Tamsin of the mother: the Viperhide Tunic and experience
+# Ability 210 is not one of the game's named abilities; the realm keeps its own quest markers
+# (200-203) the same way.
+#
+# Asking about a topic shows the topic's block and then runs that block's link as a script, so
+# each quest topic is a blank block (as the realm's own are) linking to its script.
+#
+# Markup: {ansi:N} is the escape sequence ESC[Nm. Narration is plain ({ansi:0}), speech green
+# ({ansi:0;32}), keywords bright green ({ansi:1;32}), goals yellow ({ansi:1;33}).
+
+# ---------------------------------------------------------------- the talk script and greeting
+
+[[text]]
+number = 10200
+link = 10201
+text = """
+cult:10202
+cultists:10202
+serpent:10202
+temple:10215
+coiled temple:10215
+raptors:10214
+dinosaurs:10214
+valley:10216
+sigil:10207
+mother:10209
+coil mother:10209
+"""
+
+[[text]]
+number = 10201
+text = """
+{ansi:0}The ranger looks up from the fire and rests a hand on her bow, watching you the
+way she watches the ferns. After a long moment she nods at the fire.
+
+{ansi:0;32}"Sit, if you're staying. Not many come down the vent, and fewer climb back up.
+ The {ansi:1;32}valley{ansi:0;32} will try to eat you, and the {ansi:1;32}raptors{ansi:0;32} will try first. But it's the
+ {ansi:1;32}cult{ansi:0;32} you should worry about. They've dug themselves into the old {ansi:1;32}temple{ansi:0;32} in
+ the north wall, and they're breeding something in there."{ansi:0}
+"""
+
+# ---------------------------------------------------------------- the quest
+
+[[text]]
+number = 10202
+link = 10217
+text = "{ansi:40}\n"
+
+[[text]]
+number = 10217
+text = """
+failability 210:minlevel 55 10300:giveability 210 1:text 10203
+testability 210 1:checkability 210 1:text 10204
+testability 210 2:checkability 210 2:text 10205
+testability 210 3:checkability 210 3:text 10206
+testability 210 4:checkability 210 4:text 10211
+"""
+
+[[text]]
+number = 10203
+text = """
+{ansi:0}Tamsin spits into the fire.
+
+{ansi:0;32}"Serpentkin, most of them, though not like any I knew before. They came down
+ the vent a few years back and took the old temple, and now they feed the
+ raptors and the raptors feed on anything else. Their priests lead the
+ rites. Each one carries a {ansi:1;32}sigil{ansi:0;32} of black stone, a snake eating its tail.
+
+ "I've watched them use those sigils on the sanctum doors. Bring me one and
+ I'll see what can be made of it."{ansi:0}
+
+{ansi:1;33}<Bring Tamsin a serpent sigil from a cult priest of the Coiled Temple.>{ansi:0}
+"""
+
+[[text]]
+number = 10204
+text = """
+{ansi:0;32}"The priests carry the {ansi:1;32}sigils{ansi:0;32}, on chains around their necks. You'll find
+ them deep in the temple, past the court. Bring me one."{ansi:0}
+"""
+
+[[text]]
+number = 10205
+text = """
+{ansi:0;32}"You have the key. Whatever they're feeding is behind those doors, and I'd
+ sleep better knowing it was dead. Go on."{ansi:0}
+
+{ansi:1;33}<Slay whatever lies in the sanctum of the Coiled Temple.>{ansi:0}
+"""
+
+[[text]]
+number = 10206
+text = """
+{ansi:0;32}"You've the look of someone with something to tell me. Is it the {ansi:1;32}mother{ansi:0;32}?"{ansi:0}
+"""
+
+[[text]]
+number = 10207
+link = 10218
+text = "{ansi:40}\n"
+
+[[text]]
+number = 10218
+text = """
+testability 210 1:checkability 210 1:checkitem 5101 10301:takeitem 5101:giveitem 5102:giveability 210 2:addexp 25000000:text 10208
+testability 210 2:checkability 210 2:text 10205
+"""
+
+[[text]]
+number = 10208
+text = """
+{ansi:0}Tamsin turns the sigil over in her hands, then sets it on a flat stone by the
+fire and strikes it once with the pommel of her knife. It splits cleanly in
+two, and inside lies a long key of polished obsidian, carved as two serpents
+twined together.
+
+{ansi:0;32}"I thought so. They don't open the doors with the sigils, they carry the keys
+ inside them. Take it. What's in that sanctum has been growing for years. Kill
+ it before it hatches whatever it's sitting on."{ansi:0}
+
+{ansi:1;33}<Tamsin gives you an obsidian serpent key.>{ansi:0}
+{ansi:0;36}<You gain 25,000,000 experience!>{ansi:0}
+
+{ansi:1;33}<Slay whatever lies in the sanctum of the Coiled Temple.>{ansi:0}
+"""
+
+[[text]]
+number = 10209
+link = 10219
+text = "{ansi:40}\n"
+
+[[text]]
+number = 10219
+text = """
+testability 210 3:checkability 210 3:giveitem 2752:giveability 210 4:addexp 60000000:text 10210
+testability 210 4:checkability 210 4:text 10211
+testability 210 2:checkability 210 2:text 10205
+"""
+
+[[text]]
+number = 10210
+text = """
+{ansi:0}Tamsin listens without a word as you tell her of the sanctum and the thing in
+it. When you finish she lets out a long breath and, for the first time, smiles.
+
+{ansi:0;32}"A mother. Gods. Then the eggs are cold now, and the cult has nothing left to
+ pray to." She ducks into the lean-to and returns with a folded tunic of green
+ and black scales. "Viperhide. I took it from the first cultist who tried to
+ kill me. It's yours, you've more need of it than I have."{ansi:0}
+
+{ansi:1;33}<Tamsin gives you a Viperhide Tunic.>{ansi:0}
+{ansi:0;36}<You gain 60,000,000 experience!>{ansi:0}
+"""
+
+[[text]]
+number = 10211
+text = """
+{ansi:0;32}"The valley's quieter since you went into that temple. Not quiet, mind. But
+ quieter."{ansi:0}
+"""
+
+[[text]]
+number = 10212
+text = """
+testability 210 2:checkability 210 2:giveability 210 3:text 10213
+"""
+
+[[text]]
+number = 10213
+text = """
+{ansi:0}With a final shudder the Coil Mother's great body goes still, and the coils
+slide loose across the bones of her nest. In the silence you hear a faint
+tapping from inside the nearest egg, and then nothing at all.
+
+{ansi:1;33}<Return to Tamsin at the ranger's camp and tell her of the mother.>{ansi:0}
+"""
+
+# ---------------------------------------------------------------- lore
+
+[[text]]
+number = 10214
+text = """
+{ansi:0;32}"Raptors run in packs, three or four, with a big one leading. Kill the leader
+ and the rest scatter, sometimes. The ones with the long claw on the foot carry
+ a poison that makes your arm go numb. Don't let them get behind you."{ansi:0}
+"""
+
+[[text]]
+number = 10215
+text = """
+{ansi:0;32}"The Coiled Temple. It's old, older than the cult, older than anyone knows. The
+ serpentkin say their ancestors built it before the volcano woke. North wall of
+ the basin, past the big fern. Mind the court; they keep scarabs there."{ansi:0}
+"""
+
+[[text]]
+number = 10216
+text = """
+{ansi:0;32}"The volcano keeps it warm, the vents keep it wet, and nothing has hunted the
+ beasts down here in a thousand years except each other. The big grazers will
+ leave you be if you leave them be. The king of the tar pits won't."{ansi:0}
+"""

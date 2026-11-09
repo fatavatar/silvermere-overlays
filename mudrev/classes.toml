@@ -1,0 +1,352 @@
+[[class]]
+abilities = [["Bash", 0], ["None", -99], ["None", -99], ["None", -99], ["None", -99], ["None", -99], ["None", -99]]
+armour = "Scalemail"
+basehp = 5
+combat = 6
+exp = 65
+hplevel = 2
+magelvl = 2
+magery = "Priest"
+name = "Templar"
+number = 16
+titles = 3016
+weapon = "All"
+
+[[class]]
+abilities = [["Bash", 0], ["None", 0], ["None", -99], ["None", -99], ["None", -99], ["None", -99], ["None", -99]]
+armour = "Scalemail"
+basehp = 5
+combat = 6
+exp = 65
+hplevel = 2
+magelvl = 2
+magery = "Mage"
+name = "Battlemage"
+number = 17
+titles = 3017
+weapon = "All"
+
+[[class]]
+abilities = [["None", 0], ["Tracking", 0], ["Critical", 1], ["FindTraps", 0], ["ClassStealth", 0], ["None", 0], ["BackstabMin", 10], ["BackstabMax", 20]]
+armour = "Scalemail"
+basehp = 5
+combat = 6
+hplevel = 2
+magelvl = 1
+magery = "Druid"
+name = "Archer"
+number = 18
+titles = 3018
+weapon = "Limited"
+
+[[class]]
+abilities = [["ClassStealth", 0]]
+armour = "Robes"
+basehp = 3
+combat = 4
+exp = 25
+hplevel = 3
+magelvl = 3
+magery = "Bard"
+name = "Maestro"
+number = 19
+titles = 3019
+weapon = "AnyBlunt"
+
+[[class]]
+abilities = [["ClassStealth", 0], ["None", 0], ["FindTraps", 0], ["Picklocks", 0], ["BackstabMax", 10], ["BackstabMin", 10], ["PerfectStealth", 0], ["Bash", 0], ["None", 0], ["BackstabAv", 20]]
+armour = "StuddedRigidLeather"
+basehp = 5
+combat = 6
+hplevel = 2
+name = "Rogue"
+number = 20
+titles = 3020
+weapon = "AnyOneHand"
+
+[[class]]
+abilities = [["None", 0], ["None", 0], ["Dodge", 15], ["Bash", 0], ["None", -99], ["None", -99], ["None", -99]]
+armour = "Robes"
+basehp = 5
+combat = 7
+exp = 65
+hplevel = 2
+magelvl = 1
+magery = "Mage"
+name = "Wardancer"
+number = 21
+titles = 3021
+weapon = "All"
+
+[[class]]
+abilities = [["ClassStealth", 0], ["Punch", 3], ["FindTraps", 0], ["None", 0], ["Picklocks", 3], ["HitMagical", 5], ["Critical", 1], ["Bash", 0], ["None", -99], ["None", -99]]
+armour = "Chainmail"
+basehp = 5
+combat = 6
+exp = 65
+hplevel = 2
+magelvl = 1
+magery = "Kai"
+name = "Samurai"
+number = 22
+titles = 3022
+weapon = "OneHandSharp"
+
+[[class]]
+abilities = [["None", 50], ["None", 10], ["None", 50], ["None", -99], ["None", -99]]
+armour = "Robes"
+basehp = 3
+combat = 3
+exp = 100
+hplevel = 2
+magelvl = 3
+magery = "Mage"
+name = "Wizard"
+number = 23
+titles = 3023
+weapon = "Limited"
+
+[[class]]
+abilities = [["None", 0], ["FindTraps", 0], ["None", 0], ["Picklocks", 0], ["Bash", 0], ["None", -99]]
+armour = "Platemail"
+basehp = 5
+combat = 6
+exp = 65
+hplevel = 2
+magelvl = 1
+magery = "Bard"
+name = "Skald"
+number = 24
+titles = 3024
+weapon = "AnyBlunt"
+
+[[class]]
+abilities = [["None", 50], ["None", 50], ["None", -99], ["None", -99], ["None", -99]]
+armour = "Robes"
+basehp = 3
+combat = 3
+exp = 100
+hplevel = 3
+magelvl = 3
+magery = "Druid"
+name = "Shaman"
+number = 25
+titles = 3025
+weapon = "Limited"
+
+[[class_change]]
+number = 1
+
+[class_change.set]
+hplevel = 2
+
+[class_change.was]
+hplevel = 4
+
+[[class_change]]
+number = 2
+
+[class_change.set]
+basehp = 7
+combat = 8
+exp = 0
+hplevel = 1
+
+[class_change.was]
+basehp = 6
+combat = 7
+exp = 30
+hplevel = 4
+
+[[class_change]]
+number = 3
+
+[class_change.set]
+exp = 25
+hplevel = 3
+
+[class_change.was]
+exp = 120
+hplevel = 4
+
+[[class_change]]
+number = 4
+
+[class_change.set]
+abilities = [["None", 50], ["None", 50], ["None", -99], ["None", -99], ["None", -99], ["None", -99], ["None", -99]]
+armour = "Robes"
+basehp = 3
+combat = 4
+exp = 100
+hplevel = 3
+magelvl = 3
+name = "Necrolyte"
+
+[class_change.was]
+abilities = [["Bash", 0], ["None", 0], ["None", -99], ["None", -99], ["None", -99], ["None", -99], ["None", -99]]
+armour = "Platemail"
+basehp = 4
+combat = 5
+exp = 120
+hplevel = 4
+magelvl = 2
+name = "Cleric"
+
+[[class_change]]
+number = 5
+
+[class_change.set]
+abilities = [["None", 0], ["None", -99], ["None", -99], ["None", -99], ["None", -99]]
+exp = 25
+
+[class_change.was]
+abilities = [["Bash", 0], ["None", -99], ["None", -99], ["None", -99], ["None", -99]]
+exp = 40
+
+[[class_change]]
+number = 6
+
+[class_change.set]
+armour = "Chainmail"
+combat = 5
+exp = 25
+
+[class_change.was]
+armour = "StuddedRigidLeather"
+combat = 4
+exp = 120
+
+[[class_change]]
+number = 7
+
+[class_change.set]
+abilities = [["Bash", 0], ["ClassStealth", 0], ["FindTraps", 0], ["Picklocks", 0], ["Tracking", 0], ["Dodge", 15], ["Critical", 5], ["BackstabAv", 25], ["PerfectStealth", 0], ["BackstabMax", 15]]
+basehp = 5
+combat = 6
+exp = 25
+hplevel = 2
+
+[class_change.was]
+abilities = [["Bash", 0], ["ClassStealth", 0], ["FindTraps", 0], ["Picklocks", 0], ["Tracking", 0], ["Dodge", 25], ["Critical", 10]]
+basehp = 4
+combat = 5
+exp = 85
+hplevel = 4
+
+[[class_change]]
+number = 8
+
+[class_change.set]
+abilities = [["ClassStealth", 0], ["None", 10], ["FindTraps", 0], ["Bash", 0], ["Picklocks", 0], ["BackstabMax", 15], ["PerfectStealth", 0], ["BackstabMin", 15], ["BackstabAv", 50]]
+basehp = 5
+combat = 5
+hplevel = 2
+
+[class_change.was]
+abilities = [["ClassStealth", 0], ["Thievery", 10], ["FindTraps", 0], ["Bash", 0], ["Picklocks", 0]]
+basehp = 4
+combat = 4
+hplevel = 3
+
+[[class_change]]
+number = 9
+
+[class_change.set]
+abilities = [["ClassStealth", 0], ["FindTraps", 0], ["None", 0], ["Picklocks", 0], ["Bash", 0], ["None", -99]]
+exp = 25
+weapon = "All"
+
+[class_change.was]
+abilities = [["ClassStealth", 0], ["FindTraps", 0], ["Thievery", 0], ["Picklocks", 0], ["Bash", 0], ["None", -99]]
+exp = 110
+weapon = "AnyOneHand"
+
+[[class_change]]
+number = 10
+
+[class_change.set]
+abilities = [["ClassStealth", 0], ["Picklocks", 0], ["None", 0], ["FindTraps", 0], ["Bash", 0], ["Critical", 3]]
+armour = "Chainmail"
+combat = 5
+exp = 25
+
+[class_change.was]
+abilities = [["ClassStealth", 0], ["Picklocks", 0], ["Thievery", 0], ["FindTraps", 0], ["Bash", 0], ["None", -99]]
+armour = "StuddedRigidLeather"
+combat = 4
+exp = 120
+
+[[class_change]]
+number = 11
+
+[class_change.set]
+abilities = [["Bash", 0], ["None", 0], ["None", 0], ["Picklocks", 0], ["None", 0], ["FindTraps", 0], ["ClassStealth", 0], ["Tracking", 0]]
+armour = "StuddedRigidLeather"
+exp = 65
+hplevel = 3
+magery = "Druid"
+name = "Arborean"
+weapon = "OneHandSharp"
+
+[class_change.was]
+abilities = [["Bash", 0], ["None", 0], ["None", -99], ["None", -99], ["None", -99], ["None", -99], ["None", -99]]
+armour = "Chainmail"
+exp = 85
+hplevel = 4
+magery = "Mage"
+name = "Warlock"
+weapon = "AnyOneHand"
+
+[[class_change]]
+number = 12
+
+[class_change.set]
+abilities = [["None", 0], ["None", -99], ["None", -99], ["None", -99], ["None", -99]]
+exp = 0
+hplevel = 2
+
+[class_change.was]
+abilities = [["Bash", 0], ["None", -99], ["None", -99], ["None", -99], ["None", -99]]
+exp = 40
+hplevel = 3
+
+[[class_change]]
+number = 13
+
+[class_change.set]
+abilities = [["None", 0], ["ClassItem", 74], ["None", -99], ["None", -99], ["None", -99]]
+basehp = 3
+exp = 25
+
+[class_change.was]
+abilities = [["Bash", 0], ["ClassItem", 74], ["None", -99], ["None", -99], ["None", -99]]
+basehp = 4
+exp = 90
+
+[[class_change]]
+number = 14
+
+[class_change.set]
+exp = 65
+hplevel = 2
+
+[class_change.was]
+exp = 150
+hplevel = 4
+
+[[class_change]]
+number = 15
+
+[class_change.set]
+abilities = [["ClassStealth", 0], ["Dodge", 15], ["Punch", 1], ["Kick", 1], ["Jumpkick", 1], ["HitMagical", 5], ["Critical", 5], ["None", 0], ["None", 0], ["None", -99]]
+basehp = 5
+combat = 6
+exp = 100
+hplevel = 2
+
+[class_change.was]
+abilities = [["ClassStealth", 0], ["Dodge", 25], ["Punch", 1], ["Kick", 1], ["Jumpkick", 1], ["HitMagical", 5], ["Critical", 10], ["Bash", 0], ["None", -99], ["None", -99]]
+basehp = 4
+combat = 5
+exp = 150
+hplevel = 4

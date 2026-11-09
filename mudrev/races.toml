@@ -1,0 +1,474 @@
+[[race]]
+abilities = [["MagicResist", 5], ["UserLight", 100], ["Encumbrance", 5], ["HealRate", 30], ["None", 2]]
+basecp = 100
+exp = 50
+hpbonus = 1
+maxagi = 180
+maxcha = 120
+maxhea = 220
+maxint = 140
+maxstr = 230
+maxwil = 170
+minagi = 40
+mincha = 20
+minhea = 50
+minint = 30
+minstr = 60
+minwil = 40
+name = "Troll"
+number = 14
+
+[[race]]
+abilities = [["UserLight", 50], ["RaceStealth", 0], ["Mana", 20], ["ManaRate", 20], ["Meditate", 0]]
+basecp = 100
+exp = 50
+maxagi = 220
+maxcha = 150
+maxhea = 180
+maxint = 220
+maxstr = 180
+maxwil = 200
+minagi = 50
+mincha = 70
+minhea = 30
+minint = 50
+minstr = 40
+minwil = 40
+name = "Wood-Elf"
+number = 15
+
+[[race]]
+abilities = [["RaceStealth", 0], ["Dodge", 10], ["None", 0], ["PerfectStealth", 0]]
+basecp = 100
+exp = 50
+hpbonus = -1
+maxagi = 250
+maxcha = 140
+maxhea = 180
+maxint = 170
+maxstr = 150
+maxwil = 190
+minagi = 80
+mincha = 40
+minhea = 40
+minint = 30
+minstr = 20
+minwil = 40
+name = "Quickling"
+number = 16
+
+[[race]]
+abilities = [["AvBless", 1], ["DamageResist", 10], ["Defence", 5], ["HotDefence", 20], ["UserLight", 100], ["ColdDefence", -10]]
+basecp = 100
+exp = 50
+hpbonus = 1
+maxagi = 190
+maxcha = 130
+maxhea = 210
+maxint = 190
+maxstr = 220
+maxwil = 190
+minagi = 40
+mincha = 30
+minhea = 50
+minint = 40
+minstr = 60
+minwil = 40
+name = "Dragonkin"
+number = 17
+
+[[race]]
+abilities = [["PoisonImmune", 100], ["DamageResist", 30], ["Defence", 3], ["ColdDefence", 20], ["Critical", 3], ["ResistWater", 10], ["HotDefence", -10]]
+basecp = 100
+exp = 50
+maxagi = 190
+maxcha = 130
+maxhea = 210
+maxint = 190
+maxstr = 220
+maxwil = 190
+minagi = 40
+mincha = 30
+minhea = 50
+minint = 40
+minstr = 60
+minwil = 40
+name = "Serpentkin"
+number = 18
+
+[[race_change]]
+number = 1
+
+[race_change.set]
+abilities = [["AvBless", 10]]
+maxagi = 200
+maxcha = 130
+maxhea = 200
+maxint = 200
+maxstr = 200
+maxwil = 200
+mincha = 30
+
+[race_change.was]
+abilities = []
+maxagi = 100
+maxcha = 100
+maxhea = 100
+maxint = 100
+maxstr = 100
+maxwil = 100
+mincha = 40
+
+[[race_change]]
+number = 2
+
+[race_change.set]
+abilities = [["MagicResist", 10], ["UserLight", 100], ["Encumbrance", 30], ["None", 1], ["None", 2]]
+maxagi = 160
+maxcha = 120
+maxhea = 210
+maxint = 160
+maxstr = 210
+maxwil = 190
+minagi = 40
+minint = 40
+
+[race_change.was]
+abilities = [["MagicResist", 10], ["UserLight", 75], ["Encumbrance", 20], ["None", -20], ["None", 2]]
+maxagi = 90
+maxcha = 85
+maxhea = 120
+maxint = 90
+maxstr = 110
+maxwil = 120
+minagi = 30
+minint = 30
+
+[[race_change]]
+number = 3
+
+[race_change.set]
+exp = 30
+maxagi = 180
+maxcha = 130
+maxhea = 180
+maxint = 200
+maxstr = 160
+maxwil = 200
+minagi = 40
+mincha = 50
+minint = 50
+minstr = 30
+
+[race_change.was]
+exp = 20
+maxagi = 110
+maxcha = 90
+maxhea = 100
+maxint = 110
+maxstr = 90
+maxwil = 100
+minagi = 45
+mincha = 35
+minint = 45
+minstr = 35
+
+[[race_change]]
+number = 4
+
+[race_change.set]
+abilities = [["RaceStealth", 0], ["Dodge", 5]]
+exp = 0
+hpbonus = 0
+maxagi = 240
+maxcha = 140
+maxhea = 180
+maxint = 160
+maxstr = 120
+maxwil = 180
+minhea = 50
+minint = 40
+minwil = 50
+
+[race_change.was]
+abilities = [["RaceStealth", 0], ["Dodge", 10]]
+exp = 25
+hpbonus = -1
+maxagi = 150
+maxcha = 100
+maxhea = 100
+maxint = 90
+maxstr = 60
+maxwil = 100
+minhea = 40
+minint = 30
+minwil = 40
+
+[[race_change]]
+number = 5
+
+[race_change.set]
+abilities = [["UserLight", 50], ["RaceStealth", 0], ["Mana", 10], ["Meditate", 0]]
+exp = 30
+maxagi = 210
+maxcha = 150
+maxhea = 180
+maxint = 220
+maxstr = 160
+maxwil = 200
+mincha = 70
+minhea = 40
+minstr = 40
+minwil = 50
+
+[race_change.was]
+abilities = [["UserLight", 50], ["RaceStealth", 0], ["Mana", 10]]
+exp = 45
+maxagi = 120
+maxcha = 120
+maxhea = 80
+maxint = 120
+maxstr = 90
+maxwil = 100
+mincha = 50
+minhea = 30
+minstr = 35
+minwil = 40
+
+[[race_change]]
+number = 6
+
+[race_change.set]
+abilities = [["None", 10], ["UserLight", 15], ["Meditate", 0], ["None", 5], ["None", 10]]
+exp = 0
+maxagi = 200
+maxcha = 130
+maxhea = 180
+maxint = 200
+maxstr = 160
+maxwil = 200
+minagi = 50
+minhea = 40
+minint = 50
+minwil = 50
+
+[race_change.was]
+abilities = [["Mana", 10], ["UserLight", 25]]
+exp = 15
+maxagi = 110
+maxcha = 110
+maxhea = 100
+maxint = 110
+maxstr = 90
+maxwil = 100
+minagi = 45
+minhea = 30
+minint = 45
+minwil = 40
+
+[[race_change]]
+number = 7
+
+[race_change.set]
+abilities = [["UserLight", 80], ["RaceStealth", 0], ["Critical", 3], ["AvThird", 3], ["Meditate", 0]]
+exp = 30
+maxagi = 200
+maxcha = 130
+maxhea = 180
+maxint = 210
+maxstr = 170
+maxwil = 150
+mincha = 50
+minhea = 40
+minwil = 40
+
+[race_change.was]
+abilities = [["UserLight", 80], ["RaceStealth", 0], ["Critical", 1], ["AvThird", 3]]
+exp = 45
+maxagi = 120
+maxcha = 110
+maxhea = 90
+maxint = 120
+maxstr = 90
+maxwil = 100
+mincha = 40
+minhea = 30
+minwil = 30
+
+[[race_change]]
+number = 8
+
+[race_change.set]
+abilities = [["None", 0], ["Damage", 3]]
+maxagi = 180
+maxcha = 110
+maxhea = 200
+maxint = 170
+maxstr = 190
+maxwil = 170
+minagi = 50
+minint = 40
+minstr = 50
+minwil = 40
+name = "Black-Orc"
+
+[race_change.was]
+abilities = []
+maxagi = 100
+maxcha = 80
+maxhea = 120
+maxint = 90
+maxstr = 110
+maxwil = 95
+minagi = 40
+minint = 30
+minstr = 45
+minwil = 30
+name = "Half-Orc"
+
+[[race_change]]
+number = 9
+
+[race_change.set]
+exp = 30
+maxagi = 200
+maxcha = 150
+maxhea = 180
+maxint = 190
+maxstr = 140
+maxwil = 180
+minagi = 60
+mincha = 70
+minint = 50
+
+[race_change.was]
+exp = 35
+maxagi = 125
+maxcha = 100
+maxhea = 100
+maxint = 115
+maxstr = 70
+maxwil = 100
+minagi = 55
+mincha = 40
+minint = 45
+
+[[race_change]]
+number = 10
+
+[race_change.set]
+abilities = [["MagicResist", 10], ["DamageResist", 30], ["Defence", 3], ["None", 3]]
+exp = 0
+hpbonus = 0
+maxagi = 125
+maxcha = 100
+maxhea = 210
+maxint = 125
+maxstr = 230
+maxwil = 140
+minagi = 25
+mincha = 20
+minint = 25
+minstr = 60
+minwil = 40
+
+[race_change.was]
+abilities = [["MagicResist", 15], ["DamageResist", 20], ["None", 100], ["None", 3]]
+exp = 30
+hpbonus = 1
+maxagi = 60
+maxcha = 60
+maxhea = 150
+maxint = 60
+maxstr = 150
+maxwil = 70
+minagi = 20
+mincha = 25
+minint = 20
+minstr = 70
+minwil = 25
+
+[[race_change]]
+number = 11
+
+[race_change.set]
+abilities = [["PoisonImmune", 100], ["DamageResist", 10], ["Defence", 5], ["AvBless", 3]]
+exp = 0
+maxagi = 160
+maxcha = 130
+maxhea = 190
+maxint = 160
+maxstr = 200
+maxwil = 170
+minagi = 40
+minint = 40
+minstr = 50
+minwil = 40
+
+[race_change.was]
+abilities = [["PoisonImmune", 100], ["DamageResist", 10], ["Defence", 5]]
+exp = 35
+maxagi = 90
+maxcha = 85
+maxhea = 110
+maxint = 90
+maxstr = 120
+maxwil = 110
+minagi = 30
+minint = 30
+minstr = 55
+minwil = 45
+
+[[race_change]]
+number = 12
+
+[race_change.set]
+abilities = [["RaceStealth", 0], ["UserLight", 100], ["Tracking", 0], ["HotDefence", 15], ["ColdDefence", -5], ["MagicResist", 5]]
+maxagi = 210
+maxcha = 140
+maxhea = 190
+maxint = 180
+maxstr = 180
+maxwil = 170
+mincha = 40
+minhea = 50
+minint = 50
+minstr = 50
+minwil = 40
+
+[race_change.was]
+abilities = [["RaceStealth", 0], ["UserLight", 50], ["Tracking", 0], ["HotDefence", 10], ["ColdDefence", -10]]
+maxagi = 130
+maxcha = 110
+maxhea = 80
+maxint = 100
+maxstr = 100
+maxwil = 90
+mincha = 50
+minhea = 30
+minint = 40
+minstr = 40
+minwil = 30
+
+[[race_change]]
+number = 13
+
+[race_change.set]
+abilities = [["UserLight", 200], ["Perception", 10], ["SeeHidden", 0]]
+exp = 30
+maxagi = 180
+maxcha = 130
+maxhea = 180
+maxint = 220
+maxstr = 160
+maxwil = 160
+
+[race_change.was]
+abilities = [["UserLight", 200], ["Perception", 10], ["None", 10]]
+exp = 50
+maxagi = 110
+maxcha = 80
+maxhea = 70
+maxint = 140
+maxstr = 100
+maxwil = 100

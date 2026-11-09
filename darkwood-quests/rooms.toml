@@ -1,0 +1,132 @@
+# Rooms for the Darkwood quests: the false King's throne room behind the mirror and the
+# void beyond its door (both fill realm placeholders), and the realm rooms they change.
+
+# fills a realm "Buffer Room" placeholder
+[[room]]
+map = 3
+room = 789
+name = "Castle of Nazareen, Royal Throne Room"
+desc = """
+You are in the great castle of Nazareen.  The stone walls loom high
+above you on all sides, for this fort creates a great barricade from
+the evil which dwells around the homestead.  You will find royal
+guards patrolling the area, as well as the royal ladies of nazareen.
+You notice through the north window that there is a hidden tower
+within the trees of the Ashwood Forest.
+"""
+exits = { south = { target = 790, kind = "Gate", par1 = 2, par2 = -999 } }
+specmon = 2089
+cmdtext = 9714
+placed = [5013]
+
+# fills a realm "Buffer Room" placeholder
+[[room]]
+map = 3
+room = 790
+name = "void"
+desc = """
+You are surrounded by a featureless grey emptiness. There is no floor
+beneath your feet and no sky above, only the sound of your own
+heartbeat. Faint ripples of silver light drift past at the edge of
+your vision, like reflections in a pane of glass seen from the wrong
+side. Far to the north, a pinprick of warm daylight beckons.
+"""
+exits = { north = { target = 1, kind = "MapChange", par1 = 1 } }
+
+[[room_change]]
+map = 1
+room = 6024
+why = "the mirror to the false King's throne room"
+set = { cmdtext = 9713, placed = [5013] }
+was = { cmdtext = 0, placed = [] }
+
+[[room_change]]
+map = 1
+room = 6044
+why = "turns good characters on step 54 back to the gates"
+set = { roomspell = 2302 }
+was = { roomspell = 0 }
+
+[[room_change]]
+map = 1
+room = 6045
+why = "turns good characters on step 54 back to the gates"
+set = { roomspell = 2302 }
+was = { roomspell = 0 }
+
+[[room_change]]
+map = 1
+room = 6046
+why = "turns good characters on step 54 back to the gates"
+set = { roomspell = 2302 }
+was = { roomspell = 0 }
+
+[[room_change]]
+map = 1
+room = 6047
+why = "turns good characters on step 54 back to the gates"
+set = { roomspell = 2302 }
+was = { roomspell = 0 }
+
+[[room_change]]
+map = 1
+room = 6048
+why = "turns good characters on step 54 back to the gates"
+set = { roomspell = 2302 }
+was = { roomspell = 0 }
+
+[[room_change]]
+map = 1
+room = 6049
+why = "turns good characters on step 54 back to the gates"
+set = { roomspell = 2302 }
+was = { roomspell = 0 }
+
+[[room_change]]
+map = 1
+room = 6050
+why = "turns good characters on step 54 back to the gates"
+set = { roomspell = 2302 }
+was = { roomspell = 0 }
+
+[[room_change]]
+map = 1
+room = 6051
+why = "turns good characters on step 54 back to the gates"
+set = { roomspell = 2302 }
+was = { roomspell = 0 }
+
+[[room_change]]
+map = 1
+room = 6052
+why = "turns good characters on step 54 back to the gates"
+set = { roomspell = 2302 }
+was = { roomspell = 0 }
+
+[[room_change]]
+map = 1
+room = 6053
+why = "turns good characters on step 54 back to the gates"
+set = { roomspell = 2302 }
+was = { roomspell = 0 }
+
+[[room_change]]
+map = 1
+room = 6054
+why = "turns good characters on step 54 back to the gates"
+set = { roomspell = 2302 }
+was = { roomspell = 0 }
+
+[[room_change]]
+map = 1
+room = 6055
+why = "turns good characters on step 54 back to the gates"
+set = { roomspell = 2302 }
+was = { roomspell = 0 }
+
+[[room_change]]
+map = 2
+room = 9808
+why = "the weaver lives here"
+set = { specmon = 696 }
+was = { specmon = 0 }

@@ -1,0 +1,32 @@
+# Ashfall Valley's items. The Viperhide set (2752-2756) already exists in the realm but nothing
+# ever gave it out; the valley's monsters now drop it (monsters.toml) and the quest gives the
+# tunic (text.toml).
+
+[[item]]
+number = 5101
+from = 341
+name = "serpent sigil"
+item_type = "Special"
+charges = -1
+destroymsg = 0
+weight = 2
+robable = 0
+abilities = []
+desc = """
+This heavy sigil of black stone is carved as a snake coiled tight
+around itself, its tail in its mouth. The stone is warm, and the
+carved scales seem to shift when you are not looking at them.
+"""
+
+[[item]]
+number = 5102
+from = 341
+name = "obsidian serpent key"
+charges = -1
+destroymsg = 0
+retain = 1
+desc = """
+This long key of polished obsidian is shaped as two serpents twined
+together, their heads forming the bit. It is cold to the touch, even
+in the valley's heat.
+"""

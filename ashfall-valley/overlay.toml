@@ -1,0 +1,3 @@
+name = "ashfall-valley"
+description = "Ashfall Valley: a sunken valley under the Volcano, levels 55-80 (CONTENT-AREAS.md, area 1)."
+after = ["mudrev"]

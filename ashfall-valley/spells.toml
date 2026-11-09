@@ -1,0 +1,14 @@
+# The Coil Mother's death moves her killer on a step of the ranger's quest: her death spell
+# ends by casting the spell that runs the quest script, as the realm's own quest kills do.
+
+[[spell]]
+number = 5100
+from = 1167
+name = "coil mother temp"
+abilities = [["EndCast", 5101]]
+
+[[spell]]
+number = 5101
+from = 1168
+name = "coil mother text"
+abilities = [["TextBlock", 10212]]

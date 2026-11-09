@@ -1,0 +1,53 @@
+# The messages Tamsin's quest shows when a condition fails.
+
+[[message]]
+number = 10300
+msgs = ["Tamsin shakes her head. \"The cult would eat you alive. Come back stronger.\"", "", ""]
+
+[[message]]
+number = 10301
+msgs = ["Tamsin frowns. \"No sigil, no key. The priests carry them.\"", "", ""]
+
+# The Coil Mother's coils, fangs, death and arrival, and the viper cultist's blade. An attack
+# message is (to you, to the room); a death message's third line is the death.
+
+[[message]]
+number = 10302
+msgs = ["The %s crushes you in her coils for %d damage!", "The %s crushes %s in her coils for %s damage!", "The Coil Mother thrashes once and goes still, her coils sliding loose across the nest."]
+
+[[message]]
+number = 10303
+msgs = ["The %s sinks her fangs into you for %d damage!", "The %s sinks her fangs into %s for %s damage!", ""]
+
+[[message]]
+number = 10304
+msgs = ["The %s slashes you with a curved blade for %d damage!", "The %s slashes %s with a curved blade for %s damage!", ""]
+
+[[message]]
+number = 10305
+msgs = ["The %s uncoils from the darkness above the nest!", "The %s slithers out to %s.", "The %s slithers after you!"]
+
+# Deflect messages: line 1 to you and line 2 to the room when armour stops the blow, line 3 to
+# you when you dodge it. (The room sees a dodge through the attack's miss message, line 1.) The
+# realm's own messages for the tail, swoop and charge had no armour in them; these do.
+
+[[message]]
+number = 10306
+msgs = ["The %s %slashes at you with its tail, but your armour takes the blow!", "The %s %slashes at %s with its tail, but %s armour takes the blow!", "The %s %slashes at %syou with its tail, but you dodge!"]
+
+[[message]]
+number = 10307
+msgs = ["The %s %sswoops down at you, but your armour turns its claws!", "The %s %sswoops down at %s, but %s armour turns its claws!", "The %s %sswoops down at %syou, but you dodge out of the way!"]
+
+[[message]]
+number = 10308
+msgs = ["The %s %scharges into you, but your armour absorbs the blow!", "The %s %scharges into %s, but %s armour absorbs the blow!", "The %s %scharges at %syou, but you dodge out of the way!"]
+
+[[message]]
+number = 10309
+msgs = ["The %s %stightens her coils around you, but your armour holds!", "The %s %stightens her coils around %s, but %s armour holds!", "The %s %slunges to coil around %syou, but you twist free!"]
+
+# The Coil Mother's coils missing: line 1 to the room on a dodge, lines 2 and 3 on a miss.
+[[message]]
+number = 10310
+msgs = ["The %s %slunges to coil around %s, %sbut %s twists free!", "The %s %sstrikes at %syou, but her coils find nothing!", "The %s %sstrikes at %s, %sbut her coils find nothing!"]

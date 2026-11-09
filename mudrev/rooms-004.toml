@@ -1,0 +1,35 @@
+[[room_change]]
+map = 4
+room = 1
+
+[room_change.set]
+areamax = 50
+regendelay = 8
+
+[room_change.was]
+areamax = 0
+regendelay = 5
+
+[[room_change]]
+map = 4
+room = 2
+
+[room_change.set]
+areamax = 50
+regendelay = 8
+
+[room_change.was]
+areamax = 0
+regendelay = 5
+
+[[room_change]]
+map = 4
+room = 3
+
+[room_change.set]
+areamax = 50
+regendelay = 8
+
+[room_change.was]
+areamax = 0
+regendelay = 5

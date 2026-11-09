@@ -1,0 +1,134 @@
+[[action]]
+name = "bitchslap"
+targets = "USER"
+texts = ["You let loose and bitchslap anyone near you!", "%s goes crazy and bitchslaps everyone!", "You bitchslap %s in a frenzy!", "%s bitchslaps you fiercely!", "%s gives %s a fierce bitchslap!", "You bitchslap %s like a little hooker!"]
+
+[[action]]
+name = "boob"
+targets = "SINGLE"
+texts = ["You sigh to the heavens. What a bunch of boobs.", "%s thinks you're all a bunch of boobs.", "You let %s know that they're a friggin boob.", "%s thinks you're a fucking boob.", "%s inform %s of their status as a BOOB."]
+
+[[action]]
+name = "closet"
+targets = "SINGLE | USER"
+texts = ["You cry happily as you come out of the closet!", "%s cries happily! They just came out of the closet!", "You give %s a teary-eyed look and tell them you're gay.", "%s is telling you how gay they are!", "%s tells %s that hes a butt pirate!"]
+
+[[action]]
+name = "dickslap"
+targets = "SINGLE | USER | MONSTER"
+texts = ["You run around and dickslap everyone within range!", "%s runs up and DICKSLAPS you!", "You dickslap %s with your two-inch wang!", "%s smacks you in the forehead with their two-inch johnson!", "%s dickslaps %s with their tiny man needle!"]
+
+[[action]]
+name = "dildo"
+targets = "SINGLE | USER | MONSTER"
+texts = ["You whip out a huge dildo with an evil grin.", "%s pulls out a HUGE dildo! Who's next?"]
+
+[[action]]
+name = "doobie"
+targets = "SINGLE | USER | MONSTER"
+texts = ["You light up a doobie and inhale deeply.", "% fires up a joint and puffs away!", "You fire up a fat joint and pass it to %s.", "%s sparks a massive doobie and passes it to you.", "%s puffs a joint and hands it to %s."]
+
+[[action]]
+name = "dpunch"
+targets = "SINGLE | USER | MONSTER"
+texts = ["", "", "You wind up and deliver %s a NASTY donkey punch!", "%s winds up and donkey punches you!", "%s delivers a sloppy donkey punch to %s!"]
+
+[[action]]
+name = "flowers"
+targets = "SINGLE | USER | MONSTER"
+texts = ["You hand a beautiful flower to everyone. Queer!", "%s hands you a beautiful flower. What a homo!", "You whip out a handful of flowers and give them to %s. What a fag!", "%s hands you a boquet of flowers. What a fag!", "%s gives %s a fragrant boquet of flowers. What a fag!"]
+
+[[action]]
+name = "guitar"
+targets = "SINGLE"
+texts = ['You bust a wicked solo on your air guitar! \m/', '%s shreds like a motherfucker on their air guitar! \m/']
+
+[[action]]
+name = "head"
+targets = "USER"
+texts = ["You want to give EVERYONE head!", "% wants to give EVERYONE head!", "You drop to your knees and look longingly at %s!", "%s drops to their knees and looks up at you expectantly!", "%s kneels expectantly in front of %s!"]
+
+[[action]]
+name = "headbang"
+targets = "USER"
+texts = ["You let fly and headbang like Satan himself!", "%s is headbanging like a maniac!", "You headbang right in %s's face!", "%s headbangs!"]
+
+[[action]]
+name = "hurry"
+targets = "SINGLE"
+texts = ["You tell everyone to HURRY the FUCK UP!", "%s tells everyone to hurry the fuck up!", "You tell %s to hurry the fuck up!", "%s tells you to hurry the fuck up!", "%s tells %s to hurry the fuck up!"]
+
+[[action]]
+name = "juicy"
+targets = "SINGLE"
+texts = ["You release a disgusting fart.", "%s tries to fart but shits their pants!", "You cut a wet beer fart in %s's direction.", "%s bends over and blasts a disgusting beer fart at you!", "%s plants a disgusting beer fart on  %s."]
+
+[[action]]
+name = "kneegroin"
+targets = "SINGLE | USER | MONSTER | INVENTORY | FLOOR"
+texts = ["You line up the idiots and knee them in the groin one at a time!", "%s smashes a knee into your groin!", "You distract %s and knee them square in the groin!", "%s distracts you as they nail you square in the groin!", "%s gives %s an evil knee to the groin!", "You put your fist up %s's ass and pull out its heart!"]
+
+[[action]]
+name = "load"
+targets = "SINGLE | USER | MONSTER"
+texts = ["You moan loudly and begin to squirt!", "%s is blowing their load!", "You squirt a fat load all over %s's face!", "%s squirts a fat, creamy load right in your eyes!", "%s blows a nasty load all over %s's face!", "You cream all over %s's chin!", "%s moans as he squirts a load right in %s's eyes!"]
+
+[[action]]
+name = "moo"
+targets = "SINGLE | USER | MONSTER"
+texts = ["You bellow forth a tremendous MOO!", "%s BELLOWS forth a tremendous MOOOOOOOOO!", "You moo at %s with disdain.", "%s moos nonchalantly at you.", "%s lets forth a bovine wail at %s."]
+
+[[action]]
+name = "noob"
+targets = "SINGLE | USER | MONSTER"
+texts = ["You shake your head in disgust. What a bunch of noobs!", "%s shakes his head at the rampant noobism.", "Damn! %s is such a fucking noob!", "%s smacks you upside the head. You noob!", "%s slaps %s and calls them a noob!"]
+
+[[action]]
+name = "powerlevel"
+targets = "SINGLE | USER"
+texts = ["You beg for ANYONE to powerlevel you!", "%s is begging for ANYONE to powerlevel them!", "You beg %s to powerlevel you. Pathetic.", "%s pleads with you to powerlevel them.", "%s whines like a little bitch at %s."]
+
+[[action]]
+name = "pwn"
+targets = "SINGLE | USER"
+texts = ["You just pwned everyone!", "%s totally pwns you!", "You pwn %s like a little bitch!", "%s is fucking pwning you!", "%s totally just pwned %s!", "You pwn %s like a little schoolgirl.", "%s pwns %s like a little bitch."]
+
+[[action]]
+name = "reacharound"
+targets = "SINGLE | USER"
+texts = ["You ring the bell. Time to give reacharounds!", "%s will let you screw them, but only if they can give you a reacharound!", "You beg %s for a reacharound!", "%s pleads with you desperately for a reacharound!", "%s is begging %s for a reacharound!"]
+
+[[action]]
+name = "REX"
+targets = "SINGLE | USER"
+texts = ["That guy REX EVERYTHING!", "%s REX EVERYTHING!"]
+
+[[action]]
+name = "salad"
+targets = "SINGLE | USER"
+texts = ["You let it be known that you're a tried and true buttlicker.", "%s definately wants to lick your bum!", "You bend %s over and proceed to buttlick them!", "%s forcefully licks your ass!", "%s bends %s over and tosses their salad!"]
+
+[[action]]
+name = "shank"
+targets = "SINGLE | USER | MONSTER | INVENTORY | FLOOR"
+texts = ["", "", "You shank %s like a little prison bitch!", "%s stabs you like the bitch you are!", "%s whips out a shank and guts %s like a prison bitch!"]
+
+[[action]]
+name = "shiver"
+targets = "SINGLE | USER | MONSTER | INVENTORY | FLOOR"
+texts = ["You shiver in fear.", "%s shivers in fear."]
+
+[[action]]
+name = "STFU"
+targets = "USER | INVENTORY | FLOOR"
+texts = ["You tell EVERYONE to STFU!", "%s wants you all to shut the fuck up! NOW!", "You blow your top and tell %s to just SHUT THE FUCK UP!", "%s needs you to SHUT THE FUCK UP! NOW!", "%s tells %s to SHUT THEIR FUCKING YAPPER!"]
+
+[[action]]
+name = "titties"
+targets = "SINGLE | USER | MONSTER"
+texts = ["You show everyone your perky titties!", "%s flashes their perky titties!", "You jump on %s and play with their titties!", "%s leaps on you and plays with your titties!", "%s plays with %s's titties!", "You pinch %s titties!", "%s pinches %s's titties!"]
+
+[[action]]
+name = "whiner"
+targets = "SINGLE | USER | MONSTER"
+texts = ["You decree that you are NOT driving the WHAAAMBULANCE!", "%s can't handle all the fucking whining!", "You tell %s to STFU with the whining!", "%s needs you to STFU with all the whining!", "%s tells %s to STFU with all the whining!"]

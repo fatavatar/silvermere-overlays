@@ -1,0 +1,141 @@
+# Monsters for the Darkwood 8th and 9th alignment quests (converted from
+# source/package by source/convert.py; edit the source and convert again).
+# A new monster starts from the realm monster it was modelled on and takes its attack
+# messages; a change sets only its fields, and `was` is what the realm holds.
+
+[[monster]]
+number = 2089
+from = 1173
+name = "King of Nazareen"
+desc = """
+This man is dressed all in crimson and royal purple silks,
+ornamented with gold and platinum jewelry. He is enormously fat,
+nearly too big to fit his massive bejewelled throne. He obviously
+enjoys his rule of the city very much.
+"""
+weapon = 48
+ac = 25
+dr = 90
+followpct = 100
+magicres = 120
+exp = 9501064
+level = 1
+maxhp = 10449
+energy = 1000
+hpregen = 300
+charmlvl = 9999
+grouprole = "Stationary"
+alignment = "Evil"
+regenhrs = 3
+deathspell = 2292
+cash = { runic = 0, platinum = 10, gold = 0, silver = 0, copper = 0 }
+abilities = [["SpellImmune", 30], ["Magical", 3], ["PoisonImmune", 0], ["NonLiving", 0]]
+attacks = [
+    { kind = "Normal", accuracy = 200, pct = 40, min = 10, max = 60, energy = 250, hitspell = 128, hitmsg = 2922, defmsg = 2938, missmsg = 2939 },
+    { kind = "Normal", accuracy = 200, pct = 80, min = 10, max = 80, energy = 250, hitspell = 128, hitmsg = 2922, defmsg = 2938, missmsg = 2939 },
+    { kind = "Normal", accuracy = 300, pct = 100, min = 10, max = 200, energy = 250, hitspell = 318, hitmsg = 2922, defmsg = 2938, missmsg = 2939 },
+]
+spells = []
+items = [
+    { item = 2704, uses = 0, pct = 100 },
+]
+
+[[monster_change]]
+number = 1232
+why = "gives the good 8th quest (was the temple \"healer\")"
+set = { name = "High Priest Annora", talktext = 10005, desc = """
+A tall, silver-haired woman in flowing white robes stands before the
+altar, a simple holy symbol of the Light at her throat. Her eyes are
+kind but tired, and she carries herself with quiet authority.
+""" }
+was = { name = "healer", talktext = 58 }
+
+[[monster_change]]
+number = 1321
+why = "gives the neutral 8th quest; killing it is evil step 50"
+set = { talktext = 10024, deathspell = 2278 }
+was = { talktext = 0, deathspell = 856 }
+
+[[monster_change]]
+number = 1205
+why = "gives the evil 8th quest"
+set = { talktext = 10043 }
+was = { talktext = 0 }
+
+[[monster_change]]
+number = 696
+why = "the weaver every 9th-quest character talks to"
+set = { talktext = 9706 }
+was = { talktext = 0 }
+
+[[monster_change]]
+number = 1207
+why = "good step 48"
+set = { deathspell = 2268 }
+was = { deathspell = 0 }
+
+[[monster_change]]
+number = 1322
+why = "good step 50"
+set = { deathspell = 2270 }
+was = { deathspell = 0 }
+
+[[monster_change]]
+number = 1206
+why = "neutral step 48"
+set = { deathspell = 2272 }
+was = { deathspell = 0 }
+
+[[monster_change]]
+number = 1323
+why = "neutral step 50"
+set = { deathspell = 2274 }
+was = { deathspell = 0 }
+
+[[monster_change]]
+number = 1308
+why = "evil step 48"
+set = { deathspell = 2276 }
+was = { deathspell = 0 }
+
+[[monster_change]]
+number = 1353
+why = "neutral step 54"
+set = { deathspell = 2280 }
+was = { deathspell = 934 }
+
+[[monster_change]]
+number = 1356
+why = "neutral step 56"
+set = { deathspell = 2282 }
+was = { deathspell = 0 }
+
+[[monster_change]]
+number = 1355
+why = "evil step 54"
+set = { deathspell = 2288 }
+was = { deathspell = 0 }
+
+[[monster_change]]
+number = 1351
+why = "evil step 56"
+set = { deathspell = 2290 }
+was = { deathspell = 0 }
+
+[[monster_change]]
+number = 1318
+why = "good step 56"
+set = { deathspell = 2294 }
+was = { deathspell = 0 }
+
+[[monster_change]]
+number = 1370
+why = "step 58, all three"
+set = { deathspell = 2284 }
+was = { deathspell = 0 }
+
+[[monster_change]]
+number = 1319
+why = "step 59, all three"
+set = { deathspell = 2286 }
+was = { deathspell = 0 }

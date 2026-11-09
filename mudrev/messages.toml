@@ -1,0 +1,5626 @@
+[[message]]
+msgs = """
+You now return to your normal status.
+
+You are immune to spells!"""
+number = 4669
+
+[[message]]
+msgs = """
+You conjure a flurry of %s at %s for %d damage!
+%s conjures a flurry of %s, striking you for %d damage!
+%s conjures a flurry of %s at %s, striking them for %s damage!"""
+number = 8614
+
+[[message]]
+msgs = """
+You cast %s on %s!
+%s casts %s upon you!
+%s casts %s on %s!"""
+number = 8615
+
+[[message]]
+msgs = """
+You cast %s at %s, surrounding him with a pale grey glow.
+%s casts a spell on you, surrounding you with a pale grey glow.
+%s casts %s on %s!"""
+number = 8616
+
+[[message]]
+msgs = """
+Your %sfoes are annihilated by a divine tempest for %d damage!
+You are wracked in pain as a divine tempest blasts you for %d damage!
+A divine tempest blows through the room!"""
+number = 8617
+
+[[message]]
+msgs = """
+An unholy zephyr sweeps in, assaulting %syour foe for %d damage!
+Your flesh is scathed by the winds of an unholy zephyr, causing %d damage!
+An unholy zephyr sweeps through the room!"""
+number = 8618
+
+[[message]]
+msgs = """
+Your song of the quickling wears off.
+
+You are quick and nimble!"""
+number = 8619
+
+[[message]]
+msgs = """
+shoot your nexus arrow at|pierce your searing nexus arrow into|pierce
+shoots the nexus arrow at|pierces the searing nexus arrow into|pierces
+fires their nexus arrow at|pierces their searing nexus arrow into|pierces"""
+number = 8620
+
+[[message]]
+msgs = """
+The bloodstained sickle rips violently into the flesh of %s!
+The bloodstained sickle rips violently into your flesh!
+The bloodstained sickle violently rips into the flesh of %s!"""
+number = 8621
+
+[[message]]
+msgs = """
+The undead skin builds on your body as you feel protected.
+
+%s conjures a layer of undead skin."""
+number = 8622
+
+[[message]]
+msgs = """
+You point the %s at %s, and it begins to glow brightly!
+%s points his finger wand at you, and it begins to glow brightly!
+%s points a %s at %s, and it begins to glow brightly!"""
+number = 8623
+
+[[message]]
+msgs = """
+A necromantic storm assaults %syour foe for %d damage!
+A necromantic storm assaults you for %d damage!
+A necromantic storm assaults %sthe room for %s damage!"""
+number = 8624
+
+[[message]]
+msgs = """
+A undead spirit appears and annihiliates %s for %d damage, then vanishes!
+A undead spirit appears and annihiliates you for %d damage, then vanishes!
+A undead spirit appears and annihiliates %s for %s damage, then vanishes!"""
+number = 8625
+
+[[message]]
+msgs = """
+hurl your demonic spear at|impale your demonic spear into|skewer
+hurls the demonic spear at|impales the demonic spear into|skewers
+hurls their demonic spear at|impales their demonic spear into|skewers"""
+number = 8626
+
+[[message]]
+msgs = """
+A lightning bolt strikes %s for %d damage!
+A lightning bolt strikes you for %d damage!
+A lightning bolt strikes %s for %s damage!"""
+number = 8627
+
+[[message]]
+msgs = """
+A sea giant stomps in from nowhere.
+The sea giant shaman stomps off to the %s.
+The sea giant shaman stomps in from the %s."""
+number = 8628
+
+[[message]]
+msgs = """
+The %s crushes you for %d damage!
+The %s crushes %s for %s damage!
+The sea giant falls with a hefty sploosh into the murky depths."""
+number = 8629
+
+[[message]]
+msgs = """
+The %s hurls his nexus spear at you for %d damage!
+The %s hurls his nexus spear at %s for %s damage!
+The Lord of the Sea laughs contemptuously, and vanishes in a flash!"""
+number = 8630
+
+[[message]]
+msgs = """
+
+A blue mist encircles you, and your body and mind begin to heal!
+A bright blue mist fills the room!"""
+number = 8631
+
+[[message]]
+msgs = """
+The restoration process has ended.
+
+You are blessed by some sort of divine restoration."""
+number = 8632
+
+[[message]]
+msgs = """
+The effects of divine armour wear off!
+
+You feel very protected!"""
+number = 8633
+
+[[message]]
+msgs = """
+A mystical figure appears and annihilates %s for %d damage!
+A mystical figure appears and annihilates you for %d damage!
+A mystical figure appears and aniihilates %s for %s damage!"""
+number = 8634
+
+[[message]]
+msgs = """
+You cast %s, surrounding yourself in a shimmering field of magic!
+
+%s casts %s!"""
+number = 8635
+
+[[message]]
+msgs = """
+Your mystical shield shimmers and dissipates.
+
+You are protected by a mystical shield!"""
+number = 8636
+
+[[message]]
+msgs = """
+A blue blast of lightning streaks out and fries %s for %d damage!
+A blue blast of lightning streaks out and fries you for %d damage!
+A blue blast of lightning streaks out and fries %s for %s damage!"""
+number = 8637
+
+[[message]]
+msgs = """
+The feeling of great power wears off.
+
+You feel the great power!"""
+number = 8638
+
+[[message]]
+msgs = """
+A sonic boom ripples %sthrough the room for %d damage!
+A sonic boom blasts you for %d damage!
+A sonic boom ripples %sthrough the room for %s damage!"""
+number = 8639
+
+[[message]]
+msgs = """
+%s whomps you for %d damage!
+%s whomps %s for %s damage!
+Fajar-Nezar holds up his staff, shrieks, and explodes with a blast!"""
+number = 8640
+
+[[message]]
+msgs = """
+Poseidon appears in flash of light!
+Poseidon thunders out to %s!"""
+number = 8641
+
+[[message]]
+msgs = """
+The %s pounds you with his fist for %d damage!
+The %s pounds %s with his fist for %s damage!
+Poseidon frowns darkly, and vanishes!"""
+number = 8642
+
+[[message]]
+msgs = """
+The %s gnaws you with a flurry of sharp teeth for %d damage!
+The %s impales %s with its sharp teeth for %s damage!"""
+number = 8643
+
+[[message]]
+msgs = """
+The %s strikes you with its tail for %d damage!
+The %s strikes %s with its tail for %s damage!
+The pink bunny squeals loudly, and falls to the ground lifeless."""
+number = 8644
+
+[[message]]
+msgs = """
+You have regained your wits and are ready to fight!
+
+You are staggered defenseless."""
+number = 8645
+
+[[message]]
+msgs = """
+%s reels from the blow and is knocked defenseless!
+You reel from the blow and become light headed!
+%s reels from the blow and is knocked defenseless!"""
+number = 8646
+
+[[message]]
+msgs = """
+WhatTheFuck?
+
+You've gained 10 CPs!"""
+number = 8647
+
+[[message]]
+msgs = """
+A whirling fists of fury assaults %syour foe for %d damage!
+A whirling fists of fury assaults you for %d damage!
+A whirling fists of fury assaults%s the room for %s damage!"""
+number = 8648
+
+[[message]]
+msgs = """
+You spin into a whirlwind of fury!
+%s spins into a whirlwind of fury!
+%s spins into a whirlwind of fury!"""
+number = 8649
+
+[[message]]
+msgs = """
+You stop using the greater pressure points.
+
+You are using the greater pressure points!"""
+number = 8650
+
+[[message]]
+msgs = """
+You use your knowledge of the greater pressure points!
+
+%s uses the power of greater pressure points!"""
+number = 8651
+
+[[message]]
+msgs = """
+punch|punch|punch
+punches|punches|punches
+punches|punches|punches"""
+number = 8652
+
+[[message]]
+msgs = """
+The song of harmony wears off.
+
+You are being soothed by a harmonic sound."""
+number = 8653
+
+[[message]]
+msgs = """
+The way of the lion wears off.
+
+You feel strong, and elite!"""
+number = 8654
+
+[[message]]
+msgs = """
+You sing a sacred melody, and a demonic spirits appear!
+%s sings a sacred melody, and a demonic spirits appear!
+%s sings a sacred melody, and a demonic spirits appear!"""
+number = 8655
+
+[[message]]
+msgs = """
+A magic bolt strikes %s for %d damage!
+A magic bolt strikes you for %d damage!
+A magic bolt strikes %s for %s damage!"""
+number = 8657
+
+[[message]]
+msgs = """
+A holy spirit appears, and assaults %syour foe for %d damage!
+A holy spirit appears, and assaults you for %d damage!
+A holy spirit appears, and assaults%s the room for %s danage!"""
+number = 8658
+
+[[message]]
+msgs = """
+A demonic spirit appears, and assaults %syour foe for %d damage!
+A demonic spirit appears, and assaults you for %d damage!
+A demonic spirit appears, and assaults%s the room for %s danage!"""
+number = 8659
+
+[[message]]
+msgs = """
+You launch a barrage of %ss at %s for %d damage!
+%s launches a barrage of %ss at you for %d damage!
+%s launches a barrage of %ss at %s for %s damage!"""
+number = 8660
+
+[[message]]
+msgs = """
+A sonic boom ripples %sthrough the room for %d damage!
+A sonic boom strikes you for %d damage!
+A sonic boom ripples %sthrough the room for %s damage!"""
+number = 8661
+
+[[message]]
+msgs = """
+You must be level 100 to enter this area.
+You have been stopped by a mystical force."""
+number = 8662
+
+[[message]]
+msgs = """
+
+The dragoon jumps on your back and smothers you!
+The dragoon jumped ontop of %s, and smothers him!"""
+number = 8663
+
+[[message]]
+msgs = """
+You %s from the horde of foes, restorating you!
+
+%s conjures a storm, summoned to %s from the area."""
+number = 8664
+
+[[message]]
+msgs = """
+You receive an %s
+
+Receives an experience bonus!"""
+number = 8665
+
+[[message]]
+msgs = """
+
+Rex the beta monster explodes, triggering the textblock!"""
+number = 8666
+
+[[message]]
+msgs = """
+The %s tears you for %d damage!
+The %s tears %s for %s damage!
+The griffon lets out a bloodcurdling screech, and plummets to the ground!"""
+number = 8667
+
+[[message]]
+msgs = """
+
+The sysop points at you!
+The %s points at %s with a big finger!"""
+number = 8668
+
+[[message]]
+msgs = """
+The forces of nature leave the area.
+
+You are effect by a globe of natural prowess."""
+number = 8669
+
+[[message]]
+msgs = """
+The song of manastream wears off.
+
+You are in tuned to a harmonic stream of mana."""
+number = 8670
+
+[[message]]
+msgs = """
+The song of lifestream wears off.
+
+You are rejuvinating faster!"""
+number = 8671
+
+[[message]]
+msgs = """
+You pulls the pin and throws a smoke grenade!
+%s pulls the pin and throws a smoke grenade!"""
+number = 8672
+
+[[message]]
+msgs = """
+You summon your casket of doom, destroying the foe!
+%s erodes the earth below you, lowering you into a %s!
+%s erodes the earth below %s and lowers them into a %s!"""
+number = 8673
+
+[[message]]
+msgs = """
+Your mystical shield shimmers and fades.
+
+You feel protected by a mystical shield!"""
+number = 8674
+
+[[message]]
+msgs = """
+A storm of lightning sweeps through the room!
+A storm of lightning sweeps through the room!
+A storm of lightning sweeps through the room!"""
+number = 8675
+
+[[message]]
+msgs = """
+An arcane storm of energy blasts your %sfoes for %d damage!
+An arcane storm of energy blasts you for %d damage!
+An arcane storm of energy blasts the room!"""
+number = 8676
+
+[[message]]
+msgs = """
+The %s punches you for %d damage!
+The %s punches %s for %s damage!
+The Kai Monk smiles, and dissapears in a ploom of smoke!"""
+number = 8677
+
+[[message]]
+msgs = """
+The effects of divine armour wear off!
+
+Your armour is blessed by a divine power."""
+number = 8678
+
+[[message]]
+msgs = """
+The undead skin dissipates and falls from your body.
+
+You are covered in a layer of undead skin."""
+number = 8679
+
+[[message]]
+msgs = """
+A white mist encircles you, and your mana begins to regenerate!
+
+A heavenly angel from above comes to bless %s!"""
+number = 8680
+
+[[message]]
+msgs = """
+God's touch wears off.
+
+You are blessed by the touch of god."""
+number = 8681
+
+[[message]]
+msgs = """
+You invoke the %s, and your mind is one with the oracle.
+
+%s invokes the %s!"""
+number = 8682
+
+[[message]]
+msgs = """
+Your enlightenment has passed.
+
+Your mind and body are enlightened by a strange force."""
+number = 8683
+
+[[message]]
+msgs = """
+You sketch a mystical symbol of power in the air!
+%s sketches a mystical symbol of power in the air!
+%s sketches a mystical symbol of power in the air!"""
+number = 8684
+
+[[message]]
+msgs = """
+The feeling of your rage wears off.
+
+You feel a sudden rage rush through your body!"""
+number = 8685
+
+[[message]]
+msgs = """
+The feeling of your enlightened state wears off.
+
+You feel a sudden enlightenment come over your mind."""
+number = 8686
+
+[[message]]
+msgs = """
+An unknown energy fills your mind, sending you into an enlightened state.
+An unknown energy fills your mind, sending you into an enlightened state.
+An unknown energy is taking the mind of %s!"""
+number = 8687
+
+[[message]]
+msgs = """
+
+A red mist encircles you, and your mana begins to regenerate!
+A demonic angel from below comes to bless %s!"""
+number = 8688
+
+[[message]]
+msgs = """
+The spell of necropotence has dissolved.
+
+You are consumed from within by necropotence!"""
+number = 8689
+
+[[message]]
+msgs = """
+Your berzerk state wears off.
+
+You are in a berzerk rage of fury!"""
+number = 8690
+
+[[message]]
+msgs = """
+The effects of greater smite wear off!
+
+You feel very powerful!"""
+number = 8691
+
+[[message]]
+msgs = """
+The divine battle cry has left thy soul.
+
+Your battle cry has given you divine strength!"""
+number = 8692
+
+[[message]]
+msgs = """
+You perform the %s, and your body begins to change.
+
+%s invokes the %s!"""
+number = 8693
+
+[[message]]
+msgs = """
+The ritual has ended.
+
+Your body is regenerating from an ancient ritual."""
+number = 8694
+
+[[message]]
+msgs = """
+Your %sfoes are annihilated by a barrage of meteors for %d damage!
+You are annihilated by a barrage of meteors for %d damage!
+A barrage of meteors decimates the room!"""
+number = 8695
+
+[[message]]
+msgs = """
+You point your staff high into the sky!
+%s points his staff high into the sky!
+%s points his staff high into the sky!"""
+number = 8696
+
+[[message]]
+msgs = """
+An astral storm of energy blasts your %sfoes for %d damage!
+An astral storm of energy blasts you for %d damage!
+An astral storm of energy blasts the room!"""
+number = 8697
+
+[[message]]
+msgs = """
+shake your doll violently at
+shakes the doll violently at
+shakes the doll violently at"""
+number = 8698
+
+[[message]]
+msgs = """
+shake your doll at
+shakes the doll at
+shakes the doll at"""
+number = 8699
+
+[[message]]
+msgs = """
+A dark storm of energy blasts your %sfoes for %d damage!
+A dark storm of energy blasts you for %d damage!
+A dark storm of energy blasts the room!"""
+number = 8700
+
+[[message]]
+msgs = """
+The dragoon walks into the room.
+The dragoon walks off to the %s.
+The dragoon walks into the room from the %s."""
+number = 8701
+
+[[message]]
+msgs = """
+The %s smashes you for %d damage!
+The %s smashes %s for %s damage!
+The dragoon drops to his knees and falls forward."""
+number = 8702
+
+[[message]]
+msgs = """
+The tremendous regeneration stops.
+
+Your body is regenerating amazingly fast!"""
+number = 8703
+
+[[message]]
+msgs = """
+The green healing mist dissipates.
+
+You and your patrons are regenerating quickly."""
+number = 8704
+
+[[message]]
+msgs = """
+The unnatural regeneration subsides.
+
+Your skin crawls as you begin to heal at an unnatural rate!"""
+number = 8705
+
+[[message]]
+msgs = """
+You begin to feel the cosmos leave your body.
+
+You feel the strength of the cosmos in your body!"""
+number = 8706
+
+[[message]]
+msgs = """
+The effects of woodland resistance wear off.
+
+Your resistance is strengthened!"""
+number = 8707
+
+[[message]]
+msgs = """
+The effects of the anti magi resistance wear off.
+
+Your resistance is strengthened!"""
+number = 8708
+
+[[message]]
+msgs = """
+The effects of stealth wear off!
+
+You feel very sly."""
+number = 8709
+
+[[message]]
+msgs = """
+The effects of super stealth wear off!
+
+You feel EXTREMELY sly."""
+number = 8710
+
+[[message]]
+msgs = """
+The extremely bright light is exhausted, and burns out.
+
+You are surrounded by a bright shimmering light!"""
+number = 8711
+
+[[message]]
+msgs = """
+The spell of poison immunity wears off.
+
+You are immune to poison!"""
+number = 8712
+
+[[message]]
+msgs = """
+The effects of ethereal barrier wear off!
+
+You are protected by an ethereal barrier!"""
+number = 8713
+
+[[message]]
+msgs = """
+The effects of divine barrier wear off!
+
+You are protected by a divine barrier!"""
+number = 8714
+
+[[message]]
+msgs = """
+The effects of giant growth wear off.
+
+Your load is lightened!"""
+number = 8715
+
+[[message]]
+msgs = """
+The effects of magi power wear off.
+
+A surge of magical power races through your body!"""
+number = 8716
+
+[[message]]
+msgs = """
+The effects of dark power wear off.
+
+A surge of dark power races through your body!"""
+number = 8717
+
+[[message]]
+msgs = """
+The effects of natural power wear off.
+
+A surge of natural power races through your body!"""
+number = 8718
+
+[[message]]
+msgs = """
+Your %sfoes are dowsed in plasmic acid for %d damage!
+You are dowsed in plasmic acid for %d damage!
+A terrential downpour of plasmic acid dowses the room!"""
+number = 8719
+
+[[message]]
+msgs = """
+Your %sfoes are annihilated by a flurry of needles for %d damage!
+You are annihilated by a flurry of needles for %d damage!
+A flurry of needles fly through the room!"""
+number = 8720
+
+[[message]]
+msgs = """
+Your flesh returns to normal.
+
+Your skin is petrified, and as hard as stone!"""
+number = 8721
+
+[[message]]
+msgs = """
+%s takes %d damage from the psionic kai beast!
+You take %d damage from the psionic kai beast!
+%s takes %s damage from the psionic kai beast!"""
+number = 8722
+
+[[message]]
+msgs = """
+You channel your psionic powers to target %s!
+%s summons a kai beast, and it charges you!
+%s summons a kai beast, which charges %s!"""
+number = 8723
+
+[[message]]
+msgs = """
+Your foes %ssuffer %d damage from the blizzard of frozen ice shards!
+A blizzard of ice shards impales you for %d damage!
+A blizzard of ice shards sweeps %sthe room for %s damage!"""
+number = 8724
+
+[[message]]
+msgs = """
+You summon Shiva, and she begins an arcane spell.
+%s summons Shiva, and she begins an arcane spell.
+%s summons Shiva, and she begins an arcane spell."""
+number = 8725
+
+[[message]]
+msgs = """
+The magi force wears off.
+
+Your spells are being restorated by a magi force!"""
+number = 8726
+
+[[message]]
+msgs = """
+Your %sfoes are annihilated by a massive blast of water, for %d damage!
+You are annihilated by a a massive blast of water, for %d damage!
+A massive blast of water tears through the room!"""
+number = 8727
+
+[[message]]
+msgs = """
+
+%s clutches at the sky!"""
+number = 8728
+
+[[message]]
+msgs = """
+The effects of magical rending wear off.
+
+A powerful surge of magical energy races through your body!"""
+number = 8729
+
+[[message]]
+msgs = """
+The effects of the anti-magic shield wear off.
+
+Your resistance to magical attacks is strengthened!"""
+number = 8730
+
+[[message]]
+msgs = """
+
+A whirling vortex of pulsing energy swirls throughout the room!"""
+number = 8731
+
+[[message]]
+msgs = """
+A whirling vortex of pulsing energy sears %s for %d damage!
+A whirling vortex of pulsing energy sears you for %d damage!
+A whirling vortex of pulsing energy sears %s for %s damage!"""
+number = 8732
+
+[[message]]
+msgs = """
+You deliver a psionic blast to %s!
+%s summons a psionic blast!
+%s delivers a psionic blast to %s!"""
+number = 8733
+
+[[message]]
+msgs = """
+A rain of blood assaults %syour foe for %d damage!
+A rain of blood pours down and scorches your enemy for %d damage!
+A rain of blood assaults%s the room for %s damage!"""
+number = 8734
+
+[[message]]
+msgs = """
+
+%s clutches the sky!"""
+number = 8735
+
+[[message]]
+msgs = """
+A whirling vortex of pain assaults %syour foe for %d damage!
+A vortex of pain emerges and sears you for %d damage!
+A whirling vortex of pain assaults%s the room for %s damage!"""
+number = 8736
+
+[[message]]
+msgs = """
+A demonic storm of energy blasts your %sfoes for %d damage!
+A demonic storm of energy blasts you for %d damage!
+A demonic storm of energy blasts the room!"""
+number = 8737
+
+[[message]]
+msgs = """
+The %s bludgeons you for %d damage!
+The %s bludgeons %s for %s damage!
+The starmetal giant king roars and explodes into a wave of lightning!"""
+number = 8738
+
+[[message]]
+msgs = "The starmetal giant king stands here in his throne room."
+number = 8739
+
+[[message]]
+msgs = """
+You are wracked with pain for %d damage!
+You are wracked with pain for %d damage!
+%s is wracked with pain for %s damage!"""
+number = 8740
+
+[[message]]
+msgs = """
+%s convulses in pain as their molecules are rearranged, causing %d damage!
+You convulse in pain as your molecules are rearranged, causing %d damage!
+%s convulses in pain as their molecules are rearranged, causing %s damage!"""
+number = 8741
+
+[[message]]
+msgs = """
+
+%s chants an arcane incantation, which summons an Occult Hellstorm!"""
+number = 8742
+
+[[message]]
+msgs = """
+An acid squall drenches your %sfoes for %d damage!
+An acid squall drenches you for %d damage!
+An acid squall drenches the room!"""
+number = 8743
+
+[[message]]
+msgs = """
+A whirling cyclone assaults %syour foe for %d damage!
+A whirling cyclone assaults your enemy for %d damage!
+A whirling cyclone assaults assaults%s the room for %s damage!"""
+number = 8744
+
+[[message]]
+msgs = """
+a black mist of demonic energy burns %s for %d damage!
+a black mist of demonic energy burns you for %d damage!
+a black mist of demonic energy burns %s for %s damage!"""
+number = 8745
+
+[[message]]
+msgs = """
+The forces of the wicca master leave you.
+
+Wild forces of the wicca master enhance your combat!"""
+number = 8746
+
+[[message]]
+msgs = """
+You summon a lion, and it roars in terrible rage!
+%s summons a lion, and it roars in terrible rage, startling you!
+%s summons a lion, and it roars in terrible rage!"""
+number = 8747
+
+[[message]]
+msgs = """
+The effects of the lion's roar wear off!
+
+You are terribly startled!"""
+number = 8748
+
+[[message]]
+msgs = """
+The fires of hell burn %s for %d damage!
+The fires of hell burn you for %d damage!
+The fires of hell burn %s for %s damage!"""
+number = 8749
+
+[[message]]
+msgs = """
+
+The %s freezes your body!
+The %s %s %s after smashing him with his fist!"""
+number = 8750
+
+[[message]]
+msgs = """
+The %s sears you for %d damage!
+The %s sears %s for %s damage!
+The ice elemental dissipates!"""
+number = 8751
+
+[[message]]
+msgs = """
+The ice elemental moves in from the %s!
+The ice elemental moves out to the %s!
+The ice elemental conjures right next to you!"""
+number = 8752
+
+[[message]]
+msgs = "You do not have the elemental shard!"
+number = 8753
+
+[[message]]
+msgs = """
+You give the Elemental Shard to the Sage.
+%s gives a Elemental Shard to the Sage."""
+number = 8754
+
+[[message]]
+msgs = """
+The Sage exclaims, "Wonderful, adventurer! Let me create your reward!
+The Sage exclaims, "Wonderful, adventurer! Let me create your reward!"""
+number = 8755
+
+[[message]]
+msgs = """
+The Sage clinches a few components within his two palms.
+The Sage clinches a few components within his two palms."""
+number = 8756
+
+[[message]]
+msgs = """
+The Sage gives you a jeweled elemental ring.
+The Sage gives %s a jeweled elemental ring."""
+number = 8757
+
+[[message]]
+msgs = """
+You are rewarded 10,000,000 experience.
+%s are rewarded 10,000,000 experience."""
+number = 8758
+
+[[message]]
+msgs = """
+The sage awaits patiently as you play childish games.
+%s asks the Sage something, and the he returns a look of disappointment."""
+number = 8759
+
+[[message]]
+msgs = """
+Your streaking %s strikes %s for %d damage!
+%s launches an %s at you for %d damage!
+%s launches an %s at %s for %s damage!"""
+number = 8760
+
+[[message]]
+msgs = """
+The feeling of extreme power wears off.
+
+You have a feeling of extreme power!"""
+number = 8761
+
+[[message]]
+msgs = """
+Your sovereignty wears off.
+
+You feel supreme!"""
+number = 8762
+
+[[message]]
+msgs = """
+A bombastic explosion ripples %sthrough the room for %d damage!
+A bombastic explosion strikes you for %d damage!
+A bombastic explosion %sthrough the room for %s damage!"""
+number = 8763
+
+[[message]]
+msgs = """
+Your harmonic powers return to normal!
+
+You feel pompous!"""
+number = 8764
+
+[[message]]
+msgs = """
+The effects of the siren's shrill wear off!
+
+You are confused from the shrill of a siren!"""
+number = 8765
+
+[[message]]
+msgs = """
+A deafening serenade punishes your %sfoes for %d damage!
+A deafening serenade blasts you for %d damage!
+A deafening serenade ripples through the room!"""
+number = 8766
+
+[[message]]
+msgs = """
+Your battle fury has worn away.
+
+The blood races through your body!"""
+number = 8767
+
+[[message]]
+msgs = """
+Your furied state wears off.
+
+You are in a battle fury!"""
+number = 8768
+
+[[message]]
+msgs = """
+A melodic tune plays throughout the room!
+A melodic tune decreases your power!
+A melodic tune plays throughout the room!"""
+number = 8769
+
+[[message]]
+msgs = """
+You feel stronger now.
+
+You are disenchanted!"""
+number = 8770
+
+[[message]]
+msgs = """
+The shield suddenly vanishes with an audible pop!
+
+A shimmering shield of water forms around your body!"""
+number = 8771
+
+[[message]]
+msgs = "You hand your ore to Barthalamu."
+number = 9500
+
+[[message]]
+msgs = 'Barthalamu spits, "Do I look like some sort of wizard? I need more ore!"'
+number = 9501
+
+[[message]]
+msgs = "You hand your coins to Barthalamu."
+number = 9502
+
+[[message]]
+msgs = """Barthalamu growls, "My work isn't free, and you're well short of my fee!""""
+number = 9503
+
+[[message]]
+msgs = "Barthalamu gathers your ore, and takes it to his furnace to be forged."
+number = 9504
+
+[[message]]
+msgs = "With his giant hammer he starts to pound out your armour."
+number = 9505
+
+[[message]]
+msgs = "Without notice he tosses you your newly made armour!"
+number = 9506
+
+[[message]]
+msgs = "You hand some small pieces of ore to Christian."
+number = 9507
+
+[[message]]
+msgs = "Unless you want to be missing a few scales, Id get some more ore!"
+number = 9508
+
+[[message]]
+msgs = "You give your coins to Christian."
+number = 9509
+
+[[message]]
+msgs = 'Christian frowns, "I know this looks easy, but it costs more than this!"'
+number = 9510
+
+[[message]]
+msgs = "Christian takes your ore to his fire and begins."
+number = 9511
+
+[[message]]
+msgs = "He pours the molten metal into molds to make your scales."
+number = 9512
+
+[[message]]
+msgs = "After many tedious hours he hands you your armour with a smile and a nod."
+number = 9513
+
+[[message]]
+msgs = "You hand over your adamantium!"
+number = 9514
+
+[[message]]
+msgs = """Ty'dren frowns, "It seems as though you're short on components here.""""
+number = 9515
+
+[[message]]
+msgs = "You give Ty'dren the money."
+number = 9516
+
+[[message]]
+msgs = """Ty'dren growls, "If ye think ye can short this dwarf ye be much mistaken!""""
+number = 9517
+
+[[message]]
+msgs = "Ty'dren takes your adamantium to his forge and begins on your armour."
+number = 9518
+
+[[message]]
+msgs = "With his skilled hands he starts to craft your chains."
+number = 9519
+
+[[message]]
+msgs = "After what seems like days, he finally hands you your armour."
+number = 9520
+
+[[message]]
+msgs = "You give the hides to Bronyur."
+number = 9521
+
+[[message]]
+msgs = 'Bronyur scowls, "Ye dont have enough hides for me to perform my craft."'
+number = 9522
+
+[[message]]
+msgs = "You hand Bronyur some coins."
+number = 9523
+
+[[message]]
+msgs = 'Bronyur spits at you, "This hardly be enough for a bottle of ale!"'
+number = 9524
+
+[[message]]
+msgs = "Bronyur takes your hides and begins fashioning."
+number = 9525
+
+[[message]]
+msgs = "With great care he cuts and sews and fastens."
+number = 9526
+
+[[message]]
+msgs = "After what seems like only minutes he hands you your armour."
+number = 9527
+
+[[message]]
+msgs = "You hand Sinue some silks."
+number = 9528
+
+[[message]]
+msgs = 'Sinue calmly says, "I will need more silk to make your cloths."'
+number = 9529
+
+[[message]]
+msgs = "You hand Sinue some coins."
+number = 9530
+
+[[message]]
+msgs = 'Sinue smiles, "Modest as I am, I will require more money for my trade."'
+number = 9531
+
+[[message]]
+msgs = "Sinue takes your silks and beings spooling thread"
+number = 9532
+
+[[message]]
+msgs = "On a great loom she begins making the fabric of your cloths."
+number = 9533
+
+[[message]]
+msgs = "After a great many a hour Sinue lays before you a finished piece."
+number = 9534
+
+[[message]]
+msgs = "You not find Kronk's Hammer"
+number = 9535
+
+[[message]]
+msgs = "You hand Kronk some coins!"
+number = 9536
+
+[[message]]
+msgs = "Kronk may be dumb, but Kronk not cheap!"
+number = 9537
+
+[[message]]
+msgs = "You hand Kronk some ore."
+number = 9538
+
+[[message]]
+msgs = "Kronk need more ore!"
+number = 9539
+
+[[message]]
+msgs = "You hand Kronk some amulets."
+number = 9540
+
+[[message]]
+msgs = "Kronk is one amulet short!!"
+number = 9541
+
+[[message]]
+msgs = "Kronk takes your components and begins work."
+number = 9542
+
+[[message]]
+msgs = "The mighty furnace roars, Kronk hums a simple tune as he hammers away!"
+number = 9543
+
+[[message]]
+msgs = "Kronk places your armour in front of you."
+number = 9544
+
+[[message]]
+msgs = "You havn't found my brand, How am I supposed to work?"
+number = 9545
+
+[[message]]
+msgs = "You hand the smith some coins."
+number = 9546
+
+[[message]]
+msgs = "This is hardly enough!"
+number = 9547
+
+[[message]]
+msgs = "You hand the smith some ore."
+number = 9548
+
+[[message]]
+msgs = "Do you exspect me to make something from nothing?"
+number = 9549
+
+[[message]]
+msgs = "You hand some trinkets to the smith."
+number = 9550
+
+[[message]]
+msgs = "I see that you want your armour to be as borring as it was when you came!"
+number = 9551
+
+[[message]]
+msgs = "The smith takes your components and beings work."
+number = 9552
+
+[[message]]
+msgs = "You hear pounding at a feaver pitch."
+number = 9553
+
+[[message]]
+msgs = "The smith emerges with your finished armour!"
+number = 9554
+
+[[message]]
+msgs = "Your empty hands need to be holding my hammer!"
+number = 9555
+
+[[message]]
+msgs = "You give Philigree some coins."
+number = 9556
+
+[[message]]
+msgs = "I wouldn't trim your hair for this!"
+number = 9557
+
+[[message]]
+msgs = "You give Philigree you adamantium."
+number = 9558
+
+[[message]]
+msgs = "Ahhhh, This is plenty for a necklace, I'll get right on it."
+number = 9559
+
+[[message]]
+msgs = "You give Philigree your pendants"
+number = 9560
+
+[[message]]
+msgs = "I offer the essence of balance, You give me this??"
+number = 9561
+
+[[message]]
+msgs = "Philigree gathers your components and begins his work."
+number = 9562
+
+[[message]]
+msgs = "You hear muffled cursing, and some angry blows."
+number = 9563
+
+[[message]]
+msgs = "Philigree returns disheveled, and beat red with your armour in hand."
+number = 9564
+
+[[message]]
+msgs = "It is all well and good that your back, but I still need my blade"
+number = 9565
+
+[[message]]
+msgs = "You hand Phyad some coins."
+number = 9566
+
+[[message]]
+msgs = "Friend you may be, I still require more for my trade."
+number = 9567
+
+[[message]]
+msgs = "You hand Phyad some hides."
+number = 9568
+
+[[message]]
+msgs = "I have my blade, I have my money, now where are the hides?"
+number = 9569
+
+[[message]]
+msgs = "You hand some trinkets to Phyad."
+number = 9570
+
+[[message]]
+msgs = "I have not what I need for what you desire."
+number = 9571
+
+[[message]]
+msgs = "Phyad takes your components, and beings his work."
+number = 9572
+
+[[message]]
+msgs = "You hear a slash through a large amount of hide."
+number = 9573
+
+[[message]]
+msgs = "With a almost light hearted smile, Phyad hands you your gear."
+number = 9574
+
+[[message]]
+msgs = "If I had my loom blade, I'd cut you down. Seeing as you failed your lucky!"
+number = 9575
+
+[[message]]
+msgs = "You hand some coins to Tai Pei."
+number = 9576
+
+[[message]]
+msgs = "You make a habbit of insulting people who can kill you!"
+number = 9577
+
+[[message]]
+msgs = "You had some silks to Tai Pei."
+number = 9578
+
+[[message]]
+msgs = "With this I can make you a fine diaper, which you surly will need!"
+number = 9579
+
+[[message]]
+msgs = "You give some trinkets to Tai Pei."
+number = 9580
+
+[[message]]
+msgs = "These will make wonderfull gifts for my dog, Have you anything of worth??"
+number = 9581
+
+[[message]]
+msgs = "Tai Pei gathers your things, and leaves to his loom."
+number = 9582
+
+[[message]]
+msgs = "All you can hear are the sound of over exagerated hand movments."
+number = 9583
+
+[[message]]
+msgs = "Tai Pei comes out of his room with your new cloths."
+number = 9584
+
+[[message]]
+msgs = "I cant make armour, without armour!"
+number = 9585
+
+[[message]]
+msgs = "Kronk need old armour!"
+number = 9586
+
+[[message]]
+msgs = "Orfeo shakes his head sadly and instructs you to learn more of your art."
+number = 10000
+
+[[message]]
+msgs = "Orfeo waves you away in disgust as he sees you empty-handed."
+number = 10001
+
+[[message]]
+msgs = """
+As you climb the ladder, the insignia on your bracelet begin to glow.
+As %s climbs the ladder, their bracelet begins to glow brightly.
+%s climbs the ladder from below, their bracelet glowing brightly."""
+number = 10002
+
+[[message]]
+msgs = """
+You begin to feel calmer.
+
+You are consumed by druidic fury!"""
+number = 10003
+
+[[message]]
+msgs = """
+The shield of lichen dissolves.
+
+Your skin crawls as lichen grows into a shield around you!"""
+number = 10004
+
+[[message]]
+msgs = """
+You begin to feel calmer.
+
+You are consumed by elemental rage!"""
+number = 10005
+
+[[message]]
+msgs = """
+\u001B[1;31mThe Necrolyte Lord begins to chant loudly...
+\u001B[1;31mThe Necrolyte Lord begins to chant loudly...
+\u001B[1;31mThe Necrolyte Lord begins to chant loudly..."""
+number = 10006
+
+[[message]]
+msgs = """
+The Necrolyte Lord quickly brandishes his gem, and the undead assault you!
+The Necrolyte Lord quickly brandishes his gem, and the undead assault you!
+The Necrolyte Lord quickly brandishes his gem, and the undead assault you!"""
+number = 10007
+
+[[message]]
+msgs = """
+
+
+As the ice wizard dies, his body slowly cracks and falls as an icy mist."""
+number = 10008
+
+[[message]]
+msgs = """
+The ice wizard floats in from %s!
+The ice wizard floats out to %s!
+The ice wizard follows you into the room!"""
+number = 10009
+
+[[message]]
+msgs = """
+You open the platinum chest, and find...
+%s opens the platinum chest, and finds..."""
+number = 10010
+
+[[message]]
+msgs = """
+You open the titanium chest, and find...
+%s opens the titanium chest, and finds..."""
+number = 10011
+
+[[message]]
+msgs = """
+You open the obsidian chest, and find...
+%s opens the obsidian chest, and finds..."""
+number = 10012
+
+[[message]]
+msgs = 'The Necrolyte Lord coldly says, "Come back when you have the components."'
+number = 10013
+
+[[message]]
+msgs = """
+
+\u001B[0;32mThe Necrolyte Lord takes something from %s."""
+number = 10014
+
+[[message]]
+msgs = """
+
+A burning rain of blood scorches the room for %d damage!"""
+number = 10015
+
+[[message]]
+msgs = """
+You push the button, and hear a soft whirring noise.
+%s does something to a flame carving, and you hear a soft whirring noise."""
+number = 10016
+
+[[message]]
+msgs = """
+push stud
+move stud"""
+number = 10017
+
+[[message]]
+msgs = """
+You push a stud on the wall, and it moves inward slightly.
+%s pushes a stud on the wall, and it moves inward slightly."""
+number = 10018
+
+[[message]]
+msgs = """
+push knob
+move knob"""
+number = 10019
+
+[[message]]
+msgs = """
+You push a knob on the wall, and it moves inward slightly.
+%s pushes a knob on the wall, and it moves inward slightly."""
+number = 10020
+
+[[message]]
+msgs = """
+push stone
+move stone"""
+number = 10021
+
+[[message]]
+msgs = """
+You push a stone on the wall, and it moves inward slightly.
+%s pushes a stone on the wall, and it moves inward slightly."""
+number = 10022
+
+[[message]]
+msgs = """
+You pull a lever on the wall, and hear a loud rumbling all around you.
+%s pulls a lever on the wall, and you hear a loud rumbling all around you."""
+number = 10023
+
+[[message]]
+msgs = """
+With a rumbling sound, a secret passage opens to the southeast.
+With a rumbling sound, a secret passage opens to the southeast.
+With a rumbling sound, a secret passage opens to the southeast."""
+number = 10024
+
+[[message]]
+msgs = """
+A circular door slides open in the floor, smoothly pulling apart the rug.
+A circular door slides open in the floor, smoothly pulling apart the rug.
+A circular door slides open in the floor, smoothly pulling apart the rug."""
+number = 10025
+
+[[message]]
+msgs = """
+The %s whips you for %d damage!
+The %s whips %s for %s damage!
+The Glabrezu roars its defiance, and disappears into a flaming portal!"""
+number = 10026
+
+[[message]]
+msgs = """
+Dark flame sears you as you exit the portal.
+
+Dark flame sears %s as they exit the portal."""
+number = 10027
+
+[[message]]
+msgs = """
+The %s critically cleaves you for %d damage!
+The %s critically cleaves %s for %s damage!
+The oceanid spits up a black cloud of blood, and falls dead."""
+number = 10028
+
+[[message]]
+msgs = """
+
+\u001B[1;31mA burning rain of blood scorches the room for %d damage!"""
+number = 10029
+
+[[message]]
+msgs = """
+You call upon the powers of chaos!
+%s calls upon the powers of chaos!
+%s calls upon the powers of chaos!"""
+number = 10030
+
+[[message]]
+msgs = """
+An incredible surge of power runs through your body!
+%s straightens as a surge of chaotic power fills them!
+%s straightens as a surge of chaotic power fills them!"""
+number = 10031
+
+[[message]]
+msgs = """
+\u001B[1;31mChaotic energy sears through you, leaving you drained.
+\u001B[1;31mChaotic energy sears through %s, leaving them visibly drained.
+\u001B[1;31mChaotic energy sears through %s, leaving them visibly drained."""
+number = 10032
+
+[[message]]
+msgs = """
+\u001B[1;34mYou make a vile gesture and speak in a gutteral tongue!
+\u001B[1;34m%s makes a vile gesture and speaks in a gutteral tongue!
+\u001B[1;34m%s makes a vile gesture and speaks in a gutteral tongue!"""
+number = 10033
+
+[[message]]
+msgs = "\u001B[0;32mThe faerie queen hands you a key."
+number = 10034
+
+[[message]]
+msgs = """
+\u001B[1;33mAs darkness engulfs you, your firestone erupts into flames!
+\u001B[1;33m%s's firestone erupts into flames and begins blazing with light!"""
+number = 10035
+
+[[message]]
+msgs = """
+\u001B[1;33mThe light of your firestone dies as the flames shrouding it vanish.
+\u001B[1;33mThe light from %s's firestone suddenly dies as the flames vanish."""
+number = 10036
+
+[[message]]
+msgs = 'Dhelvanen shakes his head. "Come back when you are more learned."'
+number = 10037
+
+[[message]]
+msgs = """
+The shield of lunar energy fades.
+
+You are protected by lunar energy!"""
+number = 10038
+
+[[message]]
+msgs = """
+Your %sfoes are annihilated by a hail of asteroids for %d damage!
+You are annihilated by a hail of asteroids for %d damage!
+A hail of asteroids decimates the room!"""
+number = 10039
+
+[[message]]
+msgs = """
+As you sit on the onyx throne, a shimmering red light fills the room.
+%s sits on the onyx throne and a shimmering red light fills the room."""
+number = 10040
+
+[[message]]
+msgs = "<For capturing the queen's throne you gain 15,000,000 experience points!>"
+number = 10041
+
+[[message]]
+msgs = "\u001B[1;31mMagnus makes an sharp gesture and your skull explodes with energy!"
+number = 10042
+
+[[message]]
+msgs = "\u001B[0;32mSpeak to Jael for your spellcasting lessons!"
+number = 10043
+
+[[message]]
+msgs = "\u001B[1;32mSit\u001B[0;32m upon the ice sorceress' \u001B[1;32mthrone!\u001B[0m"
+number = 10044
+
+[[message]]
+msgs = "\u001B[1;32mTouch\u001B[0;32m the high druid's \u001B[1;32mblack gem!\u001B[0m"
+number = 10045
+
+[[message]]
+msgs = "\u001B[0;32mFree the imprisoned phoenix Bel-Lai!\u001B[0m"
+number = 10046
+
+[[message]]
+msgs = "\u001B[0;32mAid the faerie queen, in the silverwood forest!\u001B[0m"
+number = 10047
+
+[[message]]
+msgs = "\u001B[1;32mDestroy\u001B[0;32m the wererats' \u001B[1;32mapparatus\u001B[0;32m of plague!\u001B[0m"
+number = 10048
+
+[[message]]
+msgs = "Vanquish the dark-elf queen and \u001B[1;32msit\u001B[0;32m upon her \u001B[1;32mthrone!"
+number = 10049
+
+[[message]]
+msgs = "\u001B[0;32mAid the burnt witchunter, deep in the volcano!\u001B[0m"
+number = 10050
+
+[[message]]
+msgs = "\u001B[0;32mSlay the Darken Beast Lord and thwart his plans of invasion!\u001B[0m"
+number = 10051
+
+[[message]]
+msgs = "\u001B[0;32mAid the imprisoned mage Dhelvanen in his advanced scrying!\u001B[0m"
+number = 10052
+
+[[message]]
+msgs = "\u001B[0;32mSlay the Dao Lord and end his control of the desert!\u001B[0m"
+number = 10053
+
+[[message]]
+msgs = 'Jael shakes his head sadly and says, "You are not experienced enough yet."'
+number = 10054
+
+[[message]]
+msgs = "\u001B[1;32mReturn\u001B[0;32m the golden \u001B[1;32mchalice\u001B[0;32m to the bishop!\u001B[0m"
+number = 10055
+
+[[message]]
+msgs = "\u001B[1;32mTouch\u001B[0;32m the adult red dragon's \u001B[1;32mruby!\u001B[0m"
+number = 10056
+
+[[message]]
+msgs = """
+\u001B[0;32mThe healer casts godheal on you!\u001B[0m
+\u001B[0;32mThe healer heals %s of %s damage!\u001B[0m
+\u001B[0;32mThe healer heals %s of %s damage!\u001B[0m"""
+number = 10057
+
+[[message]]
+msgs = """
+\u001B[0;32mThe healer casts merciful grace upon you!\u001B[0m
+\u001B[0;32mThe healer heals %s of %s damage!\u001B[0m
+\u001B[0;32mThe healer heals %s of %s damage!\u001B[0m"""
+number = 10058
+
+[[message]]
+msgs = """
+\u001B[0;32mThe healer casts vicar healing on you!\u001B[0m
+\u001B[0;32mThe healer heals %s of %s damage!\u001B[0m
+\u001B[0;32mThe healer heals %s of %s damage!\u001B[0m"""
+number = 10059
+
+[[message]]
+msgs = """
+\u001B[0;32mThe healer lays hands upon you, chanting loudly.\u001B[0m
+\u001B[0;32mThe healer lays hands upon %s, chanting loudly.\u001B[0m
+\u001B[0;32mThe healer lays hands upon %s, chanting loudly.\u001B[0m"""
+number = 10060
+
+[[message]]
+msgs = """
+\u001B[1;37mYou kneel upon a rough straw mat and begin to pray.
+\u001B[1;37m%s drops to their knees in prayer on a rough straw mat beside you.
+\u001B[1;37m%s drops to their knees in prayer on a rough straw mat beside you."""
+number = 10061
+
+[[message]]
+msgs = """
+\u001B[1;37mYou are praying!
+\u001B[1;37mYou are praying!
+\u001B[1;37mYou are praying!"""
+number = 10062
+
+[[message]]
+msgs = """
+\u001B[1;37mYou rise to your feet, feeling refreshed and clearer of mind.
+\u001B[1;37m%s rises and follows a priest out, their prayers completed.
+\u001B[1;37m%s rises and follows a priest out, their prayers completed."""
+number = 10063
+
+[[message]]
+msgs = """
+\u001B[1;37mYou follow the priest into a small chapel.
+\u001B[1;37m%s follows a priest through the far door.
+\u001B[1;37m%s follows a priest through the far door."""
+number = 10064
+
+[[message]]
+msgs = """
+\u001B[1;37mAnother priest comes over to you and leads you out again.
+\u001B[1;37m%s follows a priest out of the chapel, their prayers completed.
+\u001B[1;37m%s follows a priest out of the chapel, their prayers completed."""
+number = 10065
+
+[[message]]
+msgs = """
+You let out a mournful wail, and %s shudders in fear!
+A mournful wail assaults your ears, causing you to shudder in fear!
+%s wails mournfully at %s!"""
+number = 10066
+
+[[message]]
+msgs = """
+You play a demonic tune!
+%s plays a demonic tune!
+%s plays a demonic tune!"""
+number = 10067
+
+[[message]]
+msgs = """
+You play a mellifluous tune!
+%s plays a mellifluous tune!
+%s plays a mellifluous tune!"""
+number = 10068
+
+[[message]]
+msgs = """
+You play an angelic melody!
+%s plays an angelic melody!
+%s plays an angelic melody!"""
+number = 10069
+
+[[message]]
+msgs = """
+%s is dazed by the blast!
+You are dazed by the blast!
+%s's blast of sonic energy stuns %s!"""
+number = 10070
+
+[[message]]
+msgs = """
+The barrier of harmonious music fades away!
+
+You are protected by a barrier of harmonious music!"""
+number = 10071
+
+[[message]]
+msgs = """
+Your wanderlust fades.
+
+Your load is lightened and your stride quickened!"""
+number = 10072
+
+[[message]]
+msgs = """
+
+The %s pounds heavily upon the ground, causing it to shudder violently!"""
+number = 10073
+
+[[message]]
+msgs = """
+
+The Onyx Juggernaut fires a spray of shards at the room for %d damage!"""
+number = 10074
+
+[[message]]
+msgs = "Your eyes tingle for a moment."
+number = 10075
+
+[[message]]
+msgs = """
+You turn the key in the keyhole, and hear a loud rumbling all around you.
+%s turns a key in a keyhole, and you hear a loud rumbling all around you.
+%s turns a key in a keyhole, and you hear a loud rumbling all around you."""
+number = 10076
+
+[[message]]
+msgs = """
+The %s %sswings at %s with her dragonfang ninjato%s, but %s dodges!
+The %s swings at you with her dragonfang ninjato!
+The %s %sswings at %s with her dragonfang ninjato!"""
+number = 10077
+
+[[message]]
+msgs = """
+The %s swings at you, but your armour deflects the blow!
+The %s %sswings at %s, but %s armour deflects the blow!
+The %s swings at you with her dragonfang ninjato, but you dodge!"""
+number = 10078
+
+[[message]]
+msgs = """
+The %s %sswings at %s with her starsteel greataxe%s, but %s dodges!
+The %s swings at you with her starsteel greataxe!
+The %s %sswings at %s with her starsteel greataxe!"""
+number = 10079
+
+[[message]]
+msgs = """
+The %s swings at you, but your armour deflects the blow!
+The %s %sswings at %s, but %s armour deflects the blow!
+The %s swings at you with her starsteel greataxe, but you dodge!"""
+number = 10080
+
+[[message]]
+msgs = """
+The %s %sswings at %s with her elemental warblade%s, but %s dodges!
+The %s swings at you with her elemental warblade!
+The %s %sswings at %s with her elemental warblade!"""
+number = 10081
+
+[[message]]
+msgs = """
+The %s swings at you, but your armour deflects the blow!
+The %s %sswings at %s, but %s armour deflects the blow!
+The %s swings at you with her elemental warblade, but you dodge!"""
+number = 10082
+
+[[message]]
+msgs = "\u001B[0;32mTraverse Nahr's terrible maze of illusions and vanquish him!\u001B[0m"
+number = 10083
+
+[[message]]
+msgs = 'The knight says, "You are not yet powerful enough to aid me, mortal."'
+number = 10084
+
+[[message]]
+msgs = 'The knight says, "You will receive no more rewards here, mortal."'
+number = 10085
+
+[[message]]
+msgs = 'The knight says, "Come back when you have blooded yourself upon my enemy."'
+number = 10086
+
+[[message]]
+msgs = "\u001B[0;32mInvestigate the untimely demise of the spectral knight!\u001B[0m"
+number = 10087
+
+[[message]]
+msgs = """
+A %s forms around %s!
+%s conjures a %s around you!
+%s conjures a %s around %s!"""
+number = 10088
+
+[[message]]
+msgs = "\u001B[0;32mHone your skills in combat before seeking adventure, my child.\u001B[0m"
+number = 10089
+
+[[message]]
+msgs = """
+%s skewers you for %d damage!
+%s skewers %s for %s damage!
+Poseidon collapses with a thunderous crash, fatally wounded."""
+number = 10090
+
+[[message]]
+msgs = """
+%s critically skewers you for %d damage!
+%s critically skewers %s for %s damage!"""
+number = 10091
+
+[[message]]
+msgs = """
+%s skewers you and slams you down for %d damage!
+%s skewers %s, who is slammed into the ground for %s damage!"""
+number = 10092
+
+[[message]]
+msgs = 'The Spacelord frowns as he says, "Come back when you have more training."'
+number = 10093
+
+[[message]]
+msgs = """
+The earth roars deafeningly beneath you!
+The earth roars deafeningly beneath you!
+The earth roars deafeningly beneath you!"""
+number = 10094
+
+[[message]]
+msgs = """
+The %s slashes you for %d damage!
+The %s slashes %s for %s damage!
+The arborean cries out and falls in a heap, dead!"""
+number = 10095
+
+[[message]]
+msgs = """
+The %s punches you for %d damage!
+The %s punches %s for %s damage!
+The malevolent priest cries out to his dark god and vanishes in a flash!"""
+number = 10096
+
+[[message]]
+msgs = """
+The %s rips you for %d damage!
+The %s rips %s for %s damage!
+The wraith bursts into a black flame and fades to nothingness!"""
+number = 10097
+
+[[message]]
+msgs = """
+The %s cleaves you for %d damage!
+The %s cleaves %s for %s damage!
+With a roar that shakes the very ground, the Dark Champion falls!"""
+number = 10098
+
+[[message]]
+msgs = """
+A dark oceanid creeps into the room from %s.
+The dark oceanid creeps out of the room from %s.
+The giant wyvern screeches and flies off, defeated!"""
+number = 10099
+
+[[message]]
+msgs = """
+The wererat general pounds into the room from the %s.
+The wererat general pounds out to %s.
+The wererat general runs after you!"""
+number = 10100
+
+[[message]]
+msgs = """
+The %s rips you for %d damage!
+The %s rips %s for %s damage!
+The wererat general falls to the ground, its blood still steaming!"""
+number = 10101
+
+[[message]]
+msgs = """
+The %s claws you for %d damage!
+The %s claws %s for %s damage!
+The forgotten dragon utters a contemptuous snarl and breathes his last!"""
+number = 10102
+
+[[message]]
+msgs = """
+The %s slashes you for %d damage!
+The %s slashes %s for %s damage!
+The dragon slayer bows to you, then falls on his sword!"""
+number = 10103
+
+[[message]]
+msgs = """
+The %s rips you for %d damage!
+The %s rips %s for %s damage!
+The sentry snarls at you and collapses."""
+number = 10104
+
+[[message]]
+msgs = """
+The %s pinches you for %d damage!
+The %s pinches %s for %s damage!
+The mammoth crustecean sinks to the sea floor."""
+number = 10105
+
+[[message]]
+msgs = """
+The %s crushes you for %d damage!
+The %s crushes %s for %s damage!
+The sea giant's wounds spill water as he falls, sinking into the deep."""
+number = 10106
+
+[[message]]
+msgs = """
+A sea giant treads in from nowhere.
+The sea giant treads off to the %s.
+The sea giant treads in from the %s."""
+number = 10107
+
+[[message]]
+msgs = """
+A giant lobster scurries into the room.
+A giant lobster scurries off to the %s.
+A giant lobster scurries into the room from the %s."""
+number = 10108
+
+[[message]]
+msgs = """
+The %s lashes you with its tail for %d damage!
+The %s lashes %s with its tail for %s damage!
+The giant ray is rent in two!"""
+number = 10109
+
+[[message]]
+msgs = """
+A giant ray glides into the room.
+A giant ray glides off to the %s."""
+number = 10110
+
+[[message]]
+msgs = """
+%s smashes you with his fist for %d damage!
+%s smashes %s with their fist for %s damage!
+The ground shudders and shockwaves radiate as the king falls!"""
+number = 10111
+
+[[message]]
+msgs = """
+The %s claws you for %d damage!
+The %s claws %s for %s damage!
+The lady of Nazareen gazes at you sorrowfully, then falls dead."""
+number = 10112
+
+[[message]]
+msgs = """
+A huge dragon-like figure stomps in from the southeast!
+A huge dragon-like figure stomps out to the %s!
+The fat King bursts with a disgusting pop!"""
+number = 10113
+
+[[message]]
+msgs = """
+
+
+The Unholy Beast utters a gut-wrenching shriek and collapses!"""
+number = 10114
+
+[[message]]
+msgs = """
+The %s chops you for %d damage!
+The %s chops %s for %s damage!
+The wererat mercenary shrieks in rage, and dies in a bloody spasm!"""
+number = 10115
+
+[[message]]
+msgs = """
+The %s rips you with a tentacle for %d damage!
+The %s rips %s with a tentacle for %s damage!
+The beast is ended in a flurry of flailing tentacles!"""
+number = 10116
+
+[[message]]
+msgs = """
+The %s tears you for %d damage!
+The %s tears %s for %s damage!
+The massive harpy falls to the ground with a piercing shriek!"""
+number = 10117
+
+[[message]]
+msgs = """
+
+
+The wretched metal being collapses with a loud clang."""
+number = 10118
+
+[[message]]
+msgs = """
+
+
+The wretched demon falls and shrivels into nothingness!"""
+number = 10119
+
+[[message]]
+msgs = """
+
+
+The timeless dragon roars maliciously and teleports to some faraway place!"""
+number = 10120
+
+[[message]]
+msgs = """
+
+
+The wretched Angel flies away, borne on its deep sable wings!"""
+number = 10121
+
+[[message]]
+msgs = """
+
+
+The dao chants a strange verse, disappearing before your eyes!"""
+number = 10122
+
+[[message]]
+msgs = """
+%s smacks you with his staff for %d damage!
+%s smacks %s with his staff for %s damage!
+With a final utterance, the mage recalls to some faraway place!"""
+number = 10123
+
+[[message]]
+msgs = """
+
+
+The green dragon vanishes in a cloud of emerald mist!"""
+number = 10124
+
+[[message]]
+msgs = """
+The %s touches you with a ghostly hand for %d damage!
+The %s touches %s with a ghostly hand for %s damage!
+The shade dissipates without a sound."""
+number = 10125
+
+[[message]]
+msgs = """
+The %s slashes you for %d damage!
+The %s slashes %s for %s damage!
+The lithe ninja retreats without a sound, collapsing upon its sword!"""
+number = 10126
+
+[[message]]
+msgs = """
+
+
+The witchunter cries out in anguish and clatters to the ground!"""
+number = 10127
+
+[[message]]
+msgs = """
+
+
+The dragon is consumed in an inferno of unearthly crimson flame!"""
+number = 10128
+
+[[message]]
+msgs = """
+
+
+The translucent dragon dissipates without a single sound."""
+number = 10129
+
+[[message]]
+msgs = """
+
+
+The deep blue dragon snarls in contempt and falls with a thundering crash!"""
+number = 10130
+
+[[message]]
+msgs = """
+
+
+The dragon is consumed in a flash of unearthly white light!"""
+number = 10131
+
+[[message]]
+msgs = """
+
+
+The crystalline dragon's head is rent from its body!"""
+number = 10132
+
+[[message]]
+msgs = """
+
+
+The deep green dragon laughs in glee and fades from view!"""
+number = 10133
+
+[[message]]
+msgs = """
+
+
+The unholy dragon collapses and begins to rot immediately!"""
+number = 10134
+
+[[message]]
+msgs = """
+
+
+Boiling blood flows from the neck of the dragon as it falls, dead!"""
+number = 10135
+
+[[message]]
+msgs = """
+
+
+The dragon vanishes in a flash of brilliant blue light!"""
+number = 10136
+
+[[message]]
+msgs = """
+
+
+The wicked angel flies away, realizing its impending doom!"""
+number = 10137
+
+[[message]]
+msgs = """
+The %s slashes you for %d damage!
+The %s slashes %s for %s damage!
+The trolloc falls like hewn timber, black blood spewing from its wounds."""
+number = 10138
+
+[[message]]
+msgs = """
+
+
+The Lord of Dragons gazes at you in disbelief before breathing its last!"""
+number = 10139
+
+[[message]]
+msgs = """
+
+
+The terrifying demon unfurls its wings in fury, and flies away!"""
+number = 10140
+
+[[message]]
+msgs = """
+
+
+The frozen dragon explodes in a shower of ice crystals!"""
+number = 10141
+
+[[message]]
+msgs = """
+The %s claws you for %d damage!
+The %s claws %s for %s damage!
+The Shaman completes his incantation and dissappears!"""
+number = 10142
+
+[[message]]
+msgs = """
+
+
+The Overlord collapses and bursts into flames! Soon,only his garb remains."""
+number = 10143
+
+[[message]]
+msgs = """
+
+
+The Necromancer cries out as he is consumed by a rain of fire!"""
+number = 10144
+
+[[message]]
+msgs = """
+
+
+The Bishop collapses without a sound, his head left rolling away."""
+number = 10145
+
+[[message]]
+msgs = """
+
+
+A portal opens up, swallowing the multicolored dragon into nothingness!"""
+number = 10146
+
+[[message]]
+msgs = """
+
+
+With an unearthly cry, the dark warrior's body implodes with a flash!"""
+number = 10147
+
+[[message]]
+msgs = """
+
+
+The necromancer falls, clutching his chest with a look of disbelief!"""
+number = 10148
+
+[[message]]
+msgs = """
+The %s strikes you with its tail for %d damage!
+The %s strikes %s with its tail for %s damage!
+The strange creature falls with a grunt."""
+number = 10149
+
+[[message]]
+msgs = """
+The %s attempts to envelop you!
+The %s attempts to envelop %s!
+The malicious mist solidifies and shatters!"""
+number = 10150
+
+[[message]]
+msgs = """
+The %s slashes you for %d damage!
+The %s slashes %s for %s damage!
+The lithe ninja throws a smoke bomb and escapes!"""
+number = 10151
+
+[[message]]
+msgs = """
+The %s claws you for %d damage!
+The %s claws %s for %s damage!
+The shaman falls to the ground, its corpse quickly returning to the earth."""
+number = 10152
+
+[[message]]
+msgs = """
+The %s crushes you for %d damage!
+The %s crushes %s for %s damage!
+The metallic giant falls with a loud clang!"""
+number = 10153
+
+[[message]]
+msgs = """
+A metal giant stomps into the room!
+The metal giant stomps off to the %s.
+The metal giant stomps into the room from the %s."""
+number = 10154
+
+[[message]]
+msgs = """
+A giant war beast enters the room from %s.
+The giant war beast dashes off the to %s.
+The giant war beast runs into the room from %s."""
+number = 10155
+
+[[message]]
+msgs = """
+The %s mauls you for %d damage!
+The %s mauls %s for %s damage!
+The giant war beast collapses with a pitiful moan."""
+number = 10156
+
+[[message]]
+msgs = """
+
+
+The menacing executioner stumbles and falls dead!"""
+number = 10157
+
+[[message]]
+msgs = """
+
+
+The wizard vanishes, becoming a fine blue mist which quickly dissipates."""
+number = 10158
+
+[[message]]
+msgs = """
+
+
+The Demon Lord splits in two as shrieking spirits escape from its body!"""
+number = 10159
+
+[[message]]
+msgs = """
+
+
+The prisoner bows and vanishes."""
+number = 10160
+
+[[message]]
+msgs = """
+
+
+The Magus fades from view, still chanting his final incantation."""
+number = 10161
+
+[[message]]
+msgs = """
+
+
+The evil succubus snarls and is sucked into a dark rift!"""
+number = 10162
+
+[[message]]
+msgs = """
+
+
+The ancient horror cries in anguish, and is drawn to Judgement!"""
+number = 10163
+
+[[message]]
+msgs = """
+
+
+The hunter stares in disbelief and disintegrates!"""
+number = 10164
+
+[[message]]
+msgs = """
+
+
+The stone juggernaut shatters, the sound of scattering stones echoing."""
+number = 10165
+
+[[message]]
+msgs = """
+
+
+A rift snaps open in the air above you, sucking the Reaper into it!"""
+number = 10166
+
+[[message]]
+msgs = """
+
+
+The massive gold dragon falls with a metallic sound!"""
+number = 10167
+
+[[message]]
+msgs = """
+
+
+The battle-hardened dragon leers at you maliciously as it falls dead!"""
+number = 10168
+
+[[message]]
+msgs = """
+The %s bites you for %d damage!
+The %s bites %s for %s damage!
+Zara pulls a vial from her belt and hurls it to the ground, disappearing!"""
+number = 10169
+
+[[message]]
+msgs = """
+
+
+Epron lets out a shriek of immense pain and suffering, and then vanishes!"""
+number = 10170
+
+[[message]]
+msgs = """
+
+
+The frosted succubus shatters, throwing out a spray of blood-red ice!"""
+number = 10171
+
+[[message]]
+msgs = """
+
+
+In a howl of rage and agony the fiery succubus vanishes!"""
+number = 10172
+
+[[message]]
+msgs = """
+The %s claws you for %d damage!
+The %s claws %s for %s damage!
+The rakshasha lord screams in frustration, and falls dead!"""
+number = 10173
+
+[[message]]
+msgs = """
+The %s claws you for %d damage!
+The %s claws %s for %s damage!
+The rakshasha wizardess gives a feline cry and collapses!"""
+number = 10174
+
+[[message]]
+msgs = """
+
+
+The immense dragon is consumed in its own acid!"""
+number = 10175
+
+[[message]]
+msgs = """
+
+
+The white dragon bellows in rage and flies away!"""
+number = 10176
+
+[[message]]
+msgs = """
+
+
+The sky-blue dragon gazes in disbelief as the killing blow is delivered!"""
+number = 10177
+
+[[message]]
+msgs = """
+
+%s appears in a flash of light!"""
+number = 10178
+
+[[message]]
+msgs = """
+\u001B[1;34m%s closes their eyes and begins to meditate.\u001B[0m
+\u001B[1;34m%s closes their eyes and begins to meditate.\u001B[0m
+\u001B[1;34mYou close your eyes and begin to meditate.\u001B[0m"""
+number = 10179
+
+[[message]]
+msgs = """
+\u001B[1;34mA shimmering portal snaps open before you, quickly sucking you in!
+\u001B[1;34mA shimmering portal snaps open before %s, quickly sucking them in!
+\u001B[1;34mA shimmering portal snaps open before %s, quickly sucking them in!"""
+number = 10180
+
+[[message]]
+msgs = """
+You play an angry tune, sending a %s of music at %s for %d damage!
+%s plays an angry tune, sending a %s of music at you for %d damage!
+%s plays an angry tune, sending a %s of music at %s for %s damage!"""
+number = 10181
+
+[[message]]
+msgs = """
+Divine energy courses through %s's body, causing %d damage!
+Divine energy courses through your body, causing %d damage!"""
+number = 10182
+
+[[message]]
+msgs = """
+
+The %s inhales deeply and blasts out a cone of shimmering white light!"""
+number = 10183
+
+[[message]]
+msgs = """
+\u001B[1;31mYour meditation is disturbed, and the spell fails!\u001B[0m
+\u001B[1;31m%s's meditation is disturbed, and the spell fails!\u001B[0m
+\u001B[1;31m%s's meditation is disturbed, and the spell fails!\u001B[0m"""
+number = 10184
+
+[[message]]
+msgs = "You are meditating."
+number = 10185
+
+[[message]]
+msgs = """
+You point your Starbeam Staff at %s and invoke its power!
+%s points the Starbeam Staff at you!
+%s points the Starbeam Staff at %s!"""
+number = 10186
+
+[[message]]
+msgs = """
+The %s slashes you for %d damage!
+The %s slashes %s for %s damage!
+The wererat knight falls, his armor ringing like a huge bell."""
+number = 10187
+
+[[message]]
+msgs = """
+The %s slashes you for %d damage!
+The %s slashes %s for %s damage!
+The wererat leader falls to the ground, twitching spasmodically."""
+number = 10188
+
+[[message]]
+msgs = "\u001B[1;33mThe great ruby pulsates and begins to glow before your eyes!\u001B[0m"
+number = 10189
+
+[[message]]
+msgs = """
+\u001B[1;32mThe halfling eyes you in disgust, then turns away.\u001B[0m
+\u001B[1;32mThe halfling eyes %s in disgust, then turns away.\u001B[0m
+\u001B[1;32mThe halfling eyes %s in disgust, then turns away.\u001B[0m"""
+number = 10190
+
+[[message]]
+msgs = """
+\u001B[1;33mThe halfling prisoner suddenly vanishes as the bag explodes!\u001B[0m
+
+\u001B[1;33mThe halfling prisoner throws a pouch, and suddenly vanishes!\u001B[0m"""
+number = 10191
+
+[[message]]
+msgs = """
+You invoke your %s, and your body starts to tingle!
+
+%s invokes their %s."""
+number = 10192
+
+[[message]]
+msgs = """
+A glowing %s forms around your foes!
+%s conjures a glowing %s around you!
+%s conjures a glowing %s!"""
+number = 10193
+
+[[message]]
+msgs = """
+nerf
+nerfs
+nerfs"""
+number = 10194
+
+[[message]]
+msgs = "\u001B[1;31mYou notice something approaching you!\u001B[0m"
+number = 10195
+
+[[message]]
+msgs = "\u001B[1;37mNothing happens.\u001B[0m"
+number = 10196
+
+[[message]]
+msgs = """
+The effects of the song of shielding wear off!
+
+You feel armoured!"""
+number = 10197
+
+[[message]]
+msgs = """
+The effects of the song of protection wear off!
+
+You feel protected!"""
+number = 10198
+
+[[message]]
+msgs = """
+The effects of earthly power wear off.
+
+You are filled with the power of the Earth Mother!"""
+number = 10199
+
+[[message]]
+msgs = """
+The effects of magebind wear off.
+
+A surge of magical energy races through your body!"""
+number = 10200
+
+[[message]]
+msgs = """
+The effects of angelbind wear off.
+
+A surge of divine energy races through your body!"""
+number = 10201
+
+[[message]]
+msgs = """
+\u001B[1;33mYou walk into the wide crack, and follow a path through the rock.
+\u001B[1;33m%s walks into the wide crack.\u001B[0m
+\u001B[1;33m%s walks into the wide crack.\u001B[0m"""
+number = 10202
+
+[[message]]
+msgs = """
+
+\u001B[1;33m%s enters through the wide crack.\u001B[0m
+\u001B[1;33m%s enters through the wide crack.\u001B[0m"""
+number = 10203
+
+[[message]]
+msgs = """
+squish your banana into
+squishes his banana into
+squishes his banana into"""
+number = 10204
+
+[[message]]
+msgs = """
+The %s %sswings at %s, %sbut %s dodges out of the way!
+The %s %sswings at you with his %ssoulblade!
+The %s %sswings at %s with his %ssoulblade!"""
+number = 10205
+
+[[message]]
+msgs = """
+The %s swings at you, but your armour deflects the blow!
+The %s %sswings at %s, but %s armour deflects the blow!
+The %s swings at you with his soulblade, but you dodge out of the way!"""
+number = 10206
+
+[[message]]
+msgs = """
+The %s %sswings at %s, %sbut %s dodges!
+The %s %sswings at you with his %semerald chakram!
+The %s %sswings at %s with his %semerald chakram!"""
+number = 10207
+
+[[message]]
+msgs = """
+The %s swings at you, but your armour deflects the blow!
+The %s %sswings at %s, but %s armour deflects the blow!
+The %s swings at you with his emerald chakram, but you dodge!"""
+number = 10208
+
+[[message]]
+msgs = """
+say 'Azcatur'
+say Azcatur
+speak Azcatur"""
+number = 10209
+
+[[message]]
+msgs = """
+You say 'Azcatur' out loud.
+%s says 'Azcatur' out loud."""
+number = 10210
+
+[[message]]
+msgs = """
+A gigantic stone door opens in the valley wall!
+A gigantic stone door opens in the valley wall!
+A gigantic stone door opens in the valley wall!"""
+number = 10211
+
+[[message]]
+msgs = """
+The shroud of flames is quenched and your skin returns to normal.
+
+Your skin is covered by a shroud of flames!"""
+number = 10212
+
+[[message]]
+msgs = """
+Poseidon looks disappointed as he sees you returning empty-handed.
+Poseidon shakes his head sadly as %s returns empty-handed.
+Poseidon shakes his head sadly as %s returns empty-handed."""
+number = 10213
+
+[[message]]
+msgs = "\u001B[0;32mAid the merfolk by returning Poseidon his crown!\u001B[0m"
+number = 10214
+
+[[message]]
+msgs = "\u001B[0;32mVanquish Gnaj the Creator and his foul servants!\u001B[0m"
+number = 10215
+
+[[message]]
+msgs = """
+The %s %slashes out at %s with their %shellfire whip, but %s dodges!
+The %s lashes out at you with their hellfire whip!
+The %s %slashes out at %s with their hellfire whip!"""
+number = 10216
+
+[[message]]
+msgs = """
+The %s lashes out at you, but your armour deflects the blow!
+The %s %slashes out at %s, but %s armour deflects the blow!
+The %s lashest out at you with their hellfire whip, but you dodge!"""
+number = 10217
+
+[[message]]
+msgs = """
+An infernal storm of fire and brimstone scorches the %sroom for %d damage!
+An infernal storm of fire and brimstone scorches you for %d damage!
+An infernal storm of fire and brimstone scorches the room!"""
+number = 10218
+
+[[message]]
+msgs = """
+Chanting the infernal ritual, you scatter ashes in a circular pattern.
+%s chants an infernal ritual, scattering some ashes in a circular pattern.
+%s chants an infernal ritual, scattering some ashes in a circular pattern."""
+number = 10219
+
+[[message]]
+msgs = """
+A Giant Bloodbear charges in from %s!
+The Giant Bloodbear runs out to %s!
+The gargantuan bloodbear roars in fury, and collapses!"""
+number = 10220
+
+[[message]]
+msgs = """
+
+A massive hail of stones smashes you for %d damage!"""
+number = 10221
+
+[[message]]
+msgs = """
+
+The %s raises its hands to the sky!"""
+number = 10222
+
+[[message]]
+msgs = """
+The wererat king strides in from %s.
+The wererat king strides out to %s."""
+number = 10223
+
+[[message]]
+msgs = """
+You sing the %s to %s!
+%s sings the %s to you!
+%s sings the %s to %s!"""
+number = 10224
+
+[[message]]
+msgs = """
+\u001B[1;31mYour body tingles slightly, but nothing happens.\u001B[0m
+\u001B[1;31m%s shudders slightly, but nothing seems to happen.\u001B[0m
+\u001B[1;31m%s shudders slightly, but nothing seems to happen.\u001B[0m"""
+number = 10225
+
+[[message]]
+msgs = """
+Your harmonic powers return to normal!
+
+You feel the blessing of the muses empowering you!"""
+number = 10226
+
+[[message]]
+msgs = """
+You attempt to slip through the crack, but the rats push you back!
+%s attempts to slip through the crack, but the rats push them back!
+%s attempts to slip through the crack, but the rats push them back!"""
+number = 10227
+
+[[message]]
+msgs = """
+The spirit of the wolf has left your body!
+
+The spirit of the wolf inhabits your body!"""
+number = 10228
+
+[[message]]
+msgs = """
+The spirit of the lion has left your body!
+
+The spirit of the lion inhabits your body!"""
+number = 10229
+
+[[message]]
+msgs = """
+The spirit of the gazelle has left your body!
+
+The spirit of the gazelle inhabits your body!"""
+number = 10230
+
+[[message]]
+msgs = """
+The spirit of the rabbit has left your body!
+
+The spirit of the rabbit inhabits your body!"""
+number = 10231
+
+[[message]]
+msgs = """
+The spirit of the elephant has left your body!
+
+The spirit of the elephant inhabits your body!"""
+number = 10232
+
+[[message]]
+msgs = """
+The spirit of the Earth Mother has left your body!
+
+The spirit of the Earth Mother inhabits your body!"""
+number = 10233
+
+[[message]]
+msgs = """
+You laugh raucously at %s, whose ears begin to bleed, causing %d damage!
+%s laughs raucously at you, causing your ears to bleed for %d damage!
+%s laughs raucously at %s, whose ears begin to bleed, causing %d damage!"""
+number = 10234
+
+[[message]]
+msgs = """
+Your streaking %s strikes %s for %d damage!
+%s launches an %s at you for %d damage!
+%s launches an %s at %s for %s damage!"""
+number = 10235
+
+[[message]]
+msgs = """
+\u001B[1;34mYou speak an ancient word of power, calling upon arcane energies!
+\u001B[1;34m%s speaks an ancient word of power, calling upon arcane energies!
+\u001B[1;34m%s speaks an ancient word of power, calling upon arcane energies!"""
+number = 10236
+
+[[message]]
+msgs = "The arena master shakes his head at you firmly."
+number = 10237
+
+[[message]]
+msgs = """
+The divine righteousness wears off.
+
+You are filled with divine righteousness!"""
+number = 10238
+
+[[message]]
+msgs = """
+The shield suddenly vanishes with an audible pop!
+
+A frigid shield of ice forms around your body!"""
+number = 10239
+
+[[message]]
+msgs = """
+The shield suddenly vanishes with an audible pop!
+
+A burning shield of fire forms around your body!"""
+number = 10240
+
+[[message]]
+msgs = """
+The shield suddenly vanishes with an audible pop!
+
+A crackling shield of lightning forms around your body!"""
+number = 10241
+
+[[message]]
+msgs = """
+You ring the great gong, and the arena master opens the grate!
+%s rings the great gong, and the arena master opens the grate!
+%s rings the great gong, and the arena master opens the grate!"""
+number = 10242
+
+[[message]]
+msgs = """
+A crystal guardian stomps in from %s.
+A crystal guardian stomps out to %s.
+A crystal guardian stomps after you!"""
+number = 10243
+
+[[message]]
+msgs = """
+
+
+The crystal guardian shatters into a thousand shards!"""
+number = 10244
+
+[[message]]
+msgs = """
+%s punches you in the head for %d damage!
+%s punches %s in the head for %s damage!"""
+number = 10245
+
+[[message]]
+msgs = """
+%s %sthrows a punch at %s, %sbut %s dodges it!
+%s throws a punch at you, but misses!
+%s %sthrows a punch at %s, but misses!"""
+number = 10246
+
+[[message]]
+msgs = """
+%s throws a punch at you, but your armour deflects the blow!
+%s %sthrows a punch at %s, but %s armour deflects the blow!
+%s throws a punch at you, but you dodge it!"""
+number = 10247
+
+[[message]]
+msgs = """
+%s leaps into the air and kicks you for %d damage!
+%s leaps into the air and kicks %s for %s damage!"""
+number = 10248
+
+[[message]]
+msgs = """
+%s %sleaps into the air and kicks at %s, %sbut %s dodges!
+%s leaps into the air and kicks at you, but misses!
+%s %sleaps into the air and kicks at %s, but misses!"""
+number = 10249
+
+[[message]]
+msgs = """
+%s leaps into the air and kicks at you, but misses!
+%s %sleaps into the air and kicks at %s, but misses!
+%s leaps into the air and kicks at you, but you dodge out of the way!"""
+number = 10250
+
+[[message]]
+msgs = """
+%s sweeps your feet out from under you!
+%s sweeps %s's feet!"""
+number = 10251
+
+[[message]]
+msgs = """
+%s %sspins and kicks at %s, %sbut %s dodges out of the way!
+%s spins and kicks at you, but misses!
+%s %sspins and kicks at %s, but misses!"""
+number = 10252
+
+[[message]]
+msgs = """
+%s spins and kicks at you, but misses!
+%s spins and %skicks at %s, but misses!
+%s spins and kicks at you, but you dodge out of the way!"""
+number = 10253
+
+[[message]]
+msgs = "You find you don't have enough stones to fill the holes in the statue."
+number = 10254
+
+[[message]]
+msgs = """
+The effects of the sacred blessing wear off.
+
+You feel blessed by the touch of god!"""
+number = 10255
+
+[[message]]
+msgs = """
+The effects of unholy curse wear off.
+
+You feel horribly unlucky!"""
+number = 10256
+
+[[message]]
+msgs = """
+A horde of ferocious beasts trample your %sfoes for %d damage!
+A horde of ferocious beasts trample you for %d damage!
+A horde of ferocious beasts charge through the room!"""
+number = 10257
+
+[[message]]
+msgs = """
+A bright %s of energy streaks towards %s!
+%s sends a bright %s streaking towards you!
+%s sends a bright %s streaking towards %s!"""
+number = 10258
+
+[[message]]
+msgs = """
+Your strike delivers a deadly poison, sending your foe into convulsions!
+The strike delivers a deadly poison, sending you into convulsions!
+The strike delivers a deadly poison, sending %s into convulsions!"""
+number = 10259
+
+[[message]]
+msgs = """
+A shimmering pearlescent aura forms about you!
+A shimmering pearlescent aura forms about %s!
+A shimmering pearlescent aura forms about %s!"""
+number = 10260
+
+[[message]]
+msgs = """
+Your Lissom Crest glows briefly, allowing you passage.
+%s's Lissom Crest glows briefly, allowing them passage.
+%s's Lissom Crest glows briefly, allowing them passage."""
+number = 10261
+
+[[message]]
+msgs = """
+A mislead serenade ripples %sthrough the room for %d damage!
+A mislead serenade strikes you for %d damage!
+A mislead serenade ripples %sthrough the room for %s damage!"""
+number = 10262
+
+[[message]]
+msgs = """
+A horrible song ripples %sthrough the room for %d damage!
+A horrible song strikes you for %d damage!
+A horrible song ripples %sthrough the room for %s damage!"""
+number = 10263
+
+[[message]]
+msgs = """
+You are vulnerable.
+
+You feel protected by divine power!"""
+number = 10264
+
+[[message]]
+msgs = """
+%s surges with a red aura!
+Fiery power surges through your body!
+%s is surrounded in a fiery red glow!"""
+number = 10265
+
+[[message]]
+msgs = """
+You shudder with rage!
+%s shudders with rage!
+%s shudders with rage!"""
+number = 10266
+
+[[message]]
+msgs = """
+Your fury fades.
+
+You are consumed by fury!"""
+number = 10267
+
+[[message_change]]
+number = 22
+
+[message_change.set]
+msgs = """
+You cast %s, surrounding everyone in the room in a white glow!
+%s casts a spell on you, surrounding you with a white glow!
+%s casts %s, surrounding everyone in the room with a white glow!"""
+
+[message_change.was]
+msgs = """
+You cast %s, surrounding everyone in the party in a white glow!
+%s casts a spell on you, surrounding you with a white glow!
+%s casts %s, surrounding everyone in the their party with a white glow!"""
+
+[[message_change]]
+number = 23
+
+[message_change.set]
+msgs = """
+You cast %s, surrounding everyone in the room with a black glow!
+%s casts a spell on you, surrounding you with a black glow!
+%s casts a spell, surrounding everyone in the room with a black glow!"""
+
+[message_change.was]
+msgs = """
+You cast %s, surrounding all your foes with a black glow!
+%s casts a spell on you, surrounding you with a black glow!
+%s casts a spell, surrounding their foes with a black glow!"""
+
+[[message_change]]
+number = 55
+
+[message_change.set]
+msgs = """
+The chains snap, and you slip inside the warehouse.
+The chains snap, and %s slips inside the warehouse.
+The chains snap, and %s slips inside the warehouse."""
+
+[message_change.was]
+msgs = """
+The chains snap, and the door to the warehouse opens.
+The chains snap, and the door to the warehouse opens.
+The chains snap, and the door to the warehouse opens."""
+
+[[message_change]]
+number = 84
+
+[message_change.set]
+msgs = """
+You are no longer freezing.
+
+You are freezing cold!"""
+
+[message_change.was]
+msgs = """
+You are no longer freezing.
+
+You are freezing!"""
+
+[[message_change]]
+number = 105
+
+[message_change.set]
+msgs = """
+Acidic rain pours down upon your foe!
+Acidic rain pours down upon you!
+Acidic rain pours down upon the room!"""
+
+[message_change.was]
+msgs = """
+Acid rain pours down upon your foe!
+Acid rain pours down upon you!
+Acid rain pours down upon the room!"""
+
+[[message_change]]
+number = 124
+
+[message_change.set]
+msgs = """
+A blazing inferno sears %sthe room for %d damage!
+A blazing inferno sears %syou for %d damage!
+A blazing inferno sweeps through the room!"""
+
+[message_change.was]
+msgs = """
+A blazing inferno sears %sthe room for %d damage!
+A blazing inferno sears you for %d damage!
+A blazing inferno sweeps through the room!"""
+
+[[message_change]]
+number = 188
+
+[message_change.set]
+msgs = """
+The %s snaps at %s with its teeth, but %s dodges out of the way!
+The %s snaps at you with its huge teeth!
+The %s snaps at %s with its huge teeth!"""
+
+[message_change.was]
+msgs = """
+The %s snaps at %s with its teeth, but %s dodges!
+The %s snaps at you with its huge teeth!
+The %s snaps at %s with its huge teeth!"""
+
+[[message_change]]
+number = 278
+
+[message_change.set]
+msgs = """
+A tower of flame engulfs %s for %d damage!
+A tower of flame engulfs you for %d damage!
+A tower of flame engulfs %s for %s damage!"""
+
+[message_change.was]
+msgs = """
+
+A tower of flame engulfs you for %d damage!
+A tower of flame engulfs %s for %s damage!"""
+
+[[message_change]]
+number = 302
+
+[message_change.set]
+msgs = """
+The %s smacks you for %d damage!
+The %s smacks %s for %s damage!
+The black orc shaman collapses with a gutteral cry!"""
+
+[message_change.was]
+msgs = """
+The %s smacks you for %d damage!
+The %s smacks %s for %s damage!
+The black orc shaman collapses with a guttural cry!"""
+
+[[message_change]]
+number = 314
+
+[message_change.set]
+msgs = """
+The %s %skicks at you, but your armour deflects the blow!
+The %s %skicks at %s, but %s armour deflects the blow!
+The %s %skicks at you, but you dodge out of the way!"""
+
+[message_change.was]
+msgs = """
+The %s %skicks at you, but your armour deflects the blow!
+The %s %skicks at %s, but %s armour deflects the blow!
+The %s %skicks at you, but you dodge!"""
+
+[[message_change]]
+number = 315
+
+[message_change.set]
+msgs = """
+The %s %skicks at %s, %sbut %s dodges out of the way!
+The %s %skicks at you with its clawed feet!
+The %s %skicks at %s with its clawed feet!"""
+
+[message_change.was]
+msgs = """
+The %s %skicks at %s, %sbut %s dodges!
+The %s %skicks at you with its clawed feet!
+The %s %skicks at %s with its clawed feet!"""
+
+[[message_change]]
+number = 317
+
+[message_change.set]
+msgs = """
+\u001B[0;32mThe healer casts minor healing on you!\u001B[0m
+
+\u001B[0;32mThe healer heals %s of %s damage!\u001B[0m"""
+
+[message_change.was]
+msgs = """
+The healer casts minor healing on you!
+The healer heals you of %d damage!
+The healer heals %s of %s damage!"""
+
+[[message_change]]
+number = 319
+
+[message_change.set]
+msgs = """
+\u001B[0;32mThe healer casts cure poison on you!\u001B[0m
+
+\u001B[0;32mThe %s casts %s on %s!\u001B[0m"""
+
+[message_change.was]
+msgs = """
+The healer casts cure poison on you!
+
+The %s casts %s on %s!"""
+
+[[message_change]]
+number = 320
+
+[message_change.set]
+msgs = """
+\u001B[0;32mThe healer casts cure disease on you!\u001B[0m
+
+\u001B[0;32mThe healer casts cure disease on %s!\u001B[0m"""
+
+[message_change.was]
+msgs = """
+The healer casts cure disease on you!
+
+The healer casts cure disease on %s!"""
+
+[[message_change]]
+number = 321
+
+[message_change.set]
+msgs = """
+\u001B[0;32mThe healer casts remove curse on you!\u001B[0m
+
+\u001B[0;32mThe healer casts remove curse on %s!\u001B[0m"""
+
+[message_change.was]
+msgs = """
+The healer casts remove curse on you!
+
+The healer casts remove curse on %s!"""
+
+[[message_change]]
+number = 360
+
+[message_change.set]
+msgs = """
+The %s %slashes at you with its tongue, but your armour deflects!
+The %s %slashes at %s with its tongue, but %s armour deflects!
+The %s %slashes at you, but you dodge out of the way!"""
+
+[message_change.was]
+msgs = """
+The %s %slashes at you with its tongue, but your armour deflects!
+The %s %slashes at %s with its tongue, but %s armour deflects!
+The %s %slashes at you, but you dodge!"""
+
+[[message_change]]
+number = 361
+
+[message_change.set]
+msgs = """
+The %s %slashes at %s, %sbut %s dodges out of the way!
+The %s %slashes at you with its %stongue!
+The %s %slashes at %s with its %stongue!"""
+
+[message_change.was]
+msgs = """
+The %s %slashes at %s, %sbut %s dodges!
+The %s %slashes at you with its %stongue!
+The %s %slashes at %s with its %stongue!"""
+
+[[message_change]]
+number = 375
+
+[message_change.set]
+msgs = """
+The %s swoops towards you!
+The %s %sswoops towards %s!
+The %s swoops towards you, but you dodge out of the way!"""
+
+[message_change.was]
+msgs = """
+The %s swoops towards you!
+The %s %sswoops towards %s!
+The %s swoops towards you, but you dodge!"""
+
+[[message_change]]
+number = 376
+
+[message_change.set]
+msgs = """
+The %s %sswoops towards %s, %sbut %s dodges out of the way!
+The %s swoops towards you!
+The %s %sswoops towards %s!"""
+
+[message_change.was]
+msgs = """
+The %s %sswoops towards %s, %sbut %s dodges!
+The %s swoops towards you!
+The %s %sswoops towards %s!"""
+
+[[message_change]]
+number = 385
+
+[message_change.set]
+msgs = """
+
+The %s spits acid in your eyes!
+The %s %s acid in %s's eyes!"""
+
+[message_change.was]
+msgs = """
+
+The %s spits venom in your eyes!
+The %s %s venom in %s's eyes!"""
+
+[[message_change]]
+number = 409
+
+[message_change.set]
+msgs = """
+
+The %s explodes violently!"""
+
+[message_change.was]
+msgs = """
+
+%s explodes violently!"""
+
+[[message_change]]
+number = 496
+
+[message_change.set]
+msgs = """
+The %s swings at you with its huge claws!
+The %s %sswings at %s with its huge claws!
+The %s swings at you with its huge claws, but you dodge out of the way!"""
+
+[message_change.was]
+msgs = """
+The %s swings at you with its huge claws!
+The %s %sswings at %s with its huge claws!
+The %s swings at you with its huge claws, but you dodge!"""
+
+[[message_change]]
+number = 497
+
+[message_change.set]
+msgs = """
+The %s %sswings at %s with its %shuge claws, but %s dodges out of the way!
+The %s swings at you with its huge claws!
+The %s %sswings at %s with its huge claws!"""
+
+[message_change.was]
+msgs = """
+The %s %sswings at %s with its %shuge claws, but %s dodges!
+The %s swings at you with its huge claws!
+The %s %sswings at %s with its huge claws!"""
+
+[[message_change]]
+number = 499
+
+[message_change.set]
+msgs = """
+The %s kicks at you with a clawed foot!
+The %s %skicks at %s with a clawed foot!
+The %s kicks at you with a clawed foot, but you dodge out of the way!"""
+
+[message_change.was]
+msgs = """
+The %s kicks at you with a clawed foot!
+The %s %skicks at %s with a clawed foot!
+The %s kicks at you with a clawed foot, but you dodge!"""
+
+[[message_change]]
+number = 500
+
+[message_change.set]
+msgs = """
+The %s %skicks at %s with a %sclawed foot, but %s dodges out of the way!
+The %s kicks at you with a clawed foot!
+The %s %skicks at %s with a clawed foot!"""
+
+[message_change.was]
+msgs = """
+The %s %skicks at %s with a %sclawed foot, but %s dodges!
+The %s kicks at you with a clawed foot!
+The %s %skicks at %s with a clawed foot!"""
+
+[[message_change]]
+number = 513
+
+[message_change.set]
+msgs = """
+The bishop gives you a white satin tabard.
+The bishop gives %s a white satin tabard."""
+
+[message_change.was]
+msgs = """
+The bishop gives you a jade amulet.
+The bishop gives %s a jade amulet."""
+
+[[message_change]]
+number = 518
+
+[message_change.set]
+msgs = """
+The %s swipes at you with its talons!
+The %s %sswipes at %s with its talons!
+The %s swipes at you with its talons, but you dodge out of the way!"""
+
+[message_change.was]
+msgs = """
+The %s swipes at you with its talons!
+The %s %sswipes at %s with its talons!
+The %s swipes at you with its talons, but you dodge!"""
+
+[[message_change]]
+number = 519
+
+[message_change.set]
+msgs = """
+The %s %sswipes at %s with its %stalons, but %s dodges out of the way!
+The %s swipes at you with its talons!
+The %s %sswipes at %s with its talons!"""
+
+[message_change.was]
+msgs = """
+The %s %sswipes at %s with its %stalons, but %s dodges!
+The %s swipes at you with its talons!
+The %s %sswipes at %s with its talons!"""
+
+[[message_change]]
+number = 521
+
+[message_change.set]
+msgs = """
+The %s lashes at you with its tail!
+The %s %slashes at %s with its tail!
+The %s lashes at you with its tail, but you dodge out of the way!"""
+
+[message_change.was]
+msgs = """
+The %s lashes at you with its tail!
+The %s %slashes at %s with its tail!
+The %s lashes at you with its tail, but you dodge!"""
+
+[[message_change]]
+number = 522
+
+[message_change.set]
+msgs = """
+The %s %slashes at %s with its %stail, but %s dodges out of the way!
+The %s lashes at you with its tail!
+The %s %slashes at %s with its tail!"""
+
+[message_change.was]
+msgs = """
+The %s %slashes at %s with its %stail, but %s dodges!
+The %s lashes at you with its tail!
+The %s %slashes at %s with its tail!"""
+
+[[message_change]]
+number = 524
+
+[message_change.set]
+msgs = """
+The %s snaps at you with its fangs!
+The %s %ssnaps at %s with its fangs!
+The %s snaps at you with its fangs, but you dodge out of the way!"""
+
+[message_change.was]
+msgs = """
+The %s snaps at you with its fangs!
+The %s %ssnaps at %s with its fangs!
+The %s snaps at you with its fangs, but you dodge!"""
+
+[[message_change]]
+number = 525
+
+[message_change.set]
+msgs = """
+The %s %ssnaps at %s with its %sfangs, but %s dodges out of the way!
+The %s snaps at you with its fangs!
+The %s %ssnaps at %s with its fangs!"""
+
+[message_change.was]
+msgs = """
+The %s %ssnaps at %s with its %sfangs, but %s dodges!
+The %s snaps at you with its fangs!
+The %s %ssnaps at %s with its fangs!"""
+
+[[message_change]]
+number = 536
+
+[message_change.set]
+msgs = """
+The %s swipes at you with her talons!
+The %s %sswipes at %s with her talons!
+The %s swipes at you with her talons, but you dodge out of the way!"""
+
+[message_change.was]
+msgs = """
+The %s swipes at you with her talons!
+The %s %sswipes at %s with her talons!
+The %s swipes at you with her talons, but you dodge!"""
+
+[[message_change]]
+number = 537
+
+[message_change.set]
+msgs = """
+The %s %sswipes at %s with her %stalons, but %s dodges out of the way!
+The %s swipes at you with her talons!
+The %s %sswipes at %s with her talons!"""
+
+[message_change.was]
+msgs = """
+The %s %sswipes at %s with her %stalons, but %s dodges!
+The %s swipes at you with her talons!
+The %s %sswipes at %s with her talons!"""
+
+[[message_change]]
+number = 539
+
+[message_change.set]
+msgs = """
+The %s snaps at you with her fangs!
+The %s %ssnaps at %s with her fangs!
+The %s snaps at you with her fangs, but you dodge out of the way!"""
+
+[message_change.was]
+msgs = """
+The %s snaps at you with her fangs!
+The %s %ssnaps at %s with her fangs!
+The %s snaps at you with her fangs, but you dodge!"""
+
+[[message_change]]
+number = 540
+
+[message_change.set]
+msgs = """
+The %s %ssnaps at %s with her %sfangs, but %s dodges out of the way!
+The %s snaps at you with her fangs!
+The %s %ssnaps at %s with her fangs!"""
+
+[message_change.was]
+msgs = """
+The %s %ssnaps at %s with her %sfangs, but %s dodges!
+The %s snaps at you with her fangs!
+The %s %ssnaps at %s with her fangs!"""
+
+[[message_change]]
+number = 547
+
+[message_change.set]
+msgs = """
+\u001B[0;32mThe healer casts major healing on you!\u001B[0m
+
+\u001B[0;32mThe healer heals %s of %s damage!\u001B[0m"""
+
+[message_change.was]
+msgs = """
+The healer casts major healing on you!
+
+The healer heals %s of %s damage!"""
+
+[[message_change]]
+number = 548
+
+[message_change.set]
+msgs = """
+\u001B[0;32mThe healer casts greater healing on you!\u001B[0m
+
+\u001B[0;32mThe healer heals %s of %s damage!\u001B[0m"""
+
+[message_change.was]
+msgs = """
+The healer casts greater healing on you!
+
+The healer heals %s of %s damage!"""
+
+[[message_change]]
+number = 556
+
+[message_change.set]
+msgs = """
+You sing the %s.
+%s sings the %s to you!
+%s sings the %s!"""
+
+[message_change.was]
+msgs = """
+You sing the %s to your party!
+%s sings the %s to you!
+%s sings the %s!"""
+
+[[message_change]]
+number = 581
+
+[message_change.set]
+msgs = """
+A whirling maelstrom assaults %syour foe for %d damage!
+A whirling maelstrom assaults you for %d damage!
+A whirling maelstrom assaults%s the room for %s damage!"""
+
+[message_change.was]
+msgs = """
+A whirling maelstrom assaults %syour foe for %d damage!
+A whirling maelstrom assaults you for %d damage!
+A whirling maelstrom assaults%s the room for %s danage!"""
+
+[[message_change]]
+number = 604
+
+[message_change.set]
+msgs = """
+A shockwaves ripples %sthrough the room for %d damage!
+A shockwave strikes you for %d damage!
+A shockwave ripples %sthrough the room for %s damage!"""
+
+[message_change.was]
+msgs = """
+A shockwave ripples %sthrough the room for %d damage!
+A shockwave strikes you for %d damage!
+A shockwave ripples %sthrough the room for %s damage!"""
+
+[[message_change]]
+number = 608
+
+[message_change.set]
+msgs = """
+A titan appears in flash of light!
+The titan thunders out to %s!"""
+
+[message_change.was]
+msgs = """
+An aged titan appears in flash of light!
+The aged titan thunders out to %s!"""
+
+[[message_change]]
+number = 609
+
+[message_change.set]
+msgs = """
+The %s pounds you with his fist for %d damage!
+The %s pounds %s with his fist for %s damage!
+The titan frowns darkly at you, and vanishes in a black cloud!"""
+
+[message_change.was]
+msgs = """
+The %s pounds you with his fist for %d damage!
+The %s pounds %s with his fist for %s damage!
+The aged titan frowns darkly, and vanishes!"""
+
+[[message_change]]
+number = 634
+
+[message_change.set]
+msgs = """
+\u001B[1;34mYour body is restored to full health!
+
+\u001B[1;34m%s's body glows with a white light!"""
+
+[message_change.was]
+msgs = """
+%s's body is returned to full health!
+Your body is returned to full health!
+%s's body glows with a white light!"""
+
+[[message_change]]
+number = 682
+
+[message_change.set]
+msgs = """
+The %s swoops down at you!
+The %s %sswoops down at %s!
+The %s swoops down at you, but you dodge out of the way!"""
+
+[message_change.was]
+msgs = """
+The %s swoops down at you!
+The %s %sswoops down at %s!
+The %s swoops down at you, but you dodge!"""
+
+[[message_change]]
+number = 683
+
+[message_change.set]
+msgs = """
+The %s %sswoops down at %s, %sbut %s dodges out of the way!
+The %s swoops down at you!
+The %s %sswoops down at %s!"""
+
+[message_change.was]
+msgs = """
+The %s %sswoops down at %s, %sbut %s dodges!
+The %s swoops down at you!
+The %s %sswoops down at %s!"""
+
+[[message_change]]
+number = 687
+
+[message_change.set]
+msgs = """
+The %s lashes at you with a hoof, but you dodge out of the way!
+The %s %slashes at %s with a hoof, but %s dodges out of the way!
+The %s lashes at you with a hoof, but you dodge out of the way!"""
+
+[message_change.was]
+msgs = """
+The %s lunges at you with a hoof, but you dodge!
+The %s %slunges at %s with a hoof, but %s dodges!
+The %s lunges at you with a hoof, but you dodge!"""
+
+[[message_change]]
+number = 688
+
+[message_change.set]
+msgs = """
+The %s %slashes at %s with a %shoof, but %s dodges out of the way!
+The %s lashes at you with a hoof, but misses!
+The %s %slashes at %s with a hoof, but misses!"""
+
+[message_change.was]
+msgs = """
+The %s %slunges at %s with a %shoof, but %s dodges!
+The %s lunges at you with a hoof, but misses!
+The %s %slunges at %s with a hoof, but misses!"""
+
+[[message_change]]
+number = 690
+
+[message_change.set]
+msgs = """
+The %s lunges at you with its horns, but you dodge out of the way!
+The %s %slunges at %s with its horns, but %s dodges out of the way!
+The %s lunges at you with its horns, but you dodge out of the way!"""
+
+[message_change.was]
+msgs = """
+The %s lunges at you with its horns, but you dodge!
+The %s %slunges at %s with its horns, but %s dodges!
+The %s lunges at you with its horns, but you dodge!"""
+
+[[message_change]]
+number = 691
+
+[message_change.set]
+msgs = """
+The %s %slunges at %s with its %shorns, but %s dodges out of the way!
+The %s lunges at you with its horns, but misses!
+The %s %slunges at %s with its horns, but misses!"""
+
+[message_change.was]
+msgs = """
+The %s %slunges at %s with its %shorns, but %s dodges!
+The %s lunges at you with its horns, but misses!
+The %s %slunges at %s with its horns, but misses!"""
+
+[[message_change]]
+number = 698
+
+[message_change.set]
+msgs = """
+The %s fires an arrow at you, but misses!
+The %s %sfires an arrow at %s, but misses!
+The %s fires an arrow at you, but you dodge out of the way!"""
+
+[message_change.was]
+msgs = """
+The %s fires an arrow at you, but misses!
+The %s %sfires an arrow at %s, but misses!
+The %s fires an arrow at you, but you dodge!"""
+
+[[message_change]]
+number = 699
+
+[message_change.set]
+msgs = """
+The %s %sfires an arrow at %s, %sbut %s dodges out of the way!
+The %s fires an arrow at you, but misses!
+The %s %sfires an arrow at %s, but misses!"""
+
+[message_change.was]
+msgs = """
+The %s %sfires an arrow at %s, %sbut %s dodges!
+The %s fires an arrow at you, but misses!
+The %s %sfires an arrow at %s, but misses!"""
+
+[[message_change]]
+number = 718
+
+[message_change.set]
+msgs = """
+The %s spins and kicks at you, but misses!
+The %s spins and %skicks at %s, but misses!
+The %s spins and kicks at you, but you dodge out of the way!"""
+
+[message_change.was]
+msgs = """
+The %s spins and kicks at you, but misses!
+The %s spins and %skicks at %s, but misses!
+The %s spins and kicks at you, but you dodge!"""
+
+[[message_change]]
+number = 719
+
+[message_change.set]
+msgs = """
+The %s %sspins and kicks at %s, %sbut %s dodges out of the way!
+The %s spins and kicks at you, but misses!
+The %s %sspins and kicks at %s, but misses!"""
+
+[message_change.was]
+msgs = """
+The %s %sspins and kicks at %s, %sbut %s dodges!
+The %s spins and kicks at you, but misses!
+The %s %sspins and kicks at %s, but misses!"""
+
+[[message_change]]
+number = 721
+
+[message_change.set]
+msgs = """
+The %s leaps into the air and kicks at you, but misses!
+The %s %sleaps into the air and kicks at %s, but misses!
+The %s leaps into the air and kicks at you, but you dodge out of the way!"""
+
+[message_change.was]
+msgs = """
+The %s leaps into the air and kicks at you, but misses!
+The %s %sleaps into the air and kicks at %s, but misses!
+The %s leaps into the air and kicks at you, but you dodge!"""
+
+[[message_change]]
+number = 747
+
+[message_change.set]
+msgs = """
+The %s snaps at you with its pincers, but misses!
+The %s %ssnaps at %s with its pincers, but misses!
+The %s snaps at you with its pincers, but you dodge out of the way!"""
+
+[message_change.was]
+msgs = """
+The %s snaps at you with its pincers, but misses!
+The %s %ssnaps at %s with its pincers, but misses!
+The %s snaps at you with its pincers, but you dodge!"""
+
+[[message_change]]
+number = 748
+
+[message_change.set]
+msgs = """
+The %s %ssnaps at %s with its %spincers, but %s dodges out of the way!
+The %s snaps at you with its pincers, but misses!
+The %s %ssnaps at %s with its pincers, but misses!"""
+
+[message_change.was]
+msgs = """
+The %s %ssnaps at %s with its %spincers, but %s dodges!
+The %s snaps at you with its pincers, but misses!
+The %s %ssnaps at %s with its pincers, but misses!"""
+
+[[message_change]]
+number = 750
+
+[message_change.set]
+msgs = """
+The %s lunges at you with its stinger, but misses!
+The %s %slunges at %s with its stinger, but misses!
+The %s lunges at you with its stinger, but you dodge out of the way!"""
+
+[message_change.was]
+msgs = """
+The %s lunges at you with its stinger, but misses!
+The %s %slunges at %s with its stinger, but misses!
+The %s lunges at you with its stinger, but you dodge!"""
+
+[[message_change]]
+number = 751
+
+[message_change.set]
+msgs = """
+The %s %slunges at %s with its %sstinger, but %s dodges out of the way!
+The %s lunges at you with its stinger, but misses!
+The %s %slunges at %s with its stinger, but misses!"""
+
+[message_change.was]
+msgs = """
+The %s %slunges at %s with its %sstinger, but %s dodges!
+The %s lunges at you with its stinger, but misses!
+The %s %slunges at %s with its stinger, but misses!"""
+
+[[message_change]]
+number = 779
+
+[message_change.set]
+msgs = """
+The %s snaps at you with her huge pincers, but misses!
+The %s %ssnaps at %s with her huge pincers, but misses!
+The %s snaps at you with her huge pincers, but you dodge out of the way!"""
+
+[message_change.was]
+msgs = """
+The %s snaps at you with her huge pincers, but misses!
+The %s %ssnaps at %s with her huge pincers, but misses!
+The %s snaps at you with her huge pincers, but you dodge!"""
+
+[[message_change]]
+number = 782
+
+[message_change.set]
+msgs = """
+The %s lunges at you with her huge stinger, but misses!
+The %s %slunges at %s with her huge stinger, but misses!
+The %s lunges at you with her huge stinger, but you dodge out of the way!"""
+
+[message_change.was]
+msgs = """
+The %s lunges at you with her huge stinger, but misses!
+The %s %slunges at %s with her huge stinger, but misses!
+The %s lunges at you with her huge stinger, but you dodge!"""
+
+[[message_change]]
+number = 801
+
+[message_change.set]
+msgs = "You are not Pure enough."
+
+[message_change.was]
+msgs = "You are not Pure enough to that!"
+
+[[message_change]]
+number = 805
+
+[message_change.set]
+msgs = """
+%s swings at you, but you dodge out of the way!
+%s %s %s, but %s dodges out of the way!
+%s swings at you, but you dodge out of the way!"""
+
+[message_change.was]
+msgs = """
+%s swings at you, but you dodge!
+%s %s %s, but %s dodges!
+%s swings at you, but you dodge!"""
+
+[[message_change]]
+number = 806
+
+[message_change.set]
+msgs = """
+%s %s %s with his %s, but %s dodges out of the way!
+%s swings at you, but misses!
+%s %s %s, but misses!"""
+
+[message_change.was]
+msgs = """
+%s %s %s with his %s, but %s dodges!
+%s swings at you, but misses!
+%s %s %s, but misses!"""
+
+[[message_change]]
+number = 823
+
+[message_change.set]
+msgs = """
+You stop regenerating.
+
+You are regenerating quickly."""
+
+[message_change.was]
+msgs = """
+You stop regenerating.
+
+You are regenerating quickly!"""
+
+[[message_change]]
+number = 837
+
+[message_change.set]
+msgs = """
+You find yourself...elsewhere.
+%s appears in a blinding flash of light!
+%s appears in a blinding flash of light!"""
+
+[message_change.was]
+msgs = """
+You find yourself...elsewhere.
+%s appears in a blinding flash of light!
+%s vanishes in a blinding flash of light!"""
+
+[[message_change]]
+number = 839
+
+[message_change.set]
+msgs = "You are not Balanced enough."
+
+[message_change.was]
+msgs = "The Grey Lord simply stares at you in silence."
+
+[[message_change]]
+number = 959
+
+[message_change.set]
+msgs = """
+
+The ancient willow puts you to sleep!
+The ancient willow puts %s to sleep!"""
+
+[message_change.was]
+msgs = """
+
+The ancient willow sings a whispering, haunting melody to you!
+The ancient willow sings a whispering, haunting melody to %s!"""
+
+[[message_change]]
+number = 1022
+
+[message_change.set]
+msgs = """
+A %s limps in from %s.
+The %s limps out to %s.
+The twisted one shambles after you!"""
+
+[message_change.was]
+msgs = """
+A %s limps in from %s.
+The %s limps out to %s."""
+
+[[message_change]]
+number = 1030
+
+[message_change.set]
+msgs = """
+You lift up your crozier and invoke its divine power!
+
+%s lifts up his crozier and invokes its divine power!"""
+
+[message_change.was]
+msgs = """
+You lift up your emerald-tipped crozier and invoke its divine power!
+
+%s lifts up the emerald-tipped crozier and invokes its divine power!"""
+
+[[message_change]]
+number = 1048
+
+[message_change.set]
+msgs = """
+You struggle, but you are solid stone and do not move.
+The statue of %s shudders for a moment.
+The statue of %s shudders for a moment."""
+
+[message_change.was]
+msgs = """
+You struggle, but you are solid stone and do not move.
+The statue of %s shudders for a moment."""
+
+[[message_change]]
+number = 1051
+
+[message_change.set]
+msgs = """
+%s is quickly turned into a stone statue!
+Your body begins to get heavy and solidify!
+%s is quickly turned into a stone statue!"""
+
+[message_change.was]
+msgs = """
+
+Your body begins to get heavy and solidify!
+%s is quickly turned into a stone statue!"""
+
+[[message_change]]
+number = 1217
+
+[message_change.set]
+msgs = """
+With a flash and a thunderclap, you vanish into the ether!
+With a flash and a thunderclap, %s vanishes into the ether!
+With a flash and a thunderclap, %s vanishes into the ether!"""
+
+[message_change.was]
+msgs = """
+With a flash and a thunderclap, you vanish into the ether!
+With a flash and a thunderclap, %s vanishes into the ether!"""
+
+[[message_change]]
+number = 1292
+
+[message_change.set]
+msgs = """
+You utter a gutteral incantation.
+%s utters a gutteral incantation.
+%s utters a gutteral incantation."""
+
+[message_change.was]
+msgs = """
+You utter a guttural incantation.
+%s utters a guttural incantation.
+%s utters a guttural incantation."""
+
+[[message_change]]
+number = 1312
+
+[message_change.set]
+msgs = """
+The unnatural darkness lifts.
+They are shrouded in a sphere of darkness!
+You are enveloped in darkness!"""
+
+[message_change.was]
+msgs = """
+The unnatural darkness lifts.
+They are blind!
+You are enveloped in darkness!"""
+
+[[message_change]]
+number = 1358
+
+[message_change.set]
+msgs = """
+The %s slashes you for %d damage!
+The %s slashes %s for %s damage!
+The fallen angel bursts apart in a whirlwind of fire."""
+
+[message_change.was]
+msgs = """
+The %s slashes you for %d damage!
+The %s slashes %s for %s damage!
+The fallen angel bursts apart in whirlwind of fire."""
+
+[[message_change]]
+number = 1522
+
+[message_change.set]
+msgs = """
+The %s slashes you for %d damage!
+The %s slashes %s for %s damage!
+The spectral knight eyes you strangely and falls, dead!"""
+
+[message_change.was]
+msgs = """
+The %s slashes you for %d damage!
+The %s slashes %s for %s damage!
+The spectral knight smiles wanly, and dissipates."""
+
+[[message_change]]
+number = 1616
+
+[message_change.set]
+msgs = """
+You cast %s at %s for %d damage!
+You are wracked with pain for %d damage!
+%s is wracked with pain for %s damage!"""
+
+[message_change.was]
+msgs = """
+
+You are wracked with pain for %d damage!
+%s is wracked with pain for %s damage!"""
+
+[[message_change]]
+number = 1650
+
+[message_change.set]
+msgs = """
+
+The %s fires a thin %s at you for %d damage!
+The %s fires a %s at %s for %s damage!"""
+
+[message_change.was]
+msgs = """
+
+The %s fires a thin %s at you for %d damage!
+The %s fires a thin %s at %s for %s damage!"""
+
+[[message_change]]
+number = 1718
+
+[message_change.set]
+msgs = """
+The %s darts forward and bites you for %d damage!
+The %s darts forward and bites %s for %s damage!
+The rot worm pukes up black bile, and dies writhing."""
+
+[message_change.was]
+msgs = """
+The %s darts forward and bites you for %d damage!
+The %s darts forward and bites %s for %s damage!
+The rot worm pukes up black bile, and dies in writhing anguish."""
+
+[[message_change]]
+number = 1747
+
+[message_change.set]
+msgs = """
+%s skewers you for %d damage!
+%s skewers %s for %s damage!
+The bandit lord clutches their gut, spits up blood, and falls dead!"""
+
+[message_change.was]
+msgs = """
+%s skewers you for %d damage!
+%s skewers %s for %s damage!
+The bandit lord clutches his gut, spits up blood, and falls dead!"""
+
+[[message_change]]
+number = 2026
+
+[message_change.set]
+msgs = """
+A giant roc files in from %s!
+The giant roc flies off to %s!
+The %s flies after you!"""
+
+[message_change.was]
+msgs = """
+A giant roc flies in from %s!
+The giant roc flies off to %s!
+The %s flies after you!"""
+
+[[message_change]]
+number = 2067
+
+[message_change.set]
+msgs = "You are not Dark enough."
+
+[message_change.was]
+msgs = "You have been given a new quest cloak!"
+
+[[message_change]]
+number = 2149
+
+[message_change.set]
+msgs = """
+
+The %s %s you into the ground for %d damage!
+The %s %s %s into the ground for %s damage!"""
+
+[message_change.was]
+msgs = """
+
+The %s %s you for %d damage!
+The %s %s %s for %s damage!"""
+
+[[message_change]]
+number = 2160
+
+[message_change.set]
+msgs = """
+An eel swims into the room.
+An eel swims off to the %s.
+An eel swims into the room from the %s."""
+
+[message_change.was]
+msgs = """
+An electric eel swims into the room.
+An electric eel swims off to the %s.
+An electric eel swims into the room from the %s."""
+
+[[message_change]]
+number = 2161
+
+[message_change.set]
+msgs = """
+The %s bites you for %d damage!
+The %s bites %s for %s damage!
+The eel writhes in agony, and dies!"""
+
+[message_change.was]
+msgs = """
+The %s bites you for %d damage!
+The %s bites %s for %s damage!
+The electric eel writhes in agony!"""
+
+[[message_change]]
+number = 2170
+
+[message_change.set]
+msgs = """
+
+The tasloi shaman shakes his doll furiously!
+The tasloi shaman shakes his doll furiously!"""
+
+[message_change.was]
+msgs = """
+
+The tasloi shaman shakes his doll furiously!"""
+
+[[message_change]]
+number = 2171
+
+[message_change.set]
+msgs = """
+
+You are stunned!
+You are stunned!"""
+
+[message_change.was]
+msgs = """
+You feel yourself becoming calmer.
+
+You are in a state of fanatical fury!"""
+
+[[message_change]]
+number = 2174
+
+[message_change.set]
+msgs = """
+You hold up your platinum flail!
+
+%s holds up their platinum flail!"""
+
+[message_change.was]
+msgs = """
+You hold up your black flail!
+
+%s holds up their black flail!"""
+
+[[message_change]]
+number = 2179
+
+[message_change.set]
+msgs = """
+You feel yourself becoming calmer.
+
+You are in a state of fanatical fury!"""
+
+[message_change.was]
+msgs = """
+You invoke the way of the otter!
+
+%s invokes the way of the otter!"""
+
+[[message_change]]
+number = 2199
+
+[message_change.set]
+msgs = """
+The stone giant chieftan stomps in from nowhere!
+The stone giant chieftan stomps off to the %s!
+The stone giant chieftan stomps in from the %s!"""
+
+[message_change.was]
+msgs = """
+The stone giant chieftain stomps in from nowhere!
+The stone giant chieftain stomps off to the %s!
+The stone giant chieftain stomps in from the %s!"""
+
+[[message_change]]
+number = 2200
+
+[message_change.set]
+msgs = """
+The %s smashes you for %d damage!
+The %s smashes %s for %s damage!
+The stone giant chieftan roars in shock as he turns to stone!"""
+
+[message_change.was]
+msgs = """
+The %s smashes you for %d damage!
+The %s smashes %s for %s damage!
+The stone giant chieftain roars in shock as he turns to stone!"""
+
+[[message_change]]
+number = 2209
+
+[message_change.set]
+msgs = """
+The hill giant chieftan stomps into the room!
+The hill giant chieftan stomps off to the %s.
+The hill giant chieftan stomps after you!"""
+
+[message_change.was]
+msgs = """
+The hill giant chieftain stomps into the room!
+The hill giant chieftain stomps off to the %s.
+The hill giant chieftain stomps after you!"""
+
+[[message_change]]
+number = 2210
+
+[message_change.set]
+msgs = """
+The %s smashes you for %d damage!
+The %s smashes %s for %s damage!
+The hill giant chieftan dies with a resounding thud!"""
+
+[message_change.was]
+msgs = """
+The %s smashes you for %d damage!
+The %s smashes %s for %s damage!
+The hill giant chieftain dies with a resounding thud!"""
+
+[[message_change]]
+number = 2213
+
+[message_change.set]
+msgs = """
+The %s claws you for %d damage!
+The %s claws %s for %s damage!
+The aged earth dragon shrieks in rage and crumbles to dust!"""
+
+[message_change.was]
+msgs = """
+The %s claws you for %d damage!
+The %s claws %s for %s damage!
+The aged earth dragon shrieks in rage and explodes!"""
+
+[[message_change]]
+number = 2248
+
+[message_change.set]
+msgs = """
+west
+go west"""
+
+[message_change.was]
+msgs = """
+west
+go west
+w"""
+
+[[message_change]]
+number = 2338
+
+[message_change.set]
+msgs = """
+Icy hail pelts everyone in the room.
+Icy hail pelts you, freezing your bones!
+Icy hail blows through the room!"""
+
+[message_change.was]
+msgs = """
+Icy hail pelts the room, freezing your foe's bones!
+Icy hail pelts you, freezing your bones!
+Icy hail blows through the room!"""
+
+[[message_change]]
+number = 2370
+
+[message_change.set]
+msgs = """
+The %s pinches you for %d damage!
+The %s pinches %s for %s damage!
+The king crab's shell splits open, and he collapses."""
+
+[message_change.was]
+msgs = """
+The %s pinches you for %d damage!
+
+The king crab's shell splits open, and he collapses."""
+
+[[message_change]]
+number = 2373
+
+[message_change.set]
+msgs = """
+The %s bites you for %d damage!
+The %s bites %s for %s damage!
+The giant river turtle's shell cracks open with a loud pop!"""
+
+[message_change.was]
+msgs = """
+The %s bites you for %d damage!
+
+The giant river turtle's shell cracks open with a loud pop!"""
+
+[[message_change]]
+number = 2452
+
+[message_change.set]
+msgs = "Your strength returns!"
+
+[message_change.was]
+msgs = """
+Your strength returns!
+
+You feel weighed down!"""
+
+[[message_change]]
+number = 2520
+
+[message_change.set]
+msgs = """
+You pull your cloak tight about you!
+
+%s pulls their cloak tight about themself!"""
+
+[message_change.was]
+msgs = """
+You pull your cloak tight about you!
+
+%s pulls their cloak tight around themself!"""
+
+[[message_change]]
+number = 2522
+
+[message_change.set]
+msgs = """
+You can see once more!
+
+%s pulls their cloak tight about themself, blinding you!"""
+
+[message_change.was]
+msgs = """
+You can see once more!
+
+You are blind!"""
+
+[[message_change]]
+number = 2526
+
+[message_change.set]
+msgs = """
+You feel less stealthy.
+
+You are one with the night!"""
+
+[message_change.was]
+msgs = """
+The feeling of power fades away!
+
+The feeling of real ultimate power flows through you!"""
+
+[[message_change]]
+number = 2527
+
+[message_change.set]
+msgs = """
+The inspiration of the muse fades.
+
+You feel inspired by the wisdom of the muse!"""
+
+[message_change.was]
+msgs = """
+pp
+pp"""
+
+[[message_change]]
+number = 2528
+
+[message_change.set]
+msgs = """
+You pull the shawl tight about yourself!
+%s pulls their shawl tightly around their body!
+%s pulls their shawl tightly around their body!"""
+
+[message_change.was]
+msgs = """
+You pull the shawl tight about yourself!
+%s pulls their shall tightly around them self!
+%s pulls their shall tightly around them self!"""
+
+[[message_change]]
+number = 2533
+
+[message_change.set]
+msgs = """
+The auras fade!
+
+You see the magical runes auras around you!"""
+
+[message_change.was]
+msgs = """
+The surge fades away!
+
+Eldritch power surges within you!"""
+
+[[message_change]]
+number = 2534
+
+[message_change.set]
+msgs = """
+You adjust the cloak upon your shoulders!
+%s's cloak turns a lighter green!
+%s's cloak turns a lighter green!"""
+
+[message_change.was]
+msgs = """
+You adjust the cloak upon your shoulders!
+
+%s's cloak turns a lighter green!"""
+
+[[message_change]]
+number = 2536
+
+[message_change.set]
+msgs = """
+You pull your mantle tight about yourself!
+
+%s pulls their mantle tightly around them self!"""
+
+[message_change.was]
+msgs = """
+You pull your mantle tightly about yourself!
+
+%s pulls their mantle tightly around themself!"""
+
+[[message_change]]
+number = 2589
+
+[message_change.set]
+msgs = """
+The %s walks into the room from the %s.
+The %s walks out to the %s."""
+
+[message_change.was]
+msgs = """
+Sheriff Lionheart marches in from %s.
+Sheriff Lionheart marches out from %s."""
+
+[[message_change]]
+number = 2595
+
+[message_change.set]
+msgs = """
+You step into the shimmering portal, a wrenching sensation envelopes you!
+%s steps into the shimmering portal, and vanishes!"""
+
+[message_change.was]
+msgs = """
+You step into the shimmering portal, a wrenching sensation evelopes you!
+%s steps into the shimmering portal, and vanishes!"""
+
+[[message_change]]
+number = 2599
+
+[message_change.set]
+msgs = """
+A dragon stomps in from %s.
+A dragon stomps off to the %s."""
+
+[message_change.was]
+msgs = """
+The dragon stomps in from %s.
+The dragon stomps off to the %s."""
+
+[[message_change]]
+number = 2603
+
+[message_change.set]
+msgs = "ppp"
+
+[message_change.was]
+msgs = "You have been given a sunstone wristband."
+
+[[message_change]]
+number = 2638
+
+[message_change.set]
+msgs = """
+You are sucked through a hole and find yourself somewhere else!
+%s shoots out from the wall and lands with a thud!"""
+
+[message_change.was]
+msgs = """
+Your sucked through a hole and find yourself somewhere else!
+%s shoots out from the wall and lands with a thud!"""
+
+[[message_change]]
+number = 2646
+
+[message_change.set]
+msgs = "The awful sound of a drunken chorus echos through the streets."
+
+[message_change.was]
+msgs = "The awful sound of a drunken chorus echoes through the streets."
+
+[[message_change]]
+number = 2662
+
+[message_change.set]
+msgs = """
+The %s slaps you for %d damage!
+The %s slaps %s for %s damage!
+The woman shrieks for aid and slips to the ground."""
+
+[message_change.was]
+msgs = """
+The %s slaps you for %d damage!
+The %s slaps %s for %s damage!
+The woman shrieks for aid and falls to the ground."""
+
+[[message_change]]
+number = 2677
+
+[message_change.set]
+msgs = "\u001B[1;37mCheck out the website for a MMud explorer export!"
+
+[message_change.was]
+msgs = "The angelic sound of a choir floats down through the air."
+
+[[message_change]]
+number = 2678
+
+[message_change.set]
+msgs = "\u001B[1;37mCheck out the website at http://sysop.thelucks.org for info!"
+
+[message_change.was]
+msgs = "The large temple bell clangs loudly, echoing the time of day."
+
+[[message_change]]
+number = 2693
+
+[message_change.set]
+msgs = """
+A gruesome curse has been casted upon %s!
+A gruesome curse springs forth and you feel tainted!
+%s doesn't look so good."""
+
+[message_change.was]
+msgs = """
+
+A gruesome curse springs forth and you feel tainted!
+%s doesn't look so good."""
+
+[[message_change]]
+number = 2705
+
+[message_change.set]
+msgs = """
+
+
+The monster explodes, bringing burning blood raining down upon the area!"""
+
+[message_change.was]
+msgs = """
+
+
+The monster explodes showering you with severed arms and gore!"""
+
+[[message_change]]
+number = 2755
+
+[message_change.set]
+msgs = """
+
+The %s raises its eyes and locks you in a %s.
+The %s raises its eyes in a %s and locks them onto %s!"""
+
+[message_change.was]
+msgs = """
+
+%s raises its eyes and locks you in a %s.
+%s raises its eyes in a %s and locks them onto %s!"""
+
+[[message_change]]
+number = 2781
+
+[message_change.set]
+msgs = """
+%s is purified with divine power for %d damage!
+Divine power purifies you, searing you for %d damage!
+%s is purified with divine power for %s damage!"""
+
+[message_change.was]
+msgs = """
+%s is purified with divine power for %d damage!
+Purification burns you with divine power for %d damage!
+%s is purified with divine power for %s damage!"""
+
+[[message_change]]
+number = 2819
+
+[message_change.set]
+msgs = """
+The %s smashes you for %d damage!
+The %s smashse %s for %s damage!
+The mighty creation falls into a pile of rubble at your feet."""
+
+[message_change.was]
+msgs = """
+The %s smashes you for %d damage!
+The %s smashes %s for %s damage!
+The mighty creation falls into a pile of rubble at your feet."""
+
+[[message_change]]
+number = 2826
+
+[message_change.set]
+msgs = """
+%s punches you for %d damage!
+%s punches %s for %s damage!
+Lady Sentara wails in agony and drops to the ground!"""
+
+[message_change.was]
+msgs = """
+%s slaps you for %d damage!
+%s slaps %s for %s damage!
+Lady Sentara wails in agony and drops to the ground!"""
+
+[[message_change]]
+number = 2831
+
+[message_change.set]
+msgs = """
+You make a vile gesture and speak in a gutteral tongue!
+%s makes a vile gesture and speaks in a gutteral tongue!
+%s makes a vile gesture and speaks in a gutteral tongue!"""
+
+[message_change.was]
+msgs = """
+You make a vile gesture and speak in a guttural tongue!
+%s makes a vile gesture and speaks in a guttural tongue!
+%s makes a vile gesture and speaks in a guttural tongue!"""
+
+[[message_change]]
+number = 2844
+
+[message_change.set]
+msgs = """
+You raise their necklace and invoke its power!
+%s raises their necklace and invokes its power!
+%s raises their necklace and invokes its power!"""
+
+[message_change.was]
+msgs = """
+You raise your necklace and invoke its power!
+%s raises their necklace and invokes its power!
+%s raises their necklace and invokes its power!"""
+
+[[message_change]]
+number = 2878
+
+[message_change.set]
+msgs = """
+Your spikes protruding from your body dissipate.
+
+Iron spikes protrude from your skin!"""
+
+[message_change.was]
+msgs = """
+Your skin returns to normal.
+
+Iron spikes protrude from your skin!"""
+
+[[message_change]]
+number = 2882
+
+[message_change.set]
+msgs = """
+A hellish storm of fire and brimstone scorches your %sfoes for %d damage!
+A hellish storm of fire and brimstone scorches you for %d damage!
+A hellish storm of fire and brimstone scorches the room!"""
+
+[message_change.was]
+msgs = """
+A hellish storm of fire and brimstone scorches your %sfoes for %d damage!
+A hellish storm of fire and brimstone scorches you for %d damage!
+A hellish storm of fire and brimstone scorch the room!"""
+
+[[message_change]]
+number = 2883
+
+[message_change.set]
+msgs = """
+A %s from your blade strikes %s!
+%s's blade emits a %s, which strikes you!
+%s's blade emits a %s, which strikes %s!"""
+
+[message_change.was]
+msgs = """
+A %s hits %s
+%s's %s hits you!
+%s's %s hits %s!"""
+
+[[message_change]]
+number = 2938
+
+[message_change.set]
+msgs = """
+%s %s you, but your armour deflects the blow!
+%s %s %s, but %s armour deflects the blow!
+%s %s you with their %s, but you dodge out of the way!"""
+
+[message_change.was]
+msgs = """
+%s %s you, but your armour deflects the blow!
+%s %s %s, but %s armour deflects the blow!
+%s %s you with their %s, but you dodge!"""
+
+[[message_change]]
+number = 2939
+
+[message_change.set]
+msgs = """
+%s %s %s with their %s, but %s dodges out of the way!
+%s %s you with their %s!
+%s %s %s with their %s!"""
+
+[message_change.was]
+msgs = """
+%s %s %s with their %s, but %s dodges!
+%s %s you with their %s!
+%s %s %s with their %s!"""
+
+[[message_change]]
+number = 3018
+
+[message_change.set]
+msgs = """
+The %s howls into the air, and a shadowy beast appears to answer!
+The %s howls into the air, and a shadowy beast appears to answer!
+The %s howls into the air, and a shadowy beast appears to answer!"""
+
+[message_change.was]
+msgs = """
+A wicked howl erupts the air, and a beast appears in answer!
+A wicked howl erupts the air, and a beast appears in answer!
+A wicked howl erupts the air, and a beast appears in answer!"""
+
+[[message_change]]
+number = 3050
+
+[message_change.set]
+msgs = """
+The armour spikes stabs %s for %d damage!
+The armour spikes stab you for %d damage!
+The armour spikes stab %s for %d damage!"""
+
+[message_change.was]
+msgs = """
+The armour spikes stabs %s for %d damage!
+The armour spikes stabs you for %d damage!
+The armour spikes stabs %s for %d damage!"""
+
+[[message_change]]
+number = 3090
+
+[message_change.set]
+msgs = """
+A mocking female laugh announces an evil presence!
+A mocking female laugh announces an evil presence!"""
+
+[message_change.was]
+msgs = """
+A mocking female laugh announces an evil prescence!
+A mocking female laugh announces an evil prescence!"""
+
+[[message_change]]
+number = 3148
+
+[message_change.set]
+msgs = """
+You walk into the shredded tapestry!
+
+%s walks into the shredded tapestry!"""
+
+[message_change.was]
+msgs = """
+You walk into the shreaded tapestry!
+
+%s walks into the shreaded tapestry!"""
+
+[[message_change]]
+number = 3150
+
+[message_change.set]
+msgs = "You have gained 100,000,000 experience!"
+
+[message_change.was]
+msgs = "You have gained 50,000,000 experience!"
+
+[[message_change]]
+number = 3152
+
+[message_change.set]
+msgs = """
+You step into the bloody portal, and become immersed in its warm embrace!
+%s steps into the blood portal, and vanishes!"""
+
+[message_change.was]
+msgs = """
+You step into the bloody portal, and become emersed in its warm embrace!
+%s steps into the blood portal, and vanishes!"""
+
+[[message_change]]
+number = 3190
+
+[message_change.set]
+msgs = """
+You jumpkick %s then vanish!
+%s jumpkicks you then vanishes!
+%s jumpkicks %s then vanishes!"""
+
+[message_change.was]
+msgs = """
+%s kicks you for %d damage!
+%s kicks %s for %s damage!"""
+
+[[message_change]]
+number = 3191
+
+[message_change.set]
+msgs = """
+You cause the room to explode around you!
+%s causes the room to explode around them!
+%s causes the room to explode around them!"""
+
+[message_change.was]
+msgs = """
+%s causes the room to explode around him!
+%s causes the room to explode around him!
+%s causes the room to explode around him!"""
+
+[[message_change]]
+number = 3204
+
+[message_change.set]
+msgs = """
+
+%s makes a vile gesture and speaks in a gutteral tongue!"""
+
+[message_change.was]
+msgs = """
+
+%s makes a vile gesture and speaks in a guttural tongue!"""
+
+[[message_change]]
+number = 3260
+
+[message_change.set]
+msgs = """
+
+A cloud of poison gas engulfs you, causing %d damage!"""
+
+[message_change.was]
+msgs = """
+
+The %s floods the room with %s for %d damage!"""
+
+[[message_change]]
+number = 3282
+
+[message_change.set]
+msgs = """
+
+
+A look of shock and amazement appears on the man's face as he falls dead!"""
+
+[message_change.was]
+msgs = """
+
+
+A look of shock and amazement appears on the man's face!"""
+
+[[message_change]]
+number = 3310
+
+[message_change.set]
+msgs = """
+east
+go east"""
+
+[message_change.was]
+msgs = """
+east
+go east
+e"""
+
+[[message_change]]
+number = 3326
+
+[message_change.set]
+msgs = """
+Using your skills, you disarm the pedestal's trap.
+
+%s moves their hands quickly about the pedestal."""
+
+[message_change.was]
+msgs = """
+Using your skills, you disarm the pedestals trap.
+
+%s moves their hands quickly about the pedestal."""
+
+[[message_change]]
+number = 3342
+
+[message_change.set]
+msgs = "The quartz shard suddenly glows, and splinters pierce you!"
+
+[message_change.was]
+msgs = "The quarts shard suddenly glows, and splinters pierce you!"
+
+[[message_change]]
+number = 3350
+
+[message_change.set]
+msgs = """
+%s rips you with its pincers for %d damage!
+%s rips %s with its pincers for %s damage!"""
+
+[message_change.was]
+msgs = """
+%s rips you with its pinchers for %d damage!
+%s rips %s with its pincers for %s damage!"""
+
+[[message_change]]
+number = 3351
+
+[message_change.set]
+msgs = "\u001B[1;31mYou are suddenly drenched in hot, boiling, blood!"
+
+[message_change.was]
+msgs = "You are suddenly drenched in hot, boiling, blood!"
+
+[[message_change]]
+number = 3357
+
+[message_change.set]
+msgs = "Wielding your powers of faith, you attempt to mine ore from the rocks."
+
+[message_change.was]
+msgs = "Wielding your powers of faith, you attempt to extract ore from the rocks."
+
+[[message_change]]
+number = 3358
+
+[message_change.set]
+msgs = "Wielding your powers of magi, you attempt to mine ore from the rocks."
+
+[message_change.was]
+msgs = "Wielding your powers of magi, you attempt to extract ore from the rocks."
+
+[[message_change]]
+number = 3359
+
+[message_change.set]
+msgs = "Wielding your powers of nature, you attempt to mine ore from the rocks."
+
+[message_change.was]
+msgs = "Wielding your powers of nature, you attempt to extract ore from the rocks."
+
+[[message_change]]
+number = 3370
+
+[message_change.set]
+msgs = "Wielding your powers of charisma, you attempt to mine ore from the rocks."
+
+[message_change.was]
+msgs = """
+You strut your stuff with your hot pants!
+%s struts their stuff with their hot pants!"""
+
+[[message_change]]
+number = 3371
+
+[message_change.set]
+msgs = """
+
+%s utters a gutteral incantation."""
+
+[message_change.was]
+msgs = """
+
+%s utters a guttural incantation."""
+
+[[message_change]]
+number = 3372
+
+[message_change.set]
+msgs = "With your powers of charisma, you attempt to summon the shard."
+
+[message_change.was]
+msgs = """
+You are mesmerized by the short shorts!
+%s oogles, mumbling "Hot pants"
+You are mesmerized!"""
+
+[[message_change]]
+number = 3376
+
+[message_change.set]
+msgs = "Remik hands you a magnificent pair of red dragon hot pants!"
+
+[message_change.was]
+msgs = """
+
+
+The barmaid hands %s a ticket, and they use it to go upstairs."""
+
+[[message_change]]
+number = 3384
+
+[message_change.set]
+msgs = "<For capturing the ice throne you gain 1,500,000 experience points!>"
+
+[message_change.was]
+msgs = "<For capturing the ice throne you gain 750,000 experience points!>"
+
+[[message_change]]
+number = 3385
+
+[message_change.set]
+msgs = "<For returning the golden chalice you gain 150,000,000 experience points!>"
+
+[message_change.was]
+msgs = "<For returning the golden chalice you gain 750,000 experience points!>"
+
+[[message_change]]
+number = 3387
+
+[message_change.set]
+msgs = "<For touching the ruby, you gain 50,000,000 experience points!>"
+
+[message_change.was]
+msgs = "<For touching the ruby, you gain 35,000,000 experience points!>"
+
+[[message_change]]
+number = 3388
+
+[message_change.set]
+msgs = "<For cleansing the altar, you gain 1,500,000 experience points!>"
+
+[message_change.was]
+msgs = "<For clensing the altar, you gain 750,000 experience points!>"
+
+[[message_change]]
+number = 3462
+
+[message_change.set]
+msgs = """
+You raise and furl your skirts!
+%s raises and furls their skirts!
+%s raises and furls their skirts!"""
+
+[message_change.was]
+msgs = """
+You raise and furl your skirts!
+%s raises and furls their skirts!
+%s raises and furls their skirts"""
+
+[[message_change]]
+number = 3476
+
+[message_change.set]
+msgs = """
+The feeling of futility wears off!
+
+A feeling of futility encompasses your thoughts."""
+
+[message_change.was]
+msgs = """
+The feeling of futility wears off!
+
+The feeling of futility encompasses your thoughts."""
+
+[[message_change]]
+number = 3477
+
+[message_change.set]
+msgs = """
+The feeling of hopelessness wears off!
+
+A feeling of hopelessness overcomes you, sapping your will to fight."""
+
+[message_change.was]
+msgs = """
+A dark, menacing cloud appears, flooding the room!
+A dark, menacing cloud appears, flooding the room!
+A dark, menacing cloud appears, flooding the room!"""
+
+[[message_change]]
+number = 8297
+
+[message_change.set]
+msgs = """
+The %s %s you, but your armour deflects the blow!
+The %s %s %s, but %s armour deflects the blow!
+The %s %s you with their %s, but you dodge out of the way!"""
+
+[message_change.was]
+msgs = """
+The %s %s you, but your armour deflects the blow!
+The %s %s %s, but %s armour deflects the blow!
+The %s %s you with their %s, but you dodge!"""
+
+[[message_change]]
+number = 8310
+
+[message_change.set]
+msgs = """
+The %s %s %s with their %s, but %s dodges out of the way!
+The %s %s you with their %s!
+The %s %s %s with their %s!"""
+
+[message_change.was]
+msgs = """
+The %s %s %s with their %s, but %s dodges!
+The %s %s you with their %s!
+The %s %s %s with their %s!"""
+
+[[message_change]]
+number = 8311
+
+[message_change.set]
+msgs = """
+The %s swings at you, but your armour deflects the blow!
+The %s %sswings at %s, but %s armour deflects the blow!
+The %s swings at you, but you dodge out of the way!"""
+
+[message_change.was]
+msgs = """
+The %s %sswings at you, but your armour deflects the blow!
+The %s %sswings at %s, but %s armour deflects the blow!
+The %s %sswings at %syou, but you dodge out of the way!"""
+
+[[message_change]]
+number = 8312
+
+[message_change.set]
+msgs = """
+The %s reaches out for you!
+The %s %sreaches out for %s!
+The %s reaches out for you, but you dodge out of the way!"""
+
+[message_change.was]
+msgs = """
+The %s %sreaches out for you!
+The %s %sreaches out for %s! %s
+The %s %sreaches %sout for you, but you dodge out of the way!"""
+
+[[message_change]]
+number = 8380
+
+[message_change.set]
+msgs = """
+You walk into the wide crack, and follow a path through the rock.
+%s walks into the wide crack.
+%s enters through the wide crack."""
+
+[message_change.was]
+msgs = """
+You walk into the wide crack, and follow a path through the rock.
+%s walks into the wide crack.
+%s enters from the wide crack."""
+
+[[message_change]]
+number = 8456
+
+[message_change.set]
+msgs = """
+lash at
+lashes out at
+lashes out at"""
+
+[message_change.was]
+msgs = """
+lash at
+lashes at
+lashes at"""
+
+[[message_change]]
+number = 8479
+
+[message_change.set]
+msgs = """
+%s strikes you, but your armour deflects the blow!
+%s strikes %s, but %s armour deflects the blow!
+%s swings at you, but you dodge out of the way!"""
+
+[message_change.was]
+msgs = """
+%s strikes you, but your armour deflects the blow!
+%s strikes %s, but %s armour deflects the blow!
+%s swings at you, but you dodge!"""
+
+[[message_change]]
+number = 8480
+
+[message_change.set]
+msgs = """
+%s %s %s with his %s, but %s dodges out of the way!
+%s %s you with his %s!
+%s %s %s with his %s!"""
+
+[message_change.was]
+msgs = """
+%s %s %s with his %s, but %s dodges!
+%s %s you with his %s!
+%s %s %s with his %s!"""
+
+[[message_change]]
+number = 8486
+
+[message_change.set]
+msgs = """
+The %s %smoves towards you!
+The %s %smoves towards %s!
+The %s %smoves towards you, but you dodge out of the way!"""
+
+[message_change.was]
+msgs = """
+The %s %smoves towards you!
+The %s %smoves towards %s!
+The %s %smoves towards you, but you dodge!"""
+
+[[message_change]]
+number = 8495
+
+[message_change.set]
+msgs = """
+You cast %s, and vines grow around %s's legs!
+%s casts %s on you, and vines grow around your legs!
+%s casts %s, and vines grow around %s's legs!"""
+
+[message_change.was]
+msgs = """
+You cast %s, ensnaring %s with powerful vines!
+%s casts %s on you, ensnaring you with powerful vines!
+%s casts %s, ensnaring %s with powerful vines!"""
+
+[[message_change]]
+number = 8499
+
+[message_change.set]
+msgs = """
+You fire a %s at %s for %d damage!
+%s fires a %s at you for %d damage!
+%s fires a %s at %s for %s damage!"""
+
+[message_change.was]
+msgs = """
+You fire an %s at %s for %d damage!
+%s fires an %s at you for %d damage!
+%s fires an %s at %s for %s damage!"""
+
+[[message_change]]
+number = 8541
+
+[message_change.set]
+msgs = """
+The effects of protection from evil wear off!
+
+You feel safe from evil!"""
+
+[message_change.was]
+msgs = """
+You no longer feel safe from evil!
+
+You feel safe from evil!"""
+
+[[message_change]]
+number = 8542
+
+[message_change.set]
+msgs = """
+The effects of protection from good wear off!
+
+You feel safe from good!"""
+
+[message_change.was]
+msgs = """
+You no longer feel safe from good!
+
+You feel safe from good!"""
+
+[[message_change]]
+number = 8597
+
+[message_change.set]
+msgs = """
+
+The %s envelops you in flames!
+The %s conjures %s which envelop %s!"""
+
+[message_change.was]
+msgs = """
+
+The %s envelops you in flames!
+The %s %s %s in flames!"""

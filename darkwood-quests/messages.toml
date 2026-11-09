@@ -1,0 +1,42 @@
+# New messages: line 1 to the one acting, line 2 to the target, line 3
+# to the room.
+
+[[message]]
+number = 10276
+msgs = ["You step into the mirror; its cold surface closes over you like water...", "", "%s steps into the large mirror and vanishes!"]
+
+[[message]]
+number = 10277
+msgs = ["...and you stumble out into a blaze of light on the other side.", "", "%s steps out of the large mirror!"]
+
+[[message]]
+number = 10278
+msgs = ["The globe shatters, and burning acid splashes over Lord Magnus!", "", "%s's globe shatters, splashing burning acid over Lord Magnus!"]
+
+[[message]]
+number = 10279
+msgs = ["You hurl the acid-filled globe!", "%s hurls a glass globe!", "%s hurls a glass globe!"]
+
+[[message]]
+number = 10280
+msgs = ["The demonic fury fades from your limbs.", "", "Demonic fury surges through your body!"]
+
+[[message]]
+number = 10281
+msgs = ["You raise the demon-headed glyph, and its eyes blaze red!", "%s raises a demon-headed glyph!", "%s raises a demon-headed glyph!"]
+
+[[message]]
+number = 10282
+msgs = ["You hold the rainbow rune aloft, and it blazes with light!", "%s holds a rainbow rune aloft!", "%s holds a rainbow rune aloft!"]
+
+[[message]]
+number = 10283
+msgs = ["Your Aura of Light flares, burning away the darkness!", "%s's halo flares with golden light!", "%s's halo flares with golden light!"]
+
+[[message]]
+number = 10284
+msgs = ["Your Scales of Balance chime softly, and your mind clears.", "%s's floating scales chime softly.", "%s's floating scales chime softly."]
+
+[[message]]
+number = 10285
+msgs = ["Your Icon of Evil blazes red, and your bonds wither away!", "%s's black icon blazes with red flame!", "%s's black icon blazes with red flame!"]

@@ -1,0 +1,4 @@
+name = "mudrev"
+# A copy of an existing world: the numbers it points at that exist nowhere are that
+# world's own, so they are warnings rather than problems.
+references = "warn"

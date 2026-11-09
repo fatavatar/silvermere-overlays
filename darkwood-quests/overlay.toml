@@ -1,0 +1,3 @@
+name = "darkwood-quests"
+description = "The Darkwood 8th and 9th alignment quests (levels 150 and 200), converted from source/package by source/convert.py."
+after = ["mudrev"]
