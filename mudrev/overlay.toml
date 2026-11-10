@@ -1,4 +1,24 @@
 name = "mudrev"
+title = "MudRev"
+description = """
+The Realm of Legends' world: MudRev, the community's revised MajorMUD, as this realm has run it \
+for years. Ten more classes and five more races than the original, a far larger world, and \
+hundreds of new creatures, items and spells on top of MajorMUD 1.11p."""
+credits = """
+MudRev, the community's revised MajorMUD world; Darkwood BBS's notes trace it to Silicon's edits \
+of 9/25/2010. We have not found a full list of its authors: if you are one, or know who they are, \
+tell the sysop so they can be named here. MajorMUD itself is by Metropolis, Inc."""
 # A copy of an existing world: the numbers it points at that exist nowhere are that
 # world's own, so they are warnings rather than problems.
 references = "warn"
+
+[[news]]
+date = "2026-11-09"
+kind = "change"
+title = "The realm moves to silvermere"
+text = """
+The Realm of Legends now runs on silvermere, a new server for MajorMUD 1.11p. The world is the \
+one you know: every room, creature, item and spell came across as it was.
+
+If something behaves differently from how you remember it, tell the sysop. That's a bug, and \
+it will be fixed."""

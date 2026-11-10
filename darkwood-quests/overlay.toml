@@ -1,3 +1,19 @@
 name = "darkwood-quests"
-description = "The Darkwood 8th and 9th alignment quests (levels 150 and 200), converted from source/package by source/convert.py."
+title = "The Darkwood alignment quests"
+description = "The eighth and ninth alignment quests, for characters of level 150 and level 200."
+credits = """
+The quests come from Darkwood BBS (telnet://darkwood.ddns.net), release DWBBS 1.5.0 of \
+2020-09-18, whose own notes credit EpicRev for the data it merged and Silicon for the MudRev base. \
+Their conversations were written new for this realm, to fit Darkwood's scripts."""
 after = ["mudrev"]
+
+[[news]]
+date = "2026-11-09"
+kind = "new"
+title = "Past the seventh trial"
+text = """
+Those who walked the alignment quests to their seventh end were told it was the last. It wasn't.
+
+At level 150 the road goes on, through a grey gate and into halls where giants once worked \
+metal that fell from the sky. At level 200 a mirror shows a throne room that no one has entered \
+in a very long time."""

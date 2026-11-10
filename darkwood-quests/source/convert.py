@@ -297,11 +297,14 @@ def messages():
 
 
 OUT.mkdir(parents=True, exist_ok=True)
-OUT.joinpath('overlay.toml').write_text(
-    'name = "darkwood-quests"\n'
-    'description = "The Darkwood 8th and 9th alignment quests (levels 150 and 200), converted '
-    'from source/package by source/convert.py."\n'
-    'after = ["mudrev"]\n')
+# the manifest holds the site's description, credits and news, written by hand: only a missing
+# one is made here
+if not OUT.joinpath('overlay.toml').exists():
+    OUT.joinpath('overlay.toml').write_text(
+        'name = "darkwood-quests"\n'
+        'title = "The Darkwood alignment quests"\n'
+        'description = "The eighth and ninth alignment quests, for characters of level 150 and 200."\n'
+        'after = ["mudrev"]\n')
 monsters()
 items()
 spells()
