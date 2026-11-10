@@ -2,8 +2,9 @@
 
 The realm's whole content as a silvermere content overlay: everything the realm holds beyond
 silvermere's stock 1.11p world. A stock import plus this overlay gives the realm's rooms,
-monsters, items, spells, shops, messages, texts, classes, races and actions exactly, with no
-MudRev data files (`.DAT`/`.VIR`/`.MDB`).
+monsters, items, spells, shops, messages, texts, classes, races and actions exactly, and its
+help, gang-house descriptions and login texts, with no MudRev data files (`.DAT`/`.VIR`/`.MDB`)
+or message files.
 
 **Generated; do not edit by hand.** Make content changes in their own overlays (like
 `../ashfall-valley`, with `after = ["mudrev"]`), so this one stays a plain copy of the realm.
@@ -39,6 +40,16 @@ files (2026-11-09), before any overlay.
 | Classes | 10 | 15 |
 | Races | 5 | 13 |
 | Actions | 27 | 0 |
+| Help topics | 0 | 88 |
+| Description files | 86 | 0 |
+| Game texts | 0 | 2 |
+
+The help topics, description files and game texts (`help.toml`, `desc_files.toml`,
+`game_texts.toml`) were added on 2026-11-10, exported the same way once silvermere kept them as
+content: the realm's rewritten help (`WCCMMHLP.MSG`), its 86 gang-house `.HSE` files beyond
+stock's, and its login line (`USRLOGIN`) and entry banner (`USRFOLED`) from `WCCMMUD.MSG`. The
+other files were left as they were. A full re-export would also drop the shops' stock on hand
+(`qty`), which is play, not content.
 
 `overlay.toml` sets `references = "warn"`: the realm has 272 numbers that point at nothing (most
 are item hit messages of 8224, two bytes of spaces left in unused fields), and a copy keeps them.

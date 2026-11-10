@@ -1,0 +1,32 @@
+[[game_text_change]]
+key = "USRFOLED"
+
+[game_text_change.set]
+text = """
+\u001B[0m\u001B[2J\u001B[1;30m=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+
+"""
+
+[game_text_change.was]
+text = """
+\u001B[0m\u001B[2J
+\u001B[1;33mMajorMUD - ROL
+
+\u001B[0m\u001B[1;30m=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+
+"""
+
+[[game_text_change]]
+key = "USRLOGIN"
+
+[game_text_change.set]
+text = """
+\u001B[0;30mFantasy awaits you in majorMUD v%s!
+"""
+
+[game_text_change.was]
+text = """
+
+\u001B[1mFantasy awaits you in \u001B[33mMajorMUD v%s!
+
+"""
