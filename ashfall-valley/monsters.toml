@@ -98,8 +98,8 @@ was = { name = "scarab swarm", maxhp = 466, genindex = 0 }
 
 [[monster_change]]
 number = 508
-why = "the valley's king, alone in the Tar Pit Hollow; its 1,000-3,000 bite is tamed"
-set = { maxhp = 6500, ac = 90, dr = 35, magicres = 75, exp = 300000, level = 20, regenhrs = 2, attacks = [
+why = "the valley's king, alone in the Tar Pit Hollow; its 1,000-3,000 bite is tamed; 35M a kill (exp x level 20), as MudRev's bosses its size"
+set = { maxhp = 6500, ac = 90, dr = 35, magicres = 75, exp = 1750000, level = 20, regenhrs = 2, attacks = [
     { kind = "Normal", accuracy = 500, pct = 45, min = 150, max = 320, energy = 1000, defmsg = 8306, hitmsg = 665, missmsg = 8293 },
     { kind = "Normal", accuracy = 300, pct = 85, min = 100, max = 250, energy = 1000, hitspell = 318, defmsg = 8306, hitmsg = 610, missmsg = 8294 },
     { kind = "Spell", accuracy = 770, pct = 95, min = 100, max = 40, energy = 1000, hitmsg = 1, defmsg = 1, missmsg = 1 },
@@ -162,7 +162,7 @@ maxhp = 9000
 ac = 110
 dr = 25
 magicres = 120
-exp = 8000000
+exp = 100000000  # level 1, so 100M a kill, as MudRev's bosses her size
 hpregen = 300
 regenhrs = 4
 talktext = 0
