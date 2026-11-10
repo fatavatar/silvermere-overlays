@@ -86,7 +86,12 @@ was = { name = "deinodon", maxhp = 3000, genindex = 0 }
 
 [[monster_change]]
 number = 805
-set = { montype = "Group13", genindex = 6, maxhp = 1250, ac = 60, dr = 8, magicres = 50, exp = 120000, hpregen = 125, abilities = [["Dodge", 25]] }
+why = """MudRev's swarm also had a spell attack (6%) casting burrows (946), whose end casts burrows \
+deeper (947) and then death's door (948): 9,999 damage, and nothing in the realm removes either. \
+It keeps only its bite."""
+set = { montype = "Group13", genindex = 6, maxhp = 1250, ac = 60, dr = 8, magicres = 50, exp = 120000, hpregen = 125, abilities = [["Dodge", 25]], attacks = [
+    { kind = "Normal", accuracy = 300, pct = 100, min = 4, max = 20, energy = 100, hitspell = 81, hitmsg = 2744, defmsg = 2283, missmsg = 2284 },
+] }
 was = { name = "scarab swarm", maxhp = 466, genindex = 0 }
 
 # ---------------------------------------------------------------- bosses
