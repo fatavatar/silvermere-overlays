@@ -1,3 +1,34 @@
 name = "ashfall-valley"
-description = "Ashfall Valley: a sunken valley under the Volcano, levels 55-80 (CONTENT-AREAS.md, area 1)."
+title = "Ashfall Valley"
+description = "A sunken valley beneath the Volcano, for characters of about level 55 to 80."
+credits = """
+New content for the Realm of Legends. Its creatures and armour are MudRev's own, made long ago \
+and never placed in the world until now."""
 after = ["mudrev"]
+
+[[news]]
+date = "2026-11-09"
+kind = "new"
+title = "Something stirs beneath the Volcano"
+text = """
+The miners who work the Volcano's lower tunnels have stopped going past a certain bend. The rock \
+there is warm to the touch, they say, and the air tastes of old ash. On quiet nights something \
+far below seems to answer the sound of their picks.
+
+Nobody has gone down to look. A character of level 55 or so might."""
+
+[[news]]
+date = "2026-11-09"
+kind = "fix"
+title = "Dodges and deflections"
+text = """
+Some of the valley's creatures left a blank where their attack should be when you dodged it. \
+Every attack there now has its own lines, and a blow your armour turns aside reads differently \
+from one you dodge."""
+
+[[news]]
+date = "2026-11-09"
+kind = "fix"
+title = "Lairs fill again"
+text = """
+The valley's lairs now refill as they should. Before, its creatures turned up only now and then."""
