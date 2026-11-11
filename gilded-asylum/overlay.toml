@@ -1,0 +1,18 @@
+name = "gilded-asylum"
+title = "The Gilded Asylum"
+description = "The sealed upper wards of the madhouse above the Padded Cells, for characters of about level 100 to 150."
+credits = """
+New content for the Realm of Legends. Shrefwan, the Demented Sorcerer and the Deranged Magus, \
+and the unused class gear it hands out, are MudRev's own, made long ago and never placed in the \
+world until now."""
+after = ["mudrev"]
+
+[[news]]
+date = "2026-11-11"
+kind = "new"
+title = "Laughter above the Padded Cells"
+text = """
+The keepers of the old madhouse swear the cells are empty now. Then why, they ask, does the \
+ceiling of the last padded cell glow gold at night, and who is pacing up there?
+
+Someone who has seen a hundred winters of adventure might climb up and find out."""

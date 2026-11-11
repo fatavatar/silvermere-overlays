@@ -221,6 +221,20 @@ goes to the Jarl's champion.
 
 ## Area 3: The Gilded Asylum (levels 100–150)
 
+**Status: built.** The overlay is `gilded-asylum/` in this repository (see its README): 75 rooms on
+map 20, the retuned patients and laboratory bosses, the three ward heads, Ines's quest and her
+potions, checked against the survival model and walked end to end in a test server on a copy of
+the realm. Not on the live realm yet. It differs from the plan below in three places:
+
+- The ward heads (Choira Pyromancer, Lallim Whitemane, Sharh'Kur) and the cloaked figures are
+  still used by the realm's own quests and rooms, so the asylum's are new monsters copied from
+  them rather than retunes. Only the crazed lunatic and depraved murderer it retunes, and
+  Shrefwan, the Sorcerer and the Magus, were unused.
+- A text exit (`climb panel`) cannot change maps, so the panel leads to a new crawlspace room on
+  map 9 (9/1500), which climbs up to the asylum. There is no `search` step.
+- It has 75 rooms rather than about 90: three wards of 18–22 rooms, the corridors, the dispensary
+  and the laboratory.
+
 **What it is:** The madhouse above the Padded Cells (map 9) has sealed upper wards. Patients were
 "treated" there with alchemy until the alchemist Shrefwan began treating himself. The furniture is
 gilded, and everything else is wrong.

@@ -1,0 +1,117 @@
+# The Gilded Asylum's messages. An attack message is (to you, to the room); a death message's
+# third line is the death. A text exit's message is (to you, to the room you leave, to the room
+# you reach).
+
+# ---------------------------------------------------------------- the quest's refusals
+
+[[message]]
+number = 10320
+msgs = ["Ines shakes her head. \"Shrefwan would make a patient of you. Come back stronger.\"", "", ""]
+
+[[message]]
+number = 10321
+msgs = ["Ines frowns at your empty hands. \"One of each, ember, quicksilver and iron. The ward heads carry them.\"", "", ""]
+
+[[message]]
+number = 10339
+msgs = ["Ines holds out her hand. \"Ember salts, quicksilver tears or iron filings. One vial, one draught.\"", "", ""]
+
+# ---------------------------------------------------------------- the wards
+
+[[message]]
+number = 10322
+msgs = ["The %s claws at you with glassy fingers for %d damage!", "The %s claws at %s with glassy fingers for %s damage!", "The mirror-patient cracks from crown to heel and falls apart in shards."]
+
+[[message]]
+number = 10323
+msgs = ["", "", "The mirror image flickers and is gone, like a reflection when a lamp goes out."]
+
+[[message]]
+number = 10324
+msgs = ["", "", "The orderly drops his cosh, sits down heavily on the floor and stops humming."]
+
+[[message]]
+number = 10325
+msgs = ["The %s brings his cosh down on you for %d damage!", "The %s brings his cosh down on %s for %s damage!", ""]
+
+[[message]]
+number = 10326
+msgs = ["", "", "The straitjacket goes limp, an empty heap of canvas and buckles."]
+
+[[message]]
+number = 10327
+msgs = ["The %s wraps its sleeves around you and squeezes for %d damage!", "The %s wraps its sleeves around %s and squeezes for %s damage!", ""]
+
+[[message]]
+number = 10328
+msgs = ["", "", "The warden falls, and its ring of gilded keys rolls away across the floor."]
+
+[[message]]
+number = 10329
+msgs = ["", "", "With a last shriek the madman falls, and running footsteps answer it from the stair above."]
+
+[[message]]
+number = 10341
+msgs = ["A %s runs in from %s!", "The %s runs out to %s!", "The treated lunatic runs after you, giggling!"]
+
+[[message]]
+number = 10342
+msgs = ["A %s steps in from %s, a moment behind itself!", "The %s slides out to %s!", "The mirror-patient glides after you!"]
+
+[[message]]
+number = 10343
+msgs = ["", "", "The treated lunatic hugs a gilded cat that is not there, and dies."]
+
+[[message]]
+number = 10344
+msgs = ["", "", "Choira Pyromancer falls into her furnace with a sigh of relief, and the coals close over her."]
+
+[[message]]
+number = 10345
+msgs = ["", "", "Lallim Whitemane shatters, and in every mirror of the gallery her reflection bows and walks away."]
+
+[[message]]
+number = 10346
+msgs = ["", "", "Sharh'Kur crashes down among his broken chains, and the restraint collar finally falls from his neck."]
+
+[[message]]
+number = 10347
+msgs = ["", "", "The treated murderer laughs, coughs up blood and falls still, still laughing."]
+
+# ---------------------------------------------------------------- the way in
+
+[[message]]
+number = 10330
+msgs = ["climb panel", "", ""]
+
+[[message]]
+number = 10331
+msgs = ["You push the loose panel aside and climb up into the crawlspace.", "%s pushes a ceiling panel aside and climbs up into the dark.", "%s climbs up through the panel from the cell below."]
+
+[[message]]
+number = 10332
+msgs = ["panel", "", ""]
+
+# ---------------------------------------------------------------- Shrefwan
+
+[[message]]
+number = 10334
+msgs = ["", "", "Shrefwan staggers against the vat, snatches a smoking beaker from his apron and drains it in one swallow."]
+
+[[message]]
+number = 10335
+msgs = ["", "", "The golden thing cracks across like a cooling casting, and what is left of Shrefwan crumbles into the vat."]
+
+# ---------------------------------------------------------------- the potions: (wearing off, -, taking effect)
+
+[[message]]
+number = 10336
+msgs = ["Your skin softens again as the draught of iron wears off.", "", "Your skin stiffens and greys like old iron!"]
+
+[[message]]
+number = 10337
+msgs = ["The heat in your blood fades as the draught of embers wears off.", "", "Heat floods through your veins!"]
+
+[[message]]
+number = 10338
+msgs = ["The world dulls a little as the draught of clarity wears off.", "", "Everything around you comes into sharp, ringing focus!"]

@@ -1,0 +1,70 @@
+# The Gilded Asylum's spells.
+#
+# 5110 a mirror-patient's reflection splits off a mirror image (and Lallim Whitemane casts it).
+# 5114 the Sorcerer's and the Magus's death: two orderlies come running.
+# 5115 Shrefwan's death: he gulps a potion and rises transfigured (the second form, 2118).
+# 5116-5117 the transfigured Shrefwan's death moves his killer on a step of Ines's quest, as
+#           the realm's quest kills do (death spell, EndCast, TextBlock).
+# 5118-5120 the apothecary's potions: one drink, an effect that lasts for 1,200 rounds.
+
+# The summons copy the realm's own (217, "choira summon"): cast on the caster, `Summon 0`, the
+# monster's number as the spell's value. Their cast message is the realm's empty one (66), not
+# the druid's.
+
+[[spell]]
+number = 5110
+from = 217
+name = "split reflection"
+msgnum = 66
+minval = 2113
+maxval = 2113
+
+[[spell]]
+number = 5114
+from = 217
+name = "orderlies come running"
+msgnum = 66
+minval = 2110
+maxval = 2110
+abilities = [["Summon", 0], ["Summon", 0], ["NonMagical", 0]]
+
+[[spell]]
+number = 5115
+from = 217
+name = "shrefwan's draught"
+msgnum = 66
+minval = 2118
+maxval = 2118
+
+[[spell]]
+number = 5116
+from = 1167
+name = "shrefwan temp"
+abilities = [["EndCast", 5117]]
+
+[[spell]]
+number = 5117
+from = 1168
+name = "shrefwan text"
+abilities = [["TextBlock", 10240]]
+
+[[spell]]
+number = 5118
+from = 492
+name = "draught of iron"
+duration = 1200
+abilities = [["Defence", 10], ["DamageResist", 5], ["DescMsg", 10336]]
+
+[[spell]]
+number = 5119
+from = 492
+name = "draught of embers"
+duration = 1200
+abilities = [["Damage", 5], ["HealRate", 3], ["DescMsg", 10337]]
+
+[[spell]]
+number = 5120
+from = 490
+name = "draught of clarity"
+duration = 1200
+abilities = [["MagicResist", 25], ["Spellcasting", 10], ["Intellect", 5], ["DescMsg", 10338]]
