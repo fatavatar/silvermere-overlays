@@ -1,0 +1,167 @@
+# The Rocspire's items.
+#
+# The Long Saga's deeds: the Roc Matriarch's pinion and Jarl Hrafnkel's torc (both always drop)
+# and ringing the storm-bell (a room command, text.toml). Sigrun the saga-keeper takes the two
+# and gives each class its own reward: Skalds and Warriors three pieces, Bards and Mystics one.
+# Skalds may only wield blunt weapons, so the Skald's weapon is a war-maul rather than an axe.
+#
+# The unused crimson battle-shield (2532) and titanium shield (2533) drop from the raiders and
+# huntmasters, and the sadamune (1824) from the Jarl's champion (monsters.toml).
+
+[[item]]
+number = 5125
+from = 341
+name = "roc matriarch's pinion"
+item_type = "Special"
+charges = -1
+destroymsg = 0
+weight = 10
+robable = 0
+abilities = []
+desc = """
+A single flight feather from the Roc Matriarch's wing, white with age
+and longer than a spear. The wind tugs at it even indoors, as if it
+still wants to fly.
+"""
+
+[[item]]
+number = 5126
+from = 341
+name = "Hrafnkel's torc"
+item_type = "Special"
+charges = -1
+destroymsg = 0
+weight = 5
+robable = 0
+abilities = []
+desc = """
+A heavy torc of twisted gold, its ends shaped as two rocs' heads. It
+is still warm from the Jarl's throat, and the gold is worn smooth on
+the inside by a lifetime of wearing.
+"""
+
+# ---------------------------------------------------------------- the Skald's reward
+
+[[item]]
+number = 5127
+from = 2533
+name = "war-harp shield"
+classes = [24]
+ac = 130
+dr = 45
+abilities = [["MagicResist", 10], ["MinLevel", 150]]
+desc = """
+A tall shield of roc bone and black iron, strung across its face with
+seven strings of braided gut. Struck with a sword, it rings out a
+chord that the nomads say an ancestor can hear.
+"""
+
+[[item]]
+number = 5128
+from = 1822
+name = "saga helm"
+classes = [24]
+level = 1
+ac = 110
+dr = 40
+abilities = [["Health", 5], ["MinLevel", 150]]
+desc = """
+A helm of blackened steel with long cheek-guards, its brow carved with
+a running band of knotwork. Every knot is a deed, and the knots run
+all the way round and back to the beginning.
+"""
+
+[[item]]
+number = 5129
+from = 2570
+name = "runed war-maul"
+classes = [24]
+mindmg = 42
+maxdmg = 72
+speed = 5300
+strreq = 90
+accuracy = 15
+abilities = [["Magical", 5], ["MinLevel", 150]]
+desc = """
+A two-handed maul with a head of dark iron the size of a bread loaf,
+its haft wound with white roc leather. Runes of storm and memory are
+cut into every face of the head, and they glow faintly in the dark.
+"""
+
+# ---------------------------------------------------------------- the Warrior's reward
+
+[[item]]
+number = 5130
+from = 1820
+name = "ring-mail hauberk"
+classes = [1]
+level = 1
+ac = 600
+dr = 260
+abilities = [["MinLevel", 150]]
+desc = """
+A long hauberk of riveted steel rings, each one stamped with a tiny
+roc. It is heavy, close-fitting and plain, the coat of someone who
+expects to be hit and does not much care.
+"""
+
+[[item]]
+number = 5131
+from = 1821
+name = "ring-mail leggings"
+classes = [1]
+level = 1
+ac = 170
+dr = 70
+abilities = [["MinLevel", 150]]
+desc = """
+Leggings of riveted steel rings to match the hauberk, laced at the
+side with white leather and padded at the knee.
+"""
+
+[[item]]
+number = 5132
+from = 2572
+name = "bearded greataxe"
+classes = [1]
+mindmg = 42
+maxdmg = 74
+speed = 5300
+strreq = 100
+accuracy = 15
+abilities = [["Magical", 5], ["MinLevel", 150]]
+desc = """
+A greataxe with a long bearded blade of grey steel and a haft of black
+ash as long as a man is tall. The blade has been honed so often that
+its edge is a thin silver line.
+"""
+
+# ---------------------------------------------------------------- the Bard's and Mystic's rewards
+
+[[item]]
+number = 5133
+from = 3164
+name = "saga-singer's jerkin"
+classes = [9]
+ac = 280
+dr = 85
+abilities = [["Charm", 5], ["MinLevel", 150]]
+desc = """
+A jerkin of white roc leather, embroidered all over with tiny scenes
+in coloured thread: hunts, feasts, battles, and a bell at the top of
+a spire. The stitches are so fine they look painted.
+"""
+
+[[item]]
+number = 5134
+from = 2530
+name = "storm-wrapped handwraps"
+classes = [15]
+ac = 140
+dr = 55
+abilities = [["MinLevel", 150]]
+desc = """
+Long strips of grey linen wound around the hands and forearms, soaked
+in something that crackles faintly when you make a fist. A tiny spark
+jumps between your knuckles when you strike.
+"""

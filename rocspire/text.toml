@@ -1,0 +1,239 @@
+# Sigrun the saga-keeper and the quest "The Long Saga" (ability 212 holds the step, 213 whether
+# the storm-bell has rung):
+#   0 -> 1  ask for your saga: she names the three deeds
+#   the deeds, in any order: the Roc Matriarch's pinion and Jarl Hrafnkel's torc (both drop
+#           every time), and ringing the storm-bell on the Stormcrown (the room's command
+#           sets 213 once the saga is begun)
+#   1 -> 2  bring her the pinion and the torc with the bell rung: she takes them and gives each
+#           class its reward (Skald, Warrior, Bard, Mystic; anyone else experience alone)
+# Abilities 212 and 213 are not the game's named abilities; Ashfall Valley and the Gilded
+# Asylum use 210 and 211.
+#
+# Asking about a topic shows the topic's block and then runs that block's link as a script, so
+# each quest topic is a blank block linking to its script.
+#
+# Markup: {ansi:N} is the escape sequence ESC[Nm. Narration is plain ({ansi:0}), speech green
+# ({ansi:0;32}), keywords bright green ({ansi:1;32}), goals yellow ({ansi:1;33}).
+
+# ---------------------------------------------------------------- the talk script and greeting
+
+[[text]]
+number = 10260
+link = 10261
+text = """
+saga:10262
+deeds:10266
+deed:10266
+verses:10266
+matriarch:10273
+roc:10273
+jarl:10274
+hrafnkel:10274
+bell:10275
+stormcrown:10275
+longhall:10276
+nomads:10276
+"""
+
+[[text]]
+number = 10261
+text = """
+{ansi:0}The old woman turns her face towards you before you have said a word. Her eyes
+are white as milk, but they find you all the same.
+
+{ansi:0;32}"A stranger, come up the bridges. I am Sigrun. I keep the sagas of these
+ people, every deed of every life, in knots." She lifts a cord from her lap.
+ "Every life gets a cord. Do you want one? Ask me for your {ansi:1;32}saga{ansi:0;32}, then, and
+ I'll tell you what {ansi:1;32}deeds{ansi:0;32} it wants."{ansi:0}
+"""
+
+# ---------------------------------------------------------------- the quest
+
+[[text]]
+number = 10262
+link = 10263
+text = "{ansi:40}\n"
+
+[[text]]
+number = 10263
+text = """
+failability 212:minlevel 150 10350:giveability 212 1:text 10264
+testability 212 1:checkability 212 1:text 10265
+testability 212 2:checkability 212 2:text 10272
+"""
+
+[[text]]
+number = 10264
+text = """
+{ansi:0}Sigrun ties a single knot at the start of a new cord and holds it up.
+
+{ansi:0;32}"There. That's you, so far. A short saga. Three deeds would make it a long one.
+
+ "The Roc Matriarch nests on the highest spire. Bring me a pinion from her
+ wing. Jarl Hrafnkel sits in the Longhall and wears his father's torc. He
+ will not give it up while he breathes. And at the top of the Stormcrown
+ hangs the storm-bell. Ring it, so the ancestors hear your name.
+
+ "Do all three and come back to me, and I'll knot your saga, and see you
+ properly armed for the rest of it."{ansi:0}
+
+{ansi:1;33}<Bring Sigrun the Roc Matriarch's pinion and Jarl Hrafnkel's torc, and ring
+the storm-bell at the top of the Stormcrown.>{ansi:0}
+"""
+
+[[text]]
+number = 10265
+text = """
+{ansi:0;32}"Three deeds. The Matriarch's pinion, the Jarl's torc, and the storm-bell rung.
+ Bring me the first two and tell me of your {ansi:1;32}deeds{ansi:0;32}."{ansi:0}
+"""
+
+[[text]]
+number = 10266
+link = 10267
+text = "{ansi:40}\n"
+
+[[text]]
+number = 10267
+text = """
+testability 212 1:checkability 212 1:checkitem 5125:checkitem 5126:checkability 213 1:class 24:takeitem 5125:takeitem 5126:giveitem 5127:giveitem 5128:giveitem 5129:giveability 212 2:addexp 500000000:text 10268
+testability 212 1:checkability 212 1:checkitem 5125:checkitem 5126:checkability 213 1:class 1:takeitem 5125:takeitem 5126:giveitem 5130:giveitem 5131:giveitem 5132:giveability 212 2:addexp 500000000:text 10269
+testability 212 1:checkability 212 1:checkitem 5125:checkitem 5126:checkability 213 1:class 9:takeitem 5125:takeitem 5126:giveitem 5133:giveability 212 2:addexp 500000000:text 10270
+testability 212 1:checkability 212 1:checkitem 5125:checkitem 5126:checkability 213 1:class 15:takeitem 5125:takeitem 5126:giveitem 5134:giveability 212 2:addexp 500000000:text 10270
+testability 212 1:checkability 212 1:checkitem 5125 10351:checkitem 5126 10352:checkability 213 1:takeitem 5125:takeitem 5126:giveability 212 2:addexp 500000000:text 10271
+testability 212 1:checkability 212 1:text 10277
+testability 212 2:checkability 212 2:text 10272
+"""
+
+[[text]]
+number = 10268
+text = """
+{ansi:0}Sigrun runs the pinion through her fingers and weighs the torc in her palm, and
+then she ties three knots in your cord, slowly, one after another.
+
+{ansi:0;32}"A skald. Then you'll want to sing it yourself." She reaches behind her and
+ lifts down a shield strung like a harp, a helm and a maul. "My husband's. He
+ was the last skald of the Longhall. He'd want them used."{ansi:0}
+
+{ansi:1;33}<Sigrun gives you a war-harp shield, a saga helm and a runed war-maul.>{ansi:0}
+{ansi:0;36}<You gain 500,000,000 experience!>{ansi:0}
+"""
+
+[[text]]
+number = 10269
+text = """
+{ansi:0}Sigrun runs the pinion through her fingers and weighs the torc in her palm, and
+then she ties three knots in your cord, slowly, one after another.
+
+{ansi:0;32}"A warrior's saga. Short words, long deeds." She points to a chest by the
+ hearth. "The smiths made that for the Jarl's son. He didn't live to wear it.
+ You have."{ansi:0}
+
+{ansi:1;33}<Sigrun gives you a ring-mail hauberk, ring-mail leggings and a bearded
+greataxe.>{ansi:0}
+{ansi:0;36}<You gain 500,000,000 experience!>{ansi:0}
+"""
+
+[[text]]
+number = 10270
+text = """
+{ansi:0}Sigrun runs the pinion through her fingers and weighs the torc in her palm, and
+then she ties three knots in your cord, slowly, one after another.
+
+{ansi:0;32}"There. Long enough to sing." She draws something folded from beside her and
+ presses it into your hands. "For the rest of it."{ansi:0}
+
+{ansi:1;33}<Sigrun gives you a gift for your calling.>{ansi:0}
+{ansi:0;36}<You gain 500,000,000 experience!>{ansi:0}
+"""
+
+[[text]]
+number = 10271
+text = """
+{ansi:0}Sigrun runs the pinion through her fingers and weighs the torc in her palm, and
+then she ties three knots in your cord, slowly, one after another.
+
+{ansi:0;32}"There. A long saga, and a good one. I've nothing in this hall made for your
+ kind, but the ancestors know your name now. That's worth more."{ansi:0}
+
+{ansi:0;36}<You gain 500,000,000 experience!>{ansi:0}
+"""
+
+[[text]]
+number = 10272
+text = """
+{ansi:0;32}"Your cord is hanging with the others. It's a long one." She almost smiles.
+ "Go and make it longer."{ansi:0}
+"""
+
+# The class lines above test silently; the last full line names a missing pinion or torc, and
+# this one is reached when the deeds are not all done.
+[[text]]
+number = 10277
+text = """
+{ansi:0;32}"Three deeds, and your cord has fewer knots than that. The Matriarch's
+ pinion, the Jarl's torc, and the storm-bell rung for you on the Stormcrown."{ansi:0}
+"""
+
+# ---------------------------------------------------------------- the storm-bell (the room's command)
+
+[[text]]
+number = 10280
+text = """
+ring bell:testability 212 1:checkability 212 1:failability 213:giveability 213 1:text 10281
+ring bell:text 10282
+ring storm-bell:testability 212 1:checkability 212 1:failability 213:giveability 213 1:text 10281
+ring storm-bell:text 10282
+"""
+
+[[text]]
+number = 10281
+text = """
+{ansi:0}You unchain the clapper, throw your weight on the bell-rope, and the storm-bell
+swings. Its note is not loud. It is everywhere at once: in the stones, in the
+storm, in your teeth and in your bones. For a moment the lightning stops, and
+in the stillness you hear voices, a great many of them, saying your name.
+
+{ansi:1;33}<The storm-bell has rung for you. Return to Sigrun in the Longhall.>{ansi:0}
+"""
+
+[[text]]
+number = 10282
+text = """
+{ansi:0}You heave at the bell-rope. The storm-bell sways a little, and its chained
+clapper thumps dully against the iron. Nothing answers.
+"""
+
+# ---------------------------------------------------------------- lore
+
+[[text]]
+number = 10273
+text = """
+{ansi:0;32}"The Matriarch was old when my grandmother was a girl. The hunters take her
+ young, and she takes the hunters. It's been that way a long time. She nests
+ up past the Eyries, on the highest spire."{ansi:0}
+"""
+
+[[text]]
+number = 10274
+text = """
+{ansi:0;32}"Hrafnkel. A good jarl, as jarls go: he feeds us and he fights for us, and he
+ kills anyone who asks him for that torc. Mind his champion, the far-sworn
+ woman. She waits in the ring before his seat."{ansi:0}
+"""
+
+[[text]]
+number = 10275
+text = """
+{ansi:0;32}"The storm-bell hangs at the top of the Stormcrown, past the Eyries and up the
+ long stair. The storm lives up there. Walking lightning. Ring the bell and
+ every ancestor hears you."{ansi:0}
+"""
+
+[[text]]
+number = 10276
+text = """
+{ansi:0;32}"We hunt the rocs, and the rocs hunt us. We came up here before the mountain
+ had a name, and we'll be here when it's lost it again. Strangers don't
+ usually last as long as you have."{ansi:0}
+"""

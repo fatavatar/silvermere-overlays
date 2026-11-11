@@ -1,0 +1,20 @@
+name = "rocspire"
+title = "The Rocspire"
+description = "Wind-scoured spires past the Pinnacle of Gloomy Mountain, where rocs nest and a nomad Jarl holds his Longhall, for characters of about level 150 to 200."
+credits = """
+New content for the Realm of Legends. Its nomads, giant roc and hawks are MudRev's own, made \
+long ago and never placed in the world until now, and so are the crimson battle-shield, the \
+titanium shield and the sadamune it hands out."""
+after = ["mudrev"]
+
+[[news]]
+date = "2026-11-11"
+kind = "new"
+title = "Feathers on the Pinnacle"
+text = """
+Climbers coming down from the Pinnacle of Gloomy Mountain bring back roc feathers as long as \
+spears, and talk of a rope bridge that sways out into the clouds above the starmetal giant \
+king's lair.
+
+The nomads at the other end, they say, keep a saga of every deed. Anyone of a hundred and \
+fifty winters' adventuring might go and be counted."""

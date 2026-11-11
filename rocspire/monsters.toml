@@ -1,0 +1,237 @@
+# The Rocspire's monsters. Monster group 34 (Group29), which no realm monster used, holds the
+# spawns; the generation index picks the tier each zone spawns:
+#   1 hawk swarm, 2 nomad raider, 3 frost-pelt shaman, 4 nomad huntmaster,
+#   5 roc broodling, 6 giant roc, 7 storm elemental.
+# The bridges and ledges spawn 1-2, the camp 2-4, the nests 5-6, the Stormcrown stair 6-7 and
+# its crown 7.
+#
+# Band 150-200 (docs/content-areas.md): commons 2,900-3,600 HP and 200-450 damage a round for
+# 300,000-500,000 experience a kill; bosses 9,500-13,000 HP and 570-740 damage for 150-280
+# million. Experience a kill is exp x level; every monster here is level 1.
+#
+# The blood hawk (661), the nomadic huntsman (205) and the giant roc (792) are realm monsters
+# nothing ever spawned, retuned. The rest copy realm monsters still in use.
+#
+# Attack chances are cumulative: a slot's pct is the roll at or under which it is picked.
+
+# ---------------------------------------------------------------- the bridges, ledges and camp
+
+[[monster_change]]
+number = 661
+why = "the bridges' hawk swarms; nothing ever spawned the blood hawk"
+set = { name = "hawk swarm", montype = "Group29", genindex = 1, maxhp = 3100, ac = 90, dr = 18, magicres = 80, exp = 300000, hpregen = 150, deathmsg = 10361, attacks = [
+    { kind = "Normal", accuracy = 300, pct = 60, min = 55, max = 125, energy = 250, hitmsg = 10360, defmsg = 2277, missmsg = 2278 },
+    { kind = "Normal", accuracy = 300, pct = 100, min = 70, max = 155, energy = 500, hitmsg = 10360, defmsg = 2277, missmsg = 2278, hitspell = 799 },
+] }
+was = { name = "blood hawk", maxhp = 150, genindex = 61 }
+
+[[monster_change]]
+number = 205
+why = "the camp's raiders; nothing ever spawned this nomadic huntsman (207 stays where it is)"
+set = { name = "nomad raider", montype = "Group29", genindex = 2, maxhp = 3400, ac = 100, dr = 25, magicres = 90, exp = 360000, hpregen = 160, deathmsg = 10363, attacks = [
+    { kind = "Normal", accuracy = 340, pct = 60, min = 85, max = 180, energy = 400, hitmsg = 8241, defmsg = 8297, missmsg = 8310 },
+    { kind = "Normal", accuracy = 340, pct = 100, min = 110, max = 235, energy = 500, hitmsg = 10362, defmsg = 8297, missmsg = 8310 },
+], items = [{ item = 2532, uses = 0, pct = 1 }, { item = 2533, uses = 0, pct = 1 }] }
+was = { name = "nomadic huntsman", maxhp = 130, genindex = 13 }
+
+[[monster]]
+number = 2120
+from = 205
+name = "frost-pelt shaman"
+montype = "Group29"
+genindex = 3
+maxhp = 3300
+ac = 90
+dr = 20
+magicres = 150
+exp = 380000
+hpregen = 160
+deathmsg = 10363
+desc = """
+A gaunt nomad in a cloak of white wolf pelts walks with a staff hung
+with icicles that never melt. Frost spreads across the ground where
+he steps, and his breath does not steam in the cold.
+"""
+attacks = [
+    { kind = "Normal", accuracy = 330, pct = 50, min = 75, max = 160, energy = 400, hitmsg = 8241, defmsg = 8297, missmsg = 8310 },
+    { kind = "Spell", accuracy = 771, pct = 80, min = 100, max = 55, energy = 1000, hitmsg = 1, defmsg = 1, missmsg = 1 },
+    { kind = "Spell", accuracy = 135, pct = 100, min = 100, max = 17, energy = 1000, hitmsg = 1, defmsg = 1, missmsg = 1 },
+]
+
+[[monster]]
+number = 2121
+from = 205
+name = "nomad huntmaster"
+montype = "Group29"
+genindex = 4
+maxhp = 3600
+ac = 115
+dr = 32
+magicres = 100
+exp = 480000
+hpregen = 180
+deathmsg = 10363
+desc = """
+A tall nomad in a cloak of roc feathers carries a long hunting spear
+with a barbed head of black iron. A string of great curved talons
+hangs at his neck, one for every roc he has brought down.
+"""
+attacks = [
+    { kind = "Normal", accuracy = 380, pct = 50, min = 100, max = 215, energy = 333, hitmsg = 8241, defmsg = 8297, missmsg = 8310 },
+    { kind = "Normal", accuracy = 380, pct = 100, min = 130, max = 270, energy = 500, hitmsg = 10362, defmsg = 8297, missmsg = 8310 },
+]
+items = [{ item = 2532, uses = 0, pct = 2 }, { item = 2533, uses = 0, pct = 2 }]
+
+# ---------------------------------------------------------------- the nests and the storm
+
+[[monster]]
+number = 2122
+from = 107
+name = "roc broodling"
+montype = "Group29"
+genindex = 5
+maxhp = 1800
+ac = 80
+dr = 15
+magicres = 80
+exp = 260000
+hpregen = 100
+desc = """
+A half-grown roc chick, already as big as a horse, stalks across the
+nest on legs too long for it. Its down is falling out in patches, and
+its beak is bloody to the eyes. It screams at you, ravenous.
+"""
+attacks = [
+    { kind = "Normal", accuracy = 340, pct = 100, min = 85, max = 180, energy = 333, hitmsg = 2028, defmsg = 8306, missmsg = 168 },
+]
+
+[[monster_change]]
+number = 792
+why = "the nests' rocs; nothing ever spawned this giant roc (571 and 1039 stay where they are)"
+set = { montype = "Group29", genindex = 6, maxhp = 3600, ac = 110, dr = 30, magicres = 100, exp = 500000, hpregen = 180, attacks = [
+    { kind = "Normal", accuracy = 380, pct = 50, min = 100, max = 230, energy = 333, hitmsg = 2027, defmsg = 8308, missmsg = 8294 },
+    { kind = "Normal", accuracy = 380, pct = 85, min = 130, max = 280, energy = 500, hitmsg = 2028, defmsg = 8306, missmsg = 8294 },
+    { kind = "Normal", accuracy = 380, pct = 100, min = 190, max = 380, energy = 1000, hitmsg = 372, defmsg = 682, missmsg = 683 },
+] }
+was = { name = "giant roc", maxhp = 1900, genindex = 0 }
+
+[[monster]]
+number = 2123
+from = 1393
+name = "storm elemental"
+montype = "Group29"
+genindex = 7
+maxhp = 3400
+ac = 110
+dr = 25
+magicres = 160
+exp = 460000
+hpregen = 200
+deathmsg = 10364
+desc = """
+A tall shape of living lightning flickers in and out of being among
+the stones, crackling as it moves. Where its feet touch the rock the
+stone glows white and then black, and the air tastes of iron.
+"""
+attacks = [
+    { kind = "Normal", accuracy = 400, pct = 70, min = 110, max = 260, energy = 500, hitmsg = 10368, defmsg = 8311, missmsg = 208 },
+    { kind = "Spell", accuracy = 8, pct = 100, min = 100, max = 60, energy = 333, hitmsg = 1, defmsg = 1, missmsg = 1 },
+]
+
+# ---------------------------------------------------------------- the bosses
+
+[[monster]]
+number = 2126
+from = 792
+name = "Roc Matriarch"
+montype = "Quest"
+genindex = 0
+maxalive = 1
+maxhp = 13000
+ac = 140
+dr = 45
+magicres = 140
+exp = 250000000
+hpregen = 300
+regenhrs = 6
+deathmsg = 10365
+desc = """
+A roc so vast that her folded wings make a roof against the sky
+crouches over her eggs. Her feathers are white with age, her beak is
+the size of a ship's prow, and her golden eyes follow you with the
+patience of something that has never once been hungry for long.
+"""
+attacks = [
+    { kind = "Normal", accuracy = 450, pct = 40, min = 200, max = 390, energy = 333, hitmsg = 2027, defmsg = 8308, missmsg = 8294 },
+    { kind = "Normal", accuracy = 450, pct = 80, min = 260, max = 490, energy = 500, hitmsg = 2028, defmsg = 8306, missmsg = 8294 },
+    { kind = "Normal", accuracy = 450, pct = 100, min = 330, max = 580, energy = 1000, hitmsg = 372, defmsg = 682, missmsg = 683 },
+]
+items = [{ item = 5125, uses = 0, pct = 100 }]
+
+[[monster]]
+number = 2127
+from = 205
+name = "Jarl Hrafnkel"
+montype = "Quest"
+genindex = 0
+maxalive = 1
+maxhp = 11000
+ac = 135
+dr = 45
+magicres = 130
+exp = 200000000
+hpregen = 280
+regenhrs = 6
+deathmsg = 10366
+desc = """
+The Jarl is a broad man gone grey, his beard braided with gold rings
+and his arms thick with the white scars of roc talons. He wears a
+torc of twisted gold at his throat and carries a bearded axe as long
+as you are tall.
+"""
+attacks = [
+    { kind = "Normal", accuracy = 430, pct = 50, min = 170, max = 340, energy = 333, hitmsg = 10362, defmsg = 8297, missmsg = 8310 },
+    { kind = "Normal", accuracy = 430, pct = 100, min = 215, max = 410, energy = 500, hitmsg = 10369, defmsg = 8297, missmsg = 8310 },
+]
+items = [{ item = 5126, uses = 0, pct = 100 }]
+
+[[monster]]
+number = 2128
+from = 205
+name = "Ingrid Far-Sworn"
+montype = "Quest"
+genindex = 0
+maxalive = 1
+maxhp = 9500
+ac = 140
+dr = 40
+magicres = 120
+exp = 150000000
+hpregen = 260
+regenhrs = 4
+deathmsg = 10367
+desc = """
+A lean woman in lacquered armour of a style you have never seen
+stands in the champion's ring, a long curved sword across her knees.
+She came over the mountains with nothing but the sword, the nomads
+say, and the Jarl has never found a man who could take it from her.
+"""
+attacks = [
+    { kind = "Normal", accuracy = 440, pct = 60, min = 150, max = 310, energy = 333, hitmsg = 8241, defmsg = 8297, missmsg = 8310 },
+    { kind = "Normal", accuracy = 440, pct = 100, min = 185, max = 370, energy = 500, hitmsg = 10370, defmsg = 8297, missmsg = 8310 },
+]
+items = [{ item = 1824, uses = 0, pct = 25 }]
+
+# ---------------------------------------------------------------- the saga-keeper
+
+[[monster]]
+number = 2129
+from = 1232
+name = "Sigrun"
+talktext = 10260
+desc = """
+An old woman with milk-white eyes sits by the hearth, her hands
+folded in her lap. Her fingers never stop moving, tying and untying
+a knot in a length of cord, and she turns her head towards you before
+you have made a sound.
+"""

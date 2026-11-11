@@ -10,6 +10,7 @@ silvermere's `docs/overlays.md` describes the format.
 | [`ashfall-valley`](ashfall-valley/README.md) | A new area under the Volcano, levels 55–80, with a quest | `mudrev` |
 | [`darkwood-quests`](darkwood-quests/README.md) | Darkwood BBS's 8th and 9th alignment quests (levels 150 and 200) | `mudrev` |
 | [`gilded-asylum`](gilded-asylum/README.md) | The sealed wards above the Padded Cells, levels 100–150, with a quest | `mudrev` |
+| [`rocspire`](rocspire/README.md) | Roc-haunted spires past Gloomy Mountain's Pinnacle, levels 150–200, with a class quest | `mudrev` |
 
 ## Using them
 
