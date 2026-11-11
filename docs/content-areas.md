@@ -174,6 +174,18 @@ Coil Mother and gives a choice of Viperhide piece.
 
 ## Area 2: The Rocspire (levels 150–200)
 
+**Status: built.** The overlay is `rocspire/` in this repository (see its README): 149 rooms on map
+21 (map 20 went to the Gilded Asylum), the nomads, rocs and storm, the Roc Matriarch, Jarl
+Hrafnkel and his champion, and Sigrun's Long Saga, checked against the survival model and walked in
+a test server on a copy of the realm. Not on the live realm yet. It differs from the plan below in
+three places:
+
+- Skalds may only wield blunt weapons, so the Skald's reward is a runed war-maul, not an axe.
+- The saga takes the three deeds in one hand-in rather than a verse each, and classes other than
+  Skald, Warrior, Bard and Mystic get the experience alone.
+- The sadamune goes to the Jarl's champion, Ingrid Far-Sworn, as planned; the crimson battle-shield
+  and titanium shield drop from raiders (1%) and huntmasters (2%).
+
 **What it is:** Past the Pinnacle of Gloomy Mountain, a chain of wind-scoured spires where giant
 rocs nest. The white-pelted nomads who hunt them keep a longhall there. It is the next step for the
 characters now at 142–143, whose solo choices run out at Dark Jungle and Stronghold Basement.

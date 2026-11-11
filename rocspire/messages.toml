@@ -1,0 +1,62 @@
+# The Rocspire's messages. An attack message is (to you, to the room); a death message's third
+# line is the death.
+
+# ---------------------------------------------------------------- the saga's refusals
+
+[[message]]
+number = 10350
+msgs = ["Sigrun turns her blind eyes towards you and shakes her head. \"Your saga is too short yet. Come back when it is longer.\"", "", ""]
+
+[[message]]
+number = 10351
+msgs = ["Sigrun's fingers find no feather in your hands. \"The Matriarch's pinion first. She nests on the highest spire.\"", "", ""]
+
+[[message]]
+number = 10352
+msgs = ["Sigrun's fingers find no torc at your neck. \"The Jarl's torc. He will not give it up while he lives.\"", "", ""]
+
+# ---------------------------------------------------------------- the spires
+
+[[message]]
+number = 10360
+msgs = ["The %s tears at you with a hundred beaks for %d damage!", "The %s tears at %s with a hundred beaks for %s damage!", ""]
+
+[[message]]
+number = 10361
+msgs = ["", "", "The hawk swarm breaks apart, and its last few birds scatter screaming into the wind."]
+
+[[message]]
+number = 10362
+msgs = ["The %s hacks at you with a bearded axe for %d damage!", "The %s hacks at %s with a bearded axe for %s damage!", ""]
+
+[[message]]
+number = 10363
+msgs = ["", "", "The nomad falls into the snow, and the wind begins to cover them at once."]
+
+[[message]]
+number = 10364
+msgs = ["", "", "The storm elemental flares white, cracks like thunder and is gone."]
+
+[[message]]
+number = 10365
+msgs = ["", "", "The Roc Matriarch spreads her wings once across the whole sky, cries out, and falls back across her eggs."]
+
+[[message]]
+number = 10366
+msgs = ["", "", "Jarl Hrafnkel drops to one knee, laughs through the blood in his beard, and falls across his high seat."]
+
+[[message]]
+number = 10367
+msgs = ["", "", "Ingrid Far-Sworn kneels, lays her sword before her, and bows her head until it touches the stone."]
+
+[[message]]
+number = 10368
+msgs = ["The %s lashes you with a whip of lightning for %d damage!", "The %s lashes %s with a whip of lightning for %s damage!", ""]
+
+[[message]]
+number = 10369
+msgs = ["The %s brings his great axe down on you for %d damage!", "The %s brings his great axe down on %s for %s damage!", ""]
+
+[[message]]
+number = 10370
+msgs = ["The %s cuts you with a long curved sword for %d damage!", "The %s cuts %s with a long curved sword for %s damage!", ""]
