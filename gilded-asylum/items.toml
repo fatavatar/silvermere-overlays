@@ -1,0 +1,97 @@
+# The Gilded Asylum's items.
+#
+# The three reagents drop from the ward bosses, one each, every time. Ines makes the gilded
+# key to the laboratory from one of each (text.toml), and afterwards trades any reagent for
+# one of her potions.
+#
+# The unused class gear (monsters.toml drops it): Titanium Chainmail Tunic 2278 (Sharh'Kur),
+# golden crossbow 2422 (the Sorcerer), mithril shuriken 3560 (the Magus), Holy Cross 3565
+# (Shrefwan transfigured), Sunburst wrist-guard 3566 (Choira), mirrored choli 2002 (Lallim).
+
+[[item]]
+number = 5110
+from = 341
+name = "vial of ember salts"
+item_type = "Special"
+charges = -1
+destroymsg = 0
+weight = 2
+robable = 0
+abilities = []
+desc = """
+A small stoppered vial of red salts that glow faintly in the dark.
+The glass is warm, and grows warmer the longer you hold it.
+"""
+
+[[item]]
+number = 5111
+from = 341
+name = "vial of quicksilver tears"
+item_type = "Special"
+charges = -1
+destroymsg = 0
+weight = 2
+robable = 0
+abilities = []
+desc = """
+A small stoppered vial of liquid silver that rolls and beads against
+the glass. Your reflection in it is a moment late.
+"""
+
+[[item]]
+number = 5112
+from = 341
+name = "vial of iron filings"
+item_type = "Special"
+charges = -1
+destroymsg = 0
+weight = 3
+robable = 0
+abilities = []
+desc = """
+A small stoppered vial of dark iron filings, scraped from the inside
+of a manacle. They cling to the glass on the side nearest to you.
+"""
+
+[[item]]
+number = 5113
+from = 341
+name = "gilded key"
+charges = -1
+destroymsg = 0
+retain = 1
+desc = """
+A heavy key of gilded brass, its bow shaped like an open mouth. Ines
+cast it from the three reagents, and it still smells faintly of salts,
+mercury and rust.
+"""
+
+[[item]]
+number = 5114
+from = 466
+name = "draught of iron"
+desc = """
+A thick grey draught in a stoppered flask. It tastes of rust and
+leaves your skin feeling as hard as old leather for a long while.
+"""
+abilities = [["Magical", 1], ["OneTimeCast", 5118]]
+
+[[item]]
+number = 5115
+from = 466
+name = "draught of embers"
+desc = """
+A cloudy red draught that is warm through the flask. It burns all the
+way down and leaves your blood running hot for a long while.
+"""
+abilities = [["Magical", 1], ["OneTimeCast", 5119]]
+
+[[item]]
+number = 5116
+from = 466
+name = "draught of clarity"
+desc = """
+A clear draught that rings faintly when you tap the flask. It tastes
+of nothing at all, and afterwards the world seems very sharp.
+"""
+abilities = [["Magical", 1], ["OneTimeCast", 5120]]

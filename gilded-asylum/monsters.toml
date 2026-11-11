@@ -1,0 +1,314 @@
+# The Gilded Asylum's monsters. Monster group 33 (Group28), which no realm monster used, holds
+# the wards' spawns; the generation index picks the tier each ward spawns:
+#   1 treated lunatic, 2 mirror-patient, 3 orderly, 4 treated murderer,
+#   5 animated straitjacket, 6 warden.
+# The Ward of Whispers spawns 1-3, the Ward of Fevers 3-4, the Ward of Chains 4-6.
+#
+# Band 100-150 (docs/content-areas.md): commons 2,100-4,500 HP and 150-350 damage a round for
+# 300,000-550,000 experience a kill; bosses 6,800-10,500 HP and 280-500 damage for 45-130
+# million. Experience a kill is exp x level; every monster here is level 1.
+#
+# The crazed lunatic (262), depraved murderer (496), Shrefwan the Alchemist (1385), the
+# Demented Sorcerer (1386) and the Deranged Magus (1387) are realm monsters nothing ever
+# spawned. The ward bosses and wardens copy realm monsters that the realm's own quests still
+# use (610-612, 1059), so they are new records rather than changes.
+#
+# Attack chances are cumulative: a slot's pct is the roll at or under which it is picked.
+
+# ---------------------------------------------------------------- the wards' patients and staff
+
+[[monster_change]]
+number = 262
+why = "a 'treated' patient of the Ward of Whispers; nothing ever spawned this lunatic"
+set = { name = "treated lunatic", arrivemsg = 10341, deathmsg = 10343, montype = "Group28", genindex = 1, maxhp = 3000, ac = 70, dr = 14, magicres = 70, exp = 320000, hpregen = 120, charmlvl = 999, charmres = 999, talktext = 0, attacks = [
+    { kind = "Normal", accuracy = 240, pct = 100, min = 45, max = 105, energy = 333, hitmsg = 861, defmsg = 8297, missmsg = 8310 },
+] }
+was = { name = "crazed lunatic", maxhp = 110, genindex = 3 }
+
+[[monster]]
+number = 2112
+from = 262
+name = "mirror-patient"
+arrivemsg = 10342
+deathmsg = 10322
+montype = "Group28"
+genindex = 2
+maxhp = 2600
+ac = 70
+dr = 12
+magicres = 90
+exp = 300000
+hpregen = 120
+charmlvl = 999
+charmres = 999
+talktext = 0
+desc = """
+This patient's skin has the cold sheen of silvered glass, and when it
+moves its outline doubles and shivers like a reflection on water. It
+smiles at you with your own mouth.
+"""
+attacks = [
+    { kind = "Normal", accuracy = 240, pct = 100, min = 40, max = 90, energy = 333, hitmsg = 10322, defmsg = 8297, missmsg = 8310 },
+]
+spells = [{ spell = 5110, pct = 20, level = 50 }]
+
+[[monster]]
+number = 2113
+from = 262
+name = "mirror image"
+arrivemsg = 66
+montype = "Group28"
+genindex = 0
+maxalive = 8
+maxhp = 600
+ac = 60
+dr = 5
+magicres = 90
+exp = 40000
+hpregen = 0
+charmlvl = 999
+charmres = 999
+talktext = 0
+deathmsg = 10323
+desc = """
+A flat, shining copy of a patient steps out of the air, moving a
+moment behind itself. Through it you can see the ward, reversed.
+"""
+attacks = [
+    { kind = "Normal", accuracy = 200, pct = 100, min = 15, max = 35, energy = 333, hitmsg = 10322, defmsg = 8297, missmsg = 8310 },
+]
+
+[[monster]]
+number = 2110
+from = 261
+name = "orderly"
+montype = "Group28"
+genindex = 3
+maxhp = 3300
+ac = 85
+dr = 18
+magicres = 70
+exp = 360000
+hpregen = 140
+charmlvl = 999
+charmres = 999
+talktext = 0
+deathmsg = 10324
+desc = """
+A broad man in a stained white smock with gilded buttons patrols the
+ward, a heavy cosh hanging from his wrist by a loop of leather. His
+eyes are glassy, and he hums the same three notes over and over.
+"""
+attacks = [
+    { kind = "Normal", accuracy = 260, pct = 70, min = 55, max = 120, energy = 333, hitmsg = 844, defmsg = 8297, missmsg = 8310 },
+    { kind = "Normal", accuracy = 280, pct = 100, min = 75, max = 165, energy = 500, hitmsg = 10325, defmsg = 8297, missmsg = 8310 },
+]
+
+[[monster_change]]
+number = 496
+why = "a 'treated' patient of the Fevers and Chains wards; nothing ever spawned this murderer"
+set = { name = "treated murderer", deathmsg = 10347, montype = "Group28", genindex = 4, maxhp = 3800, ac = 90, dr = 22, magicres = 75, exp = 420000, hpregen = 160, charmlvl = 999, charmres = 999, talktext = 0, attacks = [
+    { kind = "Normal", accuracy = 280, pct = 60, min = 60, max = 130, energy = 333, hitmsg = 486, defmsg = 8297, missmsg = 8310 },
+    { kind = "Normal", accuracy = 300, pct = 100, min = 90, max = 185, energy = 500, hitmsg = 486, defmsg = 8297, missmsg = 8310 },
+] }
+was = { name = "depraved murderer", maxhp = 100, genindex = 19 }
+
+[[monster]]
+number = 2111
+from = 902
+name = "animated straitjacket"
+montype = "Group28"
+genindex = 5
+maxhp = 3000
+ac = 110
+dr = 28
+magicres = 130
+exp = 380000
+hpregen = 130
+deathmsg = 10326
+desc = """
+An empty straitjacket of yellowed canvas drags itself across the
+floor, its buckles clinking. Its long sleeves lift and reach for you,
+and they are stronger than any arms could be.
+"""
+attacks = [
+    { kind = "Normal", accuracy = 270, pct = 80, min = 60, max = 135, energy = 333, hitmsg = 10327, defmsg = 8307, missmsg = 8294 },
+    { kind = "Spell", accuracy = 66, pct = 100, min = 100, max = 40, energy = 1000, hitmsg = 1, defmsg = 1, missmsg = 1 },
+]
+
+[[monster]]
+number = 2114
+from = 1059
+name = "warden"
+montype = "Group28"
+genindex = 6
+maxhp = 4500
+ac = 115
+dr = 32
+magicres = 120
+exp = 540000
+hpregen = 200
+maxalive = 0
+regenhrs = 0
+deathmsg = 10328
+# the cloaked figure's needs a weapon of magic 4; 2 here, so most of the band's weapons hit
+abilities = [["Magical", 2], ["None", 100], ["SpellImmune", 40], ["None", -50], ["SeeHidden", 0]]
+desc = """
+A tall figure in a hooded grey cloak walks the ward with a ring of
+gilded keys at its belt. Under the hood its face is wrapped in clean
+white bandages, and it turns its head towards every sound.
+"""
+attacks = [
+    { kind = "Normal", accuracy = 300, pct = 60, min = 70, max = 140, energy = 333, hitmsg = 39, defmsg = 8297, missmsg = 8310 },
+    { kind = "Normal", accuracy = 300, pct = 100, min = 80, max = 160, energy = 500, hitmsg = 48, defmsg = 8297, missmsg = 8310, hitspell = 988 },
+]
+
+# ---------------------------------------------------------------- the ward bosses: one reagent each
+
+[[monster]]
+number = 2115
+from = 610
+name = "Choira Pyromancer"
+deathmsg = 10344
+montype = "Quest"
+maxhp = 8500
+ac = 100
+dr = 25
+magicres = 130
+exp = 50000000
+hpregen = 200
+regenhrs = 4
+desc = """
+A woman in a gown of living flame tends the furnace with her bare
+hands. The fire has eaten her hair and her eyebrows and left her
+skin smooth and red as a coal, and she sings to the flames as if
+they were children.
+"""
+attacks = [
+    { kind = "Normal", accuracy = 320, pct = 40, min = 80, max = 160, energy = 333, hitmsg = 272, defmsg = 2938, missmsg = 2939, hitspell = 408 },
+    { kind = "Normal", accuracy = 320, pct = 80, min = 100, max = 200, energy = 333, hitmsg = 457, defmsg = 2938, missmsg = 2939 },
+    { kind = "Spell", accuracy = 291, pct = 100, min = 100, max = 40, energy = 1000, hitmsg = 1, defmsg = 1, missmsg = 1 },
+]
+items = [{ item = 5110, uses = 0, pct = 100 }, { item = 3566, uses = 0, pct = 25 }]
+
+[[monster]]
+number = 2116
+from = 611
+name = "Lallim Whitemane"
+deathmsg = 10345
+montype = "Quest"
+maxhp = 8000
+ac = 95
+dr = 22
+magicres = 160
+exp = 48000000
+hpregen = 200
+regenhrs = 4
+desc = """
+A pale woman sits on a gilded throne among the mirrors, combing hair
+as white as snow. Every reflection in the gallery combs with her, and
+every one of them is watching you.
+"""
+attacks = [
+    { kind = "Normal", accuracy = 310, pct = 40, min = 70, max = 150, energy = 333, hitmsg = 272, defmsg = 2938, missmsg = 2939, hitspell = 411 },
+    { kind = "Normal", accuracy = 310, pct = 80, min = 90, max = 190, energy = 333, hitmsg = 457, defmsg = 2938, missmsg = 2939 },
+    { kind = "Spell", accuracy = 5110, pct = 100, min = 100, max = 50, energy = 1000, hitmsg = 1, defmsg = 1, missmsg = 1 },
+]
+items = [{ item = 5111, uses = 0, pct = 100 }, { item = 2002, uses = 0, pct = 25 }]
+
+[[monster]]
+number = 2117
+from = 612
+name = "Sharh'Kur"
+deathmsg = 10346
+montype = "Quest"
+maxhp = 9500
+ac = 115
+dr = 32
+magicres = 120
+exp = 58000000
+hpregen = 220
+regenhrs = 4
+desc = """
+A huge, hunched figure squats among broken chains, wearing the
+twisted remains of a restraint collar like a crown. Its arms are as
+thick as a man's waist, and both of its wrists still wear a manacle.
+"""
+attacks = [
+    { kind = "Normal", accuracy = 340, pct = 50, min = 100, max = 190, energy = 333, hitmsg = 272, defmsg = 2938, missmsg = 2939, hitspell = 400 },
+    { kind = "Normal", accuracy = 340, pct = 100, min = 120, max = 230, energy = 500, hitmsg = 457, defmsg = 2938, missmsg = 2939 },
+]
+items = [{ item = 5112, uses = 0, pct = 100 }, { item = 2278, uses = 0, pct = 25 }]
+
+# ---------------------------------------------------------------- the laboratory
+
+[[monster_change]]
+number = 1386
+why = "guards the laboratory stair; nothing ever spawned the Sorcerer, whose 17,100 HP and 4,600 damage a round are cut to the band"
+set = { maxhp = 10000, ac = 110, dr = 25, magicres = 150, exp = 70000000, hpregen = 250, regenhrs = 4, deathspell = 5114, deathmsg = 10329, attacks = [
+    { kind = "Spell", accuracy = 309, pct = 25, min = 100, max = 40, energy = 500, hitmsg = 1, defmsg = 1, missmsg = 1 },
+    { kind = "Normal", accuracy = 330, pct = 70, min = 100, max = 200, energy = 333, hitmsg = 272, defmsg = 2938, missmsg = 2939 },
+    { kind = "Normal", accuracy = 330, pct = 100, min = 120, max = 240, energy = 500, hitmsg = 457, defmsg = 2938, missmsg = 2939 },
+], items = [{ item = 2422, uses = 0, pct = 30 }] }
+was = { name = "Demented Sorcerer", maxhp = 17100 }
+
+[[monster_change]]
+number = 1387
+why = "guards the laboratory doors; nothing ever spawned the Magus, cut to the band as the Sorcerer is"
+set = { maxhp = 10000, ac = 115, dr = 28, magicres = 140, exp = 70000000, hpregen = 250, regenhrs = 4, deathspell = 5114, deathmsg = 10329, attacks = [
+    { kind = "Spell", accuracy = 430, pct = 20, min = 100, max = 40, energy = 500, hitmsg = 1, defmsg = 1, missmsg = 1 },
+    { kind = "Normal", accuracy = 330, pct = 70, min = 100, max = 200, energy = 333, hitmsg = 272, defmsg = 2938, missmsg = 2939 },
+    { kind = "Normal", accuracy = 330, pct = 100, min = 120, max = 240, energy = 500, hitmsg = 457, defmsg = 2938, missmsg = 2939 },
+], items = [{ item = 3560, uses = 0, pct = 30 }] }
+was = { name = "Deranged Magus", maxhp = 17100 }
+
+[[monster_change]]
+number = 1385
+why = "the asylum's master; nothing ever spawned this Shrefwan (the realm's own, 1405, stays where it is). His death summons his second form."
+set = { maxhp = 10500, ac = 120, dr = 30, magicres = 160, exp = 90000000, hpregen = 300, regenhrs = 6, deathspell = 5115, deathmsg = 10334, abilities = [["Magical", 3], ["SpellImmune", 20], ["PoisonImmune", 0]], attacks = [
+    { kind = "Spell", accuracy = 2021, pct = 12, min = 100, max = 35, energy = 500, hitmsg = 1, defmsg = 1, missmsg = 1 },
+    { kind = "Normal", accuracy = 350, pct = 70, min = 110, max = 220, energy = 333, hitmsg = 272, defmsg = 2938, missmsg = 2939 },
+    { kind = "Normal", accuracy = 350, pct = 100, min = 130, max = 260, energy = 500, hitmsg = 457, defmsg = 2938, missmsg = 2939 },
+] }
+was = { name = "Shrefwan the Alchemist", maxhp = 11500 }
+
+[[monster]]
+number = 2118
+from = 1385
+name = "Shrefwan, transfigured"
+maxhp = 9800
+ac = 130
+dr = 35
+magicres = 170
+exp = 130000000
+hpregen = 300
+regenhrs = 0
+maxalive = 1
+deathspell = 5116
+deathmsg = 10335
+abilities = [["Magical", 3], ["SpellImmune", 20], ["PoisonImmune", 0]]
+desc = """
+The old man is gone. In his place stands something tall and bright,
+its skin running with liquid gold that hardens as it drips. It holds
+out its hands to you as if offering a cure.
+"""
+attacks = [
+    { kind = "Spell", accuracy = 1620, pct = 25, min = 100, max = 50, energy = 500, hitmsg = 1, defmsg = 1, missmsg = 1 },
+    { kind = "Normal", accuracy = 370, pct = 70, min = 120, max = 240, energy = 333, hitmsg = 272, defmsg = 2938, missmsg = 2939 },
+    { kind = "Normal", accuracy = 370, pct = 100, min = 150, max = 280, energy = 500, hitmsg = 457, defmsg = 2938, missmsg = 2939 },
+]
+items = [{ item = 3565, uses = 0, pct = 35 }]
+
+# ---------------------------------------------------------------- the apothecary
+
+[[monster]]
+number = 2119
+from = 1232
+name = "Ines"
+talktext = 10230
+desc = """
+A small, grey-haired woman in an apothecary's apron sits behind a
+barricade of tables, grinding something in a mortar. Her hands are
+stained to the wrist with a dozen colours, and she keeps a long knife
+on the ledger beside her.
+"""

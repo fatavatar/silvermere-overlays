@@ -1,0 +1,260 @@
+# Ines the apothecary and the quest "The Gilded Cure" (ability 211 holds the step):
+#   0 -> 1  ask about Shrefwan: she asks for one of each reagent from the three ward heads
+#   1 -> 2  bring the reagents: she casts the gilded key to the laboratory
+#   2 -> 3  kill Shrefwan in both his forms (the second form's death spell runs text 10240)
+#   3 -> 4  tell Ines: one of each of her potions and experience
+# Once she has made the key (step 2 and on) she trades any reagent for a potion: ember salts
+# for a draught of embers, quicksilver tears for a draught of clarity, iron filings for a
+# draught of iron.
+# Ability 211 is not one of the game's named abilities; Ashfall Valley's quest uses 210.
+#
+# Asking about a topic shows the topic's block and then runs that block's link as a script, so
+# each quest topic is a blank block (as the realm's own are) linking to its script.
+#
+# Markup: {ansi:N} is the escape sequence ESC[Nm. Narration is plain ({ansi:0}), speech green
+# ({ansi:0;32}), keywords bright green ({ansi:1;32}), goals yellow ({ansi:1;33}).
+
+# ---------------------------------------------------------------- the talk script and greeting
+
+[[text]]
+number = 10230
+link = 10231
+text = """
+shrefwan:10232
+cure:10232
+alchemist:10232
+reagents:10237
+reagent:10237
+key:10237
+ember:10244
+quicksilver:10245
+iron:10246
+potions:10247
+wards:10248
+whispers:10249
+fevers:10250
+chains:10251
+"""
+
+[[text]]
+number = 10231
+text = """
+{ansi:0}The old woman looks up from her mortar and studies you over the barricade for a
+long moment, the knife never far from her hand. Then she sighs and goes back to
+her grinding.
+
+{ansi:0;32}"Another one come to be cured? No. You've still got all your colours. Sit if
+ you like. I'm Ines. I mixed the medicines here, back when they were
+ medicines, before {ansi:1;32}Shrefwan{ansi:0;32} started gilding everything and everyone.
+ Mind the {ansi:1;32}wards{ansi:0;32}. And if you've any use for {ansi:1;32}potions{ansi:0;32}, I still make those."{ansi:0}
+"""
+
+# ---------------------------------------------------------------- the quest
+
+[[text]]
+number = 10232
+link = 10233
+text = "{ansi:40}\n"
+
+[[text]]
+number = 10233
+text = """
+failability 211:minlevel 100 10320:giveability 211 1:text 10234
+testability 211 1:checkability 211 1:text 10235
+testability 211 2:checkability 211 2:text 10236
+testability 211 3:checkability 211 3:giveitem 5114:giveitem 5115:giveitem 5116:giveability 211 4:addexp 350000000:text 10242
+testability 211 4:checkability 211 4:text 10243
+"""
+
+[[text]]
+number = 10234
+text = """
+{ansi:0}Ines puts down the pestle.
+
+{ansi:0;32}"Shrefwan. He was the asylum's alchemist, and a good one, once. He found a
+ cure for melancholy in gold, he said, and he cured his patients with it, and
+ then he cured himself. Now he lives down in his laboratory, behind doors
+ with a lock like a mouth, and his two pets guard the stair.
+
+ "The lock wants a key cast from three salts, and the ward heads each carry
+ one: ember salts in the Ward of Fevers, quicksilver tears in the Ward of
+ Whispers, iron filings in the Ward of Chains. Bring me one of each and I'll
+ cast your key."{ansi:0}
+
+{ansi:1;33}<Bring Ines a vial of ember salts, a vial of quicksilver tears and a vial
+of iron filings from the heads of the three wards.>{ansi:0}
+"""
+
+[[text]]
+number = 10235
+text = """
+{ansi:0;32}"One of each, mind. Ember, quicksilver and iron. The heads of the wards carry
+ them, and they don't give them up kindly."{ansi:0}
+"""
+
+[[text]]
+number = 10236
+text = """
+{ansi:0;32}"You have the key. Down the stair from the rotunda, past his two pets, and
+ through the doors. Don't drink anything he offers you."{ansi:0}
+"""
+
+[[text]]
+number = 10237
+link = 10238
+text = "{ansi:40}\n"
+
+[[text]]
+number = 10238
+text = """
+testability 211 1:checkability 211 1:checkitem 5110 10321:checkitem 5111 10321:checkitem 5112 10321:takeitem 5110:takeitem 5111:takeitem 5112:giveitem 5113:giveability 211 2:addexp 150000000:text 10239
+testability 211 2:checkability 211 2:text 10236
+"""
+
+[[text]]
+number = 10239
+text = """
+{ansi:0}Ines empties the three vials into a crucible and sets it over her lamp. The
+salts hiss, the quicksilver rolls and spits, the filings sink and vanish, and
+the whole mass runs together into something bright. She pours it into a clay
+mould without a word, and when it has cooled she breaks the clay away and
+holds up a heavy key, its bow shaped like an open mouth.
+
+{ansi:0;32}"There. That's the only thing in this building I've gilded, and I'll thank you
+ not to tell anyone."{ansi:0}
+
+{ansi:1;33}<Ines gives you a gilded key.>{ansi:0}
+{ansi:0;36}<You gain 150,000,000 experience!>{ansi:0}
+
+{ansi:1;33}<Go down to the laboratory and put an end to Shrefwan.>{ansi:0}
+"""
+
+[[text]]
+number = 10240
+text = """
+testability 211 2:checkability 211 2:giveability 211 3:text 10241
+"""
+
+[[text]]
+number = 10241
+text = """
+{ansi:0}The golden thing that was Shrefwan cracks across, and the pieces slide down
+into the vat and are gone. The furnaces gutter. All through the building
+above you the laughing stops, as suddenly as a door closing.
+
+{ansi:1;33}<Return to Ines in the dispensary and tell her Shrefwan is gone.>{ansi:0}
+"""
+
+[[text]]
+number = 10242
+text = """
+{ansi:0}Ines hears you out without a word. Then she takes three flasks down from the
+highest shelf, wipes the dust from them with her apron and sets them in front
+of you.
+
+{ansi:0;32}"Iron, embers and clarity. I was keeping them for the day someone came back up
+ that stair." She almost smiles. "Go on. I'll make more."{ansi:0}
+
+{ansi:1;33}<Ines gives you three draughts: iron, embers and clarity.>{ansi:0}
+{ansi:0;36}<You gain 350,000,000 experience!>{ansi:0}
+"""
+
+[[text]]
+number = 10243
+text = """
+{ansi:0;32}"It's quieter. The patients still don't know they're cured, mind. I expect it
+ will take them a while."{ansi:0}
+"""
+
+# ---------------------------------------------------------------- the potions: a reagent for a draught
+
+[[text]]
+number = 10244
+link = 10252
+text = "{ansi:40}\n"
+
+[[text]]
+number = 10252
+text = """
+testability 211 2:checkability 211 2:checkitem 5110 10339:takeitem 5110:giveitem 5115:text 10255
+testability 211 3:checkability 211 3:checkitem 5110 10339:takeitem 5110:giveitem 5115:text 10255
+testability 211 4:checkability 211 4:checkitem 5110 10339:takeitem 5110:giveitem 5115:text 10255
+"""
+
+[[text]]
+number = 10245
+link = 10253
+text = "{ansi:40}\n"
+
+[[text]]
+number = 10253
+text = """
+testability 211 2:checkability 211 2:checkitem 5111 10339:takeitem 5111:giveitem 5116:text 10255
+testability 211 3:checkability 211 3:checkitem 5111 10339:takeitem 5111:giveitem 5116:text 10255
+testability 211 4:checkability 211 4:checkitem 5111 10339:takeitem 5111:giveitem 5116:text 10255
+"""
+
+[[text]]
+number = 10246
+link = 10254
+text = "{ansi:40}\n"
+
+[[text]]
+number = 10254
+text = """
+testability 211 2:checkability 211 2:checkitem 5112 10339:takeitem 5112:giveitem 5114:text 10255
+testability 211 3:checkability 211 3:checkitem 5112 10339:takeitem 5112:giveitem 5114:text 10255
+testability 211 4:checkability 211 4:checkitem 5112 10339:takeitem 5112:giveitem 5114:text 10255
+"""
+
+[[text]]
+number = 10255
+text = """
+{ansi:0}Ines takes the vial, tips it into her mortar and works it with the pestle for a
+while, muttering. Then she decants the result into a flask and pushes it
+across the table to you.
+
+{ansi:1;33}<Ines gives you a potion.>{ansi:0}
+"""
+
+# ---------------------------------------------------------------- lore
+
+[[text]]
+number = 10247
+text = """
+{ansi:0;32}"Iron for your skin, embers for your blood, clarity for your head. One drink
+ lasts the better part of a day. I'll make them for you once you've helped me
+ with Shrefwan, from what the ward heads carry: {ansi:1;32}ember{ansi:0;32}, {ansi:1;32}quicksilver{ansi:0;32} or {ansi:1;32}iron{ansi:0;32}.
+ Bring me one and I'll make you a draught from it."{ansi:0}
+"""
+
+[[text]]
+number = 10248
+text = """
+{ansi:0;32}"Three wards. {ansi:1;32}Whispers{ansi:0;32} to the west, {ansi:1;32}fevers{ansi:0;32} to the east, {ansi:1;32}chains{ansi:0;32} off the
+ north corridor. The patients don't know they're patients any more, and the
+ staff don't know they're staff. Kill what you have to."{ansi:0}
+"""
+
+[[text]]
+number = 10249
+text = """
+{ansi:0;32}"Lallim was a singer, before. Shrefwan gave her mirrors to cure her vanity, and
+ now there's more of her than there should be. The reflections bite."{ansi:0}
+"""
+
+[[text]]
+number = 10250
+text = """
+{ansi:0;32}"Choira was brought in for setting fires. Shrefwan's cure for that was more
+ fire. She's in the furnace room at the end of the ward, and she doesn't feel
+ the heat at all now."{ansi:0}
+"""
+
+[[text]]
+number = 10251
+text = """
+{ansi:0;32}"The violent ones. The jackets in there move by themselves now, and they'll
+ hold you still for the wardens. Sharh'Kur broke out of the iron cell a year
+ ago and never left it."{ansi:0}
+"""
