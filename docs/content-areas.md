@@ -297,6 +297,22 @@ the three reagents (a script NPC) for one-use potions with long-lasting effects.
 
 ## Area 4: The Ossuary Court (levels 200–250, and a party raid)
 
+**Status: built.** The overlay is `ossuary-court/` in this repository (see its README): 107 rooms on
+map 22, the bone-knights, ash-wraiths and demons, the arachnigoth, Lorzina, the Death Reaper and the
+three-phase Unmaker, and the 10th alignment step, checked against the survival model and walked in a
+test server on a copy of the realm. Not on the live realm yet. It differs from the plan below in
+four places:
+
+- The chaos demonling, greater hellion, arachnigoth and Lorzina are each summoned or transformed
+  into somewhere in the realm, so the court's are new monsters copied from them. Only the marble
+  knight (as the bone-knight) and the Death Reaper were unused.
+- The trapdoor's command is **go trapdoor** (or **enter trapdoor**): OPEN is the game's own command
+  and never reaches a room's.
+- The Death Reaper carries the key to the Gate of Bone, so the Unmaker's Hall and throne are behind
+  him.
+- The quest gives 3 billion experience at the end, as the 9th does, and the relics keep their
+  names; a party that kills the last phase together is counted together.
+
 **What it is:**
 
 - When Lord Magnus dies (the end of the Darkwood 9th quest), a trapdoor under his hut stops being

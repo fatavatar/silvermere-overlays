@@ -1,0 +1,47 @@
+# The Ossuary Court's spells.
+#
+# 5121 the Unmaker's first death: its bone shell cracks and the second phase (2138) climbs out.
+# 5122 the second phase's death: the third phase (2139) pulls itself together out of the ash.
+# 5123-5124 the third phase's death moves everyone in the room on a step of the 10th alignment
+#           quest, as Darkwood's quest kills do (death spell on the whole room, EndCast,
+#           TextBlock).
+# 5125 the third phase raises an ash-wraith (2131) from the ash.
+#
+# The summons copy the realm's own (217, "choira summon"): cast on the caster, `Summon 0`, the
+# monster's number as the spell's value. Their cast message is the realm's empty one (66).
+
+[[spell]]
+number = 5121
+from = 217
+name = "unmaker unveiled"
+msgnum = 66
+minval = 2138
+maxval = 2138
+
+[[spell]]
+number = 5122
+from = 217
+name = "unmaker unmade"
+msgnum = 66
+minval = 2139
+maxval = 2139
+
+[[spell]]
+number = 5123
+from = 1167
+name = "unmaker temp"
+abilities = [["EndCast", 5124]]
+
+[[spell]]
+number = 5124
+from = 1168
+name = "unmaker text"
+abilities = [["TextBlock", 10291]]
+
+[[spell]]
+number = 5125
+from = 217
+name = "raise ash-wraith"
+msgnum = 10398
+minval = 2131
+maxval = 2131

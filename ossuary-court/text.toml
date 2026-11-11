@@ -1,0 +1,367 @@
+# The Ossuary Court's scripts and conversations, and the 10th alignment quest.
+#
+# Each alignment's quest ability (126 good, 127 neutral, 128 evil) holds its step. Darkwood's 9th
+# quest ends at step 61, when its giver makes the relic whole for killing Lord Magnus.
+#   61      the trapdoor in Magnus's hut opens: GO TRAPDOOR (the hut's room command, 10290; OPEN
+#           is the game's own command and never reaches a room's)
+#   61 -> 62  ask the giver about the "unmaker": they send you down
+#   62 -> 63  the Unmaker's last phase dies with you in the room (a step-61 character who went
+#             down without asking is counted too)
+#   63 -> 64  ask the giver again with the relic: it is upgraded, with 3 billion experience
+# The givers are Darkwood's: Chancellor Annora (good), The Grey Lord (neutral) and Balthazar
+# (evil). Their topic scripts gain an "unmaker" topic; nothing else in them changes.
+#
+# Asking about a topic shows the topic's block and then runs that block's link as a script, so
+# each quest topic is a blank block linking to its script. A script runs its lines in order
+# until one passes; the lines test silently, and the last line answers everyone else. A block is
+# read only as far as its last colon, so even that line starts with a condition (minlevel 1).
+#
+# Markup: {ansi:N} is the escape sequence ESC[Nm. Narration is plain ({ansi:0}), speech green
+# ({ansi:0;32}), keywords bright green ({ansi:1;32}), goals yellow ({ansi:1;33}), experience cyan
+# ({ansi:0;36}).
+
+# ---------------------------------------------------------------- the trapdoor (the hut's command)
+
+[[text]]
+number = 10290
+text = """
+go trapdoor:checkability 126 61:message 10380:teleport 1 22:message 10381
+go trapdoor:checkability 127 61:message 10380:teleport 1 22:message 10381
+go trapdoor:checkability 128 61:message 10380:teleport 1 22:message 10381
+go trapdoor:message 10397
+enter trapdoor:checkability 126 61:message 10380:teleport 1 22:message 10381
+enter trapdoor:checkability 127 61:message 10380:teleport 1 22:message 10381
+enter trapdoor:checkability 128 61:message 10380:teleport 1 22:message 10381
+enter trapdoor:message 10397
+"""
+
+# ---------------------------------------------------------------- the Unmaker's last death
+
+[[text]]
+number = 10291
+text = """
+testability 126 62:checkability 126 61:goodaligned -51:giveability 126 63:text 10292
+testability 127 62:checkability 127 61:evilaligned -50:goodaligned 29:giveability 127 63:text 10292
+testability 128 62:checkability 128 61:evilaligned 60:giveability 128 63:text 10292
+"""
+
+[[text]]
+number = 10292
+text = """
+{ansi:0}As the Unmaker's last fire goes out, the three empty niches in the back of
+its throne crack across, one after another. Whatever it meant to set in them,
+it never will now. Something at your side grows warm, as if it knows.
+
+{ansi:1;33}<Return to the one who sent you, and tell them the Unmaker is no more.>{ansi:0}
+"""
+
+# ---------------------------------------------------------------- Chancellor Annora (good)
+
+[[text]]
+number = 10300
+link = 10301
+text = "{ansi:40}\n"
+
+[[text]]
+number = 10301
+text = """
+goodaligned -51:failability 127:failability 128:testability 126 61:checkability 126 61:giveability 126 62:text 10302
+goodaligned -51:failability 127:failability 128:testability 126 62:checkability 126 62:text 10303
+goodaligned -51:failability 127:failability 128:testability 126 63:checkability 126 63:checkitem 5010:takeitem 5010:giveitem 5135:addexp 500000000:addexp 500000000:addexp 500000000:addexp 500000000:addexp 500000000:addexp 500000000:giveability 126 64:text 10304
+goodaligned -51:failability 127:failability 128:testability 126 63:checkability 126 63:text 10306
+goodaligned -51:failability 127:failability 128:testability 126 64:checkability 126 64:text 10305
+minlevel 1:text 10307
+"""
+
+[[text]]
+number = 10302
+text = """
+{ansi:0;32}Chancellor Annora does not smile when she sees you. "Magnus is dead, and I
+ should be glad of it. But my scryers say his hut still stands in the Dreary
+ Forest, and that something underneath it is awake.
+
+ "He was not working alone. He was bargaining, and every bargain needs two.
+ The other one wants your Aura of Light, and the Scales and the Icon besides.
+ The old books call it the {ansi:1;32}Unmaker{ansi:0;32}.
+
+ "There is a trapdoor in the floor of his hut that only his killers can find.
+ Go down. Destroy it. Then come back to me with your halo, and I will finish
+ what I began."{ansi:0}
+
+{ansi:1;33}<In Magnus's hut, GO TRAPDOOR, go down into the Ossuary Court, and destroy
+the Unmaker.>{ansi:0}
+"""
+
+[[text]]
+number = 10303
+text = """
+{ansi:0;32}"The Unmaker still sits its throne. I can feel it from here, like a draught
+ under a door. Take friends. Nobody goes down there alone and comes back."{ansi:0}
+"""
+
+[[text]]
+number = 10304
+text = """
+{ansi:0;32}Annora closes her eyes and listens to something you cannot hear. "It's
+ gone. Truly gone." She lays her hands on either side of your halo, and it
+ burns white and gold until the shadows in the room have nowhere left to hide.
+ "There. Nothing that crawls out of that pit will ever stand against it again."{ansi:0}
+
+{ansi:1;33}<Your Aura of Light burns brighter than ever.>{ansi:0}
+{ansi:0;36}<You gain 3,000,000,000 experience!>{ansi:0}
+"""
+
+[[text]]
+number = 10305
+text = """
+{ansi:0;32}"The court below the Dreary Forest is silent now. The realm sleeps easier for
+ it, and doesn't even know why. That's how it should be."{ansi:0}
+"""
+
+[[text]]
+number = 10306
+text = """
+{ansi:0;32}"You've done it, then. But where is your halo? Bring me the Aura of Light and
+ I'll finish what I began."{ansi:0}
+"""
+
+[[text]]
+number = 10307
+text = """
+{ansi:0;32}Annora's face goes very still. "Where did you hear that name? Pray you never
+ need to know more about it than that."{ansi:0}
+"""
+
+# ---------------------------------------------------------------- The Grey Lord (neutral)
+
+[[text]]
+number = 10310
+link = 10311
+text = "{ansi:40}\n"
+
+[[text]]
+number = 10311
+text = """
+evilaligned -50:goodaligned 29:failability 126:failability 128:testability 127 61:checkability 127 61:giveability 127 62:text 10312
+evilaligned -50:goodaligned 29:failability 126:failability 128:testability 127 62:checkability 127 62:text 10313
+evilaligned -50:goodaligned 29:failability 126:failability 128:testability 127 63:checkability 127 63:checkitem 5011:takeitem 5011:giveitem 5136:addexp 500000000:addexp 500000000:addexp 500000000:addexp 500000000:addexp 500000000:addexp 500000000:giveability 127 64:text 10314
+evilaligned -50:goodaligned 29:failability 126:failability 128:testability 127 63:checkability 127 63:text 10316
+evilaligned -50:goodaligned 29:failability 126:failability 128:testability 127 64:checkability 127 64:text 10315
+minlevel 1:text 10317
+"""
+
+[[text]]
+number = 10312
+text = """
+{ansi:0;32}The Grey Lord does not rise this time. His thoughts come slowly, and they are
+heavy:
+
+<Magnus is gone, and yet the scales still tip. He did not serve chaos for its
+own sake. He served something older, that dwells beneath his hut: the
+{ansi:1;32}Unmaker{ansi:0;32}. It takes apart what was made, and puts it back together to suit
+itself. It wants your Scales, and the Aura and the Icon with them, and with all
+three it could unmake the balance itself.
+
+There is a trapdoor in the floor of Magnus's hut. It will open for you, who
+killed him. Go down and end the Unmaker, then return to me with your Scales.>{ansi:0}
+
+{ansi:1;33}<In Magnus's hut, GO TRAPDOOR, go down into the Ossuary Court, and destroy
+the Unmaker.>{ansi:0}
+"""
+
+[[text]]
+number = 10313
+text = """
+{ansi:0;32}The Grey Lord's thoughts touch yours:
+
+<The Unmaker endures. Do not go down alone. Even the balance needs more than
+one weight.>{ansi:0}
+"""
+
+[[text]]
+number = 10314
+text = """
+{ansi:0;32}The Grey Lord rises at last, and lays one grey hand on the scales at your side.
+They sink, and rise, and settle perfectly level, and the edges of their pans
+turn the grey of cold ash.
+
+<It is done. Nothing will tip these Scales again.>{ansi:0}
+
+{ansi:1;33}<Your Scales of Balance are heavier and brighter than ever.>{ansi:0}
+{ansi:0;36}<You gain 3,000,000,000 experience!>{ansi:0}
+"""
+
+[[text]]
+number = 10315
+text = """
+{ansi:0;32}The Grey Lord's thoughts are quiet and even:
+
+<The balance holds. You have done more than anyone will ever know.>{ansi:0}
+"""
+
+[[text]]
+number = 10316
+text = """
+{ansi:0;32}The Grey Lord's thoughts touch yours:
+
+<The Unmaker is gone, but you do not carry your Scales. Bring them to me.>{ansi:0}
+"""
+
+[[text]]
+number = 10317
+text = """
+{ansi:0;32}The Grey Lord's thoughts are cold and closed:
+
+<That is not a name for you to carry yet.>{ansi:0}
+"""
+
+# ---------------------------------------------------------------- Balthazar (evil)
+
+[[text]]
+number = 10320
+link = 10321
+text = "{ansi:40}\n"
+
+[[text]]
+number = 10321
+text = """
+evilaligned 120:failability 126:failability 127:testability 128 61:checkability 128 61:giveability 128 62:text 10322
+evilaligned 120:failability 126:failability 127:testability 128 62:checkability 128 62:text 10323
+evilaligned 120:failability 126:failability 127:testability 128 63:checkability 128 63:checkitem 5012:takeitem 5012:giveitem 5137:addexp 500000000:addexp 500000000:addexp 500000000:addexp 500000000:addexp 500000000:addexp 500000000:giveability 128 64:text 10324
+evilaligned 120:failability 126:failability 127:testability 128 63:checkability 128 63:text 10326
+evilaligned 120:failability 126:failability 127:testability 128 64:checkability 128 64:text 10325
+minlevel 1:text 10327
+"""
+
+[[text]]
+number = 10322
+text = """
+{ansi:0;32}Balthazar is not laughing now. "Magnus. That fool. He thought he could
+ bargain with the {ansi:1;32}Unmaker{ansi:0;32} and keep his skin. It sits in a court of bones
+ beneath his hut, and it wants three things: the Aura, the Scales, and the
+ Icon you wear for me.
+
+ "Nobody takes what is mine. There's a trapdoor in the floor of that hut. It
+ opens for Magnus's killers, so it will open for you. Go down there and break
+ the thing, and bring my Icon back to me. I'll make it something the Unmaker
+ would have wept to own."{ansi:0}
+
+{ansi:1;33}<In Magnus's hut, GO TRAPDOOR, go down into the Ossuary Court, and destroy
+the Unmaker.>{ansi:0}
+"""
+
+[[text]]
+number = 10323
+text = """
+{ansi:0;32}"Why are you still here? The Unmaker sits its throne and thinks it can take
+ what is mine. Go and teach it otherwise. Take some fools with you to soak up
+ its blows."{ansi:0}
+"""
+
+[[text]]
+number = 10324
+text = """
+{ansi:0;32}Balthazar throws back his head and laughs until the walls shake. "Dead!
+ Unmade! And mine still!" He seizes the black icon at your shoulder in one
+ fist, and dark flame pours from it until it gives no light at all. "There. Now
+ even the dead will look away."{ansi:0}
+
+{ansi:1;33}<Your Icon of Evil burns darker than ever.>{ansi:0}
+{ansi:0;36}<You gain 3,000,000,000 experience!>{ansi:0}
+"""
+
+[[text]]
+number = 10325
+text = """
+{ansi:0;32}"The Unmaker is dust, and its court is mine to pick over. Go and enjoy it."{ansi:0}
+"""
+
+[[text]]
+number = 10326
+text = """
+{ansi:0;32}"Dead, is it? Good. And where is my Icon? Bring it here!"{ansi:0}
+"""
+
+[[text]]
+number = 10327
+text = """
+{ansi:0;32}Balthazar's smile thins. "Some names are not for the likes of you. Not yet."{ansi:0}
+"""
+
+# ---------------------------------------------------------------- the givers' topics
+#
+# The three givers' topic scripts are Darkwood's (335, 366, 428), word for word, plus the
+# "unmaker" topic. They are new blocks rather than changes, because Darkwood's overlay owns the
+# originals: the givers are pointed at them instead (monsters.toml), keeping the same greetings.
+
+[[text]]
+number = 10330
+link = 336
+text = """
+messenger:337
+letter:337
+return:352
+Markus:352
+Commander Markus:352
+box:352
+darkwood box:352
+quest:352
+festus:379
+missions:518
+head:519
+success:1252
+foe:2853
+knowledge:9459
+stone:4309
+journey:8021
+ritual:8121
+repent:8232
+protection:10020
+magnus:10100
+unmaker:10300
+"""
+
+[[text]]
+number = 10331
+link = 367
+text = """
+code:368
+code word:368
+codeword:368
+word:368
+teleport:369
+box:376
+return:382
+missions:505
+eye:509
+reward:1284
+destroyed:2856
+threat:2846
+knowledge:9473
+stone:4311
+journey:8051
+ritual:8141
+balance:10039
+magnus:10072
+unmaker:10310
+"""
+
+[[text]]
+number = 10332
+link = 429
+text = """
+work:430
+accept:433
+reward:436
+return:486
+alliance:1318
+news:2859
+journey:2893
+knowledge:9488
+stone:4313
+deed:8117
+ritual:8146
+monopoly:10058
+magnus:10086
+unmaker:10320
+"""
