@@ -11,6 +11,7 @@ silvermere's `docs/overlays.md` describes the format.
 | [`darkwood-quests`](darkwood-quests/README.md) | Darkwood BBS's 8th and 9th alignment quests (levels 150 and 200) | `mudrev` |
 | [`gilded-asylum`](gilded-asylum/README.md) | The sealed wards above the Padded Cells, levels 100–150, with a quest | `mudrev` |
 | [`rocspire`](rocspire/README.md) | Roc-haunted spires past Gloomy Mountain's Pinnacle, levels 150–200, with a class quest | `mudrev` |
+| [`ossuary-court`](ossuary-court/README.md) | A court of bone and ash beneath Lord Magnus's hut, levels 200–250, with a party raid and the alignment quests' 10th step | `mudrev`, `darkwood-quests` |
 
 ## Using them
 

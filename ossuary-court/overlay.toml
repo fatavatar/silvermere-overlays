@@ -1,0 +1,20 @@
+name = "ossuary-court"
+title = "The Ossuary Court"
+description = "A court of bone and ash beneath Lord Magnus's hut in the Dreary Forest, for characters of about level 200 to 250, with a party raid on the Unmaker and the alignment quests' 10th step."
+credits = """
+New content for the Realm of Legends. Its marble knight and Death Reaper are MudRev's own, made \
+long ago and never placed in the world until now. The 10th quest continues Darkwood BBS's 8th \
+and 9th alignment quests, and its givers and relics are theirs."""
+after = ["mudrev", "darkwood-quests"]
+
+[[news]]
+date = "2026-11-11"
+kind = "new"
+title = "Ash on the Dreary Forest"
+text = """
+Woodcutters in the Dreary Forest say Lord Magnus's hut stands empty now, but nobody will sleep \
+in it. Ash drifts out under its door on still nights, warm to the touch, and the floorboards \
+creak as if something is climbing a long stair underneath them.
+
+Chancellor Annora, The Grey Lord and Balthazar have each been heard to speak one name, and then \
+refuse to say it again."""

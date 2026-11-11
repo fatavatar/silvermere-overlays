@@ -1,0 +1,81 @@
+# The Ossuary Court's messages. An attack message is (to you, to the room); a death message's
+# third line is the death. A script's message shows its first line to you and its third to the
+# room.
+
+# ---------------------------------------------------------------- the trapdoor
+
+[[message]]
+number = 10380
+msgs = ["You sweep the dust from the floor of Magnus's hut, and there it is: a trapdoor of black bone that was not there while he lived. It opens at your touch, and a stair of bone leads down into warm darkness...", "", "%s heaves open a trapdoor in the floor and climbs down out of sight!"]
+
+[[message]]
+number = 10381
+msgs = ["...and the trapdoor closes over your head with a sound like a jaw shutting.", "", "%s climbs down the bone stair from above!"]
+
+[[message]]
+number = 10397
+msgs = ["You search the floor of the hut, but the boards are solid and bare. Whatever Magnus kept down there, he hides it still.", "", ""]
+
+# ---------------------------------------------------------------- the court
+
+[[message]]
+number = 10382
+msgs = ["The %s batters you with a hail of bones for %d damage!", "The %s batters %s with a hail of bones for %s damage!", ""]
+
+[[message]]
+number = 10383
+msgs = ["", "", "The ossuary swarm comes apart and scatters across the floor, just bones again."]
+
+[[message]]
+number = 10384
+msgs = ["The %s cleaves you with its blade of bone for %d damage!", "The %s cleaves %s with its blade of bone for %s damage!", ""]
+
+[[message]]
+number = 10385
+msgs = ["", "", "The bone-knight drops to its knees, and its armour falls in on nothing."]
+
+[[message]]
+number = 10386
+msgs = ["The %s rakes you with burning fingers for %d damage!", "The %s rakes %s with burning fingers for %s damage!", ""]
+
+[[message]]
+number = 10387
+msgs = ["", "", "The ash-wraith's embers gutter and go out, and it sifts to the floor as cold grey ash."]
+
+[[message]]
+number = 10388
+msgs = ["The %s swings its censer into you for %d damage!", "The %s swings its censer into %s for %s damage!", ""]
+
+[[message]]
+number = 10389
+msgs = ["", "", "The charnel priest falls, and the smoke from its censer curls up around it like a shroud."]
+
+[[message]]
+number = 10391
+msgs = ["The %s strikes you with her staff of bone for %d damage!", "The %s strikes %s with her staff of bone for %s damage!", ""]
+
+# ---------------------------------------------------------------- the Unmaker
+
+[[message]]
+number = 10392
+msgs = ["The %s crushes you in a fist of fused bone for %d damage!", "The %s crushes %s in a fist of fused bone for %s damage!", ""]
+
+[[message]]
+number = 10393
+msgs = ["The %s tears at you with a hundred grasping hands for %d damage!", "The %s tears at %s with a hundred grasping hands for %s damage!", ""]
+
+[[message]]
+number = 10394
+msgs = ["", "", "The Unmaker's shell of bone cracks from crown to heel and falls away in pieces. Something climbs out of it."]
+
+[[message]]
+number = 10395
+msgs = ["", "", "The Unmaker's halo of black light shatters, and its body collapses into a whirlwind of ash. The ash does not settle."]
+
+[[message]]
+number = 10396
+msgs = ["", "", "The Unmaker's last fire gutters out. The whirlwind falls, the dead along the walls fall with it, and for the first time in an age, the Ossuary Court is silent."]
+
+[[message]]
+number = 10398
+msgs = ["", "", "The ash at the Unmaker's feet heaves up and takes the shape of a wraith!"]

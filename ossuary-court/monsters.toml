@@ -1,0 +1,339 @@
+# The Ossuary Court's monsters. Monster group 13 (Group8) holds the spawns: no room spawns that
+# group, and its one realm monster, the horned demon, has generation index 1, outside every range
+# used here. The generation index picks the tier each zone spawns:
+#   11 ossuary swarm, 12 bone-knight, 13 ash-wraith, 14 chaos demonling, 15 greater hellion,
+#   16 charnel priest.
+# The bone stair spawns 11-12, the galleries 11-13, the Court of Ash 13-16 and the Unmaker's
+# Hall 15-16.
+#
+# Band 200-250 (docs/content-areas.md): commons 3,500-4,100 HP and 150-600 damage a round for
+# 600,000-800,000 experience a kill; bosses 12,500-14,750 HP and 620-830 damage for 240-280
+# million. Party bosses: 15,000-27,000 HP (32,767 at most) and 1,200-1,800 damage. Experience a
+# kill is exp x level; every monster here is level 1.
+#
+# The marble knight (1064) and the Death Reaper (1371) are realm monsters nothing ever spawned.
+# The chaos demonling, greater hellion, arachnigoth and Lorzina the plan meant to retune are all
+# summoned or transformed into somewhere in the realm, so the court's are new monsters copied
+# from them.
+#
+# Attack chances are cumulative: a slot's pct is the roll at or under which it is picked. A
+# spell attack's accuracy is the spell, its min the cast chance and its max the cast level.
+
+# ---------------------------------------------------------------- the stair and the galleries
+
+[[monster]]
+number = 2130
+from = 823
+name = "ossuary swarm"
+montype = "Group8"
+genindex = 11
+maxhp = 3600
+ac = 100
+dr = 25
+magicres = 110
+exp = 620000
+hpregen = 180
+energy = 1000
+undead = 1
+arrivemsg = 66
+deathmsg = 10383
+abilities = [["NonLiving", 0], ["Dodge", 20], ["SpellImmune", 20]]
+items = []
+desc = """
+A rolling heap of loose bones drags itself along the floor, skulls
+and ribs and finger-joints all clattering together. As it comes it
+pulls in every bone it passes, and grows.
+"""
+attacks = [
+    { kind = "Normal", accuracy = 380, pct = 60, min = 100, max = 210, energy = 333, hitmsg = 10382, defmsg = 8307, missmsg = 8294 },
+    { kind = "Normal", accuracy = 380, pct = 100, min = 130, max = 270, energy = 500, hitmsg = 10382, defmsg = 8307, missmsg = 8294 },
+]
+
+[[monster_change]]
+number = 1064
+why = "the court's bone-knights; nothing ever spawned the marble knight"
+set = { name = "bone-knight", montype = "Group8", genindex = 12, maxhp = 4000, ac = 140, dr = 35, magicres = 120, exp = 720000, hpregen = 200, undead = 1, deathmsg = 10385, abilities = [["SpellImmune", 30], ["Magical", 2], ["SeeHidden", 0], ["NonLiving", 0]], items = [], spells = [], desc = """
+A knight in armour of fused bone, eight feet tall, walks with the
+heavy patience of something that has not needed to rest in a very
+long time. Its blade is a single sharpened shin-bone as long as a
+man, and its helm has no eye-holes.
+""", attacks = [
+    { kind = "Normal", accuracy = 420, pct = 50, min = 130, max = 260, energy = 333, hitmsg = 10384, defmsg = 8297, missmsg = 8310 },
+    { kind = "Normal", accuracy = 420, pct = 100, min = 170, max = 340, energy = 500, hitmsg = 10384, defmsg = 8297, missmsg = 8310 },
+] }
+was = { name = "marble knight", maxhp = 900, genindex = 0 }
+
+[[monster]]
+number = 2131
+from = 2009
+name = "ash-wraith"
+montype = "Group8"
+genindex = 13
+maxhp = 3500
+ac = 120
+dr = 25
+magicres = 160
+exp = 700000
+hpregen = 200
+energy = 1000
+arrivemsg = 66
+deathmsg = 10387
+abilities = [["PoisonImmune", 0], ["NonLiving", 0], ["Magical", 2], ["SpellImmune", 20], ["HotDefence", 200], ["ColdDefence", -50], ["SeeHidden", 0]]
+items = []
+desc = """
+A tall shape of grey ash holds together in the rough form of a man,
+embers glowing where its eyes and heart should be. Flakes drift off
+it as it moves, and wherever they settle, they smoulder.
+"""
+attacks = [
+    { kind = "Normal", accuracy = 400, pct = 70, min = 120, max = 260, energy = 333, hitmsg = 10386, defmsg = 8308, missmsg = 8295, hitspell = 979 },
+    { kind = "Spell", accuracy = 1247, pct = 100, min = 100, max = 35, energy = 1000, hitmsg = 1, defmsg = 1, missmsg = 1 },
+]
+
+# ---------------------------------------------------------------- the Court of Ash
+
+[[monster]]
+number = 2132
+from = 950
+name = "chaos demonling"
+montype = "Group8"
+genindex = 14
+maxalive = 0
+regenhrs = 0
+deathspell = 0
+maxhp = 3900
+ac = 140
+dr = 30
+magicres = 100
+exp = 760000
+hpregen = 200
+energy = 1000
+abilities = [["PoisonImmune", 7], ["Dodge", 40], ["Magical", 2], ["SpellImmune", 40]]
+items = []
+spells = []
+attacks = [
+    { kind = "Normal", accuracy = 420, pct = 40, min = 120, max = 240, energy = 333, hitmsg = 2504, defmsg = 8308, missmsg = 8295, hitspell = 980 },
+    { kind = "Normal", accuracy = 420, pct = 75, min = 140, max = 280, energy = 400, hitmsg = 1585, defmsg = 521, missmsg = 522 },
+    { kind = "Normal", accuracy = 420, pct = 100, min = 180, max = 340, energy = 500, hitmsg = 372, defmsg = 682, missmsg = 683, hitspell = 953 },
+]
+
+[[monster]]
+number = 2133
+from = 181
+name = "greater hellion"
+montype = "Group8"
+genindex = 15
+maxalive = 0
+maxhp = 4100
+ac = 130
+dr = 30
+magicres = 170
+exp = 800000
+hpregen = 250
+energy = 1000
+arrivemsg = 66
+items = []
+spells = []
+attacks = [
+    { kind = "Normal", accuracy = 420, pct = 30, min = 170, max = 330, energy = 500, hitmsg = 495, defmsg = 496, missmsg = 497, hitspell = 245 },
+    { kind = "Normal", accuracy = 420, pct = 55, min = 170, max = 330, energy = 500, hitmsg = 498, defmsg = 499, missmsg = 500 },
+    { kind = "Normal", accuracy = 420, pct = 80, min = 220, max = 460, energy = 500, hitmsg = 501, defmsg = 8307, missmsg = 8294, hitspell = 245 },
+    { kind = "Spell", accuracy = 261, pct = 100, min = 100, max = 50, energy = 500, hitmsg = 1, defmsg = 1, missmsg = 1 },
+]
+
+[[monster]]
+number = 2134
+from = 1237
+name = "charnel priest"
+montype = "Group8"
+genindex = 16
+maxhp = 3700
+ac = 120
+dr = 25
+magicres = 150
+exp = 780000
+hpregen = 200
+energy = 1000
+arrivemsg = 66
+deathmsg = 10389
+abilities = [["SeeHidden", 0]]
+items = []
+spells = []
+desc = """
+A gaunt priest in robes stiff with old blood carries a censer of bone
+on a long chain. The smoke that pours from it is grey and heavy and
+smells of a funeral pyre, and where it touches the ash, the ash
+stirs.
+"""
+attacks = [
+    { kind = "Normal", accuracy = 400, pct = 40, min = 110, max = 230, energy = 500, hitmsg = 10388, defmsg = 8297, missmsg = 8310 },
+    { kind = "Spell", accuracy = 1247, pct = 75, min = 100, max = 40, energy = 500, hitmsg = 1, defmsg = 1, missmsg = 1 },
+    { kind = "Spell", accuracy = 1042, pct = 100, min = 100, max = 30, energy = 500, hitmsg = 1, defmsg = 1, missmsg = 1 },
+]
+
+# ---------------------------------------------------------------- the court's bosses
+
+[[monster]]
+number = 2135
+from = 898
+name = "arachnigoth"
+montype = "Quest"
+genindex = 0
+maxalive = 1
+maxhp = 14000
+ac = 140
+dr = 40
+magicres = 140
+exp = 260000000
+hpregen = 300
+regenhrs = 4
+energy = 1000
+abilities = [["SpellImmune", 30], ["Magical", 3], ["SeeHidden", 0], ["NonLiving", 0]]
+items = []
+desc = """
+A skeletal spider the size of a house picks its way across its webs,
+each leg a column of fused bone ending in a hooked point. Bundles hang
+from its jaws, and its eight eye-sockets glow a sickly green.
+"""
+attacks = [
+    { kind = "Normal", accuracy = 470, pct = 50, min = 190, max = 370, energy = 333, hitmsg = 2968, defmsg = 8307, missmsg = 8294, hitspell = 318 },
+    { kind = "Normal", accuracy = 470, pct = 100, min = 260, max = 480, energy = 500, hitmsg = 2969, defmsg = 8307, missmsg = 8294, hitspell = 1141 },
+]
+
+[[monster]]
+number = 2136
+from = 1032
+name = "Lorzina, Herald of Ash"
+montype = "Quest"
+genindex = 0
+maxalive = 1
+maxhp = 12500
+ac = 130
+dr = 35
+magicres = 180
+exp = 240000000
+hpregen = 280
+regenhrs = 4
+energy = 1000
+arrivemsg = 66
+abilities = [["Dodge", 50], ["SpellImmune", 40], ["Magical", 3], ["SeeHidden", 0]]
+items = []
+spells = []
+desc = """
+A tall, beautiful woman in a gown of grey ash leans on a staff of
+black bone. Her smile never reaches her eyes, which are the flat
+black of a coal pit, and the ash falling around her stops in the
+air rather than touch her.
+"""
+attacks = [
+    { kind = "Normal", accuracy = 460, pct = 35, min = 200, max = 400, energy = 333, hitmsg = 10391, defmsg = 8297, missmsg = 8310 },
+    { kind = "Spell", accuracy = 1042, pct = 70, min = 100, max = 40, energy = 500, hitmsg = 1, defmsg = 1, missmsg = 1 },
+    { kind = "Spell", accuracy = 1247, pct = 100, min = 100, max = 40, energy = 500, hitmsg = 1, defmsg = 1, missmsg = 1 },
+]
+
+[[monster_change]]
+number = 1371
+why = "guards the Gate of Bone and carries its key; nothing ever spawned the Death Reaper"
+set = { items = [{ item = 5138, uses = -1, pct = 100 }] }
+was = { name = "Death Reaper", maxhp = 21470, items = [] }
+
+# ---------------------------------------------------------------- the Unmaker (a party raid)
+#
+# Three phases, each its own monster: a phase's death spell summons the next (spells.toml), and
+# the last phase's death spell moves everyone in the room on a step of the 10th alignment quest.
+# 800 million experience a phase stays under the 32-bit limit on exp x level.
+
+[[monster]]
+number = 2137
+from = 1371
+name = "Unmaker"
+montype = "Quest"
+genindex = 0
+maxalive = 1
+maxhp = 30000
+ac = 220
+dr = 50
+magicres = 200
+exp = 800000000
+hpregen = 2000
+regenhrs = 24
+energy = 1000
+arrivemsg = 66
+deathmsg = 10394
+deathspell = 5121
+abilities = [["SpellImmune", 60], ["Magical", 3], ["SeeHidden", 0], ["Dodge", 30], ["NonLiving", 0]]
+items = []
+spells = []
+desc = """
+Something vast sits on the throne of bone, built of the bones of a
+hundred different creatures fused together into one great shape. Its
+skull is a dragon's, its arms are a giant's, and its many hands are
+human. It watches you with patient, empty sockets.
+"""
+attacks = [
+    { kind = "Normal", accuracy = 650, pct = 40, min = 350, max = 750, energy = 333, hitmsg = 10392, defmsg = 8297, missmsg = 8310 },
+    { kind = "Normal", accuracy = 650, pct = 80, min = 450, max = 950, energy = 500, hitmsg = 10393, defmsg = 8297, missmsg = 8310 },
+    { kind = "Normal", accuracy = 650, pct = 100, min = 600, max = 1200, energy = 1000, hitmsg = 10392, defmsg = 8297, missmsg = 8310 },
+]
+
+[[monster]]
+number = 2138
+from = 2137
+name = "Unmaker, unveiled"
+deathmsg = 10395
+deathspell = 5122
+regenhrs = 0
+desc = """
+The Unmaker's shell of bone lies cracked open around it, and what has
+climbed out is worse: a tall shape of shadow and grey fire, crowned
+with a halo of black light. The air bends around it, and the ash
+falling near it burns before it lands.
+"""
+attacks = [
+    { kind = "Normal", accuracy = 650, pct = 35, min = 450, max = 900, energy = 500, hitmsg = 10393, defmsg = 8297, missmsg = 8310 },
+    { kind = "Spell", accuracy = 2242, pct = 70, min = 100, max = 160, energy = 1000, hitmsg = 1, defmsg = 1, missmsg = 1 },
+    { kind = "Spell", accuracy = 2049, pct = 100, min = 100, max = 100, energy = 1000, hitmsg = 1, defmsg = 1, missmsg = 1 },
+]
+
+[[monster]]
+number = 2139
+from = 2137
+name = "Unmaker, unmade"
+maxhp = 25000
+deathmsg = 10396
+deathspell = 5123
+regenhrs = 0
+desc = """
+What is left of the Unmaker is coming apart: a whirl of ash and bone
+fragments around a core of guttering fire. It pulls itself back
+together out of the ash with every breath, and every breath, the dead
+around the walls rise to defend it.
+"""
+attacks = [
+    { kind = "Normal", accuracy = 650, pct = 45, min = 400, max = 800, energy = 333, hitmsg = 10392, defmsg = 8297, missmsg = 8310 },
+    { kind = "Normal", accuracy = 650, pct = 90, min = 500, max = 1000, energy = 500, hitmsg = 10393, defmsg = 8297, missmsg = 8310 },
+    { kind = "Spell", accuracy = 5125, pct = 100, min = 100, max = 50, energy = 1000, hitmsg = 1, defmsg = 1, missmsg = 1 },
+]
+
+# ---------------------------------------------------------------- the 10th quest's givers
+#
+# Darkwood's three quest givers talk from copies of their topic scripts that add "unmaker"
+# (text.toml, 10330-10332); their greetings are unchanged.
+
+[[monster_change]]
+number = 244
+why = "Chancellor Annora (good) gives the 10th quest"
+set = { talktext = 10330 }
+was = { name = "Chancellor Annora", talktext = 335 }
+
+[[monster_change]]
+number = 251
+why = "The Grey Lord (neutral) gives the 10th quest"
+set = { talktext = 10331 }
+was = { name = "The Grey Lord", talktext = 366 }
+
+[[monster_change]]
+number = 263
+why = "Balthazar (evil) gives the 10th quest"
+set = { talktext = 10332 }
+was = { name = "Balthazar", talktext = 428 }

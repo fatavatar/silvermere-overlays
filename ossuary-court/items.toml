@@ -1,0 +1,58 @@
+# The Ossuary Court's items.
+#
+# The 10th alignment quest upgrades each alignment's relic once more: the giver takes the relic
+# Darkwood's 9th quest made whole (5010-5012) and gives back the same relic, stronger (5135-5137).
+# Each keeps its name and its once-a-day power, and its bonuses rise by half again (the 9th
+# quest doubled the 8th's).
+#
+# The ash-black key (5138) opens the Gate of Bone to the Unmaker's Hall; the Death Reaper always
+# carries one.
+
+[[item]]
+number = 5135
+from = 5010
+name = "Aura of Light"
+abilities = [["LoyalItem", 1], ["BackstabAv", 90], ["BackstabMin", 45], ["BackstabMax", 45], ["Damage", 9], ["Defence", 6], ["SpellDuration", 15], ["DefVsEvil", 30], ["OneTimeCast", 2303]]
+desc = """
+This radiant halo of white-gold light circles above your head, so
+bright that the dead turn their faces from it. Ash will not settle
+where it shines, and you sense you could call upon it to burn away
+any darkness laid upon you.
+"""
+
+[[item]]
+number = 5136
+from = 5011
+name = "Scales of Balance"
+abilities = [["LoyalItem", 1], ["BackstabAv", 90], ["BackstabMin", 45], ["BackstabMax", 45], ["Damage", 9], ["Defence", 12], ["SpellDuration", 15], ["OneTimeCast", 2304]]
+desc = """
+This small set of scales, wrought of silver and gold and now edged
+in grey, floats steadily at your side. Its pans hang perfectly level
+no matter what is laid in them, and you sense it could restore
+clarity to a mind clouded by chaos.
+"""
+
+[[item]]
+number = 5137
+from = 5012
+name = "Icon of Evil"
+abilities = [["LoyalItem", 1], ["BackstabAv", 90], ["BackstabMin", 45], ["BackstabMax", 45], ["Damage", 12], ["Defence", 6], ["SpellDuration", 15], ["DefVsGood", 60], ["OneTimeCast", 2305]]
+desc = """
+This black icon of a horned skull hovers at your shoulder, wreathed
+in flame so dark it gives no light at all. Even the dead look away
+from it, and you sense that no bond could hold you while it watches
+over you.
+"""
+
+[[item]]
+number = 5138
+from = 341
+name = "ash-black key"
+charges = -1
+destroymsg = 0
+retain = 1
+desc = """
+A heavy key carved from a single black bone, its bow shaped as a
+closed eye. It is warm to the touch, and the Gate of Bone's carved
+eye seems to follow it.
+"""
